@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MSc-dissertation.aux
+The style file: unsrt.bst
+Database file #1: ref.bib
+Warning--I'm ignoring LevineTurnerKehayiasHartLangellierTrubkoGlennFuWalsworth+2019+1945+1973's extra "title" field
+--line 52 of file ref.bib
+Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
+while executing---line 944 of file unsrt.bst
+You've used 63 entries,
+            1791 wiz_defined-function locations,
+            856 strings with 21683 characters,
+and the built_in function-call counts, 18719 in all, are:
+= -- 1180
+> -- 1728
+< -- 0
++ -- 597
+- -- 534
+* -- 1939
+:= -- 3390
+add.period$ -- 188
+call.type$ -- 63
+change.case$ -- 63
+chr.to.int$ -- 0
+cite$ -- 63
+duplicate$ -- 546
+empty$ -- 1371
+format.name$ -- 534
+if$ -- 3740
+int.to.chr$ -- 0
+int.to.str$ -- 63
+missing$ -- 62
+newline$ -- 317
+num.names$ -- 63
+pop$ -- 69
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 212
+stack$ -- 0
+substring$ -- 1065
+swap$ -- 63
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 111
+width$ -- 65
+write$ -- 692
+(There were 2 error messages)

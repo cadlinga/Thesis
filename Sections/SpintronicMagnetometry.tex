@@ -1,0 +1,40 @@
+\section{Spintronic Magnetometry}
+The Hamiltonian, and thus the energy, of a spin is sensitive to the magnetic field because of the Zeeman interaction. 
+
+How the electron Zeeman energy varies with magnetic field is known to a very large precision. 
+Therefore, by measuring the energy difference we may determine the magnetic field. This is the mechanism which enables us to use the spin of an electron as a magnetic-field sensor. 
+
+In practice, for example with diamond a fluorescence microscope to measure the electron spin resonances of an ensemble of NV centres. This allows the determination of both magnitude and direction of an external magnetic field. 
+
+
+\subsection{Applied Magnetic Field}
+To use defects as magnetometers, we must understand the nature of their spin states when an external magnetic field is applied. From this we may determine both the amplitude and direction of the external magnetic field from the electron spin resonance frequencies of the defect. 
+
+\subsection{Spin-1 Defect}
+A spin-1 defect has $S=1$ electron spin. Therefore, it has $3$ possible spin states, $m_S=0,−1,+1$. 
+
+With no external applied magnetic field, in general, the $m_S  = \pm1$ states are degenerate, that is they have the same energy. Applying a magnetic field lifts the degeneracy and the $m_S=\pm1$ states will have different energies, $E_u$ and $E_l$ (subscripts refer to "upper" and "lower"). These are equivalent to transition frequencies by $E=hf$, which we denote $f_u$ and $f_l$.
+
+The exact values of these frequencies are functions of both amplitude and direction of the magnetic field, specifically the cosine of the angle between the applied magnetic field and the defect axis $\theta$.
+
+Thus, by experimentally determining the transition frequencies, the magnitude and relative angle of the applied magnetic field may be determined. Details of the derivation are included in \ref{system_hamiltonian} and we find we may determine 
+\begin{equation}
+\gamma B = \frac{1}{3} \sqrt{f_u^2 + f_l^2 - f_uf_l - D^2}
+\end{equation}
+
+\begin{equation}
+    \cos^2 \theta = \frac{-(f_u + f_l)^3 + 3 f_u^3 + 3 f_l^3}{27 D (\gamma B)^2} + \frac{2D^2}{27(\gamma B )^2} + \frac{1}{3}
+\end{equation}
+
+Here $\gamma = 28 \ce{GHz/T}$ is the gyromagnetic ratio of the electron. $D = 2.87 \ce{GHz}$ is the zero-field splitting of the defect ground state, that is the energy difference between $m_S = 0$ and $m_S = \pm 1$ with no external field applied. 
+
+The simplest possible case is when the defect axis aligns with the applied field for which we get a linear relationship 
+\begin{equation}
+    f_u = D + \gamma B \qquad f_l = D - \gamma B.
+\end{equation}
+
+
+\missingfigure{Include plot of the electron spin resonances vs applied magnetic field.}
+
+
+

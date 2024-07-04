@@ -1,0 +1,68 @@
+\documentclass[
+12pt,
+a4paper,
+twoside
+% fullpage 
+]{report}
+\usepackage{graphics}
+\usepackage{epsf,graphicx}%, amstext,url} 
+\usepackage{pdfpages}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{braket}
+\usepackage[version=4]{mhchem}
+\bibliographystyle{unsrt}
+% \usepackage[top=2cm,bottom=4cm,left=1.5cm,right=3cm,asymmetric]{geometry}
+\usepackage[a4paper,width=155mm,top=25mm,bottom=25mm]{geometry}
+
+
+\begin{document}
+\thispagestyle{empty}
+
+%
+%	This is a basic LaTeX Template for the TP/MP MSc Dissertation report
+
+\parindent=0pt          %  Switch off indent of paragraphs 
+\parskip=5pt            %  Put 5pt between each paragraph  
+
+% \input{title.tex}
+\includepdf[pages=-]{Title/title.pdf}
+
+\pagenumbering{roman}
+
+\begin{abstract}
+	\input{abstract.tex}
+\end{abstract}
+
+
+\input{declaration.tex}
+
+\input{personal_statement.tex}
+
+\input{acknowledgements.tex}
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\pagenumbering{arabic}
+
+\input{Chapters/intro.tex}
+\input{Chapters/background.tex}
+\input{Chapters/task.tex}
+\input{Chapters/design.tex}
+\input{Chapters/results.tex}
+\input{Chapters/conclusions.tex}
+
+
+
+% the appendix command just changes heading styles for appendices.
+\appendix
+
+% \input{Annex/example1.tex}
+% \input{Annex/example2.tex}
+\nocite{*}
+\bibliography{ref}
+
+\end{document}
+

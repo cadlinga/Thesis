@@ -1,0 +1,52 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {1.1}Defect Orientation}{2}{}%
+\contentsline {section}{\numberline {1.2}Miller Indices}{2}{}%
+\contentsline {section}{\numberline {1.3}Spintronic Magnetometry}{2}{}%
+\contentsline {subsection}{\numberline {1.3.1}Applied Magnetic Field}{3}{}%
+\contentsline {subsection}{\numberline {1.3.2}Spin-1 Defect}{3}{}%
+\contentsline {chapter}{\numberline {2}Background Theory}{5}{}%
+\contentsline {section}{\numberline {2.1}Spintronics}{5}{}%
+\contentsline {section}{\numberline {2.2}Quantum Sensing}{5}{}%
+\contentsline {subsection}{\numberline {2.2.1}DiVincenzo Criteria}{5}{}%
+\contentsline {subsection}{\numberline {2.2.2}Crystal Defects}{5}{}%
+\contentsline {subsubsection}{Quantisation}{6}{}%
+\contentsline {subsubsection}{Polarisation}{6}{}%
+\contentsline {subsubsection}{Coherent Manipulation}{6}{}%
+\contentsline {subsubsection}{Efficient Readout}{6}{}%
+\contentsline {subsection}{\numberline {2.2.3}Coherence}{6}{}%
+\contentsline {subsubsection}{Spin Relaxation}{6}{}%
+\contentsline {subsubsection}{Dephasing}{6}{}%
+\contentsline {subsubsection}{Hahn Echo}{6}{}%
+\contentsline {subsubsection}{Example: NV Diamond}{6}{}%
+\contentsline {subsection}{\numberline {2.2.4}Sensitivity}{6}{}%
+\contentsline {subsection}{\numberline {2.2.5}ODMR}{7}{}%
+\contentsline {subsection}{\numberline {2.2.6}Multimodal Sensors}{7}{}%
+\contentsline {section}{\numberline {2.3}Silicon Carbide}{7}{}%
+\contentsline {subsection}{\numberline {2.3.1}Production of $\ce {SiC}$}{8}{}%
+\contentsline {subsection}{\numberline {2.3.2}Colour Defects in $\ce {SiC}$}{8}{}%
+\contentsline {subsubsection}{Electronic Structure}{8}{}%
+\contentsline {subsubsection}{Charge State}{8}{}%
+\contentsline {subsubsection}{Spin System}{8}{}%
+\contentsline {subsection}{\numberline {2.3.3}Wider Scientific Context}{8}{}%
+\contentsline {chapter}{\numberline {3}To Sort}{9}{}%
+\contentsline {section}{\numberline {3.1}Spin}{9}{}%
+\contentsline {section}{\numberline {3.2}Defect Orientation}{9}{}%
+\contentsline {section}{\numberline {3.3}Miller Indices}{9}{}%
+\contentsline {section}{\numberline {3.4}Lattice Symmetry}{10}{}%
+\contentsline {chapter}{\numberline {4}Task}{11}{}%
+\contentsline {section}{\numberline {4.1}Brief}{11}{}%
+\contentsline {section}{\numberline {4.2}Work}{11}{}%
+\contentsline {subsection}{\numberline {4.2.1}Concepts and Nomenclature}{11}{}%
+\contentsline {subsubsection}{Spin-Spin Interactions}{11}{}%
+\contentsline {subsubsection}{Zeeman Splitting}{11}{}%
+\contentsline {subsubsection}{Hyperfine Interaction}{11}{}%
+\contentsline {subsection}{\numberline {4.2.2}System Hamiltonian}{11}{}%
+\contentsline {subsubsection}{Spin-Spin Interaction}{12}{}%
+\contentsline {subsubsection}{Zeeman Interaction}{12}{}%
+\contentsline {subsubsection}{Hyperfine Interaction}{12}{}%
+\contentsline {paragraph}{Fermi Contact Interaction.}{12}{}%
+\contentsline {paragraph}{Anisotropic Interaction.}{13}{}%
+\contentsline {subsubsection}{Reduced Hamiltonian}{13}{}%
+\contentsline {chapter}{\numberline {5}Design}{15}{}%
+\contentsline {chapter}{\numberline {6}Results and Analysis}{16}{}%
+\contentsline {chapter}{\numberline {7}Conclusions}{17}{}%

@@ -1,0 +1,256 @@
+\chapter{To Sort}
+\input{Sections/Spin.tex}
+\input{Sections/Zeeman.tex}
+\input{Sections/HahnEcho.tex}
+\input{Sections/Hyperfine.tex}
+\input{Sections/SpinBaths.tex}
+\input{Sections/SpinOrbit.tex}
+\input{Sections/BohrMagneton.tex}
+\input{Sections/SpinCoupling.tex}
+\input{Sections/MillerIndices.tex}
+\input{Sections/SpinDetection.tex}
+\input{Sections/SpinRelaxation.tex}
+\input{Sections/DensityMatrices.tex}
+\input{Sections/MagneticDipoles.tex}
+\input{Sections/RabiOscillations.tex}
+\input{Sections/GyromagneticRatio.tex}
+\input{Sections/SpinInitialisation.tex}
+\input{Sections/LatticeSymmetry.tex}
+
+
+\chapter{Task}
+\section{Brief}
+
+I think, as a start can go through section 3.2.4 in the attached PhD thesis? In particular check in details how to diagonalise the NV centre spin S=1 Hamiltonian to get Eq. 3.31?
+You could also do some python simulations to plot how the spin levels (i.e. the eigenvalues of the spin Hamiltonian) change with applied magnetic field.
+
+Once we've learned this, we can apply it to other spin defects in SiC.
+
+\section{Work}
+\subsection{Concepts and Nomenclature}
+\subsubsection{Spin-Spin Interactions}
+\subsubsection{Zeeman Splitting}
+\subsubsection{Hyperfine Interaction}
+\subsection{System Hamiltonian}\label{system_hamiltonian}
+The ground state of the $\ce{NV^-}$ spin system in diamond is a triplet state, thus a $S=1$ system. 
+
+The corresponding Hamiltonian, which it seems can be generalised to an electron spin system of a defect, can be expressed as: 
+\begin{equation}
+    H_{\ce{NV}} = H_{\ce{D}} + H_{\ce{Zeeman}} + H_{\ce{HF}} 
+    \label{eq:nv_hamil}
+\end{equation}
+
+Here the labels $\ce{D}$, $\ce{Z}$ and $\ce{HF}$ describe the electron spin-spin interactions, the Zeeman interaction with an external magnetic field and the hyperfine interaction between the nuclparallel spin $I$ and the electron spin $S$ of the NV. 
+
+They have the following forms: 
+\begin{eqnarray}
+    H_{\ce{D}} &=& D S_z^2 + E(S_x^2 + S_y^2) \label{H_D} \\
+    H_{\ce{Z}} &=& g \mu_B \sum_{j}^{x,y,z} B_j \cdot S_j \label{H_Z} \\
+    H_{\ce{HF}} &=& \vec{S} \cdot A \cdot \vec{I}. \label{H_HF}
+\end{eqnarray}
+
+\subsubsection{Spin-Spin Interaction}
+
+
+The $E$ and $D$ in equation \ref{H_D} the fine structure constants of the spin
+system, describing the spin-spin interaction and $S_j$ the corresponding spin operators
+in x,y and z-direction. 
+
+D is non-zero in system with axis of threefold (or other manifold) symmetry. 
+The symmetry or spin quantization axis points along the connection of the nitrogen
+atom and vacancy forming the defect. In bulk diamond $D$ is around 2.87 GHz at room temperature.
+
+The definiteness, orientation and magnitude of $D$ is thus dependent on the specific spin system being studied. 
+
+E occurs when there is a distortion of the point group symmetry, for example strain or an electrical field. In bulk diamond $E$ is typically negligibly small but especially in NDs, $E$ can be of the order of several MHz. 
+
+Thus, similarly, the value of $E$ is a characteristic of the nature of the distortion and 
+the specifics of the spin system being studied. 
+
+\subsubsection{Zeeman Interaction}
+
+$B_j$ in equation \ref{H_Z} is the magnetic field along the $x$, $y$ and $z$ direction, $g$ is the $g$-factor of the vacancy and $\mu_B$ the Bohr-Magneton, a constant. 
+
+It seems often the scaled parameter $g\mu_B$ is considered, for the $\ce{NV^-}$ system this is around $28\;\ce{ GHz T^{-1}}$, but again, will be a characteristic of the system being studied. 
+
+\subsubsection{Hyperfine Interaction}
+
+Equation $\ref{H_HF}$ related the nuclear spin to the electron spin via the hyperfine tensor $A$ which has the form 
+\begin{equation}
+    A = \begin{pmatrix}
+        A_\perp & 0 & 0 \\ 
+        0 & A_\perp & 0 \\ 
+        0 & 0 & A_\parallel
+    \end{pmatrix}.
+    \label{eq:hyperfine_tensor}
+\end{equation}
+
+$A_\parallel$ and $A_\perp$ are the axial and non-axial hyperfine parameters which encode two different interactions. 
+
+\paragraph{Fermi Contact Interaction.}
+This interaction is calculated by 
+\begin{equation}
+    f_A = \frac{A_\parallel + 2 A_\perp}{3}.
+    \label{eq:fermi_contact}
+\end{equation}
+
+\paragraph{Anisotropic Interaction.}
+This interaction is found by considering both spins as magnetic dipoles is calculated by 
+\begin{equation}
+    d_A = \frac{A_\parallel - A_\perp}{3}.
+    \label{eq:anisotropic}
+\end{equation}
+
+For the $\ce{NV^-}$ system in diamond specifically, using the values for $A_\parallel$ and $A_\perp$ we calculate that $f_A$ is an order of magnitude stronger than $d_A$ for both $\ce{N^{14}}$ and $\ce{N^{15}}$. 
+
+\subsubsection{Reduced Hamiltonian}
+By combining $H_{\ce{D}}$ and $H_{\ce{Z}}$ 
+and neglecting $H_{\ce{HF}}$ \todo{why (specifically) do we get to neglect this? Can we generalise?}
+we find 
+\begin{equation}
+    H_{\ce{NV}} = D S_z^2 + E(S_x^2 + S_y^2) + g \mu_B \sum_{j}^{x,y,z} B_j \cdot S_j 
+    \label{eq:reduced_H_NV}
+\end{equation}
+
+The spin operators $S_j$ in matrix representation are 
+\begin{equation}
+    S_x = \frac{1}{\sqrt{2}} \begin{pmatrix}
+        0 & 1 & 0 \\ 
+        1 & 0 & 1 \\ 
+        0 & 1 & 0
+    \end{pmatrix}, 
+    S_y = \frac{i}{\sqrt{2}} \begin{pmatrix}
+        0 & -1 & 0 \\ 
+        1 & 0 & -1 \\ 
+        0 & 1 & 0
+    \end{pmatrix}, 
+    S_z = \frac{1}{\sqrt{2}} \begin{pmatrix}
+        1 & 0 & 0 \\ 
+        0 & 0 & 0 \\ 
+        0 & 0 & -1
+    \end{pmatrix}. 
+    \label{eq:spin_operators}
+\end{equation}
+
+Then, aligning the magnetic field (with strength $B_0$) along the $z$-axis (the quantisation axis), the reduced Hamiltonian will have the form 
+\begin{equation}
+    H_{\ce{NV}} = \begin{pmatrix}
+        D + B_0 & 0 & E \\ 
+        0 & 0 & 0 \\ 
+        E & 0 & D-B_0
+    \end{pmatrix},
+    \label{eq:reduced_H_NV_matrix}
+\end{equation}
+
+with Eigenvalues 
+
+\begin{equation}
+    E_x = E_y = D \pm \sqrt{B_0^2  + E^2}, \; E_z = 0.
+    \label{eq:reduced_H_NV_eigenvalues}
+\end{equation}
+
+The corresponding non-normalised Eigenvectors are then 
+
+\begin{eqnarray}
+    \ket{X} = \frac{1}{E} \left(B_0 + \sqrt{B_0^2 + E^2}\right) \ket{+1} + \ket{-1} \\ 
+    \ket{Y} = \frac{1}{E} \left(B_0 - \sqrt{B_0^2 + E^2}\right) \ket{+1} + \ket{-1} \\ 
+    \ket{Z} = \ket{0},
+\end{eqnarray}
+with
+\begin{equation}
+    \ket{1} = \begin{pmatrix}
+        1 & 0 & 0 
+    \end{pmatrix}, \; 
+    \ket{0} = \begin{pmatrix}
+        0 & 1 & 0 
+    \end{pmatrix}\;, 
+    \ket{-1} = \begin{pmatrix}
+        0 & 0 & 1 
+    \end{pmatrix},
+    \label{eq:base_states}
+\end{equation}
+the Eigenvectors for $H_{\ce{NV}}$ with $E=0$\dots
+
+In the case where $E \ll B_0$ the Eigenvectors are well described by the bases $\ket{0}$ and $\ket{\pm 1}$.
+
+For $E \gg B_0$, when transforming the spin operators $S_j$ into the diagonalised system with Hamiltonian $H_{\ce{NV}}$ they read 
+\begin{equation}
+    \hat{S}_x^\parallel \propto \begin{pmatrix}
+        0 & 1 & 0 \\ 
+        1 & 0 & 0 \\ 
+        0 & 0 & 0 
+    \end{pmatrix} \; , 
+    \hat{S}_y^\parallel \propto \begin{pmatrix}
+        0 & 0 & 0 \\ 
+        0 & 0 & -i \\ 
+        0 & i & 0 
+    \end{pmatrix} \; , 
+    \hat{S}_z \propto \begin{pmatrix}
+        0 & 0 & -1 \\ 
+        0 & 0 & 0 \\ 
+        -1 & 0 & 0 
+    \end{pmatrix} , 
+    \label{eq:diagonalised_spin_operators}
+\end{equation}
+and 
+\begin{equation}
+    \hat{H}_{\ce{NV}} = \begin{pmatrix}
+        D + \sqrt{B_0^2 + E^2} & 0 & 0 \\ 
+        0 & 0 & 0 \\ 
+        0 & 0 & D - \sqrt{B_0^2 - E^2}. 
+    \end{pmatrix} 
+\end{equation}
+
+Another solution for a $\pi/2$ shifted, modulating magnetic field leads to 
+\begin{equation}
+    \hat{S}_x^\perp \propto \begin{pmatrix}
+        0 & 0 & 0 \\ 
+        0 & 0 & 1 \\ 
+        0 & 1 & 0 
+    \end{pmatrix} \; , 
+    \hat{S}_y^\perp \propto \begin{pmatrix}
+        0 & -i & 0 \\ 
+        i & 0 & 0 \\ 
+        0 & 0 & 0 
+    \end{pmatrix} \; , 
+    \hat{S}_z \propto \begin{pmatrix}
+        0 & 0 & 1 \\ 
+        0 & 0 & 0 \\ 
+        1 & 0 & 0 
+    \end{pmatrix} , 
+    \label{eq:diagonalised_spin_operators}
+\end{equation}
+a physical interpretation of which is that a linear modulating B-field aligned
+along the $x$-axis where strain is applied only allows transitions between the state
+$\ket{X}$ and $\ket{0}$, whereas fields perpendicular to the strain and the NV quantization axis
+only allow coupling between $\ket{Y}$ and $\ket{0}$.
+
+For an arbitrary external magnetic field, $H_\ce{NV}$ can be expressed using spherical co-ordinates: 
+\begin{equation}
+    H_{\ce{NV}} = \begin{pmatrix}
+        D + B_0 \cdot \cos \theta & \frac{B_0}{\sqrt{2}} \cdot e^{-i\cdot \varphi} \cdot \sin\theta & E \\ 
+        \frac{B_0}{\sqrt{2}} \cdot e^{i \cdot \varphi} \cdot \sin\theta & 0 & \frac{B_0}{\sqrt{2}} e^{-i\cdot \varphi} \cdot \sin\theta \\ 
+        E & \frac{B_0}{\sqrt{2}} \cdot e^{i \cdot \varphi} \cdot \sin\theta & D - B_0 \cdot \cos \theta
+    \end{pmatrix}
+    \label{eq:nv_hamil_spherical_matrix}
+\end{equation}
+
+
+Here, we transformed the magnitude of the arbitrary magnetic field into spherical co-ordinates as 
+\begin{eqnarray}
+    B_x  &=& B_0 \cos\varphi \sin\theta \\ 
+    B_y  &=& B_0 \sin\varphi \sin\theta \\ 
+    B_z  &=& B_0 \cos\theta 
+\end{eqnarray}
+with $\theta$ the azimuthal and $\varphi$ the polar angle. Then using equations \ref{eq:reduced_H_NV} and \ref{eq:spin_operators} we compute \ref{eq:nv_hamil_spherical_matrix}.  
+
+It immediately follows from the characteristic equation that Eigenvalues $\lambda$ satisfy 
+\begin{equation}
+    0 = \lambda^3 - 2\cdot \lambda^2 \cdot D + \frac{D \cdot B_0^2}{2} + \lambda(D^2 - E^2 - B_0^2) - \frac{1}{2}B_0^2\underbrace{\left(D \cdot \cos(2\theta) - 2 \cdot E \cos(2\varphi) \cdot \sin(\theta)^2\right)}_{\Delta_{\varphi \theta}}
+    \label{eq:nv_spherical_characteristic_equation}
+\end{equation}
+% \cite{balasubramanian2009}
+
+
+
+

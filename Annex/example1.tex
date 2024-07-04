@@ -1,0 +1,108 @@
+\chapter{Stuff that's too detailed}
+
+Appendices should contain all the material which is considered too
+detailed to be included in the main body of the text, but which is
+important enough to be included in the thesis.
+
+Perhaps this is a good place to mention \BibTeX.
+
+You can do references in the simple way explained in the introduction,
+or you can use \BibTeX.
+
+
+\section{\BibTeX}
+\label{sec:bibtex}
+
+It is convenient to use \BibTeX\ to compile your bibliography.  First
+you need to create a .bib file e.g.  you may call it ref.bib Then you
+can put all your references into the file with entries such as
+\begin{verbatim}
+@Book{ob:bornwolf,
+     author = "Born, M and Wolf, E",
+     title  = "Principles of Optics",
+     publisher = "Cambridge University Press",
+     year = 1999,
+     edition = {7th},
+}
+
+@Article{jr:ashkin,
+Author = {A. Ashkin and J.M. Dziedzic and J.E. Bjorkholm and S. Chu},
+Title = "Observation of a single beam gradient force optical tap for 
+dielectric particles",
+Journal = "Optics Letters",
+Volume = 11,
+Pages = "288-290",
+Year = 1986}
+
+@INPROCEEDINGS{seger,
+ author = {J. Seger and H.J. Brockman},
+ title = {What is bet-hedging?},
+ editors={P.H. Harvey and L. Partridge},
+ booktitle = {Oxford Surveys in Evolutionary Biology},
+ year={1987},
+ page={18},
+ publisher={Oxford University Press},
+ place={Oxford}}
+\end{verbatim}
+for a book, an article in a journal or an article in a proceedings volume
+respectively.
+
+Inside your \LaTeX\ file
+you should include 
+\begin{verbatim}
+\bibliographystyle{unsrt}                      
+and
+\bibliography{ref}
+\end{verbatim}
+The first command determines the reference style, here plain and 
+unsorted. With this referencing style 
+a numerical referencing system (which is now the most
+common in physics literature) is used and the numbering of references
+will be the order in which they appear in the document. Alternatively, 
+you could use
+a customised `style file' but there is no real need.  The second
+command just inputs your .bib file Note that only the references cited
+in the text will appear in the bibliography so you can have spare
+references in your .bib file.
+
+
+You use the name you have given to an entry (e.g.
+for the book example above the name is ob:bornwolf)
+to cite the relevant article
+by using the cite command in your \LaTeX\ file e.g. 
+\begin{verbatim}
+\cite{ob:bornwolf}
+\end{verbatim}
+
+
+\section{Producing your documents using \texttt{pdflatex}}
+
+To use pdflatex your figures need to be in pdf format.  You can convert almost any image file to pdf using \texttt{convert}.  e.g. \texttt{convert myfigure.png myfigure.pdf}.
+
+The first time you should type:
+\begin{verbatim}
+  pdflatex ProjectReport
+  bibtex ProjectReport
+  pdflatex ProjectReport
+  pdflatex ProjectReport
+\end{verbatim} 
+This first time you run\texttt{pdflatex} it will produce a
+\texttt{ProjectReport.aux}.  The \BibTeX\ command reads in the
+bibliography file and makes the files \texttt{ProjectReport.bbl} and
+\texttt{ProjectReport.blg} files.  These files are read in the next
+\texttt{pdflatex} command, but you'll still have ``undefined
+cross-reference'' errors which are sorted out by the last
+\texttt{pdflatex} command.
+
+Subsequently, you should only need to do one (or two)
+\texttt{pdflatex}s, or \texttt{pdfbibtex} followed by
+\texttt{pdflatex} twice if you change any references.
+
+\vspace{5mm} You may also use plain \texttt{latex} instead of
+\texttt{pdflatex}.  This requires you to use postscript graphics
+instead of pdf.
+
+
+
+
+
