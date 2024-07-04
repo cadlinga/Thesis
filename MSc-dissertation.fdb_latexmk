@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex MSc-dissertation"] 1720081483 "MSc-dissertation.aux" "MSc-dissertation.bbl" "MSc-dissertation" 1720081487
+["bibtex MSc-dissertation"] 1720081483 "MSc-dissertation.aux" "MSc-dissertation.bbl" "MSc-dissertation" 1720096501
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "MSc-dissertation.aux" 1720081479 10566 75c7378a1bf57fd87e28632eef13c59b "pdflatex"
+  "MSc-dissertation.aux" 1720081488 10566 75c7378a1bf57fd87e28632eef13c59b "pdflatex"
   "ref.bib" 1718265136 48114 6b4d4afcc42cbb6ecc9a19004997442e ""
   (generated)
   "MSc-dissertation.bbl"
   "MSc-dissertation.blg"
-["pdflatex"] 1720081487 "MSc-dissertation.tex" "MSc-dissertation.pdf" "MSc-dissertation" 1720081487
+["pdflatex"] 1720096501 "MSc-dissertation.tex" "MSc-dissertation.pdf" "MSc-dissertation" 1720096501
   "/etc/texmf/web2c/texmf.cnf" 1677427562 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -151,12 +151,12 @@
   "Chapters/intro.tex" 1720004678 1633 d43e6c4bc9528d33dcb9696ceecd4ab2 ""
   "Chapters/results.tex" 1718190385 9152 5618414ca073d413ebbff75fb442a6bb ""
   "Chapters/task.tex" 1720014731 9746 68d4cd7cadca124f4172379b587ade3d ""
-  "MSc-dissertation.aux" 1720081479 10566 75c7378a1bf57fd87e28632eef13c59b "pdflatex"
+  "MSc-dissertation.aux" 1720081488 10566 75c7378a1bf57fd87e28632eef13c59b "pdflatex"
   "MSc-dissertation.bbl" 1720081483 19710 7978f584b0be252c22b1b20fafaf33ed "bibtex MSc-dissertation"
-  "MSc-dissertation.lof" 1720081479 140 104a8a462b27a2267fd07b368245cdd0 "pdflatex"
-  "MSc-dissertation.lot" 1720081479 140 104a8a462b27a2267fd07b368245cdd0 "pdflatex"
-  "MSc-dissertation.tex" 1718256730 1303 849f317e25a64fce9d6122511a7027ad ""
-  "MSc-dissertation.toc" 1720081479 3200 3d220aebd8f13254833029c65ed6bf38 "pdflatex"
+  "MSc-dissertation.lof" 1720081488 140 104a8a462b27a2267fd07b368245cdd0 "pdflatex"
+  "MSc-dissertation.lot" 1720081488 140 104a8a462b27a2267fd07b368245cdd0 "pdflatex"
+  "MSc-dissertation.tex" 1720096500 1390 ff1162a996e8f2f2bcdce32c5e223598 ""
+  "MSc-dissertation.toc" 1720081488 3200 3d220aebd8f13254833029c65ed6bf38 "pdflatex"
   "Sections/BohrMagneton.tex" 1719406198 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Sections/DensityMatrices.tex" 1719406709 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Sections/GyromagneticRatio.tex" 1719406206 0 d41d8cd98f00b204e9800998ecf8427e ""
