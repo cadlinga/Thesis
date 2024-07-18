@@ -9,11 +9,16 @@ twoside
 \usepackage{pdfpages}
 \usepackage{amsmath}
 \usepackage{todonotes}
+\usepackage{listings}
 \usepackage{braket}
 \usepackage[version=4]{mhchem}
 \bibliographystyle{unsrt}
 % \usepackage[top=2cm,bottom=4cm,left=1.5cm,right=3cm,asymmetric]{geometry}
 \usepackage[a4paper,width=155mm,top=25mm,bottom=25mm]{geometry}
+\newcommand{\td}[1]{\todo[]{#1}}
+\newcommand{\tdr}[1]{\todo[color=red]{#1}}
+\newcommand{\tdg}[1]{\todo[color=green]{#1}}
+
 
 
 \begin{document}
@@ -54,10 +59,6 @@ twoside
 \input{Chapters/results.tex}
 \input{Chapters/conclusions.tex}
 
-\chapter{Test}
-Does adding this chapter and pushing to GitHub make it to Overleaf? 
-
-
 
 
 
@@ -66,6 +67,7 @@ Does adding this chapter and pushing to GitHub make it to Overleaf?
 
 % \input{Annex/example1.tex}
 % \input{Annex/example2.tex}
+\input{Annex/pythonCode.tex}
 \nocite{*}
 \bibliography{ref}
 

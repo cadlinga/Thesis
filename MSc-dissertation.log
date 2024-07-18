@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  4 JUL 2024 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  18 JUL 2024 09:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -350,24 +350,46 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \c@@todonotes@numberoftodonotes=\count300
 )
-(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count301
+\lst@gtempboxa=\box65
+\lst@token=\toks38
+\lst@length=\count302
+\lst@currlwidth=\dimen271
+\lst@column=\count303
+\lst@pos=\count304
+\lst@lostspace=\dimen272
+\lst@width=\dimen273
+\lst@newlines=\count305
+\lst@lineno=\count306
+\lst@maxwidth=\dimen274
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count307
+\lst@skipnumbers=\count308
+\lst@framebox=\box66
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
  (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count301
-\l__pdf_internal_box=\box65
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box67
 )) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count302
-\g__chemgreek_tmpa_int=\count303
+\l__chemgreek_tmpa_int=\count310
+\g__chemgreek_tmpa_int=\count311
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count304
+\l__mhchem_ce_distanceFromLastComma_int=\count312
 \__mhchem_arrow_extPgfLength_skip=\skip55
 \mhchem@minispace@tmp=\skip56
 \mhchem@minibackspace@tmp=\skip57
@@ -378,11 +400,11 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \mhchem@smallbondwidth=\skip62
 \mhchem@bondtmp@minussidebearingleft=\skip63
 \mhchem@bondtmp@minussidebearingright=\skip64
-\l__mhchem_option_version_int=\count305
-\mhchem@option@minusmathsidebearingleft=\dimen271
-\mhchem@option@minusmathsidebearingright=\dimen272
-\mhchem@option@minustextsidebearingleft=\dimen273
-\mhchem@option@minustextsidebearingright=\dimen274
+\l__mhchem_option_version_int=\count313
+\mhchem@option@minusmathsidebearingleft=\dimen275
+\mhchem@option@minusmathsidebearingright=\dimen276
+\mhchem@option@minustextsidebearingleft=\dimen277
+\mhchem@option@minustextsidebearingright=\dimen278
 ) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -390,52 +412,48 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count306
-\Gm@cntv=\count307
-\c@Gm@tempcnt=\count308
-\Gm@bindingoffset=\dimen275
-\Gm@wd@mp=\dimen276
-\Gm@odd@mp=\dimen277
-\Gm@even@mp=\dimen278
-\Gm@layoutwidth=\dimen279
-\Gm@layoutheight=\dimen280
-\Gm@layouthoffset=\dimen281
-\Gm@layoutvoffset=\dimen282
-\Gm@dimlist=\toks38
-) (./MSc-dissertation.aux
-
-LaTeX Warning: Label `eq:diagonalised_spin_operators' multiply defined.
-
-)
+\Gm@cnth=\count314
+\Gm@cntv=\count315
+\c@Gm@tempcnt=\count316
+\Gm@bindingoffset=\dimen279
+\Gm@wd@mp=\dimen280
+\Gm@odd@mp=\dimen281
+\Gm@even@mp=\dimen282
+\Gm@layoutwidth=\dimen283
+\Gm@layoutheight=\dimen284
+\Gm@layouthoffset=\dimen285
+\Gm@layoutvoffset=\dimen286
+\Gm@dimlist=\toks39
+) (./MSc-dissertation.aux)
 \openout1 = `MSc-dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count309
-\scratchdimen=\dimen283
-\scratchbox=\box66
-\nofMPsegments=\count310
-\nofMParguments=\count311
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count312
-\MPscratchDim=\dimen284
-\MPnumerator=\count313
-\makeMPintoPDFobject=\count314
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count317
+\scratchdimen=\dimen287
+\scratchbox=\box68
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen288
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks41
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -448,8 +466,9 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
+\c@lstlisting=\count323
 
-Package chemgreek Info: Activating mapping `default' on line 19.
+Package chemgreek Info: Activating mapping `default' on line 24.
 
 
 *geometry* driver: auto-detecting
@@ -489,46 +508,46 @@ Package chemgreek Info: Activating mapping `default' on line 19.
 <Title/title.pdf, id=4, 597.50829pt x 845.0471pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
-Package pdftex.def Info: Title/title.pdf  used on input line 29.
+Package pdftex.def Info: Title/title.pdf  used on input line 34.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
-Package pdftex.def Info: Title/title.pdf  used on input line 29.
+Package pdftex.def Info: Title/title.pdf  used on input line 34.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <Title/title.pdf, id=7, page=1, 597.50829pt x 845.0471pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 29.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 29.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 29.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 29.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 29.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [1
 
- <./Title/title.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>] (./abstract.tex) [1] (./declaration.tex [2]) (./personal_statement.tex [3]) (./acknowledgements.tex) [4] (./MSc-dissertation.toc [5
-
-])
+ <./Title/title.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>] (./abstract.tex) [1] (./declaration.tex [2]) (./personal_statement.tex [3]) (./acknowledgements.tex) [4] (./MSc-dissertation.toc)
 \tf@toc=\write4
 \openout4 = `MSc-dissertation.toc'.
 
- [6] (./MSc-dissertation.lot)
+ [5
+
+] (./MSc-dissertation.lot)
 \tf@lot=\write5
 \openout5 = `MSc-dissertation.lot'.
 
- [7
+ [6
 
 ] (./MSc-dissertation.lof)
 \tf@lof=\write6
@@ -538,126 +557,77 @@ Package pdftex.def Info: Title/title.pdf , page1 used on input line 29.
 
 ]
 Chapter 1.
-(./Sections/MillerIndices.tex) (./Sections/SpintronicMagnetometry.tex [2
+
+Overfull \hbox (7.44966pt too wide) in paragraph at lines 56--57
+[]\OT1/cmr/m/n/12 which stud-ies the in-ter-ac-tion with mag-
+ []
+
+
+LaTeX Warning: Citation `carrington1967introduction' on page 2 undefined on input line 61.
+
+
+LaTeX Warning: Citation `Khler1993' on page 2 undefined on input line 64.
+
+[2
 
 ]
 
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
+LaTeX Warning: Marginpar on page 3 moved.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ...t has $3$ possible spin states, $m_S=0,−
-                                                  1,+1$.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-)) (./Chapters/background.tex [3] [4]
+) (./Chapters/background.tex [3]
 Chapter 2.
-[5
+[4
 
-] [6] [7]) (./Chapters/task.tex [8]
+]
 Chapter 3.
-(./Sections/Spin.tex) (./Sections/Zeeman.tex) (./Sections/HahnEcho.tex) (./Sections/Hyperfine.tex) (./Sections/SpinBaths.tex) (./Sections/SpinOrbit.tex) (./Sections/BohrMagneton.tex) (./Sections/SpinCoupling.tex) (./Sections/MillerIndices.tex) (./Sections/SpinDetection.tex) (./Sections/SpinRelaxation.tex) (./Sections/DensityMatrices.tex) (./Sections/MagneticDipoles.tex) (./Sections/RabiOscillations.tex) (./Sections/GyromagneticRatio.tex) (./Sections/SpinInitialisation.tex) (./Sections/LatticeSymmetry.tex)
+) (./Chapters/task.tex [5
+
+]
+Chapter 4.
+(./Sections/Spin.tex) (./Sections/Zeeman.tex) (./Sections/HahnEcho.tex) (./Sections/Hyperfine.tex) (./Sections/SpinBaths.tex) (./Sections/SpinOrbit.tex) (./Sections/BohrMagneton.tex) (./Sections/SpinCoupling.tex) (./Sections/MillerIndices.tex) (./Sections/SpinDetection.tex) (./Sections/SpinRelaxation.tex) (./Sections/DensityMatrices.tex) (./Sections/MagneticDipoles.tex) (./Sections/RabiOscillations.tex) (./Sections/GyromagneticRatio.tex) (./Sections/SpinInitialisation.tex) (./Sections/LatticeSymmetry.tex) (./Sections/StarkEffect.tex
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.19 
-     
+l.1 
+    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.19 
-     
+l.1 
+    
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
- [9
+ [6
 
-] [10]
-Chapter 4.
-[11
+]) (./Sections/StokesShift.tex)
 
-] [12] [13]
-! Missing { inserted.
-<to be read again> 
-                   \tex_let:D 
-l.228 ...trary external magnetic field, $H_\ce{NV}
-                                                  $ can be expressed using s...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+! LaTeX Error: File `LCAO.tex' not found.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.228 ...rary external magnetic field, $H_\ce{NV}$
-                                                   can be expressed using sp...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-) (./Chapters/design.tex [14]
-Chapter 5.
-) (./Chapters/results.tex [15
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.21 \input{LCAO.tex}
+                     ^^M
+*** (cannot \read from terminal in nonstop modes)
 
-]
-Chapter 6.
-) (./Chapters/conclusions.tex [16
-
-]
-Chapter 7.
-) [17
-
-]
-Chapter 8.
-(./MSc-dissertation.bbl [18
-
-] [19
-
-] [20] [21] [22]
-
-! LaTeX Error: Unicode character − (U+2212)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.296   −
-            a review.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[23]) [24] (./MSc-dissertation.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 15906 strings out of 480171
- 324954 string characters out of 5894490
- 616083 words of memory out of 10000000
- 33482 multiletter control sequences out of 15000+600000
- 476565 words of font info for 53 fonts, out of 8000000 for 9000
+ 17153 strings out of 480171
+ 342478 string characters out of 5894490
+ 633457 words of memory out of 10000000
+ 34727 multiletter control sequences out of 15000+600000
+ 475515 words of font info for 49 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 99i,17n,94p,687b,934s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on MSc-dissertation.pdf (32 pages, 247264 bytes).
-PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 99i,17n,94p,727b,997s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
