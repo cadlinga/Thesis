@@ -1,0 +1,54 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {chapter}{\numberline {2}Background Theory}{4}{}%
+\contentsline {section}{\numberline {2.1}Magnetism}{4}{}%
+\contentsline {subsection}{\numberline {2.1.1}Magnetic Dipole}{4}{}%
+\contentsline {subsection}{\numberline {2.1.2}Gyromagnetic Ratio}{5}{}%
+\contentsline {subsubsection}{Classical Derivation}{5}{}%
+\contentsline {subsubsection}{Extending to Quantum Mechanics}{5}{}%
+\contentsline {subsection}{\numberline {2.1.3}Electron Magnetic Moment}{6}{}%
+\contentsline {chapter}{\numberline {3}To Sort}{7}{}%
+\contentsline {section}{\numberline {3.1}Spin}{7}{}%
+\contentsline {section}{\numberline {3.2}Defect Orientation}{7}{}%
+\contentsline {section}{\numberline {3.3}Miller Indices}{7}{}%
+\contentsline {section}{\numberline {3.4}Lattice Symmetry}{8}{}%
+\contentsline {section}{\numberline {3.5}Linear Combination of Atomic Orbitals}{8}{}%
+\contentsline {section}{\numberline {3.6}Quantum Sensing}{8}{}%
+\contentsline {subsection}{\numberline {3.6.1}DiVincenzo Criteria}{8}{}%
+\contentsline {subsection}{\numberline {3.6.2}Crystal Defects}{8}{}%
+\contentsline {subsubsection}{Quantisation}{8}{}%
+\contentsline {subsubsection}{Polarisation}{8}{}%
+\contentsline {subsubsection}{Coherent Manipulation}{8}{}%
+\contentsline {subsubsection}{Efficient Readout}{9}{}%
+\contentsline {subsection}{\numberline {3.6.3}Coherence}{9}{}%
+\contentsline {subsubsection}{Spin Relaxation}{9}{}%
+\contentsline {subsubsection}{Dephasing}{9}{}%
+\contentsline {subsubsection}{Hahn Echo}{9}{}%
+\contentsline {subsubsection}{Example: NV Diamond}{9}{}%
+\contentsline {subsection}{\numberline {3.6.4}Sensitivity}{9}{}%
+\contentsline {subsection}{\numberline {3.6.5}ODMR}{9}{}%
+\contentsline {subsection}{\numberline {3.6.6}Multimodal Sensors}{10}{}%
+\contentsline {section}{\numberline {3.7}Silicon Carbide}{10}{}%
+\contentsline {subsection}{\numberline {3.7.1}Production of $\ce {SiC}$}{10}{}%
+\contentsline {subsection}{\numberline {3.7.2}Colour Defects in $\ce {SiC}$}{11}{}%
+\contentsline {subsubsection}{Electronic Structure}{11}{}%
+\contentsline {subsubsection}{Charge State}{11}{}%
+\contentsline {subsubsection}{Spin System}{11}{}%
+\contentsline {subsection}{\numberline {3.7.3}Wider Scientific Context}{11}{}%
+\contentsline {chapter}{\numberline {4}Task}{12}{}%
+\contentsline {section}{\numberline {4.1}Brief}{12}{}%
+\contentsline {section}{\numberline {4.2}Work}{12}{}%
+\contentsline {subsection}{\numberline {4.2.1}Concepts and Nomenclature}{12}{}%
+\contentsline {subsubsection}{Spin-Spin Interactions}{12}{}%
+\contentsline {subsubsection}{Zeeman Splitting}{12}{}%
+\contentsline {subsubsection}{Hyperfine Interaction}{12}{}%
+\contentsline {subsection}{\numberline {4.2.2}System Hamiltonian}{12}{}%
+\contentsline {subsubsection}{Spin-Spin Interaction}{13}{}%
+\contentsline {subsubsection}{Zeeman Interaction}{13}{}%
+\contentsline {subsubsection}{Hyperfine Interaction}{13}{}%
+\contentsline {paragraph}{Fermi Contact Interaction.}{13}{}%
+\contentsline {paragraph}{Anisotropic Interaction.}{14}{}%
+\contentsline {subsubsection}{Reduced Hamiltonian}{14}{}%
+\contentsline {chapter}{\numberline {5}Design}{16}{}%
+\contentsline {chapter}{\numberline {6}Results and Analysis}{17}{}%
+\contentsline {chapter}{\numberline {7}Conclusions}{18}{}%
+\contentsline {chapter}{\numberline {A}Python Code}{19}{}%

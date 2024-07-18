@@ -1,11 +1,18 @@
 \chapter{Background Theory}
 \section{Magnetism}
+\subsection{Magnetic Dipole}
 Where charge ($\mathbf{E}$-field) has an intuitive elementary source unit of a point charge (or monopole) which may be positively or negatively charged. Conversely the elementary source unit of magnetism ($\mathbf{B}$-field) is the magnetic dipole. 
 
 Classically, the magnetic dipole may be modelled as a closed loop that carries an
 electric current. 
 Its magnetic dipole moment, $\vec{\mu}$, is defined as the vector which points out of the plane
-of the current loop. 
+of the current loop, 
+
+\begin{equation}
+    \vec{\mu} = IS \vec{n}
+    \label{eq:dipole_moment}
+\end{equation}
+where $I$ is the current in the loop and $S$ is the surface area enclosed by the loop. 
 
 The magnetic dipole produces a magnetic field $\vec{B}$, which for points a large distance from the dipole may be calculated as \tdr{Type up derivation from David Tong notes}:
 $$\vec{B} = \frac{\mu_0}{4\pi} \frac{1}{r^3} \left[\frac{3(\vec{\mu} \cdot \vec{r}) \cdot \vec{r}}{r^2} - \vec{\mu}\right]$$
@@ -15,10 +22,67 @@ $$B_\parallel =\frac{\mu_0}{r^3}(3\cos^2 \theta - 1), \quad B_\perp = \frac{3\mu
 Then, we may use the Pythagorean principle to determine the overall magnitude $B$ as
 $$B = \sqrt{B_\parallel^2 + B_\perp^2}.$$
 
-\section{Gyromagnetic Ratio}
+\subsection{Gyromagnetic Ratio}
+\subsubsection{Classical Derivation}
+The current in equation \ref{eq:dipole_moment} is proportional to the angular momentum of the charge. That is, the dipole moment is always associated with an angular momentum $\vec{G} = \vec{r} \times \vec{p}$ with $\vec{r}$ the radius and $\vec{p}$ the momentum. 
+
+Dividing the magnetic dipole moment by the angular momentum we find the \textbf{gyromagnetic ratio}. 
+\begin{equation}
+    \gamma = \frac{\vec{\mu}}{\vec{G}}.
+    \label{eq:gyromagnetic_ratio}
+\end{equation}
+
+Without loss of generality we may consider the most simple case which is where the magnetic dipole moment is parallel (or anti-parallel) to the angular momentum. Then we may consider the absolute values for the dipole moment and the angular momentum: 
+\begin{equation}
+    \mu = IS, \quad I = \underbrace{\frac{q}{2\pi R}}_{\rho \text{ (charge density)}}v, \quad S = \pi R^2 
+    % \label{eq:}
+\end{equation}
+We substitute $I$ and $S$ to find 
+\begin{equation}
+    \mu = \frac{qvR}{2} 
+    % \label{eq:}
+\end{equation}
+% which we substitute into our equation for the gyromagnetic ratio 
+% \begin{equation}
+%     \gamma = \frac{\frac{qvR}{2}}{\vec{G}}. 
+%     \label{eq:789}
+% \end{equation}
+and further, we equate the angular momentum vector, using the model of a planar loop to 
+\begin{equation}
+   G= m_q v R 
+    % \label{eq:}
+\end{equation}
+leaving 
+\begin{equation}
+    \gamma = \frac{q}{2m_q } . 
+    % \label{eq:}
+\end{equation}
+
+We finally consider that we may represent the, currently unknown, charge and mass as a sum of electron charges and masses. We therefore find that the gyromagnetic ratio of the electron depends only on constants 
+\begin{equation}
+    \gamma = \frac{q}{2m_q } = \frac{\cancel{N}e}{2\cancel{N} m_e} \implies \gamma = \frac{e}{2 m_e}.
+    % \label{eq:}
+\end{equation}
 
 
-\chapter{Background Theory (to sort)}
+%pg 329 
+% https://www.google.co.uk/books/edition/_/7qCMUfwoQcAC?hl=en&gbpv=1&bsq=walter%20greiner%20theoretical%20physics
+\cite{bromley2000quantum}
+
+
+\subsubsection{Extending to Quantum Mechanics}
+Since the gyromagnetic ratio was calculated considering the motion of dipole in a loop, we may extend this to an electron in an orbit within the atom. The fundamental change required to extend the model to quantum mechanics is the treatment of angular momentum which should now be quantized. 
+Thus, we replace our classical approximation of $\vec{G} = \vec{r} \times \vec{p}$ with the equation for the eigenvalues of the quantum mechanical representation of orbital angular momentum:
+\begin{equation}
+    \hat{G} = \hbar \hat{J} 
+    % \label{eq:}
+\end{equation}
+where $\hat{J}$ is the operator of the orbital angular momentum (quantum number of orbital momentum). 
+
+\subsection{Electron Magnetic Moment}
+%The electron magnetic moment, −𝜇/𝜇𝐵=𝑔/2=1.001  159 652  180 59 (13)
+\cite{PhysRevLett.130.071801}
+
 
 
 

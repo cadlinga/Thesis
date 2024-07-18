@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  18 JUL 2024 09:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  18 JUL 2024 11:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -372,7 +372,9 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
  (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
@@ -424,23 +426,27 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen285
 \Gm@layoutvoffset=\dimen286
 \Gm@dimlist=\toks39
-) (./MSc-dissertation.aux)
+) (./MSc-dissertation.aux
+
+LaTeX Warning: Label `eq:diagonalised_spin_operators' multiply defined.
+
+)
 \openout1 = `MSc-dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count317
@@ -468,7 +474,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count323
 
-Package chemgreek Info: Activating mapping `default' on line 24.
+Package chemgreek Info: Activating mapping `default' on line 25.
 
 
 *geometry* driver: auto-detecting
@@ -508,46 +514,46 @@ Package chemgreek Info: Activating mapping `default' on line 24.
 <Title/title.pdf, id=4, 597.50829pt x 845.0471pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
-Package pdftex.def Info: Title/title.pdf  used on input line 34.
+Package pdftex.def Info: Title/title.pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
-Package pdftex.def Info: Title/title.pdf  used on input line 34.
+Package pdftex.def Info: Title/title.pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <Title/title.pdf, id=7, page=1, 597.50829pt x 845.0471pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 34.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [1
 
- <./Title/title.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>] (./abstract.tex) [1] (./declaration.tex [2]) (./personal_statement.tex [3]) (./acknowledgements.tex) [4] (./MSc-dissertation.toc)
+ <./Title/title.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>] (./abstract.tex) [1] (./declaration.tex [2]) (./personal_statement.tex [3]) (./acknowledgements.tex) [4] (./MSc-dissertation.toc [5
+
+])
 \tf@toc=\write4
 \openout4 = `MSc-dissertation.toc'.
 
- [5
-
-] (./MSc-dissertation.lot)
+ [6] (./MSc-dissertation.lot)
 \tf@lot=\write5
 \openout5 = `MSc-dissertation.lot'.
 
- [6
+ [7
 
 ] (./MSc-dissertation.lof)
 \tf@lof=\write6
@@ -562,12 +568,6 @@ Overfull \hbox (7.44966pt too wide) in paragraph at lines 56--57
 []\OT1/cmr/m/n/12 which stud-ies the in-ter-ac-tion with mag-
  []
 
-
-LaTeX Warning: Citation `carrington1967introduction' on page 2 undefined on input line 61.
-
-
-LaTeX Warning: Citation `Khler1993' on page 2 undefined on input line 64.
-
 [2
 
 ]
@@ -578,12 +578,8 @@ LaTeX Warning: Marginpar on page 3 moved.
 Chapter 2.
 [4
 
-]
+]) (./Chapters/task.tex [5] [6]
 Chapter 3.
-) (./Chapters/task.tex [5
-
-]
-Chapter 4.
 (./Sections/Spin.tex) (./Sections/Zeeman.tex) (./Sections/HahnEcho.tex) (./Sections/Hyperfine.tex) (./Sections/SpinBaths.tex) (./Sections/SpinOrbit.tex) (./Sections/BohrMagneton.tex) (./Sections/SpinCoupling.tex) (./Sections/MillerIndices.tex) (./Sections/SpinDetection.tex) (./Sections/SpinRelaxation.tex) (./Sections/DensityMatrices.tex) (./Sections/MagneticDipoles.tex) (./Sections/RabiOscillations.tex) (./Sections/GyromagneticRatio.tex) (./Sections/SpinInitialisation.tex) (./Sections/LatticeSymmetry.tex) (./Sections/StarkEffect.tex
 ! Missing $ inserted.
 <inserted text> 
@@ -604,30 +600,251 @@ So I shall assume that you typed `$$' both times.
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
- [6
+ [7
 
-]) (./Sections/StokesShift.tex)
+]) (./Sections/StokesShift.tex) (./Sections/LCAO.tex) [8] [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-! LaTeX Error: File `LCAO.tex' not found.
+ [10] [11]
+Chapter 4.
+[12
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+] [13] [14]
+! Missing { inserted.
+<to be read again> 
+                   \tex_let:D 
+l.469 ...trary external magnetic field, $H_\ce{NV}
+                                                  $ can be expressed using s...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.21 \input{LCAO.tex}
-                     ^^M
-*** (cannot \read from terminal in nonstop modes)
+! Missing } inserted.
+<inserted text> 
+                }
+l.469 ...rary external magnetic field, $H_\ce{NV}$
+                                                   can be expressed using sp...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
- 
+) (./Chapters/design.tex [15]
+Chapter 5.
+) (./Chapters/results.tex [16
+
+]
+Chapter 6.
+) (./Chapters/conclusions.tex [17
+
+]
+Chapter 7.
+) (./Annex/pythonCode.tex [18
+
+]
+Appendix A.
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+
+! Package xkeyval Error: `size' undefined in families `lst'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...e=small, title={`main.py'}]{python/main.py}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package xkeyval Error: `size' undefined in families `lst'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...e=small, title={`main.py'}]{python/main.py}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./python/main.py
+Overfull \hbox (45.43144pt too wide) in paragraph at lines 4--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 15.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 15.
+
+Overfull \hbox (52.48143pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[19
+
+]
+Overfull \hbox (66.5814pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (115.93132pt too wide) in paragraph at lines 49--50
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 58.
+
+Overfull \hbox (3.13152pt too wide) in paragraph at lines 67--68
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.73137pt too wide) in paragraph at lines 78--79
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.73137pt too wide) in paragraph at lines 79--80
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 84.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+
+Overfull \hbox (66.5814pt too wide) in paragraph at lines 96--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (80.68138pt too wide) in paragraph at lines 97--98
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
+
+Overfull \hbox (130.0313pt too wide) in paragraph at lines 146--147
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (158.23125pt too wide) in paragraph at lines 148--149
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (172.33122pt too wide) in paragraph at lines 155--156
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (80.68138pt too wide) in paragraph at lines 165--167
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.48143pt too wide) in paragraph at lines 176--177
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.48143pt too wide) in paragraph at lines 177--178
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.48143pt too wide) in paragraph at lines 178--179
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Overfull \hbox (52.48143pt too wide) in paragraph at lines 179--180
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (59.53142pt too wide) in paragraph at lines 180--181
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (59.53142pt too wide) in paragraph at lines 183--184
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (108.88133pt too wide) in paragraph at lines 184--185
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (59.53142pt too wide) in paragraph at lines 185--187
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.48143pt too wide) in paragraph at lines 191--192
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)) (./MSc-dissertation.bbl [23] [24
+
+] [25] [26] [27]
+
+! LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323   −
+            a review.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[28] [29]) [30] (./MSc-dissertation.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17153 strings out of 480171
- 342478 string characters out of 5894490
- 633457 words of memory out of 10000000
- 34727 multiletter control sequences out of 15000+600000
- 475515 words of font info for 49 fonts, out of 8000000 for 9000
+ 17892 strings out of 480171
+ 351459 string characters out of 5894490
+ 876854 words of memory out of 10000000
+ 35423 multiletter control sequences out of 15000+600000
+ 478518 words of font info for 59 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 99i,17n,94p,727b,997s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 99i,17n,94p,727b,1891s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/conner/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1200.600pk> </home/conner/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on MSc-dissertation.pdf (38 pages, 279512 bytes).
+PDF statistics:
+ 236 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+
