@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex MSc-dissertation"] 1721296825 "MSc-dissertation.aux" "MSc-dissertation.bbl" "MSc-dissertation" 1721297254
+["bibtex MSc-dissertation"] 1721297658 "MSc-dissertation.aux" "MSc-dissertation.bbl" "MSc-dissertation" 1721297736
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "MSc-dissertation.aux" 1721296828 12274 05579b05151db0c78f8c17499ab07886 "pdflatex"
+  "MSc-dissertation.aux" 1721297689 12517 4c8f60978399d65102cef857a273ac80 "pdflatex"
   "ref.bib" 1721293135 51848 3dcb702a4e435e9e07106b07351aa348 ""
   (generated)
   "MSc-dissertation.bbl"
   "MSc-dissertation.blg"
-["pdflatex"] 1721297254 "MSc-dissertation.tex" "MSc-dissertation.pdf" "MSc-dissertation" 1721297254
+["pdflatex"] 1721297736 "MSc-dissertation.tex" "MSc-dissertation.pdf" "MSc-dissertation" 1721297736
   "/etc/texmf/web2c/texmf.cnf" 1677427562 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/conner/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1721290551 14040 cbc7faa14f42f06b29becf1463851a21 ""
   "/home/conner/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1200.600pk" 1721290550 17148 4835cdfdd00fea1d31ee6f85a90c186e ""
@@ -162,18 +162,18 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1677429218 4073795 a82a847ac97773bf4a607ab050efa3a1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712246487 1436267 a2d9bae2e664322e94a63c4a78db1b95 ""
   "Annex/pythonCode.tex" 1721290863 104 ef1d00bee47794089939699c477ed372 ""
-  "Chapters/background.tex" 1721297252 10847 b53d448372b3422a00c64fd6611d1d31 ""
+  "Chapters/background.tex" 1721297734 11118 488ffebdc74133f602743269a9e273de ""
   "Chapters/conclusions.tex" 1718190392 359 791ca6bc498b64aa936172b5699a65d0 ""
   "Chapters/design.tex" 1718190372 3146 7ea71050047eac5ddf56842e77ebb4f1 ""
   "Chapters/intro.tex" 1721214510 7356 aaab08e7e617ea40be77b17825df82c2 ""
   "Chapters/results.tex" 1718190385 9152 5618414ca073d413ebbff75fb442a6bb ""
   "Chapters/task.tex" 1721291271 27764 4c68f4549132ce6f7f39fdefda2018bb ""
-  "MSc-dissertation.aux" 1721296828 12274 05579b05151db0c78f8c17499ab07886 "pdflatex"
-  "MSc-dissertation.bbl" 1721296825 21575 f2d09920c75e0e8d0f0ccb835c6f78a6 "bibtex MSc-dissertation"
-  "MSc-dissertation.lof" 1721296828 160 3d779cc98b6f299ec43eb90ebb04f45f "pdflatex"
-  "MSc-dissertation.lot" 1721296828 160 3d779cc98b6f299ec43eb90ebb04f45f "pdflatex"
+  "MSc-dissertation.aux" 1721297689 12517 4c8f60978399d65102cef857a273ac80 "pdflatex"
+  "MSc-dissertation.bbl" 1721297658 21575 f2d09920c75e0e8d0f0ccb835c6f78a6 "bibtex MSc-dissertation"
+  "MSc-dissertation.lof" 1721297689 160 3d779cc98b6f299ec43eb90ebb04f45f "pdflatex"
+  "MSc-dissertation.lot" 1721297689 160 3d779cc98b6f299ec43eb90ebb04f45f "pdflatex"
   "MSc-dissertation.tex" 1721295829 1497 74bb5d108ce6b517725ad8e6ff1ad645 ""
-  "MSc-dissertation.toc" 1721296828 3350 e704cad68b822697db769eaac449bd82 "pdflatex"
+  "MSc-dissertation.toc" 1721297689 3350 e704cad68b822697db769eaac449bd82 "pdflatex"
   "Sections/BohrMagneton.tex" 1719406198 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Sections/DensityMatrices.tex" 1719406709 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Sections/GyromagneticRatio.tex" 1719406206 0 d41d8cd98f00b204e9800998ecf8427e ""
