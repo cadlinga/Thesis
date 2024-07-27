@@ -4,7 +4,7 @@ from sympy import Matrix
 from numpy import cos, sin, sqrt, exp, linspace, pi, absolute, arccos
 
 # DEFAULT VALUES
-B_array = linspace(0, 0.01, 20)
+B_array = linspace(0, 0.05, 20)
 B = 0.05
 E = 0
 D = 2.87 * 10**9
@@ -46,7 +46,7 @@ def evals(B=B, E=E, D=D, theta=theta, phi=phi) -> list:
 
 
 def addToPlot(
-    label, colour, opacity=0.4, B_array=B_array, E=E, D=D, theta=theta, phi=phi
+    ax, zs, label, colour, opacity=0.4, B_array=B_array, E=E, D=D, theta=theta, phi=phi
 ):
     y_array = []
     y_array.append([])
@@ -77,13 +77,19 @@ def addToPlot(
         # y_array[count].append(abs(e))
 
     # ax.plot(T_array, D_array, zs=50, zdir="z", label="curve in (x, y)")
-    plt.plot(x_array, y_array[0], label=label, color=colour, alpha=opacity)
-    plt.plot(x_array, y_array[1], label=label, color=colour, alpha=opacity)
+    # plt.plot(x_array, y_array[0], label=label, color=colour, alpha=opacity)
+    # plt.plot(x_array, y_array[1], label=label, color=colour, alpha=opacity)
+    ax.plot(
+        x_array, y_array[0], zs=zs, zdir="x", label=label, color=colour, alpha=opacity
+    )
+    ax.plot(
+        x_array, y_array[1], zs=zs, zdir="x", label=label, color=colour, alpha=opacity
+    )
     # plt.plot(x_array, y_array[2])
 
 
-plt.xlabel("$B_0$")
-plt.ylabel("Eigenvalues of $H_{NV}$")
+# plt.xlabel("$B_0$")
+# plt.ylabel("Eigenvalues of $H_{NV}$")
 
 
 def millerAngle(miller_1, miller_2):
@@ -112,38 +118,67 @@ defect_4 = (1, 1, -1)
 millerAngle(applied_B_miller, defect_axis)
 
 
-addToPlot(
-    label="Defect 1 $(111)$",
-    colour="blue",
-    opacity=0.3,
-    E=0,
-    theta=millerAngle(applied_B_miller, defect_axis),
-)
-
-addToPlot(
-    label="Defect 2 $(\\overline{1} 11)$",
-    colour="purple",
-    opacity=0.3,
-    E=0,
-    theta=millerAngle(applied_B_miller, defect_2),
-)
+ax = plt.figure().add_subplot(projection="3d")
 
 
-addToPlot(
-    label="Defect 3 $(1 \\overline{1} 1)$",
-    colour="green",
-    opacity=0.3,
-    E=0,
-    theta=millerAngle(applied_B_miller, defect_3),
-)
+def d_from_T(temperature):
+    d_0 = 2.87771 * 10**9
+    d_1 = -4.6 * 10**-6
+    d_2 = 1.067 * 10**-7
+    d_3 = -9.325 * 10**-10
+    d_4 = 1.739 * 10**-12
+    d_5 = -1.838 * 10**-15
+    T = temperature
+    D = d_0 + d_1 * T + d_2 * T**2 + d_3 * T**3 + d_4 * T**4 + d_5 * T**5
+    return D
 
-addToPlot(
-    label="Defect 4 $(11\\overline{1})$",
-    colour="red",
-    opacity=0.3,
-    E=0,
-    theta=millerAngle(applied_B_miller, defect_4),
-)
+
+T_array = linspace(0, 400, 5)
+
+for T in T_array:
+    addToPlot(
+        ax,
+        zs=T,
+        label="Defect 1 $(111)$ at " + str(T) + "K",
+        colour="blue",
+        opacity=0.5,
+        D=d_from_T(T),
+        E=0,
+        theta=millerAngle(applied_B_miller, defect_axis),
+    )
+
+T_array = linspace(0, 400, 20)
+D_array = []
+for T in T_array:
+    D_array.append(d_from_T(T))
+
+ax.plot(T_array, D_array, zs=0, zdir="y", label="curve in (x, y)")
+
+
+# addToPlot(
+#     label="Defect 2 $(\\overline{1} 11)$",
+#     colour="purple",
+#     opacity=0.3,
+#     E=0,
+#     theta=millerAngle(applied_B_miller, defect_2),
+# )
+#
+#
+# addToPlot(
+#     label="Defect 3 $(1 \\overline{1} 1)$",
+#     colour="green",
+#     opacity=0.3,
+#     E=0,
+#     theta=millerAngle(applied_B_miller, defect_3),
+# )
+#
+# addToPlot(
+#     label="Defect 4 $(11\\overline{1})$",
+#     colour="red",
+#     opacity=0.3,
+#     E=0,
+#     theta=millerAngle(applied_B_miller, defect_4),
+# )
 # # Generic Results
 # addToPlot(label="$E= 0, \\theta = 0$", colour="black", opacity=1, E=0, theta=0)
 # addToPlot(
@@ -192,4 +227,7 @@ by_label = dict(zip(labels, handles))
 plt.legend(by_label.values(), by_label.keys())
 plt.title("$B_0$ aligned with " + "".join(map(str, applied_B_miller)))
 plt.xlim(left=0)
+ax.set_xlabel("Temp ($K$)")
+ax.set_ylabel("$B_0$")
+ax.set_zlabel("")
 plt.show()
