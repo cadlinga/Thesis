@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  12 AUG 2024 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  12 AUG 2024 15:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -448,6 +448,9 @@ LaTeX Warning: Label `eq:' multiply defined.
 LaTeX Warning: Label `eq:' multiply defined.
 
 
+LaTeX Warning: Label `eq:' multiply defined.
+
+
 LaTeX Warning: Label `fig:' multiply defined.
 
 
@@ -648,16 +651,33 @@ l.60    \end{align}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (./Sections/DipoleInteraction.tex [9]) (./Sections/ZFS.tex) (./Sections/StarkEffect.tex)
+[9]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./Sections/ZFS.tex) (./Sections/DipoleInteraction.tex) (./Sections/StarkEffect.tex
 
 LaTeX Warning: Marginpar on page 10 moved.
 
+)
 
+LaTeX Warning: Marginpar on page 10 moved.
+
+[10]
 Overfull \hbox (1.69028pt too wide) in paragraph at lines 48--49
 \OT1/cmr/m/n/12 SiC is con-sid-ered an ex-cel-lent semi-con-duc-tor ma-te-rial for high-power, high-temperature,
  []
 
-[10]
 
 ! LaTeX Error: Environment group undefined.
 
@@ -671,6 +691,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[11]
 
 ! LaTeX Error: \begin{document} ended by \end{group}.
 
@@ -691,16 +712,16 @@ l.99 \end{group}
                 
 Things are pretty mixed up, but I think the worst is over.
 
-[11] [12
+[12] [13
 
-] [13]
+] [14]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./Chapters/design.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14] [15]
+ [15] [16]
 Chapter 3.
 ! Extra }, or forgotten $.
 l.9     H_{} = H_{\ce{D}} + H_{\ce{Z}}}
@@ -711,10 +732,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[16
+[17
 
-] [17]
-<figures/NVlevelwithESR.png, id=138, 451.6875pt x 261.22594pt>
+] [18]
+<figures/NVlevelwithESR.png, id=141, 451.6875pt x 261.22594pt>
 File: figures/NVlevelwithESR.png Graphic file (type png)
 <use figures/NVlevelwithESR.png>
 Package pdftex.def Info: figures/NVlevelwithESR.png  used on input line 152.
@@ -723,7 +744,7 @@ Package pdftex.def Info: figures/NVlevelwithESR.png  used on input line 152.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/PL6ODMRSpectra_theta_0_to_90.png, id=140, 578.16pt x 361.35pt>
+<figures/PL6ODMRSpectra_theta_0_to_90.png, id=143, 578.16pt x 361.35pt>
 File: figures/PL6ODMRSpectra_theta_0_to_90.png Graphic file (type png)
 <use figures/PL6ODMRSpectra_theta_0_to_90.png>
 Package pdftex.def Info: figures/PL6ODMRSpectra_theta_0_to_90.png  used on input line 166.
@@ -731,7 +752,7 @@ Package pdftex.def Info: figures/PL6ODMRSpectra_theta_0_to_90.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/four_possible_NV_orientations.png, id=141, 526.21594pt x 506.6428pt>
+<figures/four_possible_NV_orientations.png, id=144, 526.21594pt x 506.6428pt>
 File: figures/four_possible_NV_orientations.png Graphic file (type png)
 <use figures/four_possible_NV_orientations.png>
 Package pdftex.def Info: figures/four_possible_NV_orientations.png  used on input line 181.
@@ -739,7 +760,7 @@ Package pdftex.def Info: figures/four_possible_NV_orientations.png  used on inpu
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
+[19]
 
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
@@ -747,25 +768,25 @@ Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./figures/NVlevelwithESR.png>]
+ [20 <./figures/NVlevelwithESR.png>]
 Underfull \vbox (badness 2828) has occurred while \output is active []
 
- [20 <./figures/PL6ODMRSpectra_theta_0_to_90.png>]
+ [21 <./figures/PL6ODMRSpectra_theta_0_to_90.png>]
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 253.
+LaTeX Warning: Reference `' on page 22 undefined on input line 253.
 
-[21 <./figures/four_possible_NV_orientations.png>]
+[22 <./figures/four_possible_NV_orientations.png>]
 
-LaTeX Warning: Marginpar on page 22 moved.
-
-
-LaTeX Warning: Reference `' on page 22 undefined on input line 259.
+LaTeX Warning: Marginpar on page 23 moved.
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Reference `' on page 23 undefined on input line 259.
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 23 moved.
+
+
+LaTeX Warning: Marginpar on page 23 moved.
 
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
@@ -798,7 +819,7 @@ l.282     \end{align}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[22]
+[23]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -888,9 +909,9 @@ l.346 \end{equation}
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-[23]
+[24]
 
-LaTeX Warning: Reference `dnv_vector' on page 24 undefined on input line 373.
+LaTeX Warning: Reference `dnv_vector' on page 25 undefined on input line 373.
 
 
 ! LaTeX Error: Environment group undefined.
@@ -1016,13 +1037,13 @@ l.432 \end{group}
                  
 Things are pretty mixed up, but I think the worst is over.
 
-[24]
-<figures/SiC-PL5PL6-D(T).png, id=169, 462.528pt x 346.896pt>
+[25]
+<figures/SiC-PL5PL6-D(T).png, id=172, 462.528pt x 346.896pt>
 File: figures/SiC-PL5PL6-D(T).png Graphic file (type png)
 <use figures/SiC-PL5PL6-D(T).png>
 Package pdftex.def Info: figures/SiC-PL5PL6-D(T).png  used on input line 478.
 (pdftex.def)             Requested size: 216.10109pt x 162.07777pt.
-<figures/SiC-PL5PL6-D(T)-close.png, id=170, 462.528pt x 346.896pt>
+<figures/SiC-PL5PL6-D(T)-close.png, id=173, 462.528pt x 346.896pt>
 File: figures/SiC-PL5PL6-D(T)-close.png Graphic file (type png)
 <use figures/SiC-PL5PL6-D(T)-close.png>
 Package pdftex.def Info: figures/SiC-PL5PL6-D(T)-close.png  used on input line 479.
@@ -1031,7 +1052,7 @@ Package pdftex.def Info: figures/SiC-PL5PL6-D(T)-close.png  used on input line 4
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/PL6-DvsT-3temps.png, id=171, 519.6213pt x 598.3956pt>
+<figures/PL6-DvsT-3temps.png, id=174, 519.6213pt x 598.3956pt>
 File: figures/PL6-DvsT-3temps.png Graphic file (type png)
 <use figures/PL6-DvsT-3temps.png>
 Package pdftex.def Info: figures/PL6-DvsT-3temps.png  used on input line 498.
@@ -1039,28 +1060,28 @@ Package pdftex.def Info: figures/PL6-DvsT-3temps.png  used on input line 498.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] [26 <./figures/SiC-PL5PL6-D(T).png> <./figures/SiC-PL5PL6-D(T)-close.png>]
+[26] [27 <./figures/SiC-PL5PL6-D(T).png> <./figures/SiC-PL5PL6-D(T)-close.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./figures/PL6-DvsT-3temps.png>] [28] [29] [30] [31]) [32] (./Chapters/results.tex [33]
+ [28 <./figures/PL6-DvsT-3temps.png>] [29] [30] [31] [32]) [33] (./Chapters/results.tex [34]
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34
+ [35
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]) (./Chapters/conclusions.tex [36]
+ [36]) (./Chapters/conclusions.tex [37]
 Chapter 5.
-[37
+[38
 
-]) [38] (./Annex/pythonCode.tex [39]
+]) [39] (./Annex/pythonCode.tex [40]
 Appendix A.
-) (./MSc-dissertation.bbl [40
+) (./MSc-dissertation.bbl [41
 
-] [41
+] [42
 
 ]
 
@@ -1076,7 +1097,7 @@ l.127 \newblock {\em Zeitschrift f�
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[42] [43] [44] [45]
+[43] [44] [45] [46]
 
 ! LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
@@ -1090,7 +1111,7 @@ l.435   −
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[46] [47]
+[47] [48]
 
 LaTeX Font Warning: Command \em invalid in math mode on input line 562.
 
@@ -1138,7 +1159,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[48]) [49] (./MSc-dissertation.aux)
+[49]) [50] (./MSc-dissertation.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1147,18 +1168,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18107 strings out of 480171
- 362925 string characters out of 5894490
- 756416 words of memory out of 10000000
- 35666 multiletter control sequences out of 15000+600000
+ 18109 strings out of 480171
+ 362959 string characters out of 5894490
+ 757121 words of memory out of 10000000
+ 35668 multiletter control sequences out of 15000+600000
  479326 words of font info for 63 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,21n,94p,733b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/conner/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on MSc-dissertation.pdf (59 pages, 1012698 bytes).
+Output written on MSc-dissertation.pdf (60 pages, 1015553 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
+ 343 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

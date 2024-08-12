@@ -28,7 +28,7 @@ Substituting \ref{eq:zeeman_perturbation} and \ref{eq:SO_perturbation} into \ref
                                 &= g_L\mu_B \vec{B} \cdot \cancelto{0}{\bra{0}\hat{\vec{L}}\ket{0}} + g_S \mu_B  \vec{B} \cdot \hat{\vec{S}}\cancelto{1}{\braket{0|0}} + \lambda \hat{\vec{S}} \cdot \cancelto{0}{\braket{0|\hat{\vec{L}}|0}}\\ 
                                 &= g_s \mu_B \hat{S}\cdot\hat{B}.
    \end{align} 
-    % \label{eq:}
+    \label{eq:first_order}
 \end{equation}
 
 Here we used the fact that $\braket{0 | \hat{\vec{L}} | 0} = 0$ since, for example in the alegbraic basis $\hat{L}_z = -i\left(x \frac{\partial}{\partial y} - y \frac{\partial }{\partial x}\right)$ is a Hermitian operator is therefore has eigenvalues which are strictly real numbers, i.e. 
@@ -60,3 +60,34 @@ At second order, again substituting \ref{eq:zeeman_perturbation} and \ref{eq:SO_
    \end{align}
     % \label{eq:}
 \end{equation}
+
+Here $\Lambda$ is a tensor composed of the matrix elements as shown. Expanding out, this allows us to write the second order perturbation as 
+\begin{equation}
+    \sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}} = g_L^2\mu_B^2 \vec{B} \cdot \Lambda \cdot \vec{B} + 2\lambda g_L\mu_B\hat{\vec{S}}\cdot\Lambda\cdot\vec{B} + \lambda^2 \hat{\vec{S}}\cdot \Lambda \cdot \hat{\vec{S}}.
+    \label{eq:second_order}
+\end{equation}
+
+Since for EPR we are only interested in the spin-dependent terms, the first term may be neglected as it represents a global shift in the energy spectra. 
+
+\subsubsection{Combined Perturbation}
+Combining \ref{eq:first_order} and \ref{eq:second_order} we find 
+\begin{equation}
+    \begin{align}
+    \bra{0} \hat{H}' \ket{0}+  \sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}
+    &= g_S \mu_B \hat{\vec{S}} \cdot \vec{B} + 2\lambda g_L\mu_B\hat{\vec{S}}\cdot\Lambda\cdot\vec{B} + \lambda^2 \hat{\vec{S}}\cdot \Lambda \cdot \hat{\vec{S}} \\ 
+    &=\mu_B \hat{\vec{S}} \cdot \underbrace{(g_S + 2g_L \lambda \Lambda)}_{g} \cdot \vec{B} + \hat{\vec{S}}\cdot \underbrace{\lambda^2 \Lambda}_{D} \cdot \hat{\vec{S}}
+    \end{align}
+    \label{eq:}
+\end{equation}
+In this expression $g$ and $D$ are matrix quantities depending on $\Lambda$ and represent the (possibly anisotropic) $g$ factor and $D$ the fine structure splitting. 
+
+For this work we will consider only systems in which the differences in angular momentum is due only to the spin and thus $g$ is reduced to a scalar quantity in the spin Hamiltonian. 
+
+The term depending on $D$ has no dependence on magnetic field and thus this fine-structure splitting is known as zero field splitting (ZFS) and is observed in systems with $S > 1/2$. 
+
+
+
+
+
+
+
