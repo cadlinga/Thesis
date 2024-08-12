@@ -1,54 +1,72 @@
-\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {chapter}{\numberline {2}Background Theory}{4}{}%
 \contentsline {section}{\numberline {2.1}Magnetism}{4}{}%
 \contentsline {subsection}{\numberline {2.1.1}Magnetic Dipole}{4}{}%
 \contentsline {subsection}{\numberline {2.1.2}Gyromagnetic Ratio}{5}{}%
 \contentsline {subsubsection}{Classical Derivation}{5}{}%
 \contentsline {subsubsection}{Extending to Quantum Mechanics}{5}{}%
-\contentsline {subsection}{\numberline {2.1.3}Electron Magnetic Moment}{6}{}%
-\contentsline {chapter}{\numberline {3}To Sort}{7}{}%
-\contentsline {section}{\numberline {3.1}Spin}{7}{}%
-\contentsline {section}{\numberline {3.2}Defect Orientation}{7}{}%
-\contentsline {section}{\numberline {3.3}Miller Indices}{7}{}%
-\contentsline {section}{\numberline {3.4}Lattice Symmetry}{8}{}%
-\contentsline {section}{\numberline {3.5}Linear Combination of Atomic Orbitals}{8}{}%
-\contentsline {section}{\numberline {3.6}Quantum Sensing}{8}{}%
-\contentsline {subsection}{\numberline {3.6.1}DiVincenzo Criteria}{8}{}%
-\contentsline {subsection}{\numberline {3.6.2}Crystal Defects}{8}{}%
-\contentsline {subsubsection}{Quantisation}{8}{}%
-\contentsline {subsubsection}{Polarisation}{8}{}%
-\contentsline {subsubsection}{Coherent Manipulation}{8}{}%
-\contentsline {subsubsection}{Efficient Readout}{9}{}%
-\contentsline {subsection}{\numberline {3.6.3}Coherence}{9}{}%
-\contentsline {subsubsection}{Spin Relaxation}{9}{}%
-\contentsline {subsubsection}{Dephasing}{9}{}%
-\contentsline {subsubsection}{Hahn Echo}{9}{}%
-\contentsline {subsubsection}{Example: NV Diamond}{9}{}%
-\contentsline {subsection}{\numberline {3.6.4}Sensitivity}{9}{}%
-\contentsline {subsection}{\numberline {3.6.5}ODMR}{9}{}%
-\contentsline {subsection}{\numberline {3.6.6}Multimodal Sensors}{10}{}%
-\contentsline {section}{\numberline {3.7}Silicon Carbide}{10}{}%
-\contentsline {subsection}{\numberline {3.7.1}Production of $\ce {SiC}$}{10}{}%
-\contentsline {subsection}{\numberline {3.7.2}Colour Defects in $\ce {SiC}$}{11}{}%
-\contentsline {subsubsection}{Electronic Structure}{11}{}%
-\contentsline {subsubsection}{Charge State}{11}{}%
-\contentsline {subsubsection}{Spin System}{11}{}%
-\contentsline {subsection}{\numberline {3.7.3}Wider Scientific Context}{11}{}%
-\contentsline {chapter}{\numberline {4}Task}{12}{}%
-\contentsline {section}{\numberline {4.1}Brief}{12}{}%
-\contentsline {section}{\numberline {4.2}Work}{12}{}%
-\contentsline {subsection}{\numberline {4.2.1}Concepts and Nomenclature}{12}{}%
-\contentsline {subsubsection}{Spin-Spin Interactions}{12}{}%
-\contentsline {subsubsection}{Zeeman Splitting}{12}{}%
-\contentsline {subsubsection}{Hyperfine Interaction}{12}{}%
-\contentsline {subsection}{\numberline {4.2.2}System Hamiltonian}{12}{}%
-\contentsline {subsubsection}{Spin-Spin Interaction}{13}{}%
-\contentsline {subsubsection}{Zeeman Interaction}{13}{}%
-\contentsline {subsubsection}{Hyperfine Interaction}{13}{}%
-\contentsline {paragraph}{Fermi Contact Interaction.}{13}{}%
-\contentsline {paragraph}{Anisotropic Interaction.}{14}{}%
-\contentsline {subsubsection}{Reduced Hamiltonian}{14}{}%
-\contentsline {chapter}{\numberline {5}Design}{16}{}%
-\contentsline {chapter}{\numberline {6}Results and Analysis}{17}{}%
-\contentsline {chapter}{\numberline {7}Conclusions}{18}{}%
-\contentsline {chapter}{\numberline {A}Python Code}{19}{}%
+\contentsline {subsection}{\numberline {2.1.3}g-factor}{6}{}%
+\contentsline {section}{\numberline {2.2}Spin}{6}{}%
+\contentsline {section}{\numberline {2.3}Zeeman Effect}{7}{}%
+\contentsline {section}{\numberline {2.4}Spin-Orbit Interaction}{8}{}%
+\contentsline {section}{\numberline {2.5}Perturbation Theory}{8}{}%
+\contentsline {subsubsection}{First Order}{9}{}%
+\contentsline {paragraph}{Zeeman Splitting}{9}{}%
+\contentsline {subsubsection}{Second Order}{9}{}%
+\contentsline {section}{\numberline {2.6}Magnetic Dipole Interaction}{10}{}%
+\contentsline {section}{\numberline {2.7}Zero Field Splitting}{10}{}%
+\contentsline {section}{\numberline {2.8}Stark Effect}{10}{}%
+\contentsline {section}{\numberline {2.9}Total Hamiltonian}{10}{}%
+\contentsline {section}{\numberline {2.10}Spin Hamiltonian}{10}{}%
+\contentsline {section}{\numberline {2.11}Silicon Carbide}{10}{}%
+\contentsline {subsection}{\numberline {2.11.1}DiVincenzo Criteria}{10}{}%
+\contentsline {section}{\numberline {2.12}To Sort Inline}{12}{}%
+\contentsline {section}{\numberline {2.13}Quantum Sensing}{12}{}%
+\contentsline {subsection}{\numberline {2.13.1}DiVincenzo Criteria}{12}{}%
+\contentsline {subsection}{\numberline {2.13.2}Crystal Defects}{12}{}%
+\contentsline {subsubsection}{Quantisation}{12}{}%
+\contentsline {subsubsection}{Polarisation}{12}{}%
+\contentsline {subsubsection}{Coherent Manipulation}{12}{}%
+\contentsline {subsubsection}{Efficient Readout}{13}{}%
+\contentsline {subsection}{\numberline {2.13.3}Coherence}{13}{}%
+\contentsline {subsubsection}{Spin Relaxation}{13}{}%
+\contentsline {subsubsection}{Dephasing}{13}{}%
+\contentsline {subsubsection}{Hahn Echo}{13}{}%
+\contentsline {subsubsection}{Example: NV Diamond}{13}{}%
+\contentsline {subsection}{\numberline {2.13.4}Sensitivity}{13}{}%
+\contentsline {subsection}{\numberline {2.13.5}ODMR}{13}{}%
+\contentsline {subsection}{\numberline {2.13.6}Multimodal Sensors}{13}{}%
+\contentsline {section}{\numberline {2.14}Silicon Carbide}{14}{}%
+\contentsline {subsection}{\numberline {2.14.1}Production of $\ce {SiC}$}{14}{}%
+\contentsline {subsection}{\numberline {2.14.2}Colour Defects in $\ce {SiC}$}{15}{}%
+\contentsline {subsubsection}{Electronic Structure}{15}{}%
+\contentsline {subsubsection}{Charge State}{15}{}%
+\contentsline {subsubsection}{Spin System}{15}{}%
+\contentsline {chapter}{\numberline {3}Design}{16}{}%
+\contentsline {section}{\numberline {3.1}$S=1$ Magnetometry}{16}{}%
+\contentsline {subsubsection}{Spin-Spin Interaction}{16}{}%
+\contentsline {subsubsection}{Zeeman Interaction}{17}{}%
+\contentsline {subsection}{\numberline {3.1.1}$\vec {B}$ Parallel to Defect Axis}{18}{}%
+\contentsline {subsubsection}{$\vec {B}$ at Angle $\theta $ to Defect Axis}{18}{}%
+\contentsline {subsection}{\numberline {3.1.2}$S=1$ Vector Magnetometry}{18}{}%
+\contentsline {section}{\numberline {3.2}$S = 3/2$ Magnetometry}{21}{}%
+\contentsline {subsection}{\numberline {3.2.1}$S=3/2$ Angle Resolved Magnetometry}{24}{}%
+\contentsline {subsection}{\numberline {3.2.2}$S = 3/2$ Vector Magnetometry}{24}{}%
+\contentsline {section}{\numberline {3.3}Sensing Pressure*}{25}{}%
+\contentsline {section}{\numberline {3.4}$S=1$ Thermometry}{25}{}%
+\contentsline {section}{\numberline {3.5}$S= 3/2$ Thermometry}{26}{}%
+\contentsline {section}{\numberline {3.6}$S = 1$ Electometry}{27}{}%
+\contentsline {section}{\numberline {3.7}$S=3/2$ Electrometry}{28}{}%
+\contentsline {section}{\numberline {3.8}Sensing Strain*}{28}{}%
+\contentsline {section}{\numberline {3.9}Multimodality}{28}{}%
+\contentsline {subsection}{\numberline {3.9.1}$|\vec {B}|$ and $T$}{28}{}%
+\contentsline {subsection}{\numberline {3.9.2}Angle Resolved $|\vec {B}|$ and $T$}{29}{}%
+\contentsline {subsection}{\numberline {3.9.3}$\vec {B}$ and $T$}{30}{}%
+\contentsline {subsection}{\numberline {3.9.4}$|\vec {B}|$, $|\vec {E}|$ and $T$}{31}{}%
+\contentsline {subsection}{\numberline {3.9.5}$\vec {B}$, $\vec {E}$ and $T$}{32}{}%
+\contentsline {chapter}{\numberline {4}Results and Analysis}{34}{}%
+\contentsline {chapter}{\numberline {5}Conclusions}{37}{}%
+\contentsline {section}{\numberline {5.1}Multimodal Spin Based Sensors}{37}{}%
+\contentsline {section}{\numberline {5.2}Wider Scientific Context}{38}{}%
+\contentsline {section}{\numberline {5.3}Future Work}{38}{}%
+\contentsline {chapter}{\numberline {A}Python Code}{40}{}%

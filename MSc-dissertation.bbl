@@ -1,4 +1,89 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{dnvweb}
+Toeno van~der Sar.
+\newblock Magnetometry with spins in diamond.
+\newblock Measuring a magnetic field with NV spins. Measuring a magnetic field
+  with NV spins - Magnetometry with spins in diamond. (n.d.).
+  \url{https://magnetometryrp.quantumtinkerer.tudelft.nl/3_NVspin/ }.
+\newblock [Accessed 05-08-2024].
+
+\bibitem{pham}
+Linh Pham, Nir Bar-Gill, David Le~Sage, A.~Stacey, M.~Markham, Daniel Twitchen,
+  M.~Lukin, and R.~Walsworth.
+\newblock Enhanced metrology using preferential orientation of nitrogen-vacancy
+  centers in diamond.
+\newblock {\em Physical Review B}, 86, 07 2012.
+
+\bibitem{Son2020}
+Nguyen~T. Son, Christopher~P. Anderson, Alexandre Bourassa, Kevin~C. Miao,
+  Charles Babin, Matthias Widmann, Matthias Niethammer, Jawad Ul~Hassan, Naoya
+  Morioka, Ivan~G. Ivanov, Florian Kaiser, Joerg Wrachtrup, and David~D.
+  Awschalom.
+\newblock Developing silicon carbide for quantum spintronics.
+\newblock {\em Applied Physics Letters}, 116(19), May 2020.
+
+\bibitem{Awschalom2018}
+David~D. Awschalom, Ronald Hanson, J\"{o}rg Wrachtrup, and Brian~B. Zhou.
+\newblock Quantum technologies with optically interfaced solid-state spins.
+\newblock {\em Nature Photonics}, 12(9):516–527, August 2018.
+
+\bibitem{Zhang2020}
+Gang Zhang, Yuan Cheng, Jyh-Pin Chou, and Adam Gali.
+\newblock Material platforms for defect qubits and single-photon emitters.
+\newblock {\em Applied Physics Reviews}, 7(3), September 2020.
+
+\bibitem{Atatre2018}
+Mete Atat\"{u}re, Dirk Englund, Nick Vamivakas, Sang-Yun Lee, and Joerg
+  Wrachtrup.
+\newblock Material platforms for spin-based photonic quantum technologies.
+\newblock {\em Nature Reviews Materials}, 3(5):38–51, April 2018.
+
+\bibitem{Schirhagl2014}
+Romana Schirhagl, Kevin Chang, Michael Loretz, and Christian~L. Degen.
+\newblock Nitrogen-vacancy centers in diamond: Nanoscale sensors for physics
+  and biology.
+\newblock {\em Annual Review of Physical Chemistry}, 65(1):83–105, April
+  2014.
+
+\bibitem{Hensen2015}
+B.~Hensen, H.~Bernien, A.~E. Dréau, A.~Reiserer, N.~Kalb, M.~S. Blok,
+  J.~Ruitenberg, R.~F.~L. Vermeulen, R.~N. Schouten, C.~Abellán, W.~Amaya,
+  V.~Pruneri, M.~W. Mitchell, M.~Markham, D.~J. Twitchen, D.~Elkouss,
+  S.~Wehner, T.~H. Taminiau, and R.~Hanson.
+\newblock Loophole-free bell inequality violation using electron spins
+  separated by 1.3 kilometres.
+\newblock {\em Nature}, 526(7575):682–686, October 2015.
+
+\bibitem{PhysRevX.9.031045}
+C.~E. Bradley, J.~Randall, M.~H. Abobeih, R.~C. Berrevoets, M.~J. Degen, M.~A.
+  Bakker, M.~Markham, D.~J. Twitchen, and T.~H. Taminiau.
+\newblock A ten-qubit solid-state spin register with quantum memory up to one
+  minute.
+\newblock {\em Phys. Rev. X}, 9:031045, Sep 2019.
+
+\bibitem{Koehl2011}
+William~F. Koehl, Bob~B. Buckley, F.~Joseph Heremans, Greg Calusine, and
+  David~D. Awschalom.
+\newblock Room temperature coherent control of defect spin qubits in silicon
+  carbide.
+\newblock {\em Nature}, 479(7371):84–87, November 2011.
+
+\bibitem{Christle2014}
+David~J. Christle, Abram~L. Falk, Paolo Andrich, Paul~V. Klimov, Jawad~Ul
+  Hassan, Nguyen~T. Son, Erik Janzén, Takeshi Ohshima, and David~D. Awschalom.
+\newblock Isolated electron spins in silicon carbide with millisecond coherence
+  times.
+\newblock {\em Nature Materials}, 14(2):160–163, December 2014.
+
+\bibitem{Widmann2014}
+Matthias Widmann, Sang-Yun Lee, Torsten Rendler, Nguyen~Tien Son, Helmut
+  Fedder, Seoyoung Paik, Li-Ping Yang, Nan Zhao, Sen Yang, Ian Booker, Andrej
+  Denisenko, Mohammad Jamali, S.~Ali Momenzadeh, Ilja Gerhardt, Takeshi
+  Ohshima, Adam Gali, Erik Janzén, and J\"~{o}rg Wrachtrup.
+\newblock Coherent control of single spins in silicon carbide at room
+  temperature.
+\newblock {\em Nature Materials}, 14(2):164–168, December 2014.
 
 \bibitem{carrington1967introduction}
 A.~Carrington and A.D. McLachlan.
@@ -12,15 +97,76 @@ J.~K\"{o}hler, J.~A. J.~M. Disselhorst, M.~C. J.~M. Donckers, E.~J.~J. Groenen,
 \newblock Magnetic resonance of a single molecular spin.
 \newblock {\em Nature}, 363(6426):242–244, May 1993.
 
+\bibitem{Baranov2017-bv}
+Pavel~Baranov Baranov, Hans~Jurgen Von~Bardeleben, Fedor Jelezko, and Jorg
+  Wrachtrup.
+\newblock {\em Magnetic resonance of semiconductors and their nanostructures}.
+\newblock Springer series in materials science. Springer, Vienna, Austria, 1
+  edition, March 2017.
+
+\bibitem{Berliner2011-ww}
+Lawrence~J Berliner and Jacques Reuben, editors.
+\newblock {\em Spin labeling}.
+\newblock Biological magnetic resonance. Springer, New York, NY, September
+  2011.
+
 \bibitem{bromley2000quantum}
 D.A. Bromley and W.~Greiner.
 \newblock {\em Quantum Mechanics: An Introduction}.
 \newblock Physics and Astronomy. Springer Berlin Heidelberg, 2000.
 
+\bibitem{giancoli2008physics}
+D.C. Giancoli.
+\newblock {\em Physics for Scientists and Engineers with Modern Physics}.
+\newblock Physics for Scientists \& Engineers with Modern Physics. Pearson
+  Education, 2008.
+
+\bibitem{Gerlach1922}
+Walther Gerlach and Otto Stern.
+\newblock Das magnetische moment des silberatoms.
+\newblock {\em Zeitschrift f�r Physik}, 9(1):353–355, December 1922.
+
+\bibitem{Povh2002-fj}
+Bogdan Povh, Klaus Rith, Christoph Scholz, and Frank Zetsche.
+\newblock {\em Particles and nuclei}.
+\newblock Springer, Berlin, Germany, 3 edition, August 2002.
+
+\bibitem{electron-g-factor}
+X.~Fan, T.~G. Myers, B.~A.~D. Sukra, and G.~Gabrielse.
+\newblock Measurement of the electron magnetic moment.
+\newblock 2022.
+
 \bibitem{PhysRevLett.130.071801}
 X.~Fan, T.~G. Myers, B.~A.~D. Sukra, and G.~Gabrielse.
 \newblock Measurement of the electron magnetic moment.
 \newblock {\em Phys. Rev. Lett.}, 130:071801, Feb 2023.
+
+\bibitem{Nabokov2002}
+V.~Nabokov.
+\newblock {\em THEORETICAL MODELS OF MBE}, page 111–209.
+\newblock Elsevier, 2002.
+
+\bibitem{Eddy2009}
+C.~R. Eddy and D.~K. Gaskill.
+\newblock Silicon carbide as a platform for power electronics.
+\newblock {\em Science}, 324(5933):1398–1400, June 2009.
+
+\bibitem{CASADY19961409}
+J.B. Casady and R.W. Johnson.
+\newblock Status of silicon carbide (sic) as a wide-bandgap semiconductor for
+  high-temperature applications: A review.
+\newblock {\em Solid-State Electronics}, 39(10):1409--1422, 1996.
+
+\bibitem{Crawford2021}
+Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
+  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
+\newblock Quantum sensing for energy applications: Review and perspective.
+\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
+
+\bibitem{RevModPhys.89.035002}
+C.~L. Degen, F.~Reinhard, and P.~Cappellaro.
+\newblock Quantum sensing.
+\newblock {\em Rev. Mod. Phys.}, 89:035002, Jul 2017.
 
 \bibitem{Castelletto_2024}
 S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
@@ -57,17 +203,6 @@ David~P. DiVincenzo.
 \newblock Quantum computation.
 \newblock {\em Science}, 270(5234):255–261, October 1995.
 
-\bibitem{RevModPhys.89.035002}
-C.~L. Degen, F.~Reinhard, and P.~Cappellaro.
-\newblock Quantum sensing.
-\newblock {\em Rev. Mod. Phys.}, 89:035002, Jul 2017.
-
-\bibitem{Crawford2021}
-Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
-  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
-\newblock Quantum sensing for energy applications: Review and perspective.
-\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
-
 \bibitem{Kraus2014}
 H.~Kraus, V.~A. Soltamov, F.~Fuchs, D.~Simin, A.~Sperlich, P.~G. Baranov, G.~V.
   Astakhov, and V.~Dyakonov.
@@ -89,15 +224,6 @@ P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
 \newblock Electrically driven spin resonance in silicon carbide color centers.
 \newblock {\em Phys. Rev. Lett.}, 112:087601, Feb 2014.
 
-\bibitem{Widmann2014}
-Matthias Widmann, Sang-Yun Lee, Torsten Rendler, Nguyen~Tien Son, Helmut
-  Fedder, Seoyoung Paik, Li-Ping Yang, Nan Zhao, Sen Yang, Ian Booker, Andrej
-  Denisenko, Mohammad Jamali, S.~Ali Momenzadeh, Ilja Gerhardt, Takeshi
-  Ohshima, Adam Gali, Erik Janzén, and J\"~{o}rg Wrachtrup.
-\newblock Coherent control of single spins in silicon carbide at room
-  temperature.
-\newblock {\em Nature Materials}, 14(2):164–168, December 2014.
-
 \bibitem{PhysRevB.105.165108}
 A.~Cs\'or\'e, I.~G. Ivanov, N.~T. Son, and A.~Gali.
 \newblock Fluorescence spectrum and charge state control of divacancy qubits
@@ -110,13 +236,6 @@ Fei-Fei Yan, Ai-Lun Yi, Jun-Feng Wang, Qiang Li, Pei Yu, Jia-Xiang Zhang, Adam
 \newblock Room-temperature coherent control of implanted defect spins in
   silicon carbide.
 \newblock {\em npj Quantum Information}, 6(1), May 2020.
-
-\bibitem{Koehl2011}
-William~F. Koehl, Bob~B. Buckley, F.~Joseph Heremans, Greg Calusine, and
-  David~D. Awschalom.
-\newblock Room temperature coherent control of defect spin qubits in silicon
-  carbide.
-\newblock {\em Nature}, 479(7371):84–87, November 2011.
 
 \bibitem{Mu2020}
 Zhao Mu, Soroush~Abbasi Zargaleh, Hans~J\"{u}rgen von Bardeleben, Johannes~E.
@@ -174,13 +293,6 @@ Yu-Wei Liao, Qiang Li, Mu~Yang, Zheng-Hao Liu, Fei-Fei Yan, Jun-Feng Wang,
 \newblock Deep-learning-enhanced single-spin readout in silicon carbide at room
   temperature.
 \newblock {\em Phys. Rev. Appl.}, 17:034046, Mar 2022.
-
-\bibitem{Christle2014}
-David~J. Christle, Abram~L. Falk, Paolo Andrich, Paul~V. Klimov, Jawad~Ul
-  Hassan, Nguyen~T. Son, Erik Janzén, Takeshi Ohshima, and David~D. Awschalom.
-\newblock Isolated electron spins in silicon carbide with millisecond coherence
-  times.
-\newblock {\em Nature Materials}, 14(2):160–163, December 2014.
 
 \bibitem{Soltamov2019}
 V.~A. Soltamov, C.~Kasper, A.~V. Poshakinskiy, A.~N. Anisimov, E.~N. Mokhov,
@@ -348,17 +460,6 @@ Wei-Ke Quan, Lin Liu, Qin-Yue Luo, Xiao-Di Liu, and Jun-Feng Wang.
 \newblock Fiber-coupled silicon carbide divacancy magnetometer and thermometer.
 \newblock {\em Opt. Express}, 31(10):15592--15598, May 2023.
 
-\bibitem{Eddy2009}
-C.~R. Eddy and D.~K. Gaskill.
-\newblock Silicon carbide as a platform for power electronics.
-\newblock {\em Science}, 324(5933):1398–1400, June 2009.
-
-\bibitem{CASADY19961409}
-J.B. Casady and R.W. Johnson.
-\newblock Status of silicon carbide (sic) as a wide-bandgap semiconductor for
-  high-temperature applications: A review.
-\newblock {\em Solid-State Electronics}, 39(10):1409--1422, 1996.
-
 \bibitem{10.1093/nsr/nwab122}
 Qiang Li, Jun-Feng Wang, Fei-Fei Yan, Ji-Yang Zhou, Han-Feng Wang, He~Liu,
   Li-Ping Guo, Xiong Zhou, Adam Gali, Zheng-Hao Liu, Zu-Qing Wang, Kai Sun,
@@ -398,6 +499,12 @@ Stefania Castelletto and Alberto Boretti.
 \newblock Silicon carbide color centers for quantum applications.
 \newblock {\em JPhys Photonics}, 2(2):022001, April 2020.
 
+\bibitem{arxiv.1503.07566}
+A.~Lohrmann, N.~Iwamoto, Z.~Bodrog, S.~Castelletto, T.~Ohshima, T.~J. Karle,
+  A.~Gali, S.~Prawer, J.~C. McCallum, and B.~C. Johnson.
+\newblock Single-photon emitting diode in silicon carbide.
+\newblock 2015.
+
 \bibitem{Fuchs2015}
 F.~Fuchs, B.~Stender, M.~Trupke, D.~Simin, J.~Pflaum, V.~Dyakonov, and G.~V.
   Astakhov.
@@ -428,6 +535,88 @@ F.~Sardi, T.~Kornher, M.~Widmann, R.~Kolesov, F.~Schiller, T.~Reindl, M.~Hagel,
   silicon carbide.
 \newblock {\em Applied Physics Letters}, 117(2), July 2020.
 
+\bibitem{Balasubramanian2008}
+Gopalakrishnan Balasubramanian, I.~Y. Chan, Roman Kolesov, Mohannad Al-Hmoud,
+  Julia Tisler, Chang Shin, Changdong Kim, Aleksander Wojcik, Philip~R. Hemmer,
+  Anke Krueger, Tobias Hanke, Alfred Leitenstorfer, Rudolf Bratschitsch, Fedor
+  Jelezko, and J\"{o}rg Wrachtrup.
+\newblock Nanoscale imaging magnetometry with diamond spins under ambient
+  conditions.
+\newblock {\em Nature}, 455(7213):648–651, October 2008.
+
+\bibitem{PhysRevB.92.115201}
+Sang-Yun Lee, Matthias Niethammer, and J\"org Wrachtrup.
+\newblock Vector magnetometry based on $s=\frac{3}{2}$ electronic spins.
+\newblock {\em Phys. Rev. B}, 92:115201, Sep 2015.
+
+\bibitem{1505.06914}
+Sang-Yun Lee, Matthias Niethammer, and Jörg Wrachtrup.
+\newblock Vector magnetometry based on s=3/2 electronic spins.
+\newblock 2015.
+
+\bibitem{Kirmse1995}
+Reinhard Kirmse.
+\newblock N. m. atherton. principles of electron spin resonance. ellis horwood
+  and ptr prentice hall, physical chemistry series, ellis horwood, chichester
+  (1993). pp. 585 $127. isbn 0 13 7217625.
+\newblock {\em Magnetic Resonance in Chemistry}, 33(8):698–698, August 1995.
+
+\bibitem{Janzn2009}
+Erik Janzén, Adam Gali, Patrick Carlsson, Andreas G\"{a}llstr\"{o}m, Bj\"{o}rn
+  Magnusson, and N.T. Son.
+\newblock The silicon vacancy in sic.
+\newblock {\em Physica B: Condensed Matter}, 404(22):4354–4358, December
+  2009.
+
+\bibitem{Degen2008}
+C.~L. Degen.
+\newblock Scanning magnetic field microscope with a diamond single-spin sensor.
+\newblock {\em Applied Physics Letters}, 92(24):243111, June 2008.
+
+\bibitem{Isoya2008}
+J.~Isoya, T.~Umeda, N.~Mizuochi, N.~T. Son, E.~Janzén, and T.~Ohshima.
+\newblock Epr identification of intrinsic defects in sic.
+\newblock {\em physica status solidi (b)}, 245(7):1298–1314, June 2008.
+
+\bibitem{doi:10.1021/acs.nanolett.2c03378}
+Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
+  Zhou, Wu-Xi Lin, Zhen-Xuan He, Wan Xu, Yu~Wei, Zheng-Hao Liu, Pu~Wang, Zhi-He
+  Hao, Jun-Feng Ding, Hai-Ou Li, Wen Liu, Hao Li, Lixing You, Jin-Shi Xu,
+  Eugene Gregoryanz, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Coherent control and magnetic detection of divacancy spins in silicon
+  carbide at high pressures.
+\newblock {\em Nano Letters}, 22(24):9943--9950, 2022.
+\newblock PMID: 36507869.
+
+\bibitem{PhysRevLett.112.187601}
+Abram~L. Falk, Paul~V. Klimov, Bob~B. Buckley, Viktor Iv\'ady, Igor~A.
+  Abrikosov, Greg Calusine, William~F. Koehl, \'Ad\'am Gali, and David~D.
+  Awschalom.
+\newblock Electrically and mechanically tunable electron spins in silicon
+  carbide color centers.
+\newblock {\em Phys. Rev. Lett.}, 112:187601, May 2014.
+
+\bibitem{Chen2011}
+X.-D. Chen, C.-H. Dong, F.-W. Sun, C.-L. Zou, J.-M. Cui, Z.-F. Han, and G.-C.
+  Guo.
+\newblock Temperature dependent energy level shifts of nitrogen-vacancy centers
+  in diamond.
+\newblock {\em Applied Physics Letters}, 99(16), October 2011.
+
+\bibitem{ajev2009}
+P~Ščajev and K~Jarašiūnas.
+\newblock Application of a time-resolved four-wave mixing technique for the
+  determination of thermal properties of 4h–sic crystals.
+\newblock {\em Journal of Physics D: Applied Physics}, 42(5):055413, February
+  2009.
+
+\bibitem{PhysRevB.104.125305}
+Wu-Xi Lin, Fei-Fei Yan, Qiang Li, Jun-feng Wang, Zhi-He Hao, Ji-Yang Zhou, Hao
+  Li, Li-Xing You, Jin-Shi Xu, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Temperature dependence of divacancy spin coherence in implanted
+  silicon carbide.
+\newblock {\em Phys. Rev. B}, 104:125305, Sep 2021.
+
 \bibitem{Kraus2013}
 H.~Kraus, V.~A. Soltamov, D.~Riedel, S.~V\"{a}th, F.~Fuchs, A.~Sperlich, P.~G.
   Baranov, V.~Dyakonov, and G.~V. Astakhov.
@@ -441,14 +630,6 @@ Edlyn~V. Levine, Matthew~J. Turner, Pauli Kehayias, Connor~A. Hart, Nicholas
   Walsworth.
 \newblock Principles and techniques of the quantum diamond microscope.
 \newblock {\em Nanophotonics}, 8(11):1945--1973, 2019.
-
-\bibitem{PhysRevLett.112.187601}
-Abram~L. Falk, Paul~V. Klimov, Bob~B. Buckley, Viktor Iv\'ady, Igor~A.
-  Abrikosov, Greg Calusine, William~F. Koehl, \'Ad\'am Gali, and David~D.
-  Awschalom.
-\newblock Electrically and mechanically tunable electron spins in silicon
-  carbide color centers.
-\newblock {\em Phys. Rev. Lett.}, 112:187601, May 2014.
 
 \bibitem{Balasubramanian2009}
 Gopalakrishnan Balasubramanian, Philipp Neumann, Daniel Twitchen, Matthew

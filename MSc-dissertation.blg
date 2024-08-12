@@ -5,49 +5,56 @@ The style file: unsrt.bst
 Database file #1: ref.bib
 Warning--I'm ignoring LevineTurnerKehayiasHartLangellierTrubkoGlennFuWalsworth+2019+1945+1973's extra "title" field
 --line 52 of file ref.bib
+Repeated entry---line 1290 of file ref.bib
+ : @article{Quan:23
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in electron-g-factor
 Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
 while executing---line 944 of file unsrt.bst
-You've used 72 entries,
+Warning--empty journal in arxiv.1503.07566
+Warning--empty journal in 1505.06914
+You've used 100 entries,
             1791 wiz_defined-function locations,
-            912 strings with 23187 characters,
-and the built_in function-call counts, 20633 in all, are:
-= -- 1337
-> -- 1826
-< -- 0
-+ -- 633
-- -- 561
-* -- 2072
-:= -- 3702
-add.period$ -- 217
-call.type$ -- 72
-change.case$ -- 67
+            1070 strings with 28921 characters,
+and the built_in function-call counts, 28024 in all, are:
+= -- 1861
+> -- 2397
+< -- 1
++ -- 834
+- -- 734
+* -- 2734
+:= -- 4985
+add.period$ -- 306
+call.type$ -- 100
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 632
-empty$ -- 1566
-format.name$ -- 561
-if$ -- 4168
+cite$ -- 103
+duplicate$ -- 899
+empty$ -- 2166
+format.name$ -- 734
+if$ -- 5716
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 76
-newline$ -- 362
-num.names$ -- 72
-pop$ -- 104
+int.to.str$ -- 100
+missing$ -- 107
+newline$ -- 504
+num.names$ -- 101
+pop$ -- 168
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 238
+skip$ -- 349
 stack$ -- 0
-substring$ -- 1164
-swap$ -- 72
-text.length$ -- 0
+substring$ -- 1545
+swap$ -- 116
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 124
-width$ -- 74
-write$ -- 788
-(There were 2 error messages)
+warning$ -- 3
+while$ -- 168
+width$ -- 103
+write$ -- 1096
+(There were 3 error messages)

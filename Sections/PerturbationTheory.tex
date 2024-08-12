@@ -1,0 +1,62 @@
+\section{Perturbation Theory}
+By considering a ground, non-degenerate state and a perturbation in the electron Zeeman interaction and the spin-orbit coupling we can develop insight into so called zero field splitting. The perturbation is given by 
+\begin{equation}
+    \hat{H}' = \hat{H}_{\ce{Zeeman}} + \hat{H}_{\ce{SO}}  
+    % \label{eq:}
+\end{equation}
+for which we find 
+\begin{equation}
+    E_0 = E^{(0)}_0 + \bra{0}{\hat{H}'}\ket{0}  + \sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}
+    \label{eq:perturbation}
+\end{equation}
+
+Now, if we consider arbitrary interactions of forms
+\begin{eqnarray}
+    &\hat{H}_{\ce{Zeeman}} &= g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + g_S \mu_B \hat{\vec{S}}\cdot\vec{B} \label{eq:zeeman_perturbation}\\ 
+    & \hat{H}_{\ce{SO}} &= \lambda\hat{\vec{L}}\cdot \hat{\vec{S}} \label{eq:SO_perturbation}
+\end{eqnarray}
+we may compute the first and second order corrections. 
+
+
+\subsubsection{First Order}
+Substituting \ref{eq:zeeman_perturbation} and \ref{eq:SO_perturbation} into \ref{eq:perturbation} and integrating only over the orbital values to deduce the spin Hamiltonian (discussed more in section \ref{} \td{Link section}) we find
+\begin{equation}
+   \begin{align}
+       \bra{0} \hat{H}' \ket{0} &= \bra{0} g_L \mu_B \hat{\vec{L}}\cdot \vec{B} + g_S \mu_B \hat{\vec{S}}\cdot \vec{B} + \lambda\hat{\vec{L}} \cdot \hat{\vec{S}} \ket{0}\\ 
+                                & = \bra{0} g_L\mu_B \hat{\vec{L}} \cdot \vec{B} \ket{0} + \bra{0}g_S \mu_B \hat{\vec{S}}\cdot \vec{B}\ket{0} + \bra{0}\lambda\hat{\vec{L}} \cdot \hat{\vec{S}} \ket{0}\\
+                                &= g_L\mu_B \vec{B} \cdot \bra{0}\hat{\vec{L}}\ket{0} + g_S \mu_B  \vec{B} \cdot \hat{\vec{S}}\braket{0|0} + \lambda \hat{\vec{S}} \cdot \braket{0|\hat{\vec{L}}|0}\\ 
+                                &= g_L\mu_B \vec{B} \cdot \cancelto{0}{\bra{0}\hat{\vec{L}}\ket{0}} + g_S \mu_B  \vec{B} \cdot \hat{\vec{S}}\cancelto{1}{\braket{0|0}} + \lambda \hat{\vec{S}} \cdot \cancelto{0}{\braket{0|\hat{\vec{L}}|0}}\\ 
+                                &= g_s \mu_B \hat{S}\cdot\hat{B}.
+   \end{align} 
+    % \label{eq:}
+\end{equation}
+
+Here we used the fact that $\braket{0 | \hat{\vec{L}} | 0} = 0$ since, for example in the alegbraic basis $\hat{L}_z = -i\left(x \frac{\partial}{\partial y} - y \frac{\partial }{\partial x}\right)$ is a Hermitian operator is therefore has eigenvalues which are strictly real numbers, i.e. 
+\begin{equation}
+    \hat{L}_z \ket{\psi} = m_L \ket{\psi}.
+    \label{eq:hermitian}
+\end{equation}
+
+By considering \ref{eq:hermitian} we see that if we apply an imaginary operator to a real valued eigenfunction the corresponding eigenvalue must be imaginary or zero. We know the state is strictly real since it is non-degenerate\footnote{A complex wavefunction $\psi$ is at least doubly degenerate; the complex conjugate $\psi^*$ has the same energy.}. In this case, the expectation value of $\hat{L}$ can only be $0$. 
+
+\paragraph{Zeeman Splitting}
+The result of the first order perturbation is thus a more formal confirmation of the result of section \ref{zeeman}, specifically \ref{eq:zeeman_energy}.  
+
+% Using this we find for some real number $r$ 
+% \begin{equation}
+%     \hat{L}_z \ket{\psi} \implies \braket{\hat{L}_z | \psi | \hat{L}_z} = r \braket{\psi | \psi}
+%     % \label{eq:}
+% \end{equation}
+% which when applied above gives 
+%
+\subsubsection{Second Order}
+At second order, again substituting \ref{eq:zeeman_perturbation} and \ref{eq:SO_perturbation} into \ref{eq:perturbation} and integrating only over the orbital values we find 
+\begin{equation}
+   \begin{align}
+       &\sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}\\ 
+ &=\frac{\braket{0 |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + g_S \mu_B \hat{\vec{S}}\cdot\vec{B} +\lambda\hat{\vec{L}}\cdot \hat{\vec{S}}  | n } \braket{n |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + g_S \mu_B \hat{\vec{S}}\cdot\vec{B}+\lambda\hat{\vec{L}}\cdot \hat{\vec{S}}| 0}}{E_0^{(0)} - E_n^{(0)}}\\ 
+ &=\frac{\braket{0 |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + \lambda\hat{\vec{L}}\cdot \hat{\vec{S}}  | n } \braket{n |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + \lambda\hat{\vec{L}}\cdot \hat{\vec{S}}| 0}}{E_0^{(0)} - E_n^{(0)}}\\ 
+ &= (g_L \mu_B \vec{B} + \lambda \hat{\vec{S}})\underbrace{\sum_n \frac{\braket{0 |\hat{\vec{L}} | n}\braket{n |\hat{\vec{L}} | 0}}{E_0^{(0)} - E_n^{(0)}}}_{{\Lambda}}(g_L \mu_B \vec{B} + \lambda \hat{\vec{S}})
+   \end{align}
+    % \label{eq:}
+\end{equation}
