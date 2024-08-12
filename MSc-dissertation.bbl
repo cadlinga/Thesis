@@ -146,28 +146,6 @@ V.~Nabokov.
 \newblock {\em THEORETICAL MODELS OF MBE}, page 111–209.
 \newblock Elsevier, 2002.
 
-\bibitem{Eddy2009}
-C.~R. Eddy and D.~K. Gaskill.
-\newblock Silicon carbide as a platform for power electronics.
-\newblock {\em Science}, 324(5933):1398–1400, June 2009.
-
-\bibitem{CASADY19961409}
-J.B. Casady and R.W. Johnson.
-\newblock Status of silicon carbide (sic) as a wide-bandgap semiconductor for
-  high-temperature applications: A review.
-\newblock {\em Solid-State Electronics}, 39(10):1409--1422, 1996.
-
-\bibitem{Crawford2021}
-Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
-  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
-\newblock Quantum sensing for energy applications: Review and perspective.
-\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
-
-\bibitem{RevModPhys.89.035002}
-C.~L. Degen, F.~Reinhard, and P.~Cappellaro.
-\newblock Quantum sensing.
-\newblock {\em Rev. Mod. Phys.}, 89:035002, Jul 2017.
-
 \bibitem{Castelletto_2024}
 S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
 \newblock Quantum systems in silicon carbide for sensing applications.
@@ -202,6 +180,17 @@ Tianyu Xie, Zhiyuan Zhao, Xi~Kong, Wenchao Ma, Mengqi Wang, Xiangyu Ye, Pei Yu,
 David~P. DiVincenzo.
 \newblock Quantum computation.
 \newblock {\em Science}, 270(5234):255–261, October 1995.
+
+\bibitem{RevModPhys.89.035002}
+C.~L. Degen, F.~Reinhard, and P.~Cappellaro.
+\newblock Quantum sensing.
+\newblock {\em Rev. Mod. Phys.}, 89:035002, Jul 2017.
+
+\bibitem{Crawford2021}
+Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
+  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
+\newblock Quantum sensing for energy applications: Review and perspective.
+\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
 
 \bibitem{Kraus2014}
 H.~Kraus, V.~A. Soltamov, F.~Fuchs, D.~Simin, A.~Sperlich, P.~G. Baranov, G.~V.
@@ -389,76 +378,16 @@ Gary Wolfowicz, Christopher~P. Anderson, Andrew~L. Yeats, Samuel~J. Whiteley,
 \newblock Optical charge state control of spin defects in 4h-sic.
 \newblock {\em Nature Communications}, 8(1), November 2017.
 
-\bibitem{Anisimov2016}
-A.~N. Anisimov, D.~Simin, V.~A. Soltamov, S.~P. Lebedev, P.~G. Baranov, G.~V.
-  Astakhov, and V.~Dyakonov.
-\newblock Optical thermometry based on level anticrossing in silicon carbide.
-\newblock {\em Scientific Reports}, 6(1), September 2016.
+\bibitem{Eddy2009}
+C.~R. Eddy and D.~K. Gaskill.
+\newblock Silicon carbide as a platform for power electronics.
+\newblock {\em Science}, 324(5933):1398–1400, June 2009.
 
-\bibitem{PhysRevB.100.094104}
-A.~V. Poshakinskiy and G.~V. Astakhov.
-\newblock Optically detected spin-mechanical resonance in silicon carbide
-  membranes.
-\newblock {\em Phys. Rev. B}, 100:094104, Sep 2019.
-
-\bibitem{Liu2022}
-Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
-  Zhou, Wu-Xi Lin, Zhen-Xuan He, Wan Xu, Yu~Wei, Zheng-Hao Liu, Pu~Wang, Zhi-He
-  Hao, Jun-Feng Ding, Hai-Ou Li, Wen Liu, Hao Li, Lixing You, Jin-Shi Xu,
-  Eugene Gregoryanz, Chuan-Feng Li, and Guang-Can Guo.
-\newblock Coherent control and magnetic detection of divacancy spins in silicon
-  carbide at high pressures.
-\newblock {\em Nano Letters}, 22(24):9943–9950, December 2022.
-
-\bibitem{PhysRevApplied.8.044015}
-Yu~Zhou, Junfeng Wang, Xiaoming Zhang, Ke~Li, Jianming Cai, and Weibo Gao.
-\newblock Self-protected thermometry with infrared photons and defect spins in
-  silicon carbide.
-\newblock {\em Phys. Rev. Appl.}, 8:044015, Oct 2017.
-
-\bibitem{Wolfowicz2018}
-G.~Wolfowicz, S.~J. Whiteley, and D.~D. Awschalom.
-\newblock Electrometry by optical charge conversion of deep defects in 4h-sic.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  115(31):7879–7883, July 2018.
-
-\bibitem{PhysRevB.93.081207}
-\"O.~O. Soykal, Pratibha Dev, and Sophia~E. Economou.
-\newblock Silicon vacancy center in $4h$-sic: Electronic structure and
-  spin-photon interfaces.
-\newblock {\em Phys. Rev. B}, 93:081207, Feb 2016.
-
-\bibitem{Tarasenko2017}
-S.~A. Tarasenko, A.~V. Poshakinskiy, D.~Simin, V.~A. Soltamov, E.~N. Mokhov,
-  P.~G. Baranov, V.~Dyakonov, and G.~V. Astakhov.
-\newblock Spin and optical properties of silicon vacancies in silicon carbide
-  − a review.
-\newblock {\em physica status solidi (b)}, 255(1), September 2017.
-
-\bibitem{PhysRevApplied.10.044042}
-Fei-Fei Yan, Jun-Feng Wang, Qiang Li, Ze-Di Cheng, Jin-Ming Cui, Wen-Zheng Liu,
-  Jin-Shi Xu, Chuan-Feng Li, and Guang-Can Guo.
-\newblock Coherent control of defect spins in silicon carbide above 550 k.
-\newblock {\em Phys. Rev. Appl.}, 10:044042, Oct 2018.
-
-\bibitem{D3NR00430A}
-Qin-Yue Luo, Shuang Zhao, Qi-Cheng Hu, Wei-Ke Quan, Zi-Qi Zhu, Jia-Jun Li, and
-  Jun-Feng Wang.
-\newblock High-sensitivity silicon carbide divacancy-based temperature sensing.
-\newblock {\em Nanoscale}, 15:8432--8436, 2023.
-
-\bibitem{PhysRevB.91.155404}
-Junfeng Wang, Fupan Feng, Jian Zhang, Jihong Chen, Zhongcheng Zheng, Liping
-  Guo, Wenlong Zhang, Xuerui Song, Guoping Guo, Lele Fan, Chongwen Zou, Liren
-  Lou, Wei Zhu, and Guanzhong Wang.
-\newblock High-sensitivity temperature sensing using an implanted single
-  nitrogen-vacancy center array in diamond.
-\newblock {\em Phys. Rev. B}, 91:155404, Apr 2015.
-
-\bibitem{Quan:23}
-Wei-Ke Quan, Lin Liu, Qin-Yue Luo, Xiao-Di Liu, and Jun-Feng Wang.
-\newblock Fiber-coupled silicon carbide divacancy magnetometer and thermometer.
-\newblock {\em Opt. Express}, 31(10):15592--15598, May 2023.
+\bibitem{CASADY19961409}
+J.B. Casady and R.W. Johnson.
+\newblock Status of silicon carbide (sic) as a wide-bandgap semiconductor for
+  high-temperature applications: A review.
+\newblock {\em Solid-State Electronics}, 39(10):1409--1422, 1996.
 
 \bibitem{10.1093/nsr/nwab122}
 Qiang Li, Jun-Feng Wang, Fei-Fei Yan, Ji-Yang Zhou, Han-Feng Wang, He~Liu,
@@ -534,6 +463,77 @@ F.~Sardi, T.~Kornher, M.~Widmann, R.~Kolesov, F.~Schiller, T.~Reindl, M.~Hagel,
 \newblock Scalable production of solid-immersion lenses for quantum emitters in
   silicon carbide.
 \newblock {\em Applied Physics Letters}, 117(2), July 2020.
+
+\bibitem{Anisimov2016}
+A.~N. Anisimov, D.~Simin, V.~A. Soltamov, S.~P. Lebedev, P.~G. Baranov, G.~V.
+  Astakhov, and V.~Dyakonov.
+\newblock Optical thermometry based on level anticrossing in silicon carbide.
+\newblock {\em Scientific Reports}, 6(1), September 2016.
+
+\bibitem{PhysRevB.100.094104}
+A.~V. Poshakinskiy and G.~V. Astakhov.
+\newblock Optically detected spin-mechanical resonance in silicon carbide
+  membranes.
+\newblock {\em Phys. Rev. B}, 100:094104, Sep 2019.
+
+\bibitem{Liu2022}
+Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
+  Zhou, Wu-Xi Lin, Zhen-Xuan He, Wan Xu, Yu~Wei, Zheng-Hao Liu, Pu~Wang, Zhi-He
+  Hao, Jun-Feng Ding, Hai-Ou Li, Wen Liu, Hao Li, Lixing You, Jin-Shi Xu,
+  Eugene Gregoryanz, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Coherent control and magnetic detection of divacancy spins in silicon
+  carbide at high pressures.
+\newblock {\em Nano Letters}, 22(24):9943–9950, December 2022.
+
+\bibitem{PhysRevApplied.8.044015}
+Yu~Zhou, Junfeng Wang, Xiaoming Zhang, Ke~Li, Jianming Cai, and Weibo Gao.
+\newblock Self-protected thermometry with infrared photons and defect spins in
+  silicon carbide.
+\newblock {\em Phys. Rev. Appl.}, 8:044015, Oct 2017.
+
+\bibitem{Wolfowicz2018}
+G.~Wolfowicz, S.~J. Whiteley, and D.~D. Awschalom.
+\newblock Electrometry by optical charge conversion of deep defects in 4h-sic.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  115(31):7879–7883, July 2018.
+
+\bibitem{PhysRevB.93.081207}
+\"O.~O. Soykal, Pratibha Dev, and Sophia~E. Economou.
+\newblock Silicon vacancy center in $4h$-sic: Electronic structure and
+  spin-photon interfaces.
+\newblock {\em Phys. Rev. B}, 93:081207, Feb 2016.
+
+\bibitem{Tarasenko2017}
+S.~A. Tarasenko, A.~V. Poshakinskiy, D.~Simin, V.~A. Soltamov, E.~N. Mokhov,
+  P.~G. Baranov, V.~Dyakonov, and G.~V. Astakhov.
+\newblock Spin and optical properties of silicon vacancies in silicon carbide
+  − a review.
+\newblock {\em physica status solidi (b)}, 255(1), September 2017.
+
+\bibitem{PhysRevApplied.10.044042}
+Fei-Fei Yan, Jun-Feng Wang, Qiang Li, Ze-Di Cheng, Jin-Ming Cui, Wen-Zheng Liu,
+  Jin-Shi Xu, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Coherent control of defect spins in silicon carbide above 550 k.
+\newblock {\em Phys. Rev. Appl.}, 10:044042, Oct 2018.
+
+\bibitem{D3NR00430A}
+Qin-Yue Luo, Shuang Zhao, Qi-Cheng Hu, Wei-Ke Quan, Zi-Qi Zhu, Jia-Jun Li, and
+  Jun-Feng Wang.
+\newblock High-sensitivity silicon carbide divacancy-based temperature sensing.
+\newblock {\em Nanoscale}, 15:8432--8436, 2023.
+
+\bibitem{PhysRevB.91.155404}
+Junfeng Wang, Fupan Feng, Jian Zhang, Jihong Chen, Zhongcheng Zheng, Liping
+  Guo, Wenlong Zhang, Xuerui Song, Guoping Guo, Lele Fan, Chongwen Zou, Liren
+  Lou, Wei Zhu, and Guanzhong Wang.
+\newblock High-sensitivity temperature sensing using an implanted single
+  nitrogen-vacancy center array in diamond.
+\newblock {\em Phys. Rev. B}, 91:155404, Apr 2015.
+
+\bibitem{Quan:23}
+Wei-Ke Quan, Lin Liu, Qin-Yue Luo, Xiao-Di Liu, and Jun-Feng Wang.
+\newblock Fiber-coupled silicon carbide divacancy magnetometer and thermometer.
+\newblock {\em Opt. Express}, 31(10):15592--15598, May 2023.
 
 \bibitem{Balasubramanian2008}
 Gopalakrishnan Balasubramanian, I.~Y. Chan, Roman Kolesov, Mohannad Al-Hmoud,
