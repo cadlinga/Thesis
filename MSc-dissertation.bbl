@@ -146,6 +146,17 @@ V.~Nabokov.
 \newblock {\em THEORETICAL MODELS OF MBE}, page 111–209.
 \newblock Elsevier, 2002.
 
+\bibitem{Atkins2010-cg}
+Peter~W Atkins and Ronald~S Friedman.
+\newblock {\em Molecular Quantum Mechanics}.
+\newblock Oxford University Press, London, England, 5 edition, November 2010.
+
+\bibitem{VanOort1990}
+Eric Van~Oort and Max Glasbeek.
+\newblock Electric-field-induced modulation of spin echoes of n-v centers in
+  diamond.
+\newblock {\em Chemical Physics Letters}, 168(6):529–532, May 1990.
+
 \bibitem{Castelletto_2024}
 S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
 \newblock Quantum systems in silicon carbide for sensing applications.
@@ -176,21 +187,21 @@ Tianyu Xie, Zhiyuan Zhao, Xi~Kong, Wenchao Ma, Mengqi Wang, Xiangyu Ye, Pei Yu,
   solid-state spins.
 \newblock {\em Science Advances}, 7(32), August 2021.
 
-\bibitem{DiVincenzo1995}
-David~P. DiVincenzo.
-\newblock Quantum computation.
-\newblock {\em Science}, 270(5234):255–261, October 1995.
+\bibitem{Crawford2021}
+Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
+  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
+\newblock Quantum sensing for energy applications: Review and perspective.
+\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
 
 \bibitem{RevModPhys.89.035002}
 C.~L. Degen, F.~Reinhard, and P.~Cappellaro.
 \newblock Quantum sensing.
 \newblock {\em Rev. Mod. Phys.}, 89:035002, Jul 2017.
 
-\bibitem{Crawford2021}
-Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
-  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
-\newblock Quantum sensing for energy applications: Review and perspective.
-\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
+\bibitem{DiVincenzo1995}
+David~P. DiVincenzo.
+\newblock Quantum computation.
+\newblock {\em Science}, 270(5234):255–261, October 1995.
 
 \bibitem{Kraus2014}
 H.~Kraus, V.~A. Soltamov, F.~Fuchs, D.~Simin, A.~Sperlich, P.~G. Baranov, G.~V.

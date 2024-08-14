@@ -10,26 +10,34 @@
 \contentsline {todo}{Discuss why?}{6}{}%
 \contentsline {todo}{Change all J's above this to L's}{6}{}%
 \contentsline {todo}{Link section}{9}{}%
-\contentsline {todo}{Deduce Stark Effect Hamiltonian and write up}{13}{}%
-\contentsline {todo}{Figure: Diagram of possible SiC defects showing orientation/position within the lattice}{18}{}%
-\contentsline {todo}{Need to finish write up. }{21}{}%
-\contentsline {todo}{need to finish writing this}{22}{}%
-\contentsline {todo}{Finish typing - link in comments}{23}{}%
-\contentsline {todo}{Need to also look at this method and type up}{25}{}%
-\contentsline {todo}{ref correct hamiltonian}{25}{}%
-\contentsline {todo}{Add spin 3/2 matrices}{26}{}%
-\contentsline {todo}{find ref}{26}{}%
-\contentsline {todo}{Add hamiltonian matrix}{26}{}%
-\contentsline {todo}{link reference}{28}{}%
-\contentsline {todo}{Figure: Plot showing the crossing of EPR frequencies at high field and low field in Spin 3/2 system as theta varies}{28}{}%
-\contentsline {todo}{Distribute references properly}{29}{}%
-\contentsline {todo}{Update the T dependence of PL5 and PL6 and regen the figure. Also update temp linear range in figure caption.}{29}{}%
-\contentsline {todo}{Write up the Ramsey Interference methods for c-axis and basal from Castello p18}{29}{}%
-\contentsline {todo}{Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega $ and dicuss the diminishing returns when $B\neq 0$ or if $B \not \perp z$}{31}{}%
-\contentsline {todo}{Strain and applied $\vec {E}$ field are indistinguishable so can use $E$ techniques in shielded environment to determine strain.}{32}{}%
-\contentsline {todo}{When $B_0$ is smaller than ZFS E when the effects can be distinguished}{35}{}%
-\contentsline {todo}{Figure: 2 plots. Both of a basline energy graph and showing the similarity of T and parallel E, and B and perp E.}{35}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{38}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{39}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{39}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{40}{}%
+\contentsline {todo}{Deduce Stark Effect Hamiltonian and write up}{14}{}%
+\contentsline {todo}{ref perturbation theory section}{14}{}%
+\contentsline {todo}{Update notation here}{14}{}%
+\contentsline {todo}{Ref nuclear section}{15}{}%
+\contentsline {todo}{link section}{15}{}%
+\contentsline {todo}{link D E def}{15}{}%
+\contentsline {todo}{Explain or reference section 3.5 Mims}{15}{}%
+\contentsline {todo}{Track refs in git history}{16}{}%
+\contentsline {todo}{Figure: Diagram of possible SiC defects showing orientation/position within the lattice}{22}{}%
+\contentsline {todo}{Need to finish write up. }{25}{}%
+\contentsline {todo}{need to finish writing this}{26}{}%
+\contentsline {todo}{Finish typing - link in comments}{27}{}%
+\contentsline {todo}{Need to also look at this method and type up}{29}{}%
+\contentsline {todo}{ref correct hamiltonian}{29}{}%
+\contentsline {todo}{Add spin 3/2 matrices}{30}{}%
+\contentsline {todo}{find ref}{30}{}%
+\contentsline {todo}{Add hamiltonian matrix}{30}{}%
+\contentsline {todo}{link reference}{32}{}%
+\contentsline {todo}{Figure: Plot showing the crossing of EPR frequencies at high field and low field in Spin 3/2 system as theta varies}{32}{}%
+\contentsline {todo}{Distribute references properly}{33}{}%
+\contentsline {todo}{Font size}{33}{}%
+\contentsline {todo}{Update the T dependence of PL5 and PL6 and regen the figure. Also update temp linear range in figure caption.}{33}{}%
+\contentsline {todo}{Write up the Ramsey Interference methods for c-axis and basal from Castello p18}{33}{}%
+\contentsline {todo}{Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega $ and dicuss the diminishing returns when $B\neq 0$ or if $B \not \perp z$}{35}{}%
+\contentsline {todo}{Strain and applied $\vec {E}$ field are indistinguishable so can use $E$ techniques in shielded environment to determine strain.}{36}{}%
+\contentsline {todo}{When $B_0$ is smaller than ZFS E when the effects can be distinguished}{39}{}%
+\contentsline {todo}{Figure: 2 plots. Both of a basline energy graph and showing the similarity of T and parallel E, and B and perp E.}{39}{}%
+\contentsline {todo}{Figure: Add a figure to illustrate}{42}{}%
+\contentsline {todo}{Figure: Add a figure to illustrate}{43}{}%
+\contentsline {todo}{Figure: Add a figure to illustrate}{43}{}%
+\contentsline {todo}{Figure: Add a figure to illustrate}{44}{}%
