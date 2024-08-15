@@ -1,22 +1,20 @@
 \subsection{Magnetic Dipole}
-
 Classically, the magnetic dipole may be modelled as a closed loop that carries an
 electric current. 
-Its magnetic dipole moment, $\vec{\mu}$, is defined as the vector which points out of the plane
+Its \index{magnetic dipole moment}, $\vec{\mu}$, is defined as the vector which points out of the plane
 of the current loop, 
-
 \begin{equation}
     \vec{\mu} = IS \vec{n}
     \label{eq:dipole_moment}
 \end{equation}
-where $I$ is the current in the loop and $S$ is the surface area enclosed by the loop. 
+where $I$ is the current in, and $S$ the surface area enclosed by, the loop. 
 
-The magnetic dipole produces a magnetic field $\vec{B}$, which for points a large distance from the dipole may be calculated as \td{Type up derivation from David Tong notes?}:
+The \index{magnetic dipole} produces a magnetic field $\vec{B}$, which for points a large distance from the dipole may be calculated as \cite{}\tdr{reference an EM book}:
 $$\vec{B} = \frac{\mu_0}{4\pi} \frac{1}{r^3} \left[\frac{3(\vec{\mu} \cdot \vec{r}) \cdot \vec{r}}{r^2} - \vec{\mu}\right]$$
 
-The symmetry of the field enables us to, without any loss of generality, consider the direction of the dipole the $z$-axis. Then, defining $x,y$ as usual by $r \cos\theta$ and $r \sin\theta$ respectively. We may then consider magnetic field in two separate components, parallel ($B_z$) and perpendicular ($B_x, B_y$): 
+The symmetry of the field enables us to consider the direction of the dipole as aligned to the $z$-axis. Then, defining $x,y$ as usual by $r \cos\theta$ and $r \sin\theta$ respectively. We may decompose the \index{magnetic field} in two separate components, parallel ($B_z$) and perpendicular ($B_x, B_y$): 
 $$B_\parallel =\frac{\mu_0}{r^3}(3\cos^2 \theta - 1), \quad B_\perp = \frac{3\mu_0}{r^3}\cos\theta\sin\theta.$$
-Then, we may use the Pythagorean principle to determine the overall magnitude $B$ as
+Where we use the Pythagorean principle to determine the overall magnitude $B = |\vec{B}|$ as
 $$B = \sqrt{B_\parallel^2 + B_\perp^2}.$$
 
 

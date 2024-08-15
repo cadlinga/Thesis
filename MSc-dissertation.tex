@@ -26,7 +26,15 @@ twoside
 \newcommand{\tdr}[1]{\todo[color=red]{#1}}
 \newcommand{\tdg}[1]{\todo[color=green]{#1}}
 
+\usepackage{setspace}
+\doublespacing
+\usepackage{imakeidx}
+% \makeindex
+\makeindex[columns=2, title=Index of Terms, intoc]
 
+% \usepackage{hyperref}
+
+\RequirePackage[hidelinks]{hyperref} % 
 
 \begin{document}
 \thispagestyle{empty}
@@ -79,6 +87,7 @@ twoside
 % \input{Annex/example2.tex}
 % \input{Annex/pythonCode.tex}
 \nocite{*}
+\printindex
 \bibliography{ref}
 
 \end{document}

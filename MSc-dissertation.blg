@@ -5,10 +5,6 @@ The style file: unsrt.bst
 Database file #1: ref.bib
 Warning--I'm ignoring LevineTurnerKehayiasHartLangellierTrubkoGlennFuWalsworth+2019+1945+1973's extra "title" field
 --line 52 of file ref.bib
-Repeated entry---line 1290 of file ref.bib
- : @article{Quan:23
- :                 ,
-I'm skipping whatever remains of this entry
 Warning--empty journal in electron-g-factor
 Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
 while executing---line 944 of file unsrt.bst
@@ -16,45 +12,45 @@ Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leun
 while executing---line 944 of file unsrt.bst
 Warning--empty journal in arxiv.1503.07566
 Warning--empty journal in 1505.06914
-You've used 102 entries,
+You've used 107 entries,
             1791 wiz_defined-function locations,
-            1084 strings with 29218 characters,
-and the built_in function-call counts, 28449 in all, are:
-= -- 1899
-> -- 2413
+            1109 strings with 30268 characters,
+and the built_in function-call counts, 29542 in all, are:
+= -- 1970
+> -- 2506
 < -- 1
-+ -- 840
-- -- 738
-* -- 2766
-:= -- 5051
-add.period$ -- 312
-call.type$ -- 102
-change.case$ -- 94
++ -- 873
+- -- 766
+* -- 2866
+:= -- 5251
+add.period$ -- 327
+call.type$ -- 107
+change.case$ -- 98
 chr.to.int$ -- 0
-cite$ -- 105
-duplicate$ -- 918
-empty$ -- 2211
-format.name$ -- 738
-if$ -- 5812
+cite$ -- 110
+duplicate$ -- 961
+empty$ -- 2298
+format.name$ -- 766
+if$ -- 6036
 int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 110
-newline$ -- 514
-num.names$ -- 103
-pop$ -- 174
+int.to.str$ -- 107
+missing$ -- 116
+newline$ -- 539
+num.names$ -- 108
+pop$ -- 184
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 356
+skip$ -- 373
 stack$ -- 0
-substring$ -- 1572
-swap$ -- 118
+substring$ -- 1590
+swap$ -- 123
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 171
-width$ -- 105
-write$ -- 1119
-(There were 3 error messages)
+while$ -- 177
+width$ -- 110
+write$ -- 1174
+(There were 2 error messages)

@@ -146,16 +146,38 @@ V.~Nabokov.
 \newblock {\em THEORETICAL MODELS OF MBE}, page 111–209.
 \newblock Elsevier, 2002.
 
-\bibitem{Atkins2010-cg}
-Peter~W Atkins and Ronald~S Friedman.
-\newblock {\em Molecular Quantum Mechanics}.
-\newblock Oxford University Press, London, England, 5 edition, November 2010.
+\bibitem{Davidsson2018}
+Joel Davidsson, Viktor Ivády, Rickard Armiento, N~T Son, Adam Gali, and Igor~A
+  Abrikosov.
+\newblock First principles predictions of magneto-optical data for
+  semiconductor point defect identification: the case of divacancy defects in
+  4h–sic.
+\newblock {\em New Journal of Physics}, 20(2):023035, February 2018.
+
+\bibitem{mims}
+W~B Mims.
+\newblock {\em The linear electric field effect in paramagnetic resonance}.
+\newblock Oxford University Press, London, England, September 1976.
 
 \bibitem{VanOort1990}
 Eric Van~Oort and Max Glasbeek.
 \newblock Electric-field-induced modulation of spin echoes of n-v centers in
   diamond.
 \newblock {\em Chemical Physics Letters}, 168(6):529–532, May 1990.
+
+\bibitem{Acosta2012}
+V.~M. Acosta, C.~Santori, A.~Faraon, Z.~Huang, K.-M.~C. Fu, A.~Stacey, D.~A.
+  Simpson, K.~Ganesan, S.~Tomljenovic-Hanic, A.~D. Greentree, S.~Prawer, and
+  R.~G. Beausoleil.
+\newblock Dynamic stabilization of the optical resonances of single
+  nitrogen-vacancy centers in diamond.
+\newblock {\em Physical Review Letters}, 108(20), May 2012.
+
+\bibitem{Bassett2011}
+L.~C. Bassett, F.~J. Heremans, C.~G. Yale, B.~B. Buckley, and D.~D. Awschalom.
+\newblock Electrical tuning of single nitrogen-vacancy center optical
+  transitions enhanced by photoinduced fields.
+\newblock {\em Physical Review Letters}, 107(26), December 2011.
 
 \bibitem{Castelletto_2024}
 S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
@@ -671,5 +693,15 @@ John~A. Weil and James~R. Bolton.
 J.~Wrachtrup, C.~von Borczyskowski, J.~Bernard, M.~Orrit, and R.~Brown.
 \newblock Optical detection of magnetic resonance in a single molecule.
 \newblock {\em Nature}, 363(6426):244–245, May 1993.
+
+\bibitem{Atkins2010-cg}
+Peter~W Atkins and Ronald~S Friedman.
+\newblock {\em Molecular Quantum Mechanics}.
+\newblock Oxford University Press, London, England, 5 edition, November 2010.
+
+\bibitem{Klimov2014}
+P. V. Klimov, A. L. Falk, B. B. Buckley, and D. D. Awschalom.
+\newblock Electrically driven spin resonance in silicon carbide color centers.
+\newblock {\em Physical Review Letters}, 112(8), February 2014.
 
 \end{thebibliography}

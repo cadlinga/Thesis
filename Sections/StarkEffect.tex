@@ -1,44 +1,44 @@
+% \section{Stark Effect}
+% \tdr{Deduce Stark Effect Hamiltonian and write up}
+% The classical energy of an electric dipole $\vec{d} = e\vec{r}$ in an electric field $\vec{E}$ is given by \cite{Atkins2010-cg}
+% \begin{equation}
+%     E = \vec{d} \cdot \vec{E}.
+%     % \label{eq:}
+% \end{equation}
+% % Considering the components of the electric dipole as $\vec{d} = d_x \vec{x} + d_y \vec{y} + d_z \vec{z}$ and of the electric field as $\vec{E} = E_x \vec{x} + E_y \vec{y} + E_z \vec{z}$ we find  
+%
+% As we did in section \ref{}\td{ref perturbation theory section} we will perturb the potential using $H' = \vec{d} \cdot \vec{E}$. 
+% To simplify the calculation we will assume the $\vec{E}$ field is applied along the $z$ axis  i.e.
+% \begin{equation}
+%     H' = -\mu_z \mathcal{E}
+%     \label{eq:simplified_electric_potential}
+% \end{equation}
+% \td{Update notation here}
+%
+% Thus for we find for the ground state
+% \begin{equation}
+%         E_0 = E_0^{(0)} - \braket{0 | H' | 0} + \sum_n \frac{\braket{0 | H' | n }\braket{n | H' | 0}}{E_0^{(0)} - E_n^{(0)}}
+%     \label{eq:stark_ground_state_perturbation}
+% \end{equation}
+% and we may compute the first and second order effect. 
+%
+% \subsubsection{First Order}
+% Substituting \ref{eq:simplified_electric_potential} into \ref{eq:stark_ground_state_perturbation} in the first order terms we find 
+% \begin{equation}
+%     \braket{0 | H' | 0} = -\mathcal{E} \braket{ 0 | \mu_Z | 0 }. 
+%     \label{eq:}
+% \end{equation}
+%
+% \subsubsection{Second Order}
+% Similarly, substituting \ref{eq:simplified_electric_potential} into \ref{eq:stark_ground_state_perturbation} in the second order terms we find 
+% \begin{equation}
+%     \sum_n \frac{\braket{0 | H' | n }\braket{n | H' | 0}}{E_0^{(0)} - E_n^{(0)}} = \mathcal{E}^2\left(\sum_n \frac{\braket{0 | \mu_z | n }\braket{n | \mu_z | 0}}{E_0^{(0)} - E_n^{(0)}}\right) 
+%     \label{eq:}
+% \end{equation}
+%
+%
+%
 \section{Stark Effect}
-\tdr{Deduce Stark Effect Hamiltonian and write up}
-The classical energy of an electric dipole $\vec{d} = e\vec{r}$ in an electric field $\vec{E}$ is given by \cite{Atkins2010-cg}
-\begin{equation}
-    E = \vec{d} \cdot \vec{E}.
-    % \label{eq:}
-\end{equation}
-% Considering the components of the electric dipole as $\vec{d} = d_x \vec{x} + d_y \vec{y} + d_z \vec{z}$ and of the electric field as $\vec{E} = E_x \vec{x} + E_y \vec{y} + E_z \vec{z}$ we find  
-
-As we did in section \ref{}\td{ref perturbation theory section} we will perturb the potential using $H' = \vec{d} \cdot \vec{E}$. 
-To simplify the calculation we will assume the $\vec{E}$ field is applied along the $z$ axis  i.e.
-\begin{equation}
-    H' = -\mu_z \mathcal{E}
-    \label{eq:simplified_electric_potential}
-\end{equation}
-\td{Update notation here}
-
-Thus for we find for the ground state
-\begin{equation}
-        E_0 = E_0^{(0)} - \braket{0 | H' | 0} + \sum_n \frac{\braket{0 | H' | n }\braket{n | H' | 0}}{E_0^{(0)} - E_n^{(0)}}
-    \label{eq:stark_ground_state_perturbation}
-\end{equation}
-and we may compute the first and second order effect. 
-
-\subsubsection{First Order}
-Substituting \ref{eq:simplified_electric_potential} into \ref{eq:stark_ground_state_perturbation} in the first order terms we find 
-\begin{equation}
-    \braket{0 | H' | 0} = -\mathcal{E} \braket{ 0 | \mu_Z | 0 }. 
-    \label{eq:}
-\end{equation}
-
-\subsubsection{Second Order}
-Similarly, substituting \ref{eq:simplified_electric_potential} into \ref{eq:stark_ground_state_perturbation} in the second order terms we find 
-\begin{equation}
-    \sum_n \frac{\braket{0 | H' | n }\braket{n | H' | 0}}{E_0^{(0)} - E_n^{(0)}} = \mathcal{E}^2\left(\sum_n \frac{\braket{0 | \mu_z | n }\braket{n | \mu_z | 0}}{E_0^{(0)} - E_n^{(0)}}\right) 
-    \label{eq:}
-\end{equation}
-
-
-
-\section{Stark Effect (Group Theory)}
 For our Spin Hamiltonian given by 
 \begin{equation}
     \begin{align}
@@ -47,13 +47,13 @@ For our Spin Hamiltonian given by
     \end{align}
     % \label{eq:}
 \end{equation}
-In the most general sense, an applied electrical field change any of the parameters. We will not consider the effect of an applied electrical field on the nuclear Zeeman term as the nuclear is paramagnetically shielded. Thus, in a general sense we may add the contributions of an applied electrical field $\vec{E}$ as $H + H_{\ce{Stark}}$ where 
+In the most general sense, an applied electrical field could change any of the parameters. We will not consider the effect of an applied electrical field on the nuclear Zeeman term as the nuclear is paramagnetically shielded \tdr{Reference shielded claim}. Thus, in a general sense we may add the contributions of an applied electrical field $\vec{E}$ as $H + H_{\ce{Stark}}$ where 
 \begin{equation}
     H_{\ce{Stark}} = \vec{E}\cdot\left(\hat{\vec{S}}\cdot R \cdot \hat{\vec{S}} + T \mu_B \hat{\vec{S}}\cdot \vec{B} + \hat{\vec{S}}\cdot F \cdot \hat{\vec{I}} + \hat{\vec{I}} \cdot q \cdot \hat{\vec{I}} \right). 
     \label{eq:}
 \end{equation}%
 
-Here $R, T, F q$ are matrices for each component of the electric field given by 
+Here $R, T, F, q$ are matrices for each component of the electric field given by 
 \begin{equation}
     R_{ijk} = \frac{\partial D_{jk}}{\partial E_i}, \quad 
     T_{ijk} = \frac{\partial g_{jk}}{\partial E_i}, \quad 
@@ -62,17 +62,17 @@ Here $R, T, F q$ are matrices for each component of the electric field given by
     \label{eq:}
 \end{equation}
 
-We immediately simplify at least the $T$ term as for this work we assume isotropic and constant $g$ thus in all cases $T$ is zero.  
+We may immediately simplify $T$ term as for this work we assume isotropic and constant $g$, for which $T$ is zero.  
 
-Also, as discussed in section \ref{}\td{Ref nuclear section} for this work any change in the nuclear Hamiltonian will represent a global shift of the energy spectra in EPR and is therefore not relevant. 
+Further, as discussed in section \ref{nuclear} for this work we will not include the contributions of the nuclear Hamiltonians. 
 
-This allows us to then consider, in the Spin Hamiltonian, only the energy change due to the shift in the $D$ parameter, that is the values of $R$. 
+This allows us to then consider only the energy change due to the shift in the $D$ parameter, that is the values of $R$; $R$ is a square matrix for each component of the applied $\vec{E}$. 
+Exactly as we did for ZFS in section \ref{zfs}, we may reduce each of these symmetric matrices to a traceless form. 
+% Here we define $D$ and $E$ in exactly the same way as \ref{}\td{link D E def}. 
 
-We can consider $R$ as a square matrix for each component of the applied $\vec{E}$. Exactly as we did for ZFS in section \ref{}\td{link section}, we may reduce each of these matrices to a symmetric and traceless form. Here we define $D$ and $E$ in exactly the same way as \ref{}\td{link D E def}. 
+% Additionally, each matrix $R$ must be symmetric, that is $R^T = R$ since the matrix $D$ in the ZFS Hamiltonian is always symmetric. 
 
-Additionally, each matrix $R$ must be symmetric, that is $R^T = R$, \td{Explain or reference section 3.5 Mims}
-
-Now consider the expansion of $\hat{\vec{S}}\cdot R \cdot \hat{\vec{S}}$ which is given explicitly for $S=1$ as 
+Consider the expansion of $\hat{\vec{S}}\cdot R \cdot \hat{\vec{S}}$ which we calculate explicitly 
 \begin{equation}
     \begin{align}
         \hat{\vec{S}}\cdot R \cdot \hat{\vec{S}} &= 
@@ -92,12 +92,12 @@ Now consider the expansion of $\hat{\vec{S}}\cdot R \cdot \hat{\vec{S}}$ which i
          &= R_{xx} \hat{S}_x^2  + R_{yy} \hat{S}_y^2 + R_{zz} \hat{S}_z^2 \\
          &+   R_{xy}(\hat{S}_{x}\hat{S}_y + \hat{S}_y \hat{S}_x) 
         +   R_{xz}(\hat{S}_{x}\hat{S}_z + \hat{S}_z \hat{S}_x) 
-        +   R_{yz}(\hat{S}_{y}\hat{S}_z + \hat{S}_z \hat{S}_y) 
+        +   R_{yz}(\hat{S}_{y}\hat{S}_z + \hat{S}_z \hat{S}_y).
     \end{align}
     \label{eq:}
 \end{equation}
 
-As described above, we set the constant trace equal to zero as for ZFS and rewrite the $R_{xx} \hat{S}_x^2  + R_{yy} \hat{S}_y^2 + R_{zz} \hat{S}_z^2$ as $R_D \left(\hat{S}_z^2 - \frac{1}{3}S(S+1)\right) + R_E\left(\hat{S}_x^2 - \hat{S}_y^2\right)$. Where $R_D$ and $R_E$ are defined in terms of $R$ the same way $D$ and $E$ are in terms of $D$. 
+We set the constant trace equal to zero and rewrite the $R_{xx} \hat{S}_x^2  + R_{yy} \hat{S}_y^2 + R_{zz} \hat{S}_z^2$ as $R_D \left(\hat{S}_z^2 - \frac{1}{3}S(S+1)\right) + R_E\left(\hat{S}_x^2 - \hat{S}_y^2\right)$. Where $R_D$ and $R_E$ are defined in terms of $R$ the same way $D$ and $E$ are in terms of $D$ (see \ref{fs_D}, \ref{fs_E}). 
 
 Then, we may write $H_{\ce{Stark}}$ in this basis as 
 \begin{equation}
@@ -110,7 +110,7 @@ Then, we may write $H_{\ce{Stark}}$ in this basis as
     \label{eq:}
 \end{equation}
 
-The final step is to apply symmetry arguments, which in the case of $C_{3v}$ as required for this work reduces the Hamiltonian again to 
+The final step is to reduce the number of coefficients by exploiting the symmetry of the system. This work explore systems with point group symmetry of $C_{3v}$ \cite{Davidsson2018} which reduces the Hamiltonian again to \cite{mims}
 \begin{equation}
     \begin{align}
         H_{\ce{Stark}} &= R_{113}\left(E_x (\hat{S}_x\hat{S}_y + \hat{S}_z\hat{S}_x) + E_y(\hat{S}_y\hat{S}_z + \hat{S}_z\hat{S}_y) \right) \\ 
@@ -121,9 +121,9 @@ The final step is to apply symmetry arguments, which in the case of $C_{3v}$ as 
 \end{equation}
 
 
-Finally, the coefficient $R_{113}$ represents a mixing of the $m_S = 0$ and $m_S = \pm 1$ states which have an energy splitting of $\mathcal{O}(10^9)$ Hz. The Stark energies are $\sim \mathcal{O} (10^3)$Hz and of at least second order, thus may be ignored \cite{VanOort1990}.  
+The coefficient $R_{113}$ represents a mixing of the $m_S = 0$ and $m_S = \pm 1$ states which have an energy splitting of $\mathcal{O}(10^9)$ Hz. The Stark energies are $\sim \mathcal{O} (10^3)$ Hz and of at least second order, thus may be ignored \cite{VanOort1990}.  
 
-This allows us to write our Hamiltonian in the final form as 
+Thus finally, we write our Stark Hamiltonian as 
 
 \begin{equation}
     \begin{align}
@@ -134,11 +134,11 @@ This allows us to write our Hamiltonian in the final form as
     \label{eq:stark_hamiltonian}
 \end{equation}
 
-where we have the axial contribution as $d_\parallel$ and the off-axis contribution as $d_\perp$ to match the convention of existing literature. 
+where we have labelled the axial contribution as $d_\parallel$ and the off-axis contribution as $d_\perp$ to match the convention of existing literature. 
 
-By direct comparison to \ref{eq:ZFS_hamiltonian} it is easy to see the first two terms of $\ref{eq:stark_hamiltonian}$ will contribute to the effective ZFS.  
+By direct comparison to \eqref{eq:ZFS_hamiltonian} it is easy to see the first two terms of $\eqref{eq:stark_hamiltonian}$ will contribute to the effective ZFS.  
 
-In general longitudinal fields along the defect’s symmetry axis result in equal shifts of all levels, whereas transverse fields split the orbitals into two branches whose energy difference grows with increasing field. \td{Track refs in git history}
+In general longitudinal fields along the defect’s symmetry axis result in equal shifts of all levels, whereas transverse fields split the orbitals into two branches whose energy difference grows with increasing field \cite{Acosta2012, Bassett2011}. This allows the parameters $d_\perp$ and $d_\parallel$ to be measured experimentally. 
 
 % The spacings
 % between ground-state sublevels remain relatively unaf-
