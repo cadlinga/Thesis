@@ -1,5 +1,5 @@
-\chapter{Design}
-In this chapter we will provide an overview of how the defects in SiC can be used for magnetometry, thermometry and electrometry in isolation. We will then develop a framework where by combining specific defects we may simultaneously measure multiple parameters. 
+\chapter{Design}\label{ch:design}
+In this chapter we will provide an overview of how the defects in SiC can be used for \index{magnetometry}{magnetometry}, \index{thermometry}{thermometry} and \index{electrometry}{electrometry} in isolation. We will then develop a framework where by combining specific defects we may simultaneously measure multiple parameters. 
 
 \section{$S=1$ Magnetometry}
 We begin by considering a triplet state, that is a $S=1$ system. 
@@ -45,27 +45,7 @@ we find
     \label{eq:reduced_H_NV}
 \end{equation}
 
-The $S=1$ spin operators $S_j$ in matrix representation are 
-\begin{equation}
-    S_x = \frac{1}{\sqrt{2}} \begin{pmatrix}
-        0 & 1 & 0 \\ 
-        1 & 0 & 1 \\ 
-        0 & 1 & 0
-    \end{pmatrix}, 
-    S_y = \frac{i}{\sqrt{2}} \begin{pmatrix}
-        0 & -1 & 0 \\ 
-        1 & 0 & -1 \\ 
-        0 & 1 & 0
-    \end{pmatrix}, 
-    S_z = \frac{1}{\sqrt{2}} \begin{pmatrix}
-        1 & 0 & 0 \\ 
-        0 & 0 & 0 \\ 
-        0 & 0 & -1
-    \end{pmatrix}. 
-    \label{eq:spin_operators}
-\end{equation}
-
-Then, aligning the magnetic field (with strength $B_0$) along the $z$-axis (the quantisation axis), the reduced Hamiltonian will have the form 
+the $S=1$ spin operators \eqref{eq:s1_spin_operators}, then aligning the magnetic field (with strength $B_0$) along the $z$-axis (the quantisation axis), the reduced Hamiltonian will have the form 
 \begin{equation}
     H_{} = \begin{pmatrix}
         D + B_0 & 0 & E \\ 
@@ -146,16 +126,23 @@ $$f_1 = D + \gamma B_0,  \quad f_2 = D - \gamma B_0$$
 It is then straightforward to calculate $B_0$ using 
 $$B_0 = \frac{f_1 - f_2}{2 \gamma} $$
 which is visualised for the DNV system in figure \ref{fig:spin1_magnetometry}. 
+% \begin{wrapfigure}{r}{0.5\textwidth}%
+%     \centering%
+%     \includegraphics[width=0.5\textwidth]{figures/NVlevelwithESR.png}
+%     % \includegraphics[width=0.38\textwidth]{figures/SiC-non-equiv-sites.pdf}%
+%   \caption{Magnetometry with $\theta = 0$. Left shows the lifting of degeneracy of the spin system energy levels with the applied $\vec{B}$ field. Right shows the corresponding ODMR spectra and two EPR frequencies \cite{dnvweb}. \td{better caption}}%
+% \label{fig:spin1_magnetometry}
+% \end{wrapfigure}
 
 \begin{figure}[h]
     \begin{center}
-    \includegraphics[width=0.7\textwidth]{figures/NVlevelwithESR.png}
+    \includegraphics[width=0.7\textwidth]{figures/DNV-ODMR.pdf}
 % \missingfigure{Two panel figure. Panel 1 - energy level splitting of S=1 system being prop to gyromagnetic ratio. Panel 2 - ODMR Spectra} 
     \end{center}
-    \caption{Magnetometry with $\theta = 0$. Left shows the lifting of degeneracy of the spin system energy levels with the applied $\vec{B}$ field. Right shows the corresponding ODMR spectra and two EPR frequencies \cite{dnvweb}. }
+    \caption{ODMR Magnetometry with $\theta = 0$. Degeneracy of the spin system energy levels is lifted with the applied $\vec{B}$ field \cite{Strner2021}. }
 \label{fig:spin1_magnetometry}
 \end{figure}
-
+%
 
 \subsubsection{$\vec{B}$ at Angle $\theta$ to Defect Axis}
 The Zeeman effect is proportional to $\cos\theta$, thus, when $\vec{B}$ is perpendicular to the defect axis the Zeeman effect reduces to zero, varying the azimuthal angle $\theta$ is effectively the same as scaling $B_0$ by $\cos \theta$. 
@@ -163,7 +150,7 @@ The Zeeman effect is proportional to $\cos\theta$, thus, when $\vec{B}$ is perpe
 \begin{figure}[h]
     \begin{center}
  % /        \missingfigure{ODMR or Energy Eigenvalues plot for $\theta = 0, 30, 60, 90$ showing the effective reduction of applied parallel field.}
-    \includegraphics[width=0.95\textwidth]{figures/PL6ODMRSpectra_theta_0_to_90.png}
+    \includegraphics[width=\textwidth]{figures/PL6ODMRSpectra_theta_0_to_90.png}
     \end{center}
     \caption{ODMR/Energy level plot showing the reduction of the effective parallel $\vec{B}$ field with increasing $\theta$.} 
     \label{fig:}
@@ -194,7 +181,6 @@ The ODMR sprectrum for a sample of diamond with approximately equal distribution
 The measured field components $m_i$ do not directly give the magnetic field $B_i$, but are affected by some noise in-
 herent to the measurement which is accounted for using a maximum-likelihood method. 
 
-\lipsum[1-6]
 % The direction of $\vec{B}$ relative to the crystal lattice can then be determined by solving 
 % \begin{equation}
 %     \underbrace{
@@ -438,10 +424,6 @@ B0 and θ without ambiguity.
 
 % \cite{Kraus2014}
 
-\section{Sensing Pressure*}
-\cite{doi:10.1021/acs.nanolett.2c03378}
-\cite{PhysRevLett.112.087601}
-\cite{PhysRevLett.112.187601}
 
 \section{$S=1$ Thermometry}
 \cite{Chen2011}
@@ -470,7 +452,7 @@ This work will focus on the first method of thermometry. Unlike $\vec{B}$ and $\
 For SiC divacancies, which are triplet states, the ZFS parameter $E$ shows no dependence on temperature. However, the ZFS parameter $D$ varies with temperature. 
 
 The value of $D$ for both the PL5 and PL6 defects in SiC has been measured from close to $0$K to around $550$K and the dependence of $D$ has been fitted to the change in temperature. 
-Both defects show an approximately linear relationship near room temperature which is shown in Figure \ref{fig:PL5PL6DvsT}
+Both defects show an approximately linear relationship near room temperature which is shown in Figure \ref{fig:PL5PL6DvsT}.
 \td{Font size}
 \begin{figure}[h]
     \begin{center}
@@ -501,19 +483,15 @@ This is visualised in figure \ref{fig:pl6-3temps}.
 \end{figure}
 
 In practice this \td{Write up the Ramsey Interference methods for c-axis and basal from Castello p18}. 
-\lipsum[1]
 
 \section{$S= 3/2$ Thermometry}
-\lipsum[3-5]
 
 \section{$S = 1$ Electometry}
 \todo[inline]{Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega$ and dicuss the diminishing returns when $B\neq0$ or if $B \not\perp z$}
 
 \section{$S=3/2$ Electrometry}
 
-\section{Sensing Strain*}
-\lipsum[1-3]
-\td{Strain and applied $\vec{E}$ field are indistinguishable so can use $E$ techniques in shielded environment to determine strain.}
+
 
 
 \section{Multimodality}
@@ -522,15 +500,12 @@ To develop our multimodal system we will start with a very simple model with the
 
 \subsection{$|\vec{B}|$ and $T$}
 \cite{Degen2008}
-\lipsum[1-4]
 
 \subsection{Angle Resolved $|\vec{B}|$ and $T$}
 % We show that uniaxial color centers in silicon carbide with hexagonal lattice structure can be used to measure not only the strength but also the polar angle of the external magnetic field with respect to the defect axis with high precision. 
 \cite{PhysRevApplied.4.014009}
-\lipsum[1-4]
 
 \subsection{$\vec{B}$ and $T$}
-\lipsum[1-4]
 
 
 \subsection{$|\vec{B}|$, $|\vec{E}|$ and $T$}
@@ -548,10 +523,8 @@ The influence of an $\vec{E}$ field parallel to the defect axis is indistinguish
 Thus, to extend the multi-modality to include the $\vec{E}$ field we must isolate the influence of the $\vec{E}$ field from the other environmental factors. 
 
 
-\lipsum[1-4]
 
 \subsection{$\vec{B}$, $\vec{E}$ and $T$}
-\lipsum[1-8]
 %
 % This section should be written in standard scientific
 % language. Standard techniques in your research field should not be

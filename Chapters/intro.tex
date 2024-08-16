@@ -1,5 +1,4 @@
 \chapter{Introduction}
-
 % The Introduction should contain a description of your project and the
 % problem you are trying to solve. It should start off at a level that
 % should be understandable by anyone with a degree in physics, but it
@@ -54,12 +53,13 @@ The nitrogen-vacancy (NV) centre in diamond is the most comprehensively studied 
 
 The NV centre is favoured for it's for its excellent quantum properties, but
 % which include a strong optically detected magnetic resonance (ODMR) contrast and long coherence time in the room temperature regime
-drawbacks of the system are a lack of established nanotechnology and the fluorescence wavelength of the NV centre, which is in the visible range and limits its wider applications \cite{Koehl2011, Christle2014, Widmann2014} \td{Develop introduction - merge lower paragraphs into this one}. 
+drawbacks of the system are a lack of established nanotechnology and the fluorescence wavelength of the NV centre, which is in the visible range and limits its wider applications \cite{Koehl2011, Christle2014, Widmann2014} 
+
 % This is a good resource 
 % https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2023.1270602/full
 
 The field of spectroscopy studies the way atoms and molecules interact with and exchange energy with a wider physical system - specifically through electromagnetic radiation. The electric field interacts with with the electric dipole moment and the magnetic field interacts with a magnetic dipole moment.
-Magnetic resonance spectroscopy focusses specifically on the interaction between the $\mathbf{B}$ field with magnetic moments which exist in a given material. This can be broken into two distinct fields:
+Magnetic resonance spectroscopy focusses specifically on the interaction between the $\vec{B}$ field with magnetic moments which exist in a given material. This can be broken into two distinct fields:
 
 \begin{description}
 	\item [Nuclear Magnetic Resonance (NMR)] which studies the interaction with nuclear magnetic moments.
@@ -78,20 +78,19 @@ Careful construction of an appropriate system, or identification of a system wit
 
 % The ability to efficiently control spin states is the goal of semiconductor spintronics.  
 % The properties of nitrogen-vacancy (NV) colour centres in diamond have catalysed major development in the field.
-With ODMR of the NV centre in diamond the manipulation of spin states in single, atomic-sized centres at room temperature has been demonstrated despite spin polarisation being a primarily thermodynamic effect (see section \ref{})\td{need a reference for the thermodynamic comment}.\tdr{reference diamond claim}
+With ODMR of the NV centre in diamond the manipulation of spin states in single, atomic-sized centres at room temperature has been demonstrated \cite{Levine} despite spin polarisation being a primarily thermodynamic effect (see section \ref{spin_polarisation}).
 This is possible since optical excitation of the energy levels decay faster via a spin-preserving transition, leading to an inverse population of spin sublevels in its ground state when the system is irradiated consistently for several excitation/decay cycles.
 
 This prompted the search for other structures with similar unique quantum properties. Silicon carbide (SiC) is a promising candidate (discussed in detail in section \ref{SiC}). A major benefit of SiC is the existence of various polytypes, which each exhibit unique spin colour centre properties. Furthermore, even within a single polytype, these centres can occupy distinct and non-equivalent lattice positions.
 The existence of these colour centres with similar properties but different energy quanta allows for selection of a specific defect with parameters suitable for the problem at hand. 
-\tdr{reference polytope and non-equiv claim}
 
 EPR spectroscopy can be approached by different methods, relevant to this work:
 % \tdg{Consider writing a paragraph on ENDOR - only if relevant later in the project.}
 \begin{description}
 	\item [Continuous Wave (CW)] where the magnitude of the static magnetic field ($B_0$) is swept, while the
 	      amplitude of the driving field $B_1$ is constant with time.
-	\item [Pulsed] where a time-dependent driving pulse $B_1$ is applied in
-        addition to a static magnetic field $B_0$ \cite{Baranov2017-bv}.
+	% \item [Pulsed] where a time-dependent driving pulse $B_1$ is applied in
+        % addition to a static magnetic field $B_0$ \cite{Baranov2017-bv}.
 	      % \td{Need to write a section on using Pulsed EPR to measure relaxation timescales?}
 
 
@@ -104,18 +103,15 @@ EPR spectroscopy can be approached by different methods, relevant to this work:
         \end{enumerate}
 \end{description}
 
-This work looks to explore how the physical characteristics which influence the Spin Hamiltonian and thus the energy of the electron spin may be inferred by measuring the effects of those characteristics on the EPR of the specific system. Further, it will look to explore whether the compound effect of multiple influences may be disentangled and measured simultaneously - so called multi-modal sensing.
+This work looks to explore how the physical characteristics which influence the Spin Hamiltonian and thus the energy of the electron spin system may be inferred by measuring the effects of those characteristics on the EPR of that system. Further, it will look to explore whether the compound effect of multiple influences may be disentangled and measured simultaneously - so called multi-modal sensing.
+\todo[inline, color=red]{Write introduction chapter summary}
 
-Chapter 1 gives... 
-\lipsum[2]
+Chapter \ref{ch:background} gives...
 
-In Chapter 2 we... 
-\lipsum[2]
+In Chapter \ref{ch:design} we... 
 
-Then, in Chapter 3 we... 
-\lipsum[3]
+Then, in Chapter \ref{ch:results} we... 
 
-Finally we will ... 
-\lispum[4]
+Finally we conclude in Chapter \ref{ch:conclusions} 
 
 

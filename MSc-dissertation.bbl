@@ -1,12 +1,19 @@
 \begin{thebibliography}{100}
 
-\bibitem{dnvweb}
-Toeno van~der Sar.
-\newblock Magnetometry with spins in diamond.
-\newblock Measuring a magnetic field with NV spins. Measuring a magnetic field
-  with NV spins - Magnetometry with spins in diamond. (n.d.).
-  \url{https://magnetometryrp.quantumtinkerer.tudelft.nl/3_NVspin/ }.
-\newblock [Accessed 05-08-2024].
+\bibitem{SpinStates}
+Jeannine Gr\"{u}ne.
+\newblock {\em Spin States and Efficiency-Limiting Pathways in Optoelectronic
+  Materials and Devices}.
+\newblock PhD thesis, 2022.
+
+\bibitem{Strner2021}
+Felix~M. St\"{u}rner, Andreas Brenneis, Thomas Buck, Julian Kassel, Robert
+  R\"{o}lver, Tino Fuchs, Anton Savitsky, Dieter Suter, Jens Grimmel, Stefan
+  Hengesbach, Michael F\"{o}rtsch, Kazuo Nakamura, Hitoshi Sumiya, Shinobu
+  Onoda, Junichi Isoya, and Fedor Jelezko.
+\newblock Integrated and portable magnetometer based on nitrogen‐vacancy
+  ensembles in diamond.
+\newblock {\em Advanced Quantum Technologies}, 4(4), February 2021.
 
 \bibitem{pham}
 Linh Pham, Nir Bar-Gill, David Le~Sage, A.~Stacey, M.~Markham, Daniel Twitchen,
@@ -97,12 +104,12 @@ J.~K\"{o}hler, J.~A. J.~M. Disselhorst, M.~C. J.~M. Donckers, E.~J.~J. Groenen,
 \newblock Magnetic resonance of a single molecular spin.
 \newblock {\em Nature}, 363(6426):242–244, May 1993.
 
-\bibitem{Baranov2017-bv}
-Pavel~Baranov Baranov, Hans~Jurgen Von~Bardeleben, Fedor Jelezko, and Jorg
-  Wrachtrup.
-\newblock {\em Magnetic resonance of semiconductors and their nanostructures}.
-\newblock Springer series in materials science. Springer, Vienna, Austria, 1
-  edition, March 2017.
+\bibitem{Levine}
+Edlyn~V. Levine, Matthew~J. Turner, Pauli Kehayias, Connor~A. Hart, Nicholas
+  Langellier, Raisa Trubko, David~R. Glenn, Roger~R. Fu, and Ronald~L.
+  Walsworth.
+\newblock Principles and techniques of the quantum diamond microscope.
+\newblock {\em Nanophotonics}, 8(11):1945--1973, 2019.
 
 \bibitem{Berliner2011-ww}
 Lawrence~J Berliner and Jacques Reuben, editors.
@@ -110,10 +117,30 @@ Lawrence~J Berliner and Jacques Reuben, editors.
 \newblock Biological magnetic resonance. Springer, New York, NY, September
   2011.
 
+\bibitem{Jackson1998-er}
+John~David Jackson.
+\newblock {\em Classical Electrodynamics}.
+\newblock John Wiley \& Sons, Nashville, TN, 3 edition, July 1998.
+
+\bibitem{Griffiths2012-pt}
+David~J Griffiths.
+\newblock {\em Introduction to Electrodynamics}.
+\newblock Pearson, Upper Saddle River, NJ, 4 edition, September 2012.
+
+\bibitem{Chen2020}
+Bo~Chen.
+\newblock {\em Introduction to NMR}, pages 1--1--1–16.
+\newblock AIP Publishing LLCMelville, New York, October 2020.
+
 \bibitem{bromley2000quantum}
 D.A. Bromley and W.~Greiner.
 \newblock {\em Quantum Mechanics: An Introduction}.
 \newblock Physics and Astronomy. Springer Berlin Heidelberg, 2000.
+
+\bibitem{Ramamurti1995-wg}
+Shankar Ramamurti.
+\newblock {\em Principles of quantum mechanics}.
+\newblock Kluwer Academic/Plenum, Dordrecht, Netherlands, December 1995.
 
 \bibitem{giancoli2008physics}
 D.C. Giancoli.
@@ -141,10 +168,20 @@ X.~Fan, T.~G. Myers, B.~A.~D. Sukra, and G.~Gabrielse.
 \newblock Measurement of the electron magnetic moment.
 \newblock {\em Phys. Rev. Lett.}, 130:071801, Feb 2023.
 
+\bibitem{Piela2014}
+Lucjan Piela.
+\newblock {\em Singlet and Triplet States for Two Electrons}, page e133–e135.
+\newblock Elsevier, 2014.
+
 \bibitem{Nabokov2002}
 V.~Nabokov.
 \newblock {\em THEORETICAL MODELS OF MBE}, page 111–209.
 \newblock Elsevier, 2002.
+
+\bibitem{mims}
+W~B Mims.
+\newblock {\em The linear electric field effect in paramagnetic resonance}.
+\newblock Oxford University Press, London, England, September 1976.
 
 \bibitem{Davidsson2018}
 Joel Davidsson, Viktor Ivády, Rickard Armiento, N~T Son, Adam Gali, and Igor~A
@@ -153,11 +190,6 @@ Joel Davidsson, Viktor Ivády, Rickard Armiento, N~T Son, Adam Gali, and Igor~A
   semiconductor point defect identification: the case of divacancy defects in
   4h–sic.
 \newblock {\em New Journal of Physics}, 20(2):023035, February 2018.
-
-\bibitem{mims}
-W~B Mims.
-\newblock {\em The linear electric field effect in paramagnetic resonance}.
-\newblock Oxford University Press, London, England, September 1976.
 
 \bibitem{VanOort1990}
 Eric Van~Oort and Max Glasbeek.
@@ -178,6 +210,29 @@ L.~C. Bassett, F.~J. Heremans, C.~G. Yale, B.~B. Buckley, and D.~D. Awschalom.
 \newblock Electrical tuning of single nitrogen-vacancy center optical
   transitions enhanced by photoinduced fields.
 \newblock {\em Physical Review Letters}, 107(26), December 2011.
+
+\bibitem{doi:10.1021/acs.nanolett.2c03378}
+Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
+  Zhou, Wu-Xi Lin, Zhen-Xuan He, Wan Xu, Yu~Wei, Zheng-Hao Liu, Pu~Wang, Zhi-He
+  Hao, Jun-Feng Ding, Hai-Ou Li, Wen Liu, Hao Li, Lixing You, Jin-Shi Xu,
+  Eugene Gregoryanz, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Coherent control and magnetic detection of divacancy spins in silicon
+  carbide at high pressures.
+\newblock {\em Nano Letters}, 22(24):9943--9950, 2022.
+\newblock PMID: 36507869.
+
+\bibitem{PhysRevLett.112.087601}
+P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
+\newblock Electrically driven spin resonance in silicon carbide color centers.
+\newblock {\em Phys. Rev. Lett.}, 112:087601, Feb 2014.
+
+\bibitem{PhysRevLett.112.187601}
+Abram~L. Falk, Paul~V. Klimov, Bob~B. Buckley, Viktor Iv\'ady, Igor~A.
+  Abrikosov, Greg Calusine, William~F. Koehl, \'Ad\'am Gali, and David~D.
+  Awschalom.
+\newblock Electrically and mechanically tunable electron spins in silicon
+  carbide color centers.
+\newblock {\em Phys. Rev. Lett.}, 112:187601, May 2014.
 
 \bibitem{Castelletto_2024}
 S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
@@ -240,11 +295,6 @@ Shun Kanai, F.~Joseph Heremans, Hosung Seo, Gary Wolfowicz, Christopher~P.
   materials.
 \newblock {\em Proceedings of the National Academy of Sciences}, 119(15), April
   2022.
-
-\bibitem{PhysRevLett.112.087601}
-P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
-\newblock Electrically driven spin resonance in silicon carbide color centers.
-\newblock {\em Phys. Rev. Lett.}, 112:087601, Feb 2014.
 
 \bibitem{PhysRevB.105.165108}
 A.~Cs\'or\'e, I.~G. Ivanov, N.~T. Son, and A.~Gali.
@@ -397,6 +447,27 @@ Ji-Yang Zhou, Qiang Li, Zhi-He Hao, Wu-Xi Lin, Zhen-Xuan He, Rui-Jian Liang,
 \newblock Plasmonic-enhanced bright single spin defects in silicon carbide
   membranes.
 \newblock {\em Nano Letters}, 23(10):4334–4343, May 2023.
+
+\bibitem{2008}
+{\em Electron Paramagnetic Resonance: A Practitioner’s Toolkit}.
+\newblock Wiley, July 2008.
+
+\bibitem{Weil2006}
+John~A. Weil and James~R. Bolton.
+\newblock {\em Electron Paramagnetic Resonance: Elementary Theory and Practical
+  Applications}.
+\newblock Wiley, May 2006.
+
+\bibitem{Goldfarb2018-he}
+Daniella Goldfarb and Stefan Stoll, editors.
+\newblock {\em {EPR} spectroscopy}.
+\newblock eMagRes Books. Standards Information Network, March 2018.
+
+\bibitem{Richert2017}
+Sabine Richert, Claudia~E. Tait, and Christiane~R. Timmel.
+\newblock Delocalisation of photoexcited triplet states probed by transient epr
+  and hyperfine spectroscopy.
+\newblock {\em Journal of Magnetic Resonance}, 280:103–116, July 2017.
 
 \bibitem{PhysRevB.101.064102}
 Jun-Feng Wang, Jin-Ming Cui, Fei-Fei Yan, Qiang Li, Ze-Di Cheng, Zheng-Hao Liu,
@@ -591,7 +662,7 @@ Sang-Yun Lee, Matthias Niethammer, and Jörg Wrachtrup.
 Reinhard Kirmse.
 \newblock N. m. atherton. principles of electron spin resonance. ellis horwood
   and ptr prentice hall, physical chemistry series, ellis horwood, chichester
-  (1993). pp. 585 $127. isbn 0 13 7217625.
+  (1993). pp. 585 §127. isbn 0 13 7217625.
 \newblock {\em Magnetic Resonance in Chemistry}, 33(8):698–698, August 1995.
 
 \bibitem{Janzn2009}
@@ -610,24 +681,6 @@ C.~L. Degen.
 J.~Isoya, T.~Umeda, N.~Mizuochi, N.~T. Son, E.~Janzén, and T.~Ohshima.
 \newblock Epr identification of intrinsic defects in sic.
 \newblock {\em physica status solidi (b)}, 245(7):1298–1314, June 2008.
-
-\bibitem{doi:10.1021/acs.nanolett.2c03378}
-Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
-  Zhou, Wu-Xi Lin, Zhen-Xuan He, Wan Xu, Yu~Wei, Zheng-Hao Liu, Pu~Wang, Zhi-He
-  Hao, Jun-Feng Ding, Hai-Ou Li, Wen Liu, Hao Li, Lixing You, Jin-Shi Xu,
-  Eugene Gregoryanz, Chuan-Feng Li, and Guang-Can Guo.
-\newblock Coherent control and magnetic detection of divacancy spins in silicon
-  carbide at high pressures.
-\newblock {\em Nano Letters}, 22(24):9943--9950, 2022.
-\newblock PMID: 36507869.
-
-\bibitem{PhysRevLett.112.187601}
-Abram~L. Falk, Paul~V. Klimov, Bob~B. Buckley, Viktor Iv\'ady, Igor~A.
-  Abrikosov, Greg Calusine, William~F. Koehl, \'Ad\'am Gali, and David~D.
-  Awschalom.
-\newblock Electrically and mechanically tunable electron spins in silicon
-  carbide color centers.
-\newblock {\em Phys. Rev. Lett.}, 112:187601, May 2014.
 
 \bibitem{Chen2011}
 X.-D. Chen, C.-H. Dong, F.-W. Sun, C.-L. Zou, J.-M. Cui, Z.-F. Han, and G.-C.
@@ -657,13 +710,6 @@ H.~Kraus, V.~A. Soltamov, D.~Riedel, S.~V\"{a}th, F.~Fuchs, A.~Sperlich, P.~G.
   silicon carbide.
 \newblock {\em Nature Physics}, 10(2):157–162, December 2013.
 
-\bibitem{LevineTurnerKehayiasHartLangellierTrubkoGlennFuWalsworth+2019+1945+1973}
-Edlyn~V. Levine, Matthew~J. Turner, Pauli Kehayias, Connor~A. Hart, Nicholas
-  Langellier, Raisa Trubko, David~R. Glenn, Roger~R. Fu, and Ronald~L.
-  Walsworth.
-\newblock Principles and techniques of the quantum diamond microscope.
-\newblock {\em Nanophotonics}, 8(11):1945--1973, 2019.
-
 \bibitem{Balasubramanian2009}
 Gopalakrishnan Balasubramanian, Philipp Neumann, Daniel Twitchen, Matthew
   Markham, Roman Kolesov, Norikazu Mizuochi, Junichi Isoya, Jocelyn Achard,
@@ -683,16 +729,25 @@ Johann-Martin Spaeth and Harald Overhof.
   Atomic and Electronic Structure from Paramagnetic Hyperfine Interactions}.
 \newblock Springer Berlin Heidelberg, 2003.
 
-\bibitem{Weil2006}
-John~A. Weil and James~R. Bolton.
-\newblock {\em Electron Paramagnetic Resonance: Elementary Theory and Practical
-  Applications}.
-\newblock Wiley, May 2006.
-
 \bibitem{Wrachtrup1993}
 J.~Wrachtrup, C.~von Borczyskowski, J.~Bernard, M.~Orrit, and R.~Brown.
 \newblock Optical detection of magnetic resonance in a single molecule.
 \newblock {\em Nature}, 363(6426):244–245, May 1993.
+
+\bibitem{dnvweb}
+Toeno van~der Sar.
+\newblock Magnetometry with spins in diamond.
+\newblock Measuring a magnetic field with NV spins. Measuring a magnetic field
+  with NV spins - Magnetometry with spins in diamond. (n.d.).
+  \url{https://magnetometryrp.quantumtinkerer.tudelft.nl/3_NVspin/ }.
+\newblock [Accessed 05-08-2024].
+
+\bibitem{Baranov2017-bv}
+Pavel~Baranov Baranov, Hans~Jurgen Von~Bardeleben, Fedor Jelezko, and Jorg
+  Wrachtrup.
+\newblock {\em Magnetic resonance of semiconductors and their nanostructures}.
+\newblock Springer series in materials science. Springer, Vienna, Austria, 1
+  edition, March 2017.
 
 \bibitem{Atkins2010-cg}
 Peter~W Atkins and Ronald~S Friedman.

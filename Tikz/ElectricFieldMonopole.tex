@@ -1,0 +1,11 @@
+\begin{tikzpicture}[thick, scale=1.4]
+  \foreach \i [evaluate={\angle=(\i-1)*360/\NE;}] in {1,...,\NE}{
+    \draw[EFieldLineArrow={0.45}] (\angle:\R) -- (0,0);
+  }
+  % \foreach \i [evaluate={\r=0.9*\R/\i;}] in {1,...,\NV}{
+    % \draw[EcolEP] (0,0) circle (\r);
+  % }
+  \draw[charge-] (0,0) circle (7pt) node[black,scale=0.8] {$-q$};
+
+  \node at (0,-1.35*\R) {$\vec{\nabla}\cdot{{\color{veccol}\vec{E}}} \propto \rho $};
+\end{tikzpicture}

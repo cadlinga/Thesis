@@ -1,5 +1,5 @@
 \section{Zero Field Splitting}\label{zfs}
-\index{ZFS} is in fact due to the combined effects of fine structure and a dipole-dipole interaction. These effects manifest themselves identically which makes them difficult to separate experimentally. They each depend on a traceless matrix $D$, as will be shown, which can be totally described by two parameters, conventionally labelled $D$ and $E$. 
+\index{ZFS}{ZFS} is in fact due to the combined effects of fine structure and a dipole-dipole interaction. These effects manifest themselves identically which makes them difficult to separate experimentally. They each depend on a traceless matrix $D$, as will be shown, which can be totally described by two parameters, conventionally labelled $D$ and $E$. 
 For simplicity in this work we will consider the combined effect of both the fine-structure and the dipole-dipole interaction as the ZFS interaction. This means when $D$ and $E$ are measured for a specific system, they represent the compound effect of fine-structure splitting and the dipole interaction, but totally describe the zero-field splitting. 
 
 \subsection{Fine Structure}
@@ -22,7 +22,7 @@ which may be simplified by alignment to the wider system axis and diagonalising 
     \label{eq:fine_splitting_D}
 \end{equation}
 
-The \index{trace} of the matrix $\text{Tr}(D)$ is unchanged by the change of basis. Since for EPR we are only concerned with the changes in energy and not the absolute, we may choose the value of the trace without any loss of generality, so we set it equal to zero. 
+The \index{trace}{trace} of the matrix $\text{Tr}(D)$ is unchanged by the change of basis. Since for EPR we are only concerned with the changes in energy and not the absolute, we may choose the value of the trace without any loss of generality, so we set it equal to zero. 
 \begin{equation}
     \text{Tr}(D) = 0. 
     % \label{eq:}
@@ -36,7 +36,7 @@ This means that the diagonal form of $D$ may be fully determined by just two par
 
 Here $D$ represents the axially symmetric parameter and $E$ represents any non-axial contribution of the fine-structure interaction. 
 
-Substituting \ref{fs_D} and \ref{fs_E} into \eqref{eq:fine_structure} and expanding allows us to write our fine-structure Hamiltonian as
+Substituting \eqref{fs_D} and \eqref{fs_E} into \eqref{eq:fine_structure} and expanding allows us to write our fine-structure Hamiltonian as
 \begin{equation}
     H_{\ce{FS}} = D \left(\hat{S}_z^2 - \frac{1}{3}S(S+1)\right) + E\left(\hat{S}_x^2 - \hat{S}_y^2\right).
     \label{eq:fine_structure_hamiltonian}
@@ -78,7 +78,7 @@ As with \eqref{eq:fine_splitting_D} the matrix $D$ in \eqref{eq:dd_matrix_form} 
     % \label{eq:}
 \end{equation}
 
-We therefore decompose the traceless matrix $D$ into the axial and non-axial parameters \index{ZFS!$D$} and \index{ZFS!$E$} as above. 
+We therefore decompose the traceless matrix $D$ into the axial and non-axial parameters \index{ZFS!$D$}{$D$} and \index{ZFS!$E$}{$E$} as above. 
 
 
 \subsection{Zero Field Splitting Hamiltonian}
@@ -87,4 +87,14 @@ When measuring the values of $D$ and $E$ experimentally, the combined effect wil
     H_{\ce{ZFS}} =D \left(\hat{S}_z^2 - \frac{1}{3}S(S+1)\right) + E\left(\hat{S}_x^2 - \hat{S}_y^2\right).
     \label{eq:ZFS_hamiltonian}
 \end{equation}
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{figures/ZFS.png}
+    \end{center}
+    \caption{\cite{SpinStates}}\label{fig:ZFS}
+\end{figure}
+
+The effects of $D$ and $E$ on a triplet state are illustrated in Figure~\ref{fig:ZFS}.
+
 

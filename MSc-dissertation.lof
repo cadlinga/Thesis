@@ -1,13 +1,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces }}{30}{figure.2.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of electric monopole and magnetic dipole with associated field lines and relevant Maxwell equation.\relax }}{5}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of current loop and induced magnetic moment.\relax }}{6}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of electron in orbit generating a magnetic moment.\relax }}{7}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic of a single electron with magnetic moment and spin.\relax }}{9}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic of discrete spin levels.\relax }}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \cite {SpinStates}\relax }}{16}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \relax }}{19}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces C-axis and non-equiv sites in 4H SiC \todo []{better caption}\relax }}{24}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \todo []{better caption}\relax }}{24}{figure.caption.43}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Magnetometry with $\theta = 0$. Left shows the lifting of degeneracy of the spin system energy levels with the applied $\vec {B}$ field. Right shows the corresponding ODMR spectra and two EPR frequencies \cite {dnvweb}. }}{37}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ODMR/Energy level plot showing the reduction of the effective parallel $\vec {B}$ field with increasing $\theta $.}}{38}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagram showing the four possible orientations of NV centers in diamond \cite {pham}.}}{39}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces }}{45}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces ZFS parameter $D$ temperature dependence for the PL5 and PL6 $S=1$ defect in SiC from 0-550 K (left) and 250-350 K (right). }}{47}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces }}{48}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces }}{55}{figure.3.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ODMR Magnetometry with $\theta = 0$. Degeneracy of the spin system energy levels is lifted with the applied $\vec {B}$ field \cite {Strner2021}. \relax }}{30}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ODMR/Energy level plot showing the reduction of the effective parallel $\vec {B}$ field with increasing $\theta $.\relax }}{30}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagram showing the four possible orientations of NV centers in diamond \cite {pham}.\relax }}{31}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \relax }}{35}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ZFS parameter $D$ temperature dependence for the PL5 and PL6 $S=1$ defect in SiC from 0-550 K (left) and 250-350 K (right). \relax }}{37}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \relax }}{38}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \relax }}{39}{figure.caption.75}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

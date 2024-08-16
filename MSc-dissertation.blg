@@ -3,54 +3,56 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: MSc-dissertation.aux
 The style file: unsrt.bst
 Database file #1: ref.bib
-Warning--I'm ignoring LevineTurnerKehayiasHartLangellierTrubkoGlennFuWalsworth+2019+1945+1973's extra "title" field
+Warning--I'm ignoring Levine's extra "title" field
 --line 52 of file ref.bib
+Warning--empty school in SpinStates
 Warning--empty journal in electron-g-factor
 Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
 while executing---line 944 of file unsrt.bst
+Warning--empty author and editor in 2008
 Warning--empty journal in arxiv.1503.07566
 Warning--empty journal in 1505.06914
-You've used 107 entries,
+You've used 117 entries,
             1791 wiz_defined-function locations,
-            1109 strings with 30268 characters,
-and the built_in function-call counts, 29542 in all, are:
-= -- 1970
-> -- 2506
-< -- 1
-+ -- 873
-- -- 766
-* -- 2866
-:= -- 5251
-add.period$ -- 327
-call.type$ -- 107
-change.case$ -- 98
+            1164 strings with 31736 characters,
+and the built_in function-call counts, 31771 in all, are:
+= -- 2169
+> -- 2601
+< -- 3
++ -- 910
+- -- 793
+* -- 2999
+:= -- 5584
+add.period$ -- 357
+call.type$ -- 117
+change.case$ -- 102
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 961
-empty$ -- 2298
-format.name$ -- 766
-if$ -- 6036
+cite$ -- 122
+duplicate$ -- 1087
+empty$ -- 2514
+format.name$ -- 793
+if$ -- 6554
 int.to.chr$ -- 0
-int.to.str$ -- 107
-missing$ -- 116
-newline$ -- 539
-num.names$ -- 108
-pop$ -- 184
+int.to.str$ -- 117
+missing$ -- 130
+newline$ -- 588
+num.names$ -- 118
+pop$ -- 231
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 373
+skip$ -- 438
 stack$ -- 0
-substring$ -- 1590
-swap$ -- 123
-text.length$ -- 1
+substring$ -- 1680
+swap$ -- 161
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 177
-width$ -- 110
-write$ -- 1174
+warning$ -- 5
+while$ -- 192
+width$ -- 120
+write$ -- 1282
 (There were 2 error messages)

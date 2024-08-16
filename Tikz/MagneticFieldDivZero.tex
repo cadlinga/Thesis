@@ -1,0 +1,11 @@
+% ZERO
+\begin{tikzpicture}[thick, scale=1.4]
+  \def\ang{60}
+  % \fill[myblue] (0,0) circle (\r);
+  \foreach \x/\y in {-1/0,-1/1,0/1,1/1,1/0,-1/-1,0/-1,1/-1}{
+    \draw[vector] (\x*0.5*\R,\y*0.5*\R) ++ (\ang-180:\R/2) --++ (\ang:\R);
+  }
+
+  \draw[charged] (0,0) circle (7pt) node[black,scale=0.8] {$\mu$};
+  \node at (0,-1.35*\R) {$\vec{\nabla}\cdot{{\color{veccol}\vec{B}}} = 0$};
+\end{tikzpicture}

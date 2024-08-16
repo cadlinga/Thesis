@@ -1,0 +1,20 @@
+% MAGNETIC MOMENT ATOM
+\begin{tikzpicture}[thick, scale=1.5]
+  \def\rn{0.3}
+  \def\re{0.15}
+  \def\Rx{1.5}
+  \def\Ry{0.5}
+  %\draw[dashed] (-100:1.5*\rn) -- (80:1.5*\rn);
+  \draw[dashed] (-\Rx,0) arc (180:0:{\Rx} and {\Ry});
+  \draw[mu vector] (0,-1.8*\rn) -- (0,2.9*\rn) node[right] {$\vb*{\mu}$};
+  \draw[charge+] (0,0) circle (\rn) node[scale=1.4] {+};
+  \draw[dashed] (\Rx,0) arc (0:-180:{\Rx} and {\Ry});
+  \draw[charge-]
+    (-40:{\Rx} and {\Ry}) circle (\re) node[scale=0.8] {$-$}
+    node[below right=0.2] {e};
+  \draw[->]
+    (-55:{1.15*\Rx} and {1.2*\Ry}) arc (-55:-72:{1.15*\Rx} and {1.2*\Ry});
+  \draw[current]
+    (-140:{1.15*\Rx} and {1.2*\Ry}) arc (-140:-100:{1.15*\Rx} and {1.2*\Ry})
+    node[midway,below] {$I$};
+\end{tikzpicture}

@@ -4,13 +4,17 @@ a4paper,
 twoside
 % fullpage 
 ]{report}
+
+\input{Sections/Colors.tex}
+
 \usepackage{graphics}
 \usepackage{epsf,graphicx}%, amstext,url} 
 \usepackage{pdfpages}
 \usepackage{amsmath}
-\usepackage{todonotes}
+\usepackage{float}
+% \usepackage{todonotes}
+\usepackage[colorinlistoftodos]{todonotes}
 \usepackage{listings}
-\usepackage{braket}
 \usepackage{cancel}
 \usepackage{url}
 \usepackage[version=4]{mhchem}
@@ -20,23 +24,64 @@ twoside
   par-before = \begingroup\color{lightgray},
   par-after = \endgroup
 }
+
+
+% DO NOT SWITCH ORDER OF THESE PACKAGES 
+\input{Sections/TikzPreamble.tex}
+\usepackage{braket}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 % \usepackage[top=2cm,bottom=4cm,left=1.5cm,right=3cm,asymmetric]{geometry}
 \usepackage[a4paper,width=155mm,top=25mm,bottom=25mm]{geometry}
 \newcommand{\td}[1]{\todo[]{#1}}
 \newcommand{\tdr}[1]{\todo[color=red]{#1}}
 \newcommand{\tdg}[1]{\todo[color=green]{#1}}
 
+\usepackage{fancyhdr}
+
 \usepackage{setspace}
-\doublespacing
+% \doublespacing
+\onehalfspacing
+
 \usepackage{imakeidx}
 % \makeindex
-\makeindex[columns=2, title=Index of Terms, intoc]
-
+\makeindex[columns=2, title=Index, intoc]
 % \usepackage{hyperref}
 
 \RequirePackage[hidelinks]{hyperref} % 
 
+\hypersetup{
+    colorlinks=true,
+    % linkcolor=ediblue, 
+    % citecolor=edipurple,
+    linkcolor=edired, 
+    citecolor=ediblue,
+}
+
+\usepackage{letltxmacro}
+\LetLtxMacro{\originaleqref}{\eqref}
+\def\eqref#1{%
+\begingroup\hypersetup{
+    linkcolor=edipurple,
+    linkbordercolor=edipurple,
+    }\originaleqref{#1}\endgroup
+}
+
+\usepackage{sectsty}
+\usepackage[LGR, T1]{fontenc}
+\usepackage{CrimsonPro}
+\usepackage[default]{sourcesanspro}
+\allsectionsfont{\rmfamily}
+
+
+\usepackage{wrapfig}
+\usepackage[font={color=figcaption,md},figurename=Fig.,labelfont={it}]{caption}
+
 \begin{document}
+
+
 \thispagestyle{empty}
 
 %
@@ -50,9 +95,7 @@ twoside
 
 \pagenumbering{roman}
 
-\begin{abstract}
-	\input{abstract.tex}
-\end{abstract}
+\input{abstract.tex}
 
 
 \input{declaration.tex}
@@ -61,13 +104,19 @@ twoside
 
 \input{acknowledgements.tex}
 
+
 \listoftodos
 \tableofcontents
 % \listoftables
 \listoffigures
-% \clearpage
-\cleardoublepage
+\clearpage
+% \cleardoublepage
 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE]{\rmfamily\nouppercase{\rightmark}}
+\fancyhead[LO]{\rmfamily\nouppercase{\leftmark}}
+\fancyhead[LE,RO]{\rmfamily\thepage}
 \pagenumbering{arabic}
 
 \input{Chapters/intro.tex}
@@ -87,8 +136,13 @@ twoside
 % \input{Annex/example2.tex}
 % \input{Annex/pythonCode.tex}
 \nocite{*}
+
+
+\cleardoublepage
 \printindex
+\cleardoublepage
 \bibliography{ref}
 
+% \input{Sections/Brag.tex}
 \end{document}
 

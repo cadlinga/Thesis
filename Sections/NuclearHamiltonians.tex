@@ -1,16 +1,15 @@
 \section{Nuclear Hamiltonians}\label{nuclear}
 \tdr{Decide how in depth these derivations should be. }
-There are three additional contributions to the Hamiltonian to be considered which involve an interaction with the nucleus. 
+There are three additional contributions to the Hamiltonian to be considered which involve an interaction with the nucleus.
 
-We include them here for completeness, but will disregard them in the rest of this work since their contributions are either global (thus of no interest in EPR) or very small.\tdr{Definitely need a reference or a figure here} 
-\subsection{\index{Zeeman!Nuclear Zeeman}}
+\subsection{\index{Zeeman!nuclear zeeman}{Nuclear Zeeman}}
 Equivalent to electron Zeeman but for the nuclear magnetic moment. 
 \begin{equation}
     H_{\ce{Zeeman(n)}} = -g_n \mu_n \vec{B} \cdot \hat{\vec{I}}
     \label{eq:nuclear_zeeman_hamiltonian}
 \end{equation}
 
-\subsection{\index{Hyperfine Interaction}}
+\subsection{\index{hyperfine interaction}{Hyperfine Interaction}}
 Equivalent to Fine Structure (ZFS) but between the nuclear and electron moment. 
 \begin{equation}
     H_{\ce{Hyperfine}} = \hat{\vec{S}} \cdot A \cdot \hat{\vec{I}}
@@ -20,10 +19,16 @@ Equivalent to Fine Structure (ZFS) but between the nuclear and electron moment.
     H_{\ce{Hyperfine}} = A_\parallel \hat{S}_z\hat{I}_z + A_\perp(\hat{S}_y\hat{I}_y + \hat{S}_z\hat{I}_z)
     \label{eq:hyperfine_hamiltonian_componentwise}
 \end{equation}
+For the systems discussed in this work, hyperfine couplings are usually too small to detect, 
+thus manifest as inhomogeneous line broadening \cite{SpinStates}. Thus, we do not include the hyperfine contribution 
+for the remainder of this work. 
 
-\subsection{\index{Nuclear Quadrupole}}
+\subsection{\index{nuclear quadrupole}{Nuclear Quadrupole}}
 Equivalent to the electron dipole-dipole but for the nuclear magnetic moment. 
 \begin{equation}
     H_{\ce{Quadrupole}} = \hat{\vec{I}} \cdot Q \cdot \hat{\vec{I}}
     \label{eq:nuclear_quadrupole}
 \end{equation}
+
+\subsection{Nuclear Summary}
+We have chosen to include the nuclear Hamiltonians for completeness, but will now disregard them in the rest of this work since.
