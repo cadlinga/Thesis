@@ -21,8 +21,8 @@ twoside
 \bibliographystyle{unsrt}
 \usepackage{lipsum}
 \setlipsum{%
-  par-before = \begingroup\color{lightgray},
-  par-after = \endgroup
+  % par-before = \begingroup\color{lightgray},
+  % par-after = \endgroup
 }
 
 
@@ -34,7 +34,7 @@ twoside
 
 
 % \usepackage[top=2cm,bottom=4cm,left=1.5cm,right=3cm,asymmetric]{geometry}
-\usepackage[a4paper,width=155mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[a4paper,width=165mm,top=25mm,bottom=25mm]{geometry}
 \newcommand{\td}[1]{\todo[]{#1}}
 \newcommand{\tdr}[1]{\todo[color=red]{#1}}
 \newcommand{\tdg}[1]{\todo[color=green]{#1}}
@@ -79,6 +79,7 @@ twoside
 \usepackage{wrapfig}
 \usepackage[font={color=figcaption,md},figurename=Fig.,labelfont={it}]{caption}
 
+
 \begin{document}
 
 
@@ -109,8 +110,8 @@ twoside
 \tableofcontents
 % \listoftables
 \listoffigures
-\clearpage
-% \cleardoublepage
+% \clearpage
+\cleardoublepage
 
 \pagestyle{fancy}
 \fancyhf{}

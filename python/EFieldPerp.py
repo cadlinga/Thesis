@@ -15,6 +15,9 @@ E_dict = {"magnitude": 0, "theta": 0, "phi": 0}
 steps = 50
 
 
+pyplot.rcParams.update({"font.size": 12})
+
+
 def makePlot(T, B_dict, E_dict, color, opacity, label=""):
     B_array = linspace(10**-12, B_dict["magnitude"], steps)
 
@@ -107,7 +110,7 @@ makePlot(300, B_dict, E_dict, "black", 0.8, label="$E = 0$")
 # E_dict = {"magnitude": 0, "theta": 0, "phi": 0}
 # makePlot(300, B_dict, E_dict, "blue", 0.5)
 #
-E_dict = {"magnitude": 50000000, "theta": 0, "phi": 0}
+E_dict = {"magnitude": 5000000, "theta": pi / 2, "phi": 0}
 makePlot(300, B_dict, E_dict, "blue", 0.8, "E > 0")
 #
 # # Applied E field perp to B field
@@ -117,6 +120,9 @@ makePlot(300, B_dict, E_dict, "blue", 0.8, "E > 0")
 pyplot.xlabel("$B$ (mT)")
 pyplot.ylabel("EPR Frequency")
 pyplot.title(
-    "$S=1$ Energy Eigenvalues With Applied $\\vec{E}$, $\\theta = 0^\circ$")
+    "$S=1$ Energy Eigenvalues With Applied $\\vec{E}$, $\\theta = 90^\circ$")
 pyplot.legend(loc=7)
-pyplot.show()
+
+# pyplot.show()
+
+pyplot.savefig("../figures/EFieldPerp")

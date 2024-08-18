@@ -1,4 +1,4 @@
-\section{\index{Stark!Stark Effect}{Stark Effect}}
+\section{\index{Stark!Stark Effect}{Stark Effect}}\label{stark}
 For our Spin Hamiltonian given by 
 \begin{equation}
     \begin{align}
@@ -23,11 +23,11 @@ Here $R, T, F, q$ are matrices for each component of the electric field given by
     \label{eq:}
 \end{equation}
 
-We may immediately simplify $T$ term as for this work we assume isotropic and constant $g$, for which $T$ is zero.  
+We may immediately simplify $T$ as for this work we assume isotropic and constant $g$, for which $T$ is zero.  
 
-Further, as discussed in section \ref{nuclear} for this work we will not include the contributions of the nuclear Hamiltonians. 
+Further, as discussed in section \ref{nuclear} we will not include the contributions of the nuclear Hamiltonians. 
 
-This allows us to then consider only the energy change due to the shift in the $D$ parameter, that is the values of $R$; which is a square matrix for each component of the applied $\vec{E}$. 
+This allows us to then consider only the energy change due to the shift in the $D$ parameter, that is $R$, which is a square matrix for each component of the applied $\vec{E}$. 
 Exactly as we did for ZFS in section \ref{zfs}, we may reduce each of these symmetric matrices to a traceless form. 
 % Here we define $D$ and $E$ in exactly the same way as \ref{}\td{link D E def}. 
 
@@ -76,7 +76,7 @@ Then, we may write $H_{\ce{Stark}}$ in this basis as
     \label{eq:}
 \end{equation}
 
-The final step is to reduce the number of coefficients by exploiting the symmetry of the system. This work explore systems with \index{point group symmetry}{point group symmetry} of $C_{3v}$ \cite{Davidsson2018} which reduces the Hamiltonian again to \cite{mims}
+The final step is to reduce the number of coefficients by exploiting the symmetry of the system. We will study systems with the \index{point group symmetry}{point group symmetry} of $C_{3v}$ \cite{Davidsson2018} which reduces the Hamiltonian again to \cite{mims}
 \begin{equation}
     \begin{align}
         H_{\ce{Stark}} &= R_{113}\left(E_x (\hat{S}_x\hat{S}_y + \hat{S}_z\hat{S}_x) + E_y(\hat{S}_y\hat{S}_z + \hat{S}_z\hat{S}_y) \right) \\ 
@@ -106,13 +106,23 @@ By direct comparison to \eqref{eq:ZFS_hamiltonian} it is easy to see the first t
 
 In general longitudinal fields along the defect’s symmetry axis result in equal shifts of all levels, whereas transverse fields split the orbitals into two branches whose energy difference grows with increasing field \cite{Acosta2012, Bassett2011}. This allows the parameters $d_\perp$ and $d_\parallel$ to be measured experimentally. 
 
-\begin{figure}[h]
+\begin{figure}[H]
     \begin{center}
-        % \includegraphics[width=0.95\textwidth]{figures/}
-        \missingfigure{ODMR/Energy plot showing effect of parallel/perp E field}
+        \includegraphics[width=0.95\textwidth]{figures/EFieldParallel.png}
+        % \includegraphics[width=0.95\textwidth]{figures/EFieldPerp.png}
+        % \missingfigure{ODMR/Energy plot showing effect of parallel/perp E field}
     \end{center}
-    \caption{}\label{fig:}
+    \caption{Eigenvalue plot showing... \td{better caption}}\label{fig:}
 \end{figure}
+\begin{figure}[H]
+    \begin{center}
+        % \includegraphics[width=0.95\textwidth]{figures/EFieldParallel.png}
+        \includegraphics[width=0.95\textwidth]{figures/EFieldPerp.png}
+        % \missingfigure{ODMR/Energy plot showing effect of parallel/perp E field}
+    \end{center}
+    \caption{Eigenvalue plot showing... \td{better caption}}\label{fig:}
+\end{figure}
+
 
 
 % The spacings

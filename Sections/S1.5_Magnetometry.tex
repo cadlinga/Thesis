@@ -1,0 +1,212 @@
+\section{$S = 3/2$ Magnetometry}
+% V2 
+\cite{PhysRevApplied.4.014009}
+\cite{PhysRevB.92.115201}
+\cite{1505.06914}
+
+If the ZFS interaction of the $S=3/2$ defect is sufficiently strong, the eigenvalues of the
+spin Hamiltonian show a strong dependence on the orientation of the applied magnetic field. 
+
+This induces a non-linear shift of resonance transitions in EPR frequencies, which is seen in the ODMR spectra. 
+This allows information about the applied external magnetic field to be extracted from ESR spectra provided the ZFS is known. 
+
+In zero magnetic field the $V_{\ce{Si}}$ V2 vacancy has an ODMR line maximum around 70 MHz with very weak dependence on temperature. That is, the ZFS parameter is known and resistant to the environmental influence of temperature. 
+
+In a $S=3/2$ spin system the orientation related terms are, like for $S=1$ systems, in the eigenvalue equation. 
+This results in the orientation dependent shift of EPR frequencies which are not explained by $g \mu_B B_0$ as they are for $S=1$. 
+
+Therefore in order to reconstruct the energy eigenstates we must use the observed resonant energies. There are $2S +1 $ states for a system with spin $S$ from which $2S$ transition frequencies may be found. 
+
+
+% Applying a magnetic field $B_0$ along the defect axis, $\theta = 0$, 
+
+For the V2 $V_{\ce{Si}}$, $E \ll D$ and a uniaxial symmetry exists therefore the Hamiltonian for the system is given as in equation \ref{}\td{ref correct hamiltonian}. Here we use the 4-dimensional $S=3/2$ matrix representation 
+\begin{equation}
+    \label{eq:}
+\end{equation}
+    \td{Add spin 3/2 matrices} 
+
+    For this defect, using the same polar co-ordinate conversion as in section \ref{}\td{find ref} we may write the Hamiltionian in matrix form \td{Add hamiltonian matrix} and find the eigenvalue equation 
+\begin{equation}
+    \begin{align}
+    &\lambda^4 - \left(2D^2 + 6E^2  + \frac{5}{2}(g\mu_B B_0)^2 \right)\lambda^2 - 2 (g \mu_B B_0)^2 \left(D(3 \cos^2 \theta -1) + 3E \sin^2\theta \cos 2\varphi \right)\lambda \\ 
+    &+\frac{9}{16}(g \mu_B B_0)^4 + D^4 - \frac{1}{2}D^2 (g \mu_B B_0)^2 - D^2 (g \mu_B B_0)^2 (3 \cos^2 \theta - 1) + 3E^2(3E^2 + 2D^2) \\ 
+    &+ E(g\mu_BB_0)^2 (6D \sin^2\theta \cos 2\varphi + \frac{9}{2}E \cos2\theta) = 0 
+    \end{align} 
+    \label{eq:V2_eigenvalue_equation}
+\end{equation}
+ 
+Considering $B_0$ componentwise we may find \cite{Kirmse1995} for $B_0$ parallel to the defect axis 
+\begin{equation}
+\lambda = \frac{1}{2}g\mu_B B_0 \pm \sqrt{(D + g\mu_B B_0)^2 + 3E^2} 
+   \text{ or, }
+   \lambda = -\frac{1}{2} g\mu_B B_0 \pm \sqrt{(D-g\mu_B B_0)^2 + 3E^2}.
+    % \label{eq:}
+\end{equation}
+
+For $B_0$ perpendicular to the defect axis we find:
+\begin{equation}
+    \begin{align}
+        &\lambda = \frac{1}{2}g\mu_B B_0 \pm \sqrt{(g\mu_B B_0)^2 + D^2  + 3E^2 - (D - 3E)g\mu_B B_0}\text{ or, }\\
+        \lambda &= -\frac{1}{2}g\mu_B B_0 \pm \sqrt{(g\mu_B B_0)^2 + D^2 + 3E^2 + (D-3E)g\mu_B B_0}.
+    \end{align}
+\end{equation}
+
+We may write the general equation for the eigenvalues as 
+\begin{equation}
+    \sum_{n=0}^{2S+1} C_n \lambda^n = 0
+    \label{eq:}
+\end{equation}
+we then substitute each eigenvalue $\lambda_i$ into this general expression to obtain $2S + 1$ equations. 
+
+The goal is now to remove all $\lambda_i$ terms by considering instead the transition frequencies between eigenstates, which are observed in the ODMR spectra. The energy states are not in general sorted with respect to the energy values, so we use the convention that $\lambda_i > \lambda_{i-1}$. 
+
+To reduce our number of equations to $2S-1$ we make the substitutions  
+$$\lambda_i + \underbrace{\lambda_{i+1} - \lambda_{i}}_{f_{i+1, i}} = \lambda_{i+1},
+\qquad\lambda_i - \underbrace{(\lambda_{i} - \lambda_{i-1})}_{f_{i, i-1}} = \lambda_{i-1}$$
+for each $i = 2, \dots, 2S$ and calculate both 
+$$\sum_{n=0}^{2S +1} \frac{C_n \left((\lambda_i + f_{i+1, i})^n - \lambda_i^n\right)}{C_{2S+1}} = 0\text{ and } \sum_{n=0}^{2S +1}\frac{C_n \left((\lambda_i - f_{i, i-1})^n - \lambda_i^n\right)}{C_{2S + 1}} = 0$$
+to find two new simultaneous equations 
+$$\sum_{n=0}^{2S} C_{i,n}' \lambda_i^n = 0 \text{ and } \sum_{n=0}^{2S} C''_{i,n}\lambda_i^n = 0.$$
+
+We may combine these as 
+$$\sum_{n=0}^{2S} \frac{C'_{i,n}\lambda_i^n}{C'_{i,2S}}-\frac{C''_{i,n} \lambda_i^n}{C''_{i, 2S}} = 0$$
+to obtain an equation for the eigenvalue of the energy eigenstate $\ket{i}$ where $i = 2, \dots, 2S$: 
+
+\begin{equation}
+    \sum_{n=0}^{2S -1} C_{i,n}^{(2S-1)} \lambda_i^n = 0.
+    \label{eq:refmenowpls}
+\end{equation}
+
+This process is repeated until only one linear equation exists for each eigenvalue, which may be expressed in terms of resonant energies. $f_{i, i-1}$ can then be substituted to find expressions for all other eigenvalues. 
+
+For the V2 $V_{\ce{Si}}$, we obtain equations for $\lambda_2$ expressed in terms of $f_{2,1}, f_{3,2}$ and $\lambda_3$ expressed in terms of $f_{3,2}, f_{4,3}$. Finally, using $f_{3,2} = \lambda_3 - \lambda_2$ we find formulas for each eigenvalues in terms of the resonant frequencies: 
+
+\begin{eqnarray}
+    \lambda_1 = -\frac{3}{4}f_{2,1} - \frac{1}{2} f_{3,2} - \frac{1}{4} f_{4,3}\\ 
+    \lambda_2 = \frac{1}{4}f_{2,1} - \frac{1}{2}f_{3,2} - \frac{1}{4} f_{4,3} \\ 
+    \lambda_3 = \frac{1}{4}f_{2,1} + \frac{1}{2}f_{3,2} - \frac{1}{4} f_{4,3} \\ 
+    \lambda_4 = \frac{1}{4}f_{2,1} + \frac{1}{2}f_{3,2} + \frac{1}{4} f_{4,3}.
+\end{eqnarray}
+
+We substitute one of these expressions into one of the equations of the form of equation \eqref{eq:refmenowpls} and we obtain 
+\begin{equation}
+    \begin{align}
+        5(g\mu_B B_0)^2 &=\left(\frac{\sqrt{3}}{2}f_{4,3} + f_{3,2}  + \frac{\sqrt{3}}{2}f_{2,1}\right)^2 \\ 
+        &+(1 - \sqrt{3}) (f_{4,3} + f_{2,1})f_{3,2} - f_{4,3}f_{2,1} - 4(D^2 + 3E^2).
+    \end{align}
+    \label{eq:V2_magnitude}
+\end{equation}
+
+A second quantity $\eta$, useful for angle resolution (next section) related to the polar and azimuthal angle is also defined
+
+\begin{equation}
+        \eta \equiv E(2\cos^2\varphi \sin^2 \theta + \cos^2\theta) + D\cos^2 \theta 
+    \label{eq:eta}
+\end{equation}
+
+which in terms of the resonant frequencies is given by 
+\begin{equation}
+    \begin{align}
+    &\eta = \\ 
+    &\frac{4\left(8(D + 3E) + 5(f_{4,3}-f_{2,1})\right)(g\mu_B B_0)^2 + (f_{4,3} - f_{2,1})\left(16(D^2 + 3E^2) - (f_{4,3}-f_{2,1})^2 - 4f_{3,2}^2\right)}{96(g\mu_B B_0)^2}
+\end{align}
+    \label{eq:eta_resonant}
+
+\end{equation}
+
+
+Overall, this shows that if the ZFS is known and three EPR frequencies are observed, the applied magnetic field strength can be found using \eqref{eq:V2_magnitude}.
+
+
+% \subsection{$\vec{B}$ Parallel to Defect Axis}
+
+% The simplest possible cashen $\theta = 0$ there is no super-position of states and selection rules dictate that the only transitions available 
+
+\subsection{$S=3/2$ Angle Resolved Magnetometry}
+We may approximate $\eta$ defined in equation \eqref{eq:eta} for the V2 $V_{\ce{Si}}$, which exhibits uniaxial symmetry, $E\ll D$, to 
+\begin{equation}
+    \eta \sim D \cos^2 \theta. 
+    \label{eq:}
+\end{equation}
+
+By exploiting this approximation, we may also determine the polar angle that the magnetic field vector makes with the defect axis, however at this stage we may not determine anything about the $x,y$ components of the vector. 
+
+To do so we explicitly compute $\eta$ using equation \eqref{eq:eta_resonant} then we find the polar angle as 
+\begin{equation}
+    \theta = \cos^{-1}\sqrt{\frac{\eta}{D}}
+    \label{eq:vector_theta}
+\end{equation}
+
+
+\subsection{$S = 3/2$ Vector Magnetometry}
+Vector magnetometry is achieved in the case of the DNV as described in section \ref{dnv_vector} \td{link reference} and theoretically a similar approach is possible in SiC. There exists two distinct and differently oriented Silicon vacancies in 4H-SiC and three in 6H-SiC \cite{Janzn2009}. In practice however, in practice at least one of the defects in each polytope is difficult to observe at room temperature making this approach unsuitable for vector magnetometry. 
+
+In a general $S = 3/2$ system, ambiguity is found when computing $\theta$ using equation \eqref{eq:vector_theta} as the EPR frequencies can not be mapped to specific transitions. 
+
+The following approach exploits the fact that a crossing of resonant frequencies occurs at a given angle (see figure \ref{fig:resonant_crossing_V2}). The method should be considered for $g\mu_B B_0 \gg 2\sqrt{D^2 + 3E^2}$ explicitly as interactions such as level anti-crossing produce a complex spectra \cite{Degen2008} when $g\mu_B B_0 \approx 2\sqrt{D^2 + 3E^2}$ and the invariance of a particular EPR frequency when $g \mu_B B_0 \ll 2 \sqrt{D^2 + 3E^2}$ makes determination of the polar angle $\theta$ impossible. 
+
+\begin{figure}[H]
+    \begin{center}
+        % \includegraphics[width=0.95\textwidth]{figures/}
+        \missingfigure{Plot showing the crossing of EPR frequencies at high field and low field in Spin 3/2 system as theta varies}
+    \end{center}
+    \caption{\td{write caption}}\label{fig:resonant_crossing_V2}
+\end{figure}
+\begin{group}
+    \color{gray}
+At a high B0 field (gμB B0  ZFS),
+B0 can be obtained from the observed ESR spectra but
+the polar angle cannot be determined due to the ambigu-
+ity of differentiating two outer transitions. In contrast,
+at low gμB B0 ( ZFS), as long as one can explicitly
+identify at least three transitions including the allowed
+lowest energy transition, the external magnetic field vec-
+tor can be reconstructed. In the field strength compara-
+ble to the ZFS, it is hard to find a useful scheme because
+very complex patterns appear due to mixing of some of
+the eigenstates. In the case of the NV centers in dia-
+mond (ZFS/h=2.87 GHz), this missing range is around
+∼ 100 mT . The VSi in SiC can fill out this gap since its
+ZFS is quite small (ZFS/h ∼ 100 MHz) thus this mag-
+netic field range can be considered as a high field range
+in which the three necessary transitions are well observ-
+able25,29, and at least the field strength can be experi-
+mentally determined. When the VSi in SiC is used to
+realize such schemes at sub-mT, if the lowest transition
+energy is observable by ELDOR, one can determine both
+B0 and θ without ambiguity. 
+% Even if ELDOR is not avail-
+% able, thanks to the additional transitions that appear at
+% low fields, the field strength can be determined.
+% The magic angle terms in the eigenvalue equation al-
+% low for an alternative method to use S=3/2 systems as
+% a DC vector magnetometer. If the S=3/2 spins fixed
+% in a crystal can be rotated around the rotational axis,
+% the unambiguous determination of the applied magnetic
+% field vector is feasible by monitoring the linewidth of the
+% observed ESR spectra while the symmetry axis of the
+% crystal is oriented at θm relative to the rotational axis
+% and the rotational axis is moving. This configuration
+% also can be realized by producing an array of the crystals
+% such that the symmetry axes of each crystal form a cone
+% whose opening angle is twice the magic angle.
+% These findings provide a better understanding of the
+% S=3/2 electronic spin Hamiltonian, especially at low
+% fields. They also provide an outlook for the application of
+% VSi in SiC to quantum magnetometry which is promising
+% thanks to the electrical properties of SiC, which outstand
+% the host material of the NV centers, and the mature fab-
+% rication technology, which allows an efficient fabrication
+% of electronic devices even at the atomic scale48
+\end{group}
+
+
+ % In addition, it is demonstrated that the observation of the central line of the TV2a center of S = 3/2 has been achieved by pulsed-ELDOR
+\cite{Isoya2008}
+
+
+% \cite{Kraus2014}
+
+
+

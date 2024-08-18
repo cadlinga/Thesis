@@ -15,6 +15,9 @@ E_dict = {"magnitude": 0, "theta": 0, "phi": 0}
 steps = 50
 
 
+pyplot.rcParams.update({"font.size": 12})
+
+
 def makePlot(T, B_dict, E_dict, color, opacity, label=""):
     B_array = linspace(10**-12, B_dict["magnitude"], steps)
 
@@ -119,4 +122,5 @@ pyplot.ylabel("EPR Frequency")
 pyplot.title(
     "$S=1$ Energy Eigenvalues With Applied $\\vec{E}$, $\\theta = 0^\circ$")
 pyplot.legend(loc=7)
-pyplot.show()
+# pyplot.show()
+pyplot.savefig("../figures/EFieldParallel")

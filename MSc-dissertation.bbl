@@ -1,10 +1,12 @@
 \begin{thebibliography}{100}
 
-\bibitem{SpinStates}
-Jeannine Gr\"{u}ne.
-\newblock {\em Spin States and Efficiency-Limiting Pathways in Optoelectronic
-  Materials and Devices}.
-\newblock PhD thesis, 2022.
+\bibitem{Rain2022}
+Gabriele Rainò, Nuri Yazdani, Simon~C. Boehme, Manuel Kober-Czerny, Chenglian
+  Zhu, Franziska Krieg, Marta~D. Rossell, Rolf Erni, Vanessa Wood, Ivan
+  Infante, and Maksym~V. Kovalenko.
+\newblock Ultra-narrow room-temperature emission from single cspbbr3 perovskite
+  quantum dots.
+\newblock {\em Nature Communications}, 13(1), May 2022.
 
 \bibitem{Strner2021}
 Felix~M. St\"{u}rner, Andreas Brenneis, Thomas Buck, Julian Kassel, Robert
@@ -178,6 +180,12 @@ V.~Nabokov.
 \newblock {\em THEORETICAL MODELS OF MBE}, page 111–209.
 \newblock Elsevier, 2002.
 
+\bibitem{SpinStates}
+Jeannine Gr\"{u}ne.
+\newblock {\em Spin States and Efficiency-Limiting Pathways in Optoelectronic
+  Materials and Devices}.
+\newblock PhD thesis, 2022.
+
 \bibitem{mims}
 W~B Mims.
 \newblock {\em The linear electric field effect in paramagnetic resonance}.
@@ -211,6 +219,18 @@ L.~C. Bassett, F.~J. Heremans, C.~G. Yale, B.~B. Buckley, and D.~D. Awschalom.
   transitions enhanced by photoinduced fields.
 \newblock {\em Physical Review Letters}, 107(26), December 2011.
 
+\bibitem{Jeschke}
+Gunnar Jeschke.
+\newblock Physical chemistry iv part 2: Electron paramagnetic resonance, 2016.
+
+\bibitem{PhysRevLett.112.187601}
+Abram~L. Falk, Paul~V. Klimov, Bob~B. Buckley, Viktor Iv\'ady, Igor~A.
+  Abrikosov, Greg Calusine, William~F. Koehl, \'Ad\'am Gali, and David~D.
+  Awschalom.
+\newblock Electrically and mechanically tunable electron spins in silicon
+  carbide color centers.
+\newblock {\em Phys. Rev. Lett.}, 112:187601, May 2014.
+
 \bibitem{doi:10.1021/acs.nanolett.2c03378}
 Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
   Zhou, Wu-Xi Lin, Zhen-Xuan He, Wan Xu, Yu~Wei, Zheng-Hao Liu, Pu~Wang, Zhi-He
@@ -220,19 +240,6 @@ Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
   carbide at high pressures.
 \newblock {\em Nano Letters}, 22(24):9943--9950, 2022.
 \newblock PMID: 36507869.
-
-\bibitem{PhysRevLett.112.087601}
-P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
-\newblock Electrically driven spin resonance in silicon carbide color centers.
-\newblock {\em Phys. Rev. Lett.}, 112:087601, Feb 2014.
-
-\bibitem{PhysRevLett.112.187601}
-Abram~L. Falk, Paul~V. Klimov, Bob~B. Buckley, Viktor Iv\'ady, Igor~A.
-  Abrikosov, Greg Calusine, William~F. Koehl, \'Ad\'am Gali, and David~D.
-  Awschalom.
-\newblock Electrically and mechanically tunable electron spins in silicon
-  carbide color centers.
-\newblock {\em Phys. Rev. Lett.}, 112:187601, May 2014.
 
 \bibitem{Castelletto_2024}
 S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
@@ -296,6 +303,11 @@ Shun Kanai, F.~Joseph Heremans, Hosung Seo, Gary Wolfowicz, Christopher~P.
 \newblock {\em Proceedings of the National Academy of Sciences}, 119(15), April
   2022.
 
+\bibitem{PhysRevLett.112.087601}
+P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
+\newblock Electrically driven spin resonance in silicon carbide color centers.
+\newblock {\em Phys. Rev. Lett.}, 112:087601, Feb 2014.
+
 \bibitem{PhysRevB.105.165108}
 A.~Cs\'or\'e, I.~G. Ivanov, N.~T. Son, and A.~Gali.
 \newblock Fluorescence spectrum and charge state control of divacancy qubits
@@ -310,7 +322,7 @@ Fei-Fei Yan, Ai-Lun Yi, Jun-Feng Wang, Qiang Li, Pei Yu, Jia-Xiang Zhang, Adam
 \newblock {\em npj Quantum Information}, 6(1), May 2020.
 
 \bibitem{Mu2020}
-Zhao Mu, Soroush~Abbasi Zargaleh, Hans~J\"{u}rgen von Bardeleben, Johannes~E.
+Zhao Mu, Soroush~Abbasi Zargaleh, Hans J\"~{u}rgen von Bardeleben, Johannes~E.
   Fr\"{o}ch, Milad Nonahal, Hongbing Cai, Xinge Yang, Jianqun Yang, Xingji Li,
   Igor Aharonovich, and Weibo Gao.
 \newblock Coherent manipulation with resonant excitation and single emitter
@@ -666,8 +678,8 @@ Reinhard Kirmse.
 \newblock {\em Magnetic Resonance in Chemistry}, 33(8):698–698, August 1995.
 
 \bibitem{Janzn2009}
-Erik Janzén, Adam Gali, Patrick Carlsson, Andreas G\"{a}llstr\"{o}m, Bj\"{o}rn
-  Magnusson, and N.T. Son.
+Erik Janzén, Adam Gali, Patrick Carlsson, Andreas G\"{a}llstr~\"{o}m,
+  Bj\"{o}rn Magnusson, and N.T. Son.
 \newblock The silicon vacancy in sic.
 \newblock {\em Physica B: Condensed Matter}, 404(22):4354–4358, December
   2009.
@@ -738,8 +750,8 @@ J.~Wrachtrup, C.~von Borczyskowski, J.~Bernard, M.~Orrit, and R.~Brown.
 Toeno van~der Sar.
 \newblock Magnetometry with spins in diamond.
 \newblock Measuring a magnetic field with NV spins. Measuring a magnetic field
-  with NV spins - Magnetometry with spins in diamond. (n.d.).
-  \url{https://magnetometryrp.quantumtinkerer.tudelft.nl/3_NVspin/ }.
+  with NV spins - Magnetometry with spins in diamond. (n.d.). \url{
+  https://magnetometryrp.quantumtinkerer.tudelft.nl/3_NVspin/ }.
 \newblock [Accessed 05-08-2024].
 
 \bibitem{Baranov2017-bv}
@@ -755,7 +767,7 @@ Peter~W Atkins and Ronald~S Friedman.
 \newblock Oxford University Press, London, England, 5 edition, November 2010.
 
 \bibitem{Klimov2014}
-P. V. Klimov, A. L. Falk, B. B. Buckley, and D. D. Awschalom.
+P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
 \newblock Electrically driven spin resonance in silicon carbide color centers.
 \newblock {\em Physical Review Letters}, 112(8), February 2014.
 

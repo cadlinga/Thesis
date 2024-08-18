@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  16 AUG 2024 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  18 AUG 2024 08:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1322,15 +1322,15 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 82.
-LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-TLF on input line 82.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 83.
+LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-TLF on input line 83.
  (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-TLF.fd
 File: T1SourceSansPro-TLF.fd 2020/01/19 (autoinst) Font definitions for T1/SourceSansPro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 82.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 83.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 82.
+(Font)              scaled to size 12.0pt on input line 83.
  (./MSc-dissertation.aux
 
 LaTeX Warning: Label `eq:' multiply defined.
@@ -1342,7 +1342,16 @@ LaTeX Warning: Label `eq:' multiply defined.
 LaTeX Warning: Label `eq:' multiply defined.
 
 
+LaTeX Warning: Label `fig:' multiply defined.
+
+
 LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
 
 
 LaTeX Warning: Label `eq:' multiply defined.
@@ -1366,7 +1375,13 @@ LaTeX Warning: Label `eq:' multiply defined.
 LaTeX Warning: Label `fig:' multiply defined.
 
 
+LaTeX Warning: Label `fig:' multiply defined.
+
+
 LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
 
 
 LaTeX Warning: Label `fig:' multiply defined.
@@ -1379,43 +1394,40 @@ LaTeX Warning: Label `eq:' multiply defined.
 
 
 LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
 
 )
 \openout1 = `MSc-dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 82.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 83.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 83.
  (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 82.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 82.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 83.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 83.
  (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    ... okay on input line 83.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count361
@@ -1443,17 +1455,17 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count367
 
-Package chemgreek Info: Activating mapping `default' on line 82.
+Package chemgreek Info: Activating mapping `default' on line 83.
 
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 82.
+ on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 82.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1463,14 +1475,14 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(62.59604pt, 441.01772pt, 93.89412pt)
+* h-part:(L,W,R)=(51.21497pt, 469.47046pt, 76.82245pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=441.01772pt
+* \textwidth=469.47046pt
 * \textheight=702.78308pt
-* \oddsidemargin=-9.67395pt
-* \evensidemargin=21.62413pt
+* \oddsidemargin=-21.05502pt
+* \evensidemargin=4.55246pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1489,7 +1501,7 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 82.
+Package hyperref Info: Link coloring ON on input line 83.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1499,9 +1511,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count368
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
  (./MSc-dissertation.out) (./MSc-dissertation.out)
 \@outlinefile=\write5
 \openout5 = `MSc-dissertation.out'.
@@ -1511,35 +1523,35 @@ LaTeX Info: Redefining \nameref on input line 82.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: `float' package detected.
-<Title/title.pdf, id=266, 614.295pt x 794.97pt>
+<Title/title.pdf, id=258, 614.295pt x 794.97pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
-Package pdftex.def Info: Title/title.pdf  used on input line 94.
+Package pdftex.def Info: Title/title.pdf  used on input line 95.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
-Package pdftex.def Info: Title/title.pdf  used on input line 94.
+Package pdftex.def Info: Title/title.pdf  used on input line 95.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Title/title.pdf, id=269, page=1, 614.295pt x 794.97pt>
+<Title/title.pdf, id=261, page=1, 614.295pt x 794.97pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 94.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 95.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 94.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 95.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 94.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 95.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 94.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 95.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
-Package pdftex.def Info: Title/title.pdf , page1 used on input line 94.
+Package pdftex.def Info: Title/title.pdf , page1 used on input line 95.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [1
 
@@ -1557,30 +1569,23 @@ LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/bold/n' will be
 Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
 (lipsum)                'english' will be used instead.
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 11.
-) (./declaration.tex [1]) (./personal_statement.tex [2]) (./acknowledgements.tex
+) (./declaration.tex
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 8.
+ [1]) (./personal_statement.tex [2]) (./acknowledgements.tex
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
 (Font)              `T1/SourceSansPro-TLF/bold/n' on input line 13.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 13.
 ) [3]
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 109.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 110.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 109.
+(Font)              scaled to size 24.88pt on input line 110.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 109.
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 110.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 109.
- (./MSc-dissertation.tdo
-Overfull \hbox (10.44275pt too wide) in paragraph at lines 11--11
- [][] [][][][][] \T1/SourceSansPro-TLF/regular/n/12 Strain and ap-plied $[]$ field are in-dis-tin-guish-able so can use $\OML/cmm/m/it/12 E$ \T1/SourceSansPro-TLF/regular/n/12 tech-niques in shielded 
- []
-
-
-Underfull \vbox (badness 1430) has occurred while \output is active []
-
- [4
+(Font)              scaled to size 24.88pt on input line 110.
+ (./MSc-dissertation.tdo [4
 
 ])
 \tf@tdo=\write6
@@ -1592,7 +1597,7 @@ Underfull \vbox (badness 2310) has occurred while \output is active []
  [6
 
 ]
-Underfull \vbox (badness 1158) has occurred while \output is active []
+Underfull \vbox (badness 1314) has occurred while \output is active []
 
  [7])
 \tf@toc=\write7
@@ -1608,32 +1613,24 @@ LaTeX Warning: Marginpar on page ix moved.
 
  [9
 
-] (./Chapters/intro.tex
+] [10
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+] (./Chapters/intro.tex
+Chapter 1.
+
+Overfull \hbox (13.16138pt too wide) in paragraph at lines 68--69
+[]\T1/SourceSansPro-TLF/regular/n/12 which stud-ies the in-ter-ac-tion with mag-netic mo-ments
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Introduction} [1
+l.72 
+      [1
 
 ]
-Chapter 1.
-
-Overfull \hbox (6.05818pt too wide) in paragraph at lines 65--66
-[]\T1/SourceSansPro-TLF/regular/n/12 which stud-ies the in-ter-ac-tion with nu-clear mag-netic
- []
-
-[2
-
-]
-Overfull \hbox (6.9641pt too wide) in paragraph at lines 73--75
-[]\T1/SourceSansPro-TLF/regular/n/12 A par-tic-u-larly suc-cess-ful tech-nique is Op-ti-cally De-tected Mag-netic Res-o-nance (ODMR) which
+Overfull \hbox (4.4903pt too wide) in paragraph at lines 99--100
+[]\T1/SourceSansPro-TLF/regular/n/12 where two mi-crowave fre-quen-cies par-tic-i-pate; 
  []
 
 
@@ -1647,12 +1644,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
-Overfull \hbox (2.02045pt too wide) in paragraph at lines 106--107
-[]\T1/SourceSansPro-TLF/regular/n/12 This work looks to ex-plore how the phys-i-cal char-ac-ter-is-tics which in-flu-ence the Spin Hamil-
- []
-
-) (./Chapters/background.tex
+[2]) (./Chapters/background.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1660,7 +1652,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
+[3]
 Chapter 2.
 (./Sections/Magnetism.tex
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
@@ -1693,14 +1685,17 @@ LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/b/n' in size <14.4> not availa
 (Font)              Font shape `T1/CrimsonPro-OsF/bold/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
- [5
+ [4
 
 ] (./Tikz/MagneticDipole.tex)
-Underfull \hbox (badness 2837) in paragraph at lines 27--28
-\T1/SourceSansPro-TLF/regular/n/12 con-sider the di-rec-tion of the dipole as
+Underfull \hbox (badness 2027) in paragraph at lines 21--22
+[][]\T1/SourceSansPro-TLF/regular/n/12 The []mag-netic dipole pro-duces a mag-netic field $[]$,
  []
 
 ) (./Sections/GyromagneticRatio.tex
+Underfull \vbox (badness 4429) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1708,45 +1703,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]) (./Sections/BohrMagneton.tex (./Tikz/OrbitalMagneticMoment.tex)
-Underfull \hbox (badness 1902) in paragraph at lines 12--14
-\T1/SourceSansPro-TLF/regular/n/12 tend the model to quan-tum me-chan-ics
+[5]) (./Sections/BohrMagneton.tex (./Tikz/OrbitalMagneticMoment.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6])) (./Sections/Spin.tex (./Tikz/ElectronMagneticMomentSpin.tex)
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7] (./Tikz/Spin.tex)
+Underfull \hbox (badness 1412) in paragraph at lines 22--22
+[][]\T1/SourceSansPro-TLF/regular/it/12 Fig. 2.4: |\T1/SourceSansPro-TLF/regular/n/12 Schematic of dis-
  []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 12--14
-\T1/SourceSansPro-TLF/regular/n/12 is the treat-ment of an-gu-lar mo-men-tum
- []
-
-
-Underfull \vbox (badness 4144) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7])) (./Sections/Spin.tex (./Tikz/ElectronMagneticMomentSpin.tex)
-Underfull \vbox (badness 1584) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
-
-Package wrapfig Warning: Collision between wrapping environments on input line 17.
-
-(./Tikz/Spin.tex)
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 26.
 
 ) (./Sections/Zeeman.tex
 
@@ -1756,31 +1735,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9]
-! You can't use `\eqno' in math mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.17 \end{equation}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+[8]
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.17 \end{equation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+pdfTeX warning: pdflatex (file ./figures/Zeeman.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Zeeman.pdf, id=660, 241.84843pt x 156.49016pt>
+File: figures/Zeeman.pdf Graphic file (type pdf)
+<use figures/Zeeman.pdf>
+Package pdftex.def Info: figures/Zeeman.pdf  used on input line 28.
+(pdftex.def)             Requested size: 281.68513pt x 182.26892pt.
 
+! LaTeX Error: Not in outer par mode.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...the work by Gr\"{u}ne. \td{write caption}}
+                                                  \label{fig:}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
+! Undefined control sequence.
+<argument> \@marbox 
+                    
+l.31 ...the work by Gr\"{u}ne. \td{write caption}}
+                                                  \label{fig:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.31 ...the work by Gr\"{u}ne. \td{write caption}}
+                                                  \label{fig:}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1789,7 +1782,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]) (./Sections/SpinOrbit.tex) (./Sections/PerturbationTheory.tex
+[9 <./figures/Zeeman.pdf>]) (./Sections/SpinOrbit.tex) (./Sections/PerturbationTheory.tex
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -1804,7 +1797,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7595) has occurred while \output is active []
 
 
 
@@ -1814,7 +1807,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[10]
+Overfull \hbox (21.76329pt too wide) in paragraph at lines 34--35
+[]\T1/SourceSansPro-TLF/regular/n/12 Here we used the fact that $[] \OT1/cmr/m/n/12 = 0$ \T1/SourceSansPro-TLF/regular/n/12 since, for ex-am-ple in the aleg-braic ba-sis $[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 i []$
+ []
+
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/n' on input line 40.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
@@ -1827,7 +1824,6 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/n' on input line 40.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 7.0pt on input line 40.
-
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -1865,7 +1861,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
+[11]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -1879,11 +1875,6 @@ l.85     \end{align}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Overfull \hbox (4.78629pt too wide) in paragraph at lines 92--93
-[]\T1/SourceSansPro-TLF/regular/n/12 The term de-pend-ing on $\OML/cmm/m/it/12 D$ \T1/SourceSansPro-TLF/regular/n/12 has no de-pen-dence on mag-netic field and thus this []fine-structure
- []
-
 ) (./Sections/ZFS.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1892,18 +1883,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[12]
+
+pdfTeX warning: pdflatex (file ./figures/ZFS.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/ZFS.pdf, id=720, 199.1693pt x 170.71654pt>
+File: figures/ZFS.pdf Graphic file (type pdf)
+<use figures/ZFS.pdf>
+Package pdftex.def Info: figures/ZFS.pdf  used on input line 7.
+(pdftex.def)             Requested size: 281.68513pt x 241.45795pt.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 25.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 34.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 25.
+(Font)              scaled to size 6.0pt on input line 34.
 
-Overfull \hbox (2.45242pt too wide) in paragraph at lines 39--40
-[]\T1/SourceSansPro-TLF/regular/n/12 Substituting [] and [] into [] and ex-pand-ing al-lows us to write our fine-structure
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[13 <./figures/ZFS.pdf>]
+Underfull \vbox (badness 1616) has occurred while \output is active []
 
 
 
@@ -1913,23 +1913,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
-Overfull \hbox (1.5633pt too wide) in paragraph at lines 48--49
-[]\T1/SourceSansPro-TLF/regular/n/12 We be-gin with the clas-si-cal ex-pres-sion for the en-ergy be-tween two mag-netic dipoles, $\OML/cmm/m/it/12 ^^V[]; ^^V[]$ 
- []
-
-<figures/ZFS.png, id=731, 1880.02374pt x 1083.04625pt>
-File: figures/ZFS.png Graphic file (type png)
-<use figures/ZFS.png>
-Package pdftex.def Info: figures/ZFS.png  used on input line 93.
-(pdftex.def)             Requested size: 352.8155pt x 203.23593pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./Sections/NuclearHamiltonians.tex
-Underfull \vbox (badness 3919) has occurred while \output is active []
-
-
+[14]) (./Sections/NuclearHamiltonians.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1938,17 +1922,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-Underfull \vbox (badness 4096) has occurred while \output is active []
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16 <./figures/ZFS.png>]) (./Sections/StarkEffect.tex
+pdfTeX warning: pdflatex (file ./figures/inhom-broadening.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/inhom-broadening.pdf, id=768, 142.26378pt x 142.26378pt>
+File: figures/inhom-broadening.pdf Graphic file (type pdf)
+<use figures/inhom-broadening.pdf>
+Package pdftex.def Info: figures/inhom-broadening.pdf  used on input line 44.
+(pdftex.def)             Requested size: 234.73523pt x 234.7555pt.
+) (./Sections/StarkEffect.tex
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -1963,6 +1944,14 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./figures/inhom-broadening.pdf>]
+
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
 
@@ -1975,14 +1964,6 @@ l.57     \end{align}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17]
 
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
@@ -2010,6 +1991,18 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
 ! Package amsmath Error: Erroneous nesting of equation structures;
 (amsmath)                trying to recover with `aligned'.
 
@@ -2022,6 +2015,80 @@ l.99     \end{align}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+<figures/EFieldParallel.png, id=812, 578.16pt x 289.08pt>
+File: figures/EFieldParallel.png Graphic file (type png)
+<use figures/EFieldParallel.png>
+Package pdftex.def Info: figures/EFieldParallel.png  used on input line 111.
+(pdftex.def)             Requested size: 445.9955pt x 222.9981pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...alue plot showing... \td{better caption}}
+                                                  \label{fig:}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@marbox 
+                    
+l.115 ...alue plot showing... \td{better caption}}
+                                                  \label{fig:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.115 ...alue plot showing... \td{better caption}}
+                                                  \label{fig:}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+<figures/EFieldPerp.png, id=814, 578.16pt x 289.08pt>
+File: figures/EFieldPerp.png Graphic file (type png)
+<use figures/EFieldPerp.png>
+Package pdftex.def Info: figures/EFieldPerp.png  used on input line 120.
+(pdftex.def)             Requested size: 445.9955pt x 222.9981pt.
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...alue plot showing... \td{better caption}}
+                                                  \label{fig:}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@marbox 
+                    
+l.123 ...alue plot showing... \td{better caption}}
+                                                  \label{fig:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.123 ...alue plot showing... \td{better caption}}
+                                                  \label{fig:}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2033,7 +2100,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]) (./Sections/TotalHamiltonian.tex
+[18 <./figures/EFieldParallel.png>]) (./Sections/TotalHamiltonian.tex
 ! Misplaced alignment tab character &.
 l.9     H_{\ce{Zeeman}} &
                          = g \mu_B \hat{\vec{S}}\cdot \vec{B}, \tag{\ref{eq:...
@@ -2074,21 +2141,25 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
 
+Underfull \vbox (badness 4217) has occurred while \output is active []
+
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9.61}) has been already used, duplicate ignored
+[19pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9.62}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.22 \end{equation}
-                   pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9.61}) has been already used, duplicate ignored
+                   pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9.62}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.22 \end{equation}
-                   ]
+                    <./figures/EFieldPerp.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 24.
@@ -2111,22 +2182,16 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (33.0521pt too wide) detected at line 50
+Overfull \hbox (4.59935pt too wide) detected at line 50
 [][][][]
  []
 
-) (./Sections/StrainPressure.tex) (./Sections/QuantumSensing.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20]
-Overfull \hbox (7.1861pt too wide) in paragraph at lines 35--38
-[]\T1/SourceSansPro-TLF/regular/n/12 Spin de-fects are mostly para-m-ag-netic and ra-dia-tive point de-fects (or colour cen-tres). []Colour
- []
+) (./Sections/StrainPressure.tex
+<figures/PressureDependence.png, id=845, 872.25874pt x 694.595pt>
+File: figures/PressureDependence.png Graphic file (type png)
+<use figures/PressureDependence.png>
+Package pdftex.def Info: figures/PressureDependence.png  used on input line 39.
+(pdftex.def)             Requested size: 281.68513pt x 224.30988pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2135,7 +2200,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[20]) (./Sections/QuantumSensing.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21 <./figures/PressureDependence.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2157,8 +2233,16 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
 LaTeX Font Info:    Trying to load font information for TS1+SourceSansPro-TLF on input line 157.
-(/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
 File: TS1SourceSansPro-TLF.fd 2020/01/19 (autoinst) Font definitions for TS1/SourceSansPro-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
@@ -2186,7 +2270,7 @@ l.164 \end{group}
                  
 Things are pretty mixed up, but I think the worst is over.
 
-) (./Sections/SpinPopulation.tex
+) (./Sections/SpinPopulation.tex) (./Sections/ODMR.tex) (./Sections/SiliconCarbide.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2194,136 +2278,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]) (./Sections/ODMR.tex) (./Sections/SiliconCarbide.tex
-! Undefined control sequence.
-l.15 \subsubsecton
-                  {$S=1$ Defects}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
+[24]
 
 pdfTeX warning: pdflatex (file ./figures/SiC-non-equiv-sites.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/SiC-non-equiv-sites.pdf, id=926, 113.81102pt x 170.71654pt>
+<figures/SiC-non-equiv-sites.pdf, id=971, 113.81102pt x 170.71654pt>
 File: figures/SiC-non-equiv-sites.pdf Graphic file (type pdf)
 <use figures/SiC-non-equiv-sites.pdf>
-Package pdftex.def Info: figures/SiC-non-equiv-sites.pdf  used on input line 19.
-(pdftex.def)             Requested size: 167.58888pt x 251.41135pt.
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...equiv sites in 4H SiC \td{better caption}}
-                                                  %
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> \@marbox 
-                    
-l.20 ...equiv sites in 4H SiC \td{better caption}}
-                                                  %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.20 ...equiv sites in 4H SiC \td{better caption}}
-                                                  %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.20 ...equiv sites in 4H SiC \td{better caption}}
-                                                  %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.20 ...equiv sites in 4H SiC \td{better caption}}
-                                                  %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
+Package pdftex.def Info: figures/SiC-non-equiv-sites.pdf  used on input line 18.
+(pdftex.def)             Requested size: 150.23398pt x 225.37776pt.
 
 
 pdfTeX warning: pdflatex (file ./figures/SiC-V2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/SiC-V2.pdf, id=927, 113.81102pt x 170.71654pt>
+<figures/SiC-V2.pdf, id=972, 113.81102pt x 170.71654pt>
 File: figures/SiC-V2.pdf Graphic file (type pdf)
 <use figures/SiC-V2.pdf>
-Package pdftex.def Info: figures/SiC-V2.pdf  used on input line 29.
-(pdftex.def)             Requested size: 149.9444pt x 224.94275pt.
-
-! LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   \caption{ \td{better caption}}
-                                     %
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> \@marbox 
-                    
-l.30   \caption{ \td{better caption}}
-                                     %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.30   \caption{ \td{better caption}}
-                                     %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> \@currbox 
-                     
-l.30   \caption{ \td{better caption}}
-                                     %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.30   \caption{ \td{better caption}}
-                                     %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
+Package pdftex.def Info: figures/SiC-V2.pdf  used on input line 20.
+(pdftex.def)             Requested size: 150.23398pt x 225.37776pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2331,33 +2301,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24 <./figures/SiC-non-equiv-sites.pdf> <./figures/SiC-V2.pdf
+[25 <./figures/SiC-non-equiv-sites.pdf> <./figures/SiC-V2.pdf
 
 pdfTeX warning: pdflatex (file ./figures/SiC-V2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 70.
+(hyperref)                removing `math shift' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 70.
+(hyperref)                removing `\mhchem@cee' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 70.
+(hyperref)                removing `math shift' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 95.
+(hyperref)                removing `math shift' on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mhchem@cee' on input line 95.
+(hyperref)                removing `\mhchem@cee' on input line 106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 95.
+(hyperref)                removing `math shift' on input line 106.
 
 ) (./Sections/MultimodalSensing.tex
 
@@ -2367,7 +2337,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25])) (./Chapters/design.tex
+[26])) (./Chapters/design.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2375,7 +2345,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]
+[27]
 
 ! LaTeX Error: Float(s) lost.
 
@@ -2389,16 +2359,17 @@ You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Chapter 3.
+(./Sections/S1_Magnetometry.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
+(hyperref)                removing `math shift' on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
+(hyperref)                removing `math shift' on input line 1.
 
 ! Extra }, or forgotten $.
-l.9     H_{} = H_{\ce{D}} + H_{\ce{Z}}}
+l.6     H_{} = H_{\ce{D}} + H_{\ce{Z}}}
                                        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2406,10 +2377,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[27
+[28
 
 ]
-Underfull \vbox (badness 1565) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2419,26 +2390,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[29]
 
-LaTeX Warning: Reference `eq:spin_operators' on page 29 undefined on input line 106.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 121.
+LaTeX Warning: Reference `eq:spin_operators' on page 30 undefined on input line 103.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 121.
+(hyperref)                removing `math shift' on input line 118.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 118.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/DNV-ODMR.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/DNV-ODMR.pdf, id=1049, 199.1693pt x 128.0374pt>
+<figures/DNV-ODMR.pdf, id=1093, 199.1693pt x 128.0374pt>
 File: figures/DNV-ODMR.pdf Graphic file (type pdf)
 <use figures/DNV-ODMR.pdf>
-Package pdftex.def Info: figures/DNV-ODMR.pdf  used on input line 139.
-(pdftex.def)             Requested size: 308.71104pt x 198.46956pt.
+Package pdftex.def Info: figures/DNV-ODMR.pdf  used on input line 136.
+(pdftex.def)             Requested size: 328.62788pt x 211.27405pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2453,46 +2424,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
-<figures/PL6ODMRSpectra_theta_0_to_90.png, id=1061, 578.16pt x 289.08pt>
+[30]
+<figures/PL6ODMRSpectra_theta_0_to_90.png, id=1105, 578.16pt x 289.08pt>
 File: figures/PL6ODMRSpectra_theta_0_to_90.png Graphic file (type png)
 <use figures/PL6ODMRSpectra_theta_0_to_90.png>
-Package pdftex.def Info: figures/PL6ODMRSpectra_theta_0_to_90.png  used on input line 153.
-(pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
+Package pdftex.def Info: figures/PL6ODMRSpectra_theta_0_to_90.png  used on input line 152.
+(pdftex.def)             Requested size: 469.47046pt x 234.73576pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 159.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 159.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30 <./figures/DNV-ODMR.pdf> <./figures/PL6ODMRSpectra_theta_0_to_90.png>]
-<figures/four_possible_NV_orientations.png, id=1073, 526.21594pt x 506.6428pt>
+<figures/four_possible_NV_orientations.png, id=1107, 526.21594pt x 506.6428pt>
 File: figures/four_possible_NV_orientations.png Graphic file (type png)
 <use figures/four_possible_NV_orientations.png>
-Package pdftex.def Info: figures/four_possible_NV_orientations.png  used on input line 168.
-(pdftex.def)             Requested size: 198.45662pt x 191.07289pt.
+Package pdftex.def Info: figures/four_possible_NV_orientations.png  used on input line 167.
+(pdftex.def)             Requested size: 211.26027pt x 203.40341pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Sections/S1.5_Magnetometry.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 217.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 217.
+(hyperref)                removing `math shift' on input line 1.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2501,49 +2466,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31 <./figures/four_possible_NV_orientations.png>]
+[31 <./figures/DNV-ODMR.pdf>]
 
-LaTeX Warning: Reference `' on page 32 undefined on input line 239.
-
-
-LaTeX Warning: Reference `' on page 32 undefined on input line 245.
-
-
-LaTeX Warning: Marginpar on page 32 moved.
-
-
-LaTeX Warning: Marginpar on page 32 moved.
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.251     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (0.81781pt too wide) detected at line 253
-[][][][]
- []
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.268     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `' on page 32 undefined on input line 23.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2556,9 +2481,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[32 <./figures/PL6ODMRSpectra_theta_0_to_90.png>]
 
+LaTeX Warning: Reference `' on page 33 undefined on input line 29.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2567,103 +2524,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33]
+[33 <./figures/four_possible_NV_orientations.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.313     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.329 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.331 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.331 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-Overfull \hbox (32.7202pt too wide) detected at line 331
-[][][][]
- []
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.332 \end{equation}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! You can't use `\eqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.332 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.332 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.332 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 342.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 342.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2674,20 +2537,157 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [34]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 358.
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 358.
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.115 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.115 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
-LaTeX Warning: Reference `dnv_vector' on page 35 undefined on input line 359.
-
-
-Overfull \hbox (4.13463pt too wide) in paragraph at lines 363--364
-\T1/SourceSansPro-TLF/regular/n/12 a given an-gle (see fig-ure [][]3.4[][]). The method should be con-sid-ered for $\OML/cmm/m/it/12 g^^V[]B[] \OMS/cmsy/m/n/12 ^^] \OT1/cmr/m/n/12 2[]$
+Overfull \hbox (4.26746pt too wide) detected at line 115
+[][][][]
  []
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.116 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.116 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 126.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 142.
+
+
+LaTeX Warning: Reference `dnv_vector' on page 36 undefined on input line 143.
+
+
+Overfull \hbox (6.26662pt too wide) in paragraph at lines 147--148
+\T1/SourceSansPro-TLF/regular/n/12 plic-itly as in-ter-ac-tions such as level anti-crossing pro-duce a com-plex spec-tra [[]] when $\OML/cmm/m/it/12 g^^V[]B[] \OMS/cmsy/m/n/12 ^^Y
+ []
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154     \caption{\td{write caption}}
+                                      \label{fig:resonant_crossing_V2}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@marbox 
+                    
+l.154     \caption{\td{write caption}}
+                                      \label{fig:resonant_crossing_V2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.154     \caption{\td{write caption}}
+                                      \label{fig:resonant_crossing_V2}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 
 ! LaTeX Error: Environment group undefined.
@@ -2696,7 +2696,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 \begin{group}
+l.156 \begin{group}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2710,7 +2710,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.374 At a high B0 field (gμB B0 ^^]
+l.158 At a high B0 field (gμB B0 ^^]
                                       ZFS),
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2723,7 +2723,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.378 at low gμB B0 (^^\
+l.162 at low gμB B0 (^^\
                           ZFS), as long as one can explicitly
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2736,7 +2736,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.386 ∼
+l.170 ∼
           100 mT . The VSi in SiC can fill out this gap since its
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2749,7 +2749,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.387 ZFS is quite small (ZFS/h ∼
+l.171 ZFS is quite small (ZFS/h ∼
                                     100 MHz) thus this mag-
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2761,7 +2761,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394 B0 and θ
+l.178 B0 and θ
                 without ambiguity.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2774,7 +2774,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.418 \end{group}
+l.202 \end{group}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2783,7 +2783,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.418 \end{group}
+l.202 \end{group}
                  
 Things are pretty mixed up, but I think the worst is over.
 
@@ -2794,62 +2794,178 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35]
+[36]) (./Sections/S1_Thermometry.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 428.
+(hyperref)                removing `math shift' on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 428.
+(hyperref)                removing `math shift' on input line 1.
 
-
-Overfull \hbox (1.64114pt too wide) in paragraph at lines 447--448
-[]\T1/SourceSansPro-TLF/regular/n/12 The pho-to-lu-mi-nes-cence of the spin sys-tem may have a de-pen-dence
- []
-
-<figures/SiC-PL5PL6-D(T).png, id=1141, 462.528pt x 346.896pt>
+<figures/SiC-PL5PL6-D(T).png, id=1185, 462.528pt x 346.896pt>
 File: figures/SiC-PL5PL6-D(T).png Graphic file (type png)
 <use figures/SiC-PL5PL6-D(T).png>
-Package pdftex.def Info: figures/SiC-PL5PL6-D(T).png  used on input line 460.
-(pdftex.def)             Requested size: 216.10109pt x 162.07777pt.
-<figures/SiC-PL5PL6-D(T)-close.png, id=1142, 462.528pt x 346.896pt>
+Package pdftex.def Info: figures/SiC-PL5PL6-D(T).png  used on input line 33.
+(pdftex.def)             Requested size: 230.04309pt x 172.53185pt.
+<figures/SiC-PL5PL6-D(T)-close.png, id=1186, 462.528pt x 346.896pt>
 File: figures/SiC-PL5PL6-D(T)-close.png Graphic file (type png)
 <use figures/SiC-PL5PL6-D(T)-close.png>
-Package pdftex.def Info: figures/SiC-PL5PL6-D(T)-close.png  used on input line 461.
-(pdftex.def)             Requested size: 216.10109pt x 162.07777pt.
+Package pdftex.def Info: figures/SiC-PL5PL6-D(T)-close.png  used on input line 34.
+(pdftex.def)             Requested size: 230.04309pt x 172.53185pt.
+
+LaTeX Warning: Marginpar on page 37 moved.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Marginpar on page 36 moved.
-
-<figures/PL6-DvsT-3temps.png, id=1144, 519.6213pt x 598.3956pt>
+<figures/PL6-DvsT-3temps.png, id=1188, 519.6213pt x 598.3956pt>
 File: figures/PL6-DvsT-3temps.png Graphic file (type png)
 <use figures/PL6-DvsT-3temps.png>
-Package pdftex.def Info: figures/PL6-DvsT-3temps.png  used on input line 480.
-(pdftex.def)             Requested size: 352.8155pt x 406.31924pt.
+Package pdftex.def Info: figures/PL6-DvsT-3temps.png  used on input line 53.
+(pdftex.def)             Requested size: 375.57779pt x 432.53369pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55     \caption{\td{write caption}}
+                                     \label{fig:pl6-3temps}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \@marbox 
+                    
+l.55     \caption{\td{write caption}}
+                                     \label{fig:pl6-3temps}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.55     \caption{\td{write caption}}
+                                     \label{fig:pl6-3temps}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 
-LaTeX Warning: Marginpar on page 36 moved.
+LaTeX Warning: Marginpar on page 37 moved.
+
+) (./Sections/S1.5_Thermometry.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 487.
+(hyperref)                removing `math shift' on input line 1.
+
+) (./Sections/S1_Electometry.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 487.
+(hyperref)                removing `math shift' on input line 1.
+
+) (./Sections/S1.5_Electometry.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 489.
+(hyperref)                removing `math shift' on input line 1.
+
+) (./Sections/Multimodality.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 489.
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 15.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 15.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2858,86 +2974,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[38 <./figures/SiC-PL5PL6-D(T).png> <./figures/SiC-PL5PL6-D(T)-close.png>]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 492.
+! LaTeX Error: Not in outer par mode.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23     \caption{\td{write caption}}
+                                     \label{fig:}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 492.
+! Undefined control sequence.
+<argument> \@marbox 
+                    
+l.23     \caption{\td{write caption}}
+                                     \label{fig:}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 501.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 501.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 501.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 501.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 504.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 504.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 504.
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.23     \caption{\td{write caption}}
+                                     \label{fig:}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 504.
+(hyperref)                removing `math shift' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 31.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 511.
+(hyperref)                removing `math shift' on input line 31.
 
+)) (./Chapters/results.tex
+Underfull \vbox (badness 1997) has occurred while \output is active []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 511.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 511.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 511.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 511.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 511.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2946,35 +3042,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37 <./figures/SiC-PL5PL6-D(T).png> <./figures/SiC-PL5PL6-D(T)-close.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 527.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 527.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 527.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 527.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 527.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 527.
-
-) (./Chapters/results.tex
+[39 <./figures/PL6-DvsT-3temps.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2982,21 +3050,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./figures/PL6-DvsT-3temps.png>]
+[40]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+! LaTeX Error: Float(s) lost.
 
-[39]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter
+            {Results and Analysis}\label{ch:results}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 Chapter 4.
-) (./Chapters/conclusions.tex [40
+) (./Chapters/conclusions.tex [41
 
 ]
 Chapter 5.
-) [41
+) [42
 
 ]
 
@@ -3006,7 +3078,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42
+[43
 
 ]
 runsystem(makeindex MSc-dissertation.idx)...executed.
@@ -3019,7 +3091,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43
+[44
 
 ]
 Overfull \vbox (10.64465pt too high) has occurred while \output is active []
@@ -3027,7 +3099,7 @@ Overfull \vbox (10.64465pt too high) has occurred while \output is active []
 
 Overfull \vbox (12.66127pt too high) has occurred while \output is active []
 
- [44
+ [45
 
 ])
 
@@ -3037,7 +3109,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45]
+[46] (./MSc-dissertation.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3045,41 +3117,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46
-
-] (./MSc-dissertation.bbl [47
+[47
 
 ]
-Underfull \hbox (badness 1270) in paragraph at lines 87--94
-[]\T1/SourceSansPro-TLF/regular/n/12 Matthias Wid-mann, Sang-Yun Lee, Torsten Rendler, Nguyen Tien Son, Hel-mut
+Underfull \hbox (badness 1057) in paragraph at lines 59--66
+\T1/SourceSansPro-TLF/regular/n/12 D. J. Twitchen, D. Elk-ouss, S. Wehner, T. H. Taminiau, and R. Han-son.  Loophole-
  []
 
+[48
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[48]
-
-! LaTeX Error: Unicode character � (U+FFFD)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 \newblock {\em Zeitschrift f�
-                                     r Physik}, 9(1):353–355, December 1922.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 152--155
-[]\T1/SourceSansPro-TLF/regular/n/12 Walther Ger-lach and Otto Stern.  Das mag-netis-che mo-ment des sil-ber-atoms.
- []
-
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3089,6 +3136,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [49]
 
+! LaTeX Error: Unicode character � (U+FFFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \newblock {\em Zeitschrift f�
+                                     r Physik}, 9(1):353–355, December 1922.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -3096,10 +3156,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [50]
-Underfull \hbox (badness 2941) in paragraph at lines 344--351
-\T1/SourceSansPro-TLF/regular/n/12 Sang-Yun Lee, Am-lan Mukher-jee, Ju-nichi Isoya, Nguyen Tien Son, and J�rg
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3108,16 +3164,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [51]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[52]
-Underfull \hbox (badness 1708) in paragraph at lines 414--419
-[]\T1/SourceSansPro-TLF/regular/n/12 D. Simin, F. Fuchs, H. Kraus, A. Sper-lich, P. G. Bara-nov, G. V. As-takhov, and
+Underfull \hbox (badness 1112) in paragraph at lines 347--354
+[]\T1/SourceSansPro-TLF/regular/n/12 Christopher P An-der-son, Elena O Glen, Cyrus Zele-don, Alexan-dre Bourassa, Yu Jin,
  []
 
 
@@ -3127,7 +3175,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[52]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [53]
+Underfull \hbox (badness 3260) in paragraph at lines 447--454
+[]\T1/SourceSansPro-TLF/regular/n/12 Stefania Castel-letto, Ab-dul Salam Al Atem, Faraz Ahmed Inam, Hans J�r-gen von
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3137,6 +3197,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [54]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+Underfull \hbox (badness 1603) in paragraph at lines 577--582
+[]\T1/SourceSansPro-TLF/regular/n/12 F. Sardi, T. Ko-rn-her, M. Wid-mann, R. Kolesov, F. Schiller, T. Reindl, M. Hagel, and
+ []
+
+
 ! LaTeX Error: Unicode character − (U+2212)
                not set up for use with LaTeX.
 
@@ -3144,7 +3216,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.614   −
+l.626   −
             a review.
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -3156,33 +3228,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55]
-Underfull \hbox (badness 1308) in paragraph at lines 638--641
-[]\T1/SourceSansPro-TLF/regular/n/12 Wei-Ke Quan, Lin Liu, Qin-Yue Luo, Xiao-Di Liu, and Jun-Feng Wang.  Fiber-
- []
-
-
-Underfull \hbox (badness 2913) in paragraph at lines 643--650
-[]\T1/SourceSansPro-TLF/regular/n/12 Gopalakrishnan Bal-a-sub-ra-ma-nian, I. Y. Chan, Ro-man Kolesov, Mo-han-nad Al-
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 669--674
-[]\T1/SourceSansPro-TLF/regular/n/12 Erik Janz�n, Adam Gali, Patrick Carls-son, An-dreas G�ll-str�m, Bj�rn Mag-nus-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [56]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 742.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
+Underfull \hbox (badness 1286) in paragraph at lines 636--640
+\T1/SourceSansPro-TLF/regular/n/12 Feng Wang.  High-sensitivity sil-i-con car-bide divacancy-based tem-per-a-ture sens-ing.
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3191,63 +3241,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [57]
-Underfull \hbox (badness 2142) in paragraph at lines 746--751
-\T1/SourceSansPro-TLF/regular/n/12 Wrachtrup.  \T1/SourceSansPro-TLF/regular/it/12 Mag-netic res-o-nance of semi-con-duc-tors and their nanos-truc-tures\T1/SourceSansPro-TLF/regular/n/12 .
+Underfull \hbox (badness 10000) in paragraph at lines 726--732
+[]\T1/SourceSansPro-TLF/regular/n/12 Gopalakrishnan Bal-a-sub-ra-ma-nian, Philipp Neu-mann, Daniel Twitchen, Matthew
  []
 
 
-! LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
+Underfull \hbox (badness 2772) in paragraph at lines 726--732
+\T1/SourceSansPro-TLF/regular/n/12 Markham, Ro-man Kolesov, Norikazu Mizuochi, Ju-nichi Isoya, Jo-ce-lyn Achard, Jo-
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.758 P. 
-           V. Klimov, A. L. Falk, B. B. Buckley, and D. D. Awschalom.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.758 P. V. Klimov, A. 
-                           L. Falk, B. B. Buckley, and D. D. Awschalom.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.758 P. V. Klimov, A. L. Falk, B. 
-                                         B. Buckley, and D. D. Awschalom.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character   (U+2009)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.758 ... A. L. Falk, B. B. Buckley, and D. 
-                                                  D. Awschalom.
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 754.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
+Underfull \hbox (badness 5696) in paragraph at lines 758--763
+[]\T1/SourceSansPro-TLF/regular/n/12 Pavel Bara-nov Bara-nov, Hans Ju-r-gen Von Bardeleben, Fe-dor Jelezko, and Jorg
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3255,7 +3265,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]
+[58])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3263,7 +3273,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59
+[59]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60
 
 ] (./MSc-dissertation.aux)
 
@@ -3273,21 +3291,21 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `MSc-dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: E100762F6A69E42F9E3D57E63E84AC43;9132.
+(rerunfilecheck)             Checksum: 6BCC43005AB9D367F5FC9AB865C18725;8835.
  ) 
 Here is how much of TeX's memory you used:
- 44858 strings out of 480171
- 1036813 string characters out of 5894490
- 1459194 words of memory out of 10000000
- 61527 multiletter control sequences out of 15000+600000
+ 44993 strings out of 480171
+ 1040435 string characters out of 5894490
+ 1481713 words of memory out of 10000000
+ 61627 multiletter control sequences out of 15000+600000
  674717 words of font info for 108 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 99i,21n,117p,794b,1355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,21n,117p,794b,1377s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/conner/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/crimsonpro/crp_q22ex3.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/crimsonpro/CrimsonPro-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/crimsonpro/CrimsonPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on MSc-dissertation.pdf (69 pages, 1707633 bytes).
+Output written on MSc-dissertation.pdf (71 pages, 1995000 bytes).
 PDF statistics:
- 1536 PDF objects out of 1728 (max. 8388607)
- 1338 compressed objects within 14 object streams
- 412 named destinations out of 1000 (max. 500000)
- 614 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1581 PDF objects out of 1728 (max. 8388607)
+ 1366 compressed objects within 14 object streams
+ 422 named destinations out of 1000 (max. 500000)
+ 623 words of extra memory for PDF output out of 10000 (max. 10000000)
 
