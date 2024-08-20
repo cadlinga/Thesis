@@ -9,10 +9,12 @@ from defects.PL6 import SiliconVacancyPL6
 # from defects.V2 import SiliconVacancyV2
 from ensemble import Ensemble
 
-width = 3 * 10**6
+pyplot.rcParams.update({"font.size": 12})
+
+width = 2 * 10**6
 min = 1290 * 10**6
 max = 1425 * 10**6
-peak_depth = 0.1
+peak_depth = 0.07
 
 ensemble = Ensemble()
 ensemble.addDefect(SiliconVacancyPL6())
@@ -62,14 +64,15 @@ def plotResonantFrequencies(resonantFrequencies, colour, label, offset):
     pyplot.plot(
         array(frequency_Array) / 10**6,
         array(pl_array) + offset - 1,
-        alpha=0.8,
+        alpha=0.7,
+        linewidth=0.9,
         color=colour,
         label=label,
     )
     # bax.legend(loc=4)
 
 
-fig = pyplot.figure(figsize=(8, 5))
+fig = pyplot.figure(figsize=(8, 4), dpi=300)
 # plotResonantFrequencies(resonantFrequencies)
 # pl6 = SiliconVacancyPL6()
 # v2 = SiliconVacancyV2()
@@ -120,13 +123,16 @@ cax = fig.add_axes([0.92, 0.185, 0.005, 0.666])
 cbar = pyplot.colorbar(
     sm,
     cax=cax,
-    label="Azimuth Angle (radians)",
-    pad=0.1,
+    label="Angle (radians)",
+    # pad=-0.5,
     ticks=[0, pi / 4, pi / 2],
 )
+cbar.ax.yaxis.set_ticks_position("left")
+cbar.ax.yaxis.set_label_position("left")
 
 cbar.ax.set_yticklabels(["$0$", "$\\pi / 4$", "$\\pi /2$"])
 
-# pyplot.show()
+pyplot.tight_layout(pad=1.1, rect=(0.03, 0, 0.80, 1))
+# pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
 
-pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
+pyplot.show()

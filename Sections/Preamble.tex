@@ -1,0 +1,92 @@
+\input{Sections/Colors.tex}
+\usepackage[most]{tcolorbox}
+\newtcolorbox{summary}[2]{
+	colback=ediblue!5!white,colframe=ediblue!75!black,fonttitle=\bfseries\rmfamily, title={\subsection{#1}\label{#2}\vspace{-0.6em}}, breakable}
+\tcbset{
+	highlight math style={
+			enhanced,%<-- needed for the `remember' options
+			colframe=edired,
+			colback=edired!10!white,
+			boxsep=0pt},
+	%
+	every box on layer 2/.style={ % <---- applied to the nested boxes on layer 2
+			highlight math style={
+					enhanced,%<-- needed for the `remember' options
+					colframe=edired,
+					colback=edired!10!white,
+					boxsep=0pt}}}
+
+\usepackage{graphics}
+\usepackage{epsf,graphicx}%, amstext,url} 
+\usepackage{pdfpages}
+\usepackage{amsmath}
+\usepackage{float}
+% \usepackage{todonotes}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{listings}
+\usepackage{cancel}
+\usepackage{url}
+\usepackage[version=4]{mhchem}
+\bibliographystyle{unsrt}
+\usepackage{lipsum}
+\setlipsum{%
+	% par-before = \begingroup\color{lightgray},
+	% par-after = \endgroup
+}
+
+
+% DO NOT SWITCH ORDER OF THESE PACKAGES 
+\input{Sections/TikzPreamble.tex}
+\usepackage{braket}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% \usepackage[top=2cm,bottom=4cm,left=1.5cm,right=3cm,asymmetric]{geometry}
+\usepackage[a4paper,width=165mm,top=25mm,bottom=25mm]{geometry}
+\newcommand{\td}[1]{\todo[]{#1}}
+\newcommand{\tdr}[1]{\todo[color=red]{#1}}
+\newcommand{\tdg}[1]{\todo[color=green]{#1}}
+
+\usepackage{fancyhdr}
+
+\usepackage{setspace}
+% \doublespacing
+\onehalfspacing
+
+\usepackage{imakeidx}
+% \makeindex
+\makeindex[columns=2, title=Index, intoc]
+% \usepackage{hyperref}
+
+\RequirePackage[hidelinks]{hyperref} % 
+
+\hypersetup{
+	colorlinks=true,
+	% linkcolor=ediblue, 
+	% citecolor=edipurple,
+	linkcolor=edired,
+	citecolor=ediblue,
+}
+
+\usepackage{letltxmacro}
+\LetLtxMacro{\originaleqref}{\eqref}
+\def\eqref#1{%
+	\begingroup\hypersetup{
+		linkcolor=edipurple,
+		linkbordercolor=edipurple,
+	}\originaleqref{#1}\endgroup
+}
+
+\usepackage{sectsty}
+\usepackage[LGR, T1]{fontenc}
+\usepackage{CrimsonPro}
+\usepackage[default]{sourcesanspro}
+\allsectionsfont{\rmfamily}
+
+
+\usepackage{wrapfig}
+\usepackage[font={color=figcaption,md},figurename=Fig.,labelfont={it}]{caption}
+
+
+

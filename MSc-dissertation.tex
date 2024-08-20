@@ -4,82 +4,32 @@ a4paper,
 twoside
 % fullpage 
 ]{report}
-\usepackage{graphics}
-\usepackage{epsf,graphicx}%, amstext,url} 
-\usepackage{pdfpages}
-\usepackage{amsmath}
-\usepackage{todonotes}
-\usepackage{listings}
-\usepackage{braket}
-\usepackage{cancel}
-\usepackage{url}
-\usepackage[version=4]{mhchem}
-\bibliographystyle{unsrt}
-\usepackage{lipsum}
-\setlipsum{%
-  par-before = \begingroup\color{lightgray},
-  par-after = \endgroup
-}
-% \usepackage[top=2cm,bottom=4cm,left=1.5cm,right=3cm,asymmetric]{geometry}
-\usepackage[a4paper,width=155mm,top=25mm,bottom=25mm]{geometry}
-\newcommand{\td}[1]{\todo[]{#1}}
-\newcommand{\tdr}[1]{\todo[color=red]{#1}}
-\newcommand{\tdg}[1]{\todo[color=green]{#1}}
 
-
+\input{Sections/Preamble.tex}
 
 \begin{document}
-\thispagestyle{empty}
-
-%
-%	This is a basic LaTeX Template for the TP/MP MSc Dissertation report
-
 \parindent=0pt          %  Switch off indent of paragraphs 
 \parskip=5pt            %  Put 5pt between each paragraph  
-
-% \input{title.tex}
-\includepdf[pages=-]{Title/title.pdf}
-
-\pagenumbering{roman}
-
-\begin{abstract}
-	\input{abstract.tex}
-\end{abstract}
+\fancyhf{}
+\fancyhead[RE]{\rmfamily\nouppercase{\rightmark}}
+\fancyhead[LO]{\rmfamily\nouppercase{\leftmark}}
+\fancyhead[LE,RO]{\rmfamily\thepage}
 
 
-\input{declaration.tex}
+\input{Sections/Frontmatter.tex}
 
-\input{personal_statement.tex}
-
-\input{acknowledgements.tex}
-
-\listoftodos
-\tableofcontents
-% \listoftables
-\listoffigures
-% \clearpage
-\cleardoublepage
-
+% Make pages fancy now
+\pagestyle{fancy}
 \pagenumbering{arabic}
 
 \input{Chapters/intro.tex}
 \input{Chapters/background.tex}
-% \input{Chapters/task.tex}
 \input{Chapters/design.tex}
-\input{Chapters/results.tex}
-\input{Chapters/conclusions.tex}
 
-
-
-
-% the appendix command just changes heading styles for appendices.
-\appendix
-
-% \input{Annex/example1.tex}
-% \input{Annex/example2.tex}
-\input{Annex/pythonCode.tex}
-\nocite{*}
-\bibliography{ref}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TODO LINE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{Chapters/results.tex}
+% \input{Chapters/conclusions.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Sections/Backmatter.tex}
 \end{document}
 

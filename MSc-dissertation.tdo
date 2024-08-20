@@ -1,35 +1,25 @@
-\contentsline {todo}{Need to write an abstract}{i}{}%
-\contentsline {todo}{I worked to understand the intricate details with reference to diamond hoping I could apply this knowledge to SiC}{iii}{}%
-\contentsline {todo}{Review before submission}{iii}{}%
-\contentsline {todo}{Develop introduction - merge lower paragraphs into this one}{1}{}%
-\contentsline {todo}{need a reference for the thermodynamic comment}{2}{}%
-\contentsline {todo}{Consider writing a paragraph on ENDOR - only if relevant later in the project.}{2}{}%
-\contentsline {todo}{Type up derivation from David Tong notes?}{4}{}%
-\contentsline {todo}{Write up or expand on Noether currents?}{6}{}%
-\contentsline {todo}{Need to develop why?}{6}{}%
-\contentsline {todo}{Discuss why?}{6}{}%
-\contentsline {todo}{Change all J's above this to L's}{6}{}%
-\contentsline {todo}{Link section}{9}{}%
-\contentsline {todo}{Deduce Stark Effect Hamiltonian and write up}{13}{}%
-\contentsline {todo}{Figure: Diagram of possible SiC defects showing orientation/position within the lattice}{18}{}%
-\contentsline {todo}{Need to finish write up. }{21}{}%
-\contentsline {todo}{need to finish writing this}{22}{}%
-\contentsline {todo}{Finish typing - link in comments}{23}{}%
-\contentsline {todo}{Need to also look at this method and type up}{25}{}%
-\contentsline {todo}{ref correct hamiltonian}{25}{}%
-\contentsline {todo}{Add spin 3/2 matrices}{26}{}%
-\contentsline {todo}{find ref}{26}{}%
-\contentsline {todo}{Add hamiltonian matrix}{26}{}%
-\contentsline {todo}{link reference}{28}{}%
-\contentsline {todo}{Figure: Plot showing the crossing of EPR frequencies at high field and low field in Spin 3/2 system as theta varies}{28}{}%
-\contentsline {todo}{Distribute references properly}{29}{}%
-\contentsline {todo}{Update the T dependence of PL5 and PL6 and regen the figure. Also update temp linear range in figure caption.}{29}{}%
-\contentsline {todo}{Write up the Ramsey Interference methods for c-axis and basal from Castello p18}{29}{}%
-\contentsline {todo}{Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega $ and dicuss the diminishing returns when $B\neq 0$ or if $B \not \perp z$}{31}{}%
-\contentsline {todo}{Strain and applied $\vec {E}$ field are indistinguishable so can use $E$ techniques in shielded environment to determine strain.}{32}{}%
-\contentsline {todo}{When $B_0$ is smaller than ZFS E when the effects can be distinguished}{35}{}%
-\contentsline {todo}{Figure: 2 plots. Both of a basline energy graph and showing the similarity of T and parallel E, and B and perp E.}{35}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{38}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{39}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{39}{}%
-\contentsline {todo}{Figure: Add a figure to illustrate}{40}{}%
+\contentsline {todo}{\color@fb@x {}{black}{}{red}{\leavevmode {\color {red}o}}\ Need to write a declaration}{i}{section*.1}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ I worked to understand the intricate details with reference to diamond hoping I could apply this knowledge to SiC}{ii}{section*.2}%
+\contentsline {todo}{\color@fb@x {}{black}{}{red}{\leavevmode {\color {red}o}}\ Review before submission}{ii}{section*.3}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ write caption}{viii}{section*.7}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ better caption}{viii}{section*.8}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ better caption}{viii}{section*.9}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ write caption}{viii}{section*.10}%
+\contentsline {todo}{\color@fb@x {}{black}{}{red}{\leavevmode {\color {red}o}}\ Select clearpage or cleardoublepage depending on contents length}{2}{section*.11}%
+\contentsline {todo}{\color@fb@x {}{black}{}{red}{\leavevmode {\color {red}o}}\ Write introduction chapter summary}{4}{section*.12}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ write caption}{10}{section*.22}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ More like - we consider $g$ to be isotropic and symmetric}{13}{section*.27}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ better caption}{19}{section*.32}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ better caption}{20}{section*.35}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Font size}{21}{section*.39}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Update the T dependence of PL5 and PL6 and regen the figure. Also update temp linear range in figure caption.}{22}{section*.41}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Distribute refs}{27}{section*.47}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ a sentence to wrap this up}{28}{section*.48}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Finish spin 3/2 magnetometry section, reference using ref B fields and discuss method in paper}{31}{section*.49}%
+\contentsline {todo}{Figure: Plot showing the crossing of EPR frequencies at high field and low field in Spin 3/2 system as theta varies}{31}{figure.caption.50}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ write caption}{31}{section*.52}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ add the specific freq we need.}{31}{section*.53}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ State ambiguity terms}{32}{section*.56}%
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega $ and dicuss the diminishing returns when $B\neq 0$ or if $B \not \perp z$}{32}{section*.57}%
+\contentsline {todo}{\color@fb@x {}{black}{}{red}{\leavevmode {\color {red}o}}\ Discuss resolving ambiguity}{34}{section*.59}%
+\contentsline {todo}{\color@fb@x {}{black}{}{red}{\leavevmode {\color {red}o}}\ Affects of other factors? e.g. $\vec {B}, \vec {E}$\cite {Wang2021}}{38}{section*.66}%

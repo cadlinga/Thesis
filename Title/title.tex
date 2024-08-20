@@ -1,53 +1,132 @@
-\documentclass[
-12pt,
-a4paper,
-% fullpage 
-]{report}
-\usepackage{graphics}
-\usepackage{epsf,graphicx}%, amstext,url} 
-\usepackage{afterpage}
+% \documentclass[
+% 12pt,
+% a4paper,
+% % fullpage 
+% ]{report}
+% \usepackage{graphics}
+% \usepackage{epsf,graphicx}%, amstext,url} 
+% \usepackage{afterpage}
+% \begin{document}
+% %	This section generates a title page
+% %       Edit only the sections indicated to put in the project title, and submission date
+% \begin{titlepage}
+% \vspace*{0.1\textheight}
+%
+% \begin{center}
+%         \huge{\bfseries Multimodal Spin Based Sensors}\\ % Replace with the title of your dissertation!
+% \end{center}
+%
+% \medskip
+%
+% \begin{center}
+%         \Large{Conner J Adlington}\\  % Author of dissertation - replace with your name!
+%         \medskip
+%         \large{August 23, 2024}  % Submission date
+% \end{center}
+%
+% %%% If necessary, reduce the number 0.4 below so the University Crest
+% %%% and the words below it fit on the page.
+% %%% Don't let the crest, or the wording below it, flow onto the next page!
+%
+% \vspace*{0.3\textheight}
+%
+% \begin{center}
+%         \includegraphics[width=35mm]{../crest.pdf}
+% \end{center}
+%
+% \medskip
+%
+% \begin{center}
+%
+% %%%
+% %%% Change Theoretical to Mathematical if appropriate
+% %%%
+% \large{
+%   MSc in Theoretical Physics\\[0.8ex]
+%   The University of Edinburgh\\[0.8ex]
+%   2024}
+%
+% \end{center}
+%
+% \end{titlepage}
+%
+% \end{document}
+%
+
+%\title{Title page with logo}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\usepackage{sectsty}
+\usepackage[LGR, T1]{fontenc}
+\usepackage{CrimsonPro}
+\renewcommand{\sfdefault}{CrimsonPro}
+\usepackage[default]{sourcesanspro}
+
 \begin{document}
-%	This section generates a title page
-%       Edit only the sections indicated to put in the project title, and submission date
+
 \begin{titlepage}
-\vspace*{0.1\textheight}
 
-\begin{center}
-        \huge{\bfseries Multimodal Spin Based Sensors}\\ % Replace with the title of your dissertation!
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE The University of Edinburgh}\\[1.5cm] % Name of your university/college
+\includegraphics[width=0.4\textwidth]{../crest.pdf}\\[1cm] % Include a department/university logo - this will require the graphicx package
+\textsc{\Large MSc in Theoretical Physics}\\[0.5cm] % Major heading such as course name
+% \textsc{\large Course code}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \Huge \bfseries\rmfamily Multimodal Spin Based Sensors}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.8\textwidth}
+    \large
+    \begin{center}    
+% \emph{Author:}\\
+Conner J \textsc{Adlington}\\ % Your name
+\vspace{1cm}
+
+Supervisor: Professor Cristian Bonato\\
+\vspace{1cm}
+
+{\large August 23, 2024}\\[2cm] % Date, change the \today to a set date if you want to be precise
 \end{center}
+\end{minipage}
 
-\medskip
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
 
-\begin{center}
-        \Large{Conner J Adlington}\\  % Author of dissertation - replace with your name!
-        \medskip
-        \large{August 23, 2024}  % Submission date
-\end{center}
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
 
-%%% If necessary, reduce the number 0.4 below so the University Crest
-%%% and the words below it fit on the page.
-%%% Don't let the crest, or the wording below it, flow onto the next page!
 
-\vspace*{0.3\textheight}
-
-\begin{center}
-        \includegraphics[width=35mm]{../crest.pdf}
-\end{center}
-
-\medskip
-
-\begin{center}
-
-%%%
-%%% Change Theoretical to Mathematical if appropriate
-%%%
-\large{
-  MSc in Theoretical Physics\\[0.8ex]
-  The University of Edinburgh\\[0.8ex]
-  2024}
-
-\end{center}
+\vfill % Fill the rest of the page with whitespace
 
 \end{titlepage}
+
 
 \end{document}

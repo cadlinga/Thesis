@@ -1,2 +1,50 @@
 \section{Spin Hamiltonian}
-\lipsum[9-10]
+We can apply \eqref{eq:total_hamiltonian} to our specific $S=1$ or $S=3/2$ system by substitution of the spin operators. They are a matrix representation of the $su(2)$ algebra, equivalent to Pauli matrices in the relevant dimension.
+\subsection{$S=1$ Spin Operators}
+The three dimensional \index{spin operators!$S=1$}{$S=1$} spin operators $S_j$ in matrix representation are
+\begin{equation}
+	S_x = \frac{1}{\sqrt{2}} \begin{pmatrix}
+		0 & 1 & 0 \\
+		1 & 0 & 1 \\
+		0 & 1 & 0
+	\end{pmatrix},
+	S_y = \frac{i}{\sqrt{2}} \begin{pmatrix}
+		0 & -1 & 0  \\
+		1 & 0  & -1 \\
+		0 & 1  & 0
+	\end{pmatrix},
+	S_z = \frac{1}{\sqrt{2}} \begin{pmatrix}
+		1 & 0 & 0  \\
+		0 & 0 & 0  \\
+		0 & 0 & -1
+	\end{pmatrix}.
+	\label{eq:s1_spin_operators}
+\end{equation}
+
+\subsection{$S=3/2$ Spin Operators}
+The four dimensional \index{spin operators!$S=3/2$}{$S=3/2$} spin operators $S_j$ in matrix representation are
+\begin{equation}
+    \begin{align}
+        S_x &= \frac{1}{2} \begin{pmatrix}
+            0 & \sqrt{3} & 0 & 0 \\
+            \sqrt{3} & 0 & 2 & 0  \\
+            0 & 2 & 0 & \sqrt{3} \\ 
+            0 & 0 & \sqrt{3} & 0
+        \end{pmatrix},&
+            S_y &= \frac{1}{{2i}} \begin{pmatrix}
+                0 & \sqrt{3} & 0 & 0   \\
+                -\sqrt{3} & 0  & 2 & 0 \\
+                0 & -2 & 0 & \sqrt{3}\\ 
+                0 & 0 & -\sqrt{3} & 0
+		\end{pmatrix}, \\
+                &
+        &S_z = \frac{1}{2} \begin{pmatrix}
+            3 & 0 & 0 & 0   \\
+            0 & 1 & 0 & 0  \\
+            0 & 0 & -1 & 0  \\
+            0 & 0 & 0 & -3
+		\end{pmatrix}.
+        &
+    \end{align}
+	\label{eq:s1.5_spin_operators}
+\end{equation}

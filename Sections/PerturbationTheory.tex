@@ -1,12 +1,12 @@
 \section{Perturbation Theory}
-By considering a ground, non-degenerate state and a perturbation in the electron Zeeman interaction and the spin-orbit coupling we can develop insight into so called zero field splitting. The perturbation is given by 
+By considering a ground, non-degenerate state and a \index{perturbation}{perturbation} in the electron Zeeman interaction and the spin-orbit coupling we can develop insight into so called \index{ZFS!zero field splitting}{zero field splitting}. The perturbation is given by 
 \begin{equation}
     \hat{H}' = \hat{H}_{\ce{Zeeman}} + \hat{H}_{\ce{SO}}  
     % \label{eq:}
 \end{equation}
 for which we find 
 \begin{equation}
-    E_0 = E^{(0)}_0 + \bra{0}{\hat{H}'}\ket{0}  + \sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}
+    E_0 = E^{(0)}_0 + \bra{0}{\hat{H}'}\ket{0}  + \sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}.
     \label{eq:perturbation}
 \end{equation}
 
@@ -19,7 +19,7 @@ we may compute the first and second order corrections.
 
 
 \subsubsection{First Order}
-Substituting \ref{eq:zeeman_perturbation} and \ref{eq:SO_perturbation} into \ref{eq:perturbation} and integrating only over the orbital values to deduce the spin Hamiltonian (discussed more in section \ref{} \td{Link section}) we find
+Substituting \eqref{eq:zeeman_perturbation} and \eqref{eq:SO_perturbation} into \eqref{eq:perturbation} and integrating only over the orbital values to deduce the Spin Hamiltonian we find
 \begin{equation}
    \begin{align}
        \bra{0} \hat{H}' \ket{0} &= \bra{0} g_L \mu_B \hat{\vec{L}}\cdot \vec{B} + g_S \mu_B \hat{\vec{S}}\cdot \vec{B} + \lambda\hat{\vec{L}} \cdot \hat{\vec{S}} \ket{0}\\ 
@@ -37,10 +37,10 @@ Here we used the fact that $\braket{0 | \hat{\vec{L}} | 0} = 0$ since, for examp
     \label{eq:hermitian}
 \end{equation}
 
-By considering \ref{eq:hermitian} we see that if we apply an imaginary operator to a real valued eigenfunction the corresponding eigenvalue must be imaginary or zero. We know the state is strictly real since it is non-degenerate\footnote{A complex wavefunction $\psi$ is at least doubly degenerate; the complex conjugate $\psi^*$ has the same energy.}. In this case, the expectation value of $\hat{L}$ can only be $0$. 
+By considering \eqref{eq:hermitian} we see that if we apply an imaginary operator to a real valued eigenfunction the corresponding eigenvalue must be imaginary or zero. We know the state is strictly real since it is \index{degeracy!non-degenerate}{non-degenerate}\footnote{A complex wavefunction $\psi$ is at least doubly degenerate; the complex conjugate $\psi^*$ has the same energy.}. In this case, the expectation value of $\hat{L}$ can only be $0$. 
 
-\paragraph{Zeeman Splitting}
-The result of the first order perturbation is thus a more formal confirmation of the result of section \ref{zeeman}, specifically \ref{eq:zeeman_energy}.  
+\paragraph{Zeeman Splitting.}
+The result of the first order perturbation is thus a more formal confirmation of the result of section \ref{zeeman}, specifically \eqref{eq:zeeman_energy}.  
 
 % Using this we find for some real number $r$ 
 % \begin{equation}
@@ -50,18 +50,24 @@ The result of the first order perturbation is thus a more formal confirmation of
 % which when applied above gives 
 %
 \subsubsection{Second Order}
-At second order, again substituting \ref{eq:zeeman_perturbation} and \ref{eq:SO_perturbation} into \ref{eq:perturbation} and integrating only over the orbital values we find 
-\begin{equation}
+At second order, again substituting \eqref{eq:zeeman_perturbation} and \eqref{eq:SO_perturbation} into \eqref{eq:perturbation} 
+and integrating only over the orbital values 
+we find 
+\begin{equation*}
    \begin{align}
-       &\sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}\\ 
+       &\sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}
+   \end{align}
+\end{equation*}
+\begin{equation}
+    \begin{align}
  &=\frac{\braket{0 |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + g_S \mu_B \hat{\vec{S}}\cdot\vec{B} +\lambda\hat{\vec{L}}\cdot \hat{\vec{S}}  | n } \braket{n |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + g_S \mu_B \hat{\vec{S}}\cdot\vec{B}+\lambda\hat{\vec{L}}\cdot \hat{\vec{S}}| 0}}{E_0^{(0)} - E_n^{(0)}}\\ 
  &=\frac{\braket{0 |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + \lambda\hat{\vec{L}}\cdot \hat{\vec{S}}  | n } \braket{n |g_L \mu_B \hat{\vec{L}}\cdot\vec{B} + \lambda\hat{\vec{L}}\cdot \hat{\vec{S}}| 0}}{E_0^{(0)} - E_n^{(0)}}\\ 
- &= (g_L \mu_B \vec{B} + \lambda \hat{\vec{S}})\underbrace{\sum_n \frac{\braket{0 |\hat{\vec{L}} | n}\braket{n |\hat{\vec{L}} | 0}}{E_0^{(0)} - E_n^{(0)}}}_{{\Lambda}}(g_L \mu_B \vec{B} + \lambda \hat{\vec{S}})
-   \end{align}
+ &= (g_L \mu_B \vec{B} + \lambda \hat{\vec{S}})\underbrace{\sum_n \frac{\braket{0 |\hat{\vec{L}} | n}\braket{n |\hat{\vec{L}} | 0}}{E_0^{(0)} - E_n^{(0)}}}_{{\Lambda}}(g_L \mu_B \vec{B} + \lambda \hat{\vec{S}})%
+    \end{align}
     % \label{eq:}
 \end{equation}
 
-Here $\Lambda$ is a tensor composed of the matrix elements as shown. Expanding out, this allows us to write the second order perturbation as 
+Here $\Lambda$ is a matrix composed of the elements as shown. Expanding out, this allows us to write the second order perturbation as 
 \begin{equation}
     \sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}} = g_L^2\mu_B^2 \vec{B} \cdot \Lambda \cdot \vec{B} + 2\lambda g_L\mu_B\hat{\vec{S}}\cdot\Lambda\cdot\vec{B} + \lambda^2 \hat{\vec{S}}\cdot \Lambda \cdot \hat{\vec{S}}.
     \label{eq:second_order}
@@ -70,20 +76,21 @@ Here $\Lambda$ is a tensor composed of the matrix elements as shown. Expanding o
 Since for EPR we are only interested in the spin-dependent terms, the first term may be neglected as it represents a global shift in the energy spectra. 
 
 \subsubsection{Combined Perturbation}
-Combining \ref{eq:first_order} and \ref{eq:second_order} we find 
+Combining \eqref{eq:first_order} and \eqref{eq:second_order} we find 
 \begin{equation}
     \begin{align}
     \bra{0} \hat{H}' \ket{0}+  \sum_{n}\frac{\bra{0} \hat{H}' \ket{n} \bra{n} \hat{H'}\ket{0}}{E_0^{(0)} - E_n^{(0)}}
     &= g_S \mu_B \hat{\vec{S}} \cdot \vec{B} + 2\lambda g_L\mu_B\hat{\vec{S}}\cdot\Lambda\cdot\vec{B} + \lambda^2 \hat{\vec{S}}\cdot \Lambda \cdot \hat{\vec{S}} \\ 
-    &=\mu_B \hat{\vec{S}} \cdot \underbrace{(g_S + 2g_L \lambda \Lambda)}_{g} \cdot \vec{B} + \hat{\vec{S}}\cdot \underbrace{\lambda^2 \Lambda}_{D} \cdot \hat{\vec{S}}
+    &=\mu_B \hat{\vec{S}} \cdot \underbrace{(g_S + 2g_L \lambda \Lambda)}_{g} \cdot \vec{B} + \hat{\vec{S}}\cdot \underbrace{\lambda^2 \Lambda}_{D} \cdot \hat{\vec{S}}.
     \end{align}
     \label{eq:}
 \end{equation}
 In this expression $g$ and $D$ are matrix quantities depending on $\Lambda$ and represent the (possibly anisotropic) $g$ factor and $D$ the fine structure splitting. 
 
-For this work we will consider only systems in which the differences in angular momentum is due only to the spin and thus $g$ is reduced to a scalar quantity in the spin Hamiltonian. 
+{\color{edired}For this work we will consider only systems in which the differences in angular momentum is due only to the spin and thus $g$ is reduced to a scalar quantity in the spin Hamiltonian.\td{More like - we consider $g$ to be isotropic and symmetric} 
+}
 
-The term depending on $D$ has no dependence on magnetic field and thus this fine-structure splitting is known as zero field splitting (ZFS) and is observed in systems with $S > 1/2$. 
+The term depending on $D$ has no dependence on magnetic field and thus this \index{fine-structure}{fine-structure} splitting is known as zero field splitting (ZFS) and is observed in systems with $S > 1/2$. 
 \begin{equation}
     H_{\ce{FS}} = \hat{\vec{S}}\cdot D \cdot \hat{\vec{S}}. 
     \label{eq:fine_structure}

@@ -1,0 +1,29 @@
+% QUANTUM ANGULAR MOMENTUM - SPIN to scale
+\begin{tikzpicture}[thick, scale=1.9] %[z={(0,1)},y={(1,0)},x={(-0.5,0,-0.5)}]
+  \def\zmax{1.4}
+  \def\s{0.5}
+  \def\h{0.8} %1.6/\l
+  \def\R{(sqrt(\s*(\s+1))*\h)} % total angular momentum
+  \def\M{0.5}
+  \def\ang{asin(\M*\h/\R)}
+  \def\Rx{sqrt(\R^2-(\M*\h)^2)}
+  \def\Ry{0.2*\Rx}
+  \coordinate (O) at (0,0);
+  
+  % AXES
+  %\draw[->,thick] (-140:0.005*\zmax) --++ (-140:0.75*\zmax) node[below=-1] {$S_x$};
+  \draw[->,thick] (O) --++ (\zmax,0) node[below=-1] {$S_y$};
+  \draw[->,thick] (0,-0.9*\zmax) -- (0,\zmax) node[left=-1] {$S_z$};
+  
+  % CIRCLES
+  \draw[Scol!90!black] (0,{\R}) arc (90:-90:{\R}); %,very thin
+  %\draw[dashed,myblue] ({\Rx},{\M*\h/sqrt(1+0.2^2)}) arc (0:180:{\Rx} and {\Ry});
+  \draw[myblue] (0,-\M*\h) node[left=0,scale=1] {$-\frac{1}{2}\hbar$} --++ ({\Rx},0); %\contour{white}{
+  \draw[myblue] (0,+\M*\h) node[left=0,scale=1] {$+\frac{1}{2}\hbar$} --++ ({\Rx},0);
+  \draw[spin] (0,0) -- ({\Rx},-\M*\h);
+  \draw[spin] (0,0) -- ({\Rx}, \M*\h);
+  \node[spin,above right=0] at ({\Rx},{\M*\h}) {$\vb{S}$};
+  % \draw[dashed,myblue] ({\Rx},{\M*\h/sqrt(1+0.2^2)}) arc (0:-180:{\Rx} and {\Ry});
+  \node[circle, charge-, scale=0.7] (O) {$-$};
+  
+\end{tikzpicture}

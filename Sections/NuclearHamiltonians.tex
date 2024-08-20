@@ -1,3 +1,53 @@
-\section{Nuclear Hamiltonians}
+\section{Nuclear Hamiltonians}\label{nuclear}
+There are three additional contributions to the Hamiltonian to be considered which involve an interaction with the nucleus.
 
-\lipsum[1-4]
+%
+\subsection{\index{Zeeman!nuclear zeeman}{Nuclear Zeeman}}
+Equivalent to electron Zeeman interaction but for the nuclear magnetic moment.\begin{equation}
+	H_{\ce{Zeeman(n)}} = -g_n \mu_n \vec{B} \cdot \hat{\vec{I}}
+	\label{eq:nuclear_zeeman_hamiltonian}
+\end{equation}
+ It is clear that this contribution is not spin-dependent, therefore it will manifest as a global energy shift and is not of interest for EPR. For this reason, the nuclear Zeeman interaction contribution will not be included for the remainder of this work. 
+
+\subsection{\index{nuclear quadrupole}{Nuclear Quadrupole}}
+Equivalent to the electron dipole-dipole but for nuclear magnetic moments.
+\begin{equation}
+	H_{\ce{Quadrupole}} = \hat{\vec{I}} \cdot Q \cdot \hat{\vec{I}}
+	\label{eq:nuclear_quadrupole}
+\end{equation}
+
+ As for the nuclear Zeeman interaction, this contribution is not spin-dependent and the contribution will not be included for the remainder of this work. 
+
+\subsection{\index{hyperfine interaction}{Hyperfine Interaction}}
+% \begin{wrapfigure}{l}{0.4\textwidth}%
+% 	\centering%
+% 	% \begin{center}
+% 	\includegraphics[width=0.38\textwidth]{figures/inhom-broadening.pdf}%
+% 	% \input{Tikz/ElectronMagneticMomentSpin.tex}
+% 	% \end{center}
+% 	\caption{\cite{Rain2022}\td{write caption}}\label{fig:}
+% \end{wrapfigure}
+Equivalent to Fine Structure (ZFS) but between the nuclear and electron moment.
+\begin{equation}
+	H_{\ce{Hyperfine}} = \hat{\vec{S}} \cdot A \cdot \hat{\vec{I}}
+	\label{eq:hyperfine_hamiltonian_dense}
+\end{equation}
+\begin{equation}
+	H_{\ce{Hyperfine}} = A_\parallel \hat{S}_z\hat{I}_z + A_\perp(\hat{S}_y\hat{I}_y + \hat{S}_z\hat{I}_z)
+	\label{eq:hyperfine_hamiltonian_componentwise}
+\end{equation}
+For the systems discussed in this work, hyperfine couplings are usually too small to detect,
+thus manifest as inhomogeneous line broadening \cite{SpinStates}. We therefore do not include the hyperfine contribution
+for the remainder of this work.
+ \begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.5\textwidth]{figures/inhom-broadening.pdf}
+        % \missingfigure{Figure showing line broadening due to hyperfine splitting}
+	\caption{Illustration of the inhomogeneous line broadening caused by the hyperfine interactions. The individual resonances sum to a broader, brighter peak \cite{Rain2022}.}\label{fig:}
+    \end{center}
+\end{figure}
+
+
+
+% \subsection{Nuclear Summary}
+% We have chosen to include the nuclear Hamiltonians for completeness, but will now disregard them in the rest of this work since.

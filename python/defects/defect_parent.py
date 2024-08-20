@@ -232,12 +232,29 @@ class Defect:
             if len(evals) == 2:
                 return [int(evals[1])]
             else:
-                return [int(evals[1]), int(evals[2])]
+                evals = sorted(evals)
+                # Correct low field
+                return [
+                    int(abs(evals[2] - evals[0])),
+                    int(abs(evals[1] - evals[0])),
+                ]
+                # Correct High Field
+                # return [
+                #     int(abs(evals[2] - evals[1])),
+                #     int(abs(evals[1] - evals[0])),
+                # ]
+
+                return [int(abs(evals[1] - evals[0])), int(abs(evals[2] - evals[0]))]
 
         if self.spin == 1.5:
             if len(evals) == 2:
                 return [int(evals[0] - evals[1])]
             else:
+
+                evals = sorted(evals)
+                a = int(abs(evals[0] - evals[2]))
+                b = int(abs(evals[1] - evals[3]))
+                return [a, b, (a + b) / 2]
 
                 plus = evals[0:3:2]
                 minus = evals[1:4:2]

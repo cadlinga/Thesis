@@ -1,0 +1,112 @@
+\section{$S = 1$ Electrometry}
+\todo[inline]{Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega$ and dicuss the diminishing returns when $B\neq0$ or if $B \not\perp z$}
+
+We consider a SiC divacancy and again begin with the total Hamiltonian \eqref{eq:total_hamiltonian}. In this case we need all elements of the equation
+\begin{equation}
+	\begin{align}
+		H & = g \mu_B \hat{\vec{S}}\cdot \vec{B} +
+		D(\hat{S}_z^2)  + E(\hat{S}_x^2 - \hat{S}_y^2) \\
+		  & +d_\parallel E_z (\hat{S}_z^2)
+		- d_\perp  E_y(\hat{S}_x^2 - \hat{S}_y^2   ) + d_\perp E_x(\hat{S}_x\hat{S}_y + \hat{S}_y\hat{S}_x).
+	\end{align}
+	\tag{\ref{eq:total_hamiltonian}}
+\end{equation}
+
+For this discussion we will consider the effective electric field as  $\vec{\mathcal{E}} = \vec{E} + \vec{\sigma} $ the sum of both the applied field and that which is induced by the strain.
+Without loss of generality we may switch the $x, y$ which will help in the simplification.
+\begin{equation}
+	H = \begin{pmatrix}
+		D + d_\parallel \mathcal{E}\cos\theta_E + g\mu_b B \cdot \cos \theta_B   & \frac{g\mu_b B}{\sqrt{2}} \cdot e^{-i\cdot \varphi_B} \cdot \sin\theta_B & E - d_\perp \mathcal{E} e^{-i \varphi_E}\sin\theta_E                  \\
+		\frac{g\mu_b B}{\sqrt{2}} \cdot e^{i \cdot \varphi_B} \cdot \sin\theta_B & 0                                                                        & \frac{g\mu_b B}{\sqrt{2}} e^{-i\cdot \varphi_B} \cdot \sin\theta_B    \\
+		E - d_\perp\mathcal{E}e^{i \varphi_E}\sin\theta_E                        & \frac{g\mu_b B}{\sqrt{2}} \cdot e^{i \cdot \varphi_B} \cdot \sin\theta_B & D+ d_\parallel \mathcal{E}\cos\theta_E - g\mu_b B \cdot \cos \theta_B
+	\end{pmatrix}.
+	\label{eq:}
+\end{equation}
+
+It is easy to see that to maximally reduce the contribution of the magnetic field on the diagonal elements, we should orient the magnetic field perpendicular to the defect ($\theta_B = 90^\circ$). Defining $\mathcal{E}_\perp = \sqrt{\mathcal{E}_x^2 + \mathcal{E}_y^2}$ and $B_\perp$ similarly, we find if the $\vec{B}$ field was parallel to the defect axis $\theta = 0$ the Hamiltonian reduces to \begin{equation}
+H = \begin{pmatrix}
+	D + d_\parallel \mathcal{E}\cos\theta_E + g\mu_b B & 0                                                                        & E - d_\perp \mathcal{E} e^{-i \varphi_E}\sin\theta_E                  \\
+	0                                                  & 0                                                                        & 0    \\
+	E - d_\perp\mathcal{E}e^{i \varphi_E}\sin\theta_E  & 0 & D+ d_\parallel \mathcal{E}\cos\theta_E - g\mu_b B 
+\end{pmatrix}.
+\label{eq:}
+\end{equation}
+The eigenvalues may be found as for section \ref{s1_magnetometry} for the $m_s = 0$ to $m_s = \pm 1$ transitions and are  
+\begin{equation}
+    f_{\pm} \simeq D + d_\parallel \mathcal{E}_\parallel\pm \sqrt{(g \mu_B B)^2 + (d_\perp\mathcal{E}_\perp)^2  }. 
+    \label{eq:}
+\end{equation}
+
+Since the parallel component of the field is equivalent to a correction to ZFS $D$ and raises the whole spectra, we find 
+\begin{equation}
+    \mathcal{E}_\parallel d_\parallel = \frac{f_1 + f_2}{2} - D. 
+    \label{eq:}
+\end{equation}
+
+We find a similar expression for the perpendicular component as 
+\begin{equation}
+    \mathcal{E}_\perp d_\perp = \sqrt{\frac{1}{4}(f_1 - f_2)^2-(g \mu_B B)^2}.
+    \label{eq:}
+\end{equation}
+
+Clearly this allows us to deduce the azimuthal angle and magnitude as
+\begin{equation}
+    \theta = \tan^{-1} \left(\frac{\mathcal{E}_\parallel}{\mathcal{E}_\perp}\right), \quad E = \sqrt{\mathcal{E}_\perp^2 + \mathcal{E}_\parallel}
+    \label{eq:}
+\end{equation}
+
+
+This method is mathematically sound, but the energy difference is suppressed by the parallel $\vec{B}$ field and would require careful alignment of the magnetic field to the defect axis.
+A general expression for the difference in EPR frequencies for the $m_s = 0$ to $m_s = \pm1$, $\Delta f_\pm$ is \cite{Dolde2011}
+\begin{equation}
+	\Delta f _\pm = d_\parallel E_z \pm \left(F(\vec{B},\vec{E},\vec{\sigma}) - F(\vec{B},0,\vec{\sigma})\right)
+	\label{eq:}
+\end{equation}
+
+where
+\begin{equation}
+	F(\vec{B},\vec{E},\vec{\sigma}) = \left((\mu_B g B_z)^2 + d_\perp^2 \mathcal{E}_\perp^2 - \frac{(\mu_B g B_\perp)^2}{D} d_\perp \mathcal{E}_\perp \cdot \cos(2 \varphi_B + \varphi_\mathcal{E}) + \frac{(\mu_B g B_\perp)^4}{4D^2}  \right)^{\frac{1}{2}}
+	\label{eq:}
+\end{equation}
+and
+\begin{equation}
+	F(\vec{B},0,\vec{\sigma}) = \left((\mu_B g B_z)^2 + d_\perp^2 \sigma_\perp^2 - \frac{(\mu_B g B_\perp)^2}{D} d_\perp \sigma_\perp \cdot \cos(2 \varphi_B + \varphi_\sigma) + \frac{(\mu_B g B_\perp)^4}{4D^2}  \right)^{\frac{1}{2}}.
+	\label{eq:}
+\end{equation}
+
+{\color{edired}
+    A major benefit of the maturity of SiC manufacturing is that we can produce chips with very little strain, so we may assume that $\vec{\mathcal{E}} = \vec{E}$. 
+    This also allows us to reduce the $F(\vec{B}, 0, \vec{\sigma})$ and make $\Delta f_{\pm}$ a function only of applied $\vec{B}$ and $\vec{E}$. 
+
+    If $\vec{B}$ is well known, this reduces to a function of $E, \theta$ and $\phi$ which may be approximated using a best fit algorithm. 
+    This means if $\vec{B}$ is well known, then possibilities for $\vec{E}$ can be calculated. This would leave ambiguity in $\vec{E}$ which could be resolved by  
+    \todo[color=red, inline]{Discuss resolving ambiguity}
+}
+
+
+
+% In this case the matrix reduces to
+% \begin{equation}
+% 	H = \begin{pmatrix}
+% 		D + d_\parallel \mathcal{E}\cos\theta_E               & \frac{g\mu_b B}{\sqrt{2}} \cdot e^{-i\cdot \varphi_B} & E - d_\perp \mathcal{E} e^{-i \varphi_E}\sin\theta_E \\
+% 		\frac{g\mu_b B}{\sqrt{2}} \cdot e^{i \cdot \varphi_B} & 0                                                     & \frac{g\mu_b B}{\sqrt{2}} e^{-i\cdot \varphi_B}      \\
+% 		E - d_\perp\mathcal{E}e^{i \varphi_E}\sin\theta_E     & \frac{g\mu_b B}{\sqrt{2}} \cdot e^{i \cdot \varphi_B} & D+ d_\parallel \mathcal{E}\cos\theta_E
+% 	\end{pmatrix}.
+% 	\label{eq:}
+% \end{equation}
+%
+% Then, defining $E_\perp = \sqrt{E_x ^2 + E_y ^2} = \mathcal{E}\sin\theta_B$ we find using similar methods to \ref{s1_magnetometry} that the difference in EPR frequencies as a result of the applied $\vec{E}$ field are \cite{2011.12019}  
+% \begin{equation}
+%     f_1 = f_{E=0} +  d_\parallel E_z  \mp d_\perp E_\perp \cos(2\varphi_B + \varphi_E).
+%     \label{eq:}
+% \end{equation}
+
+% \cite{Dolde2011}
+
+
+\begin{summary}{$S=1$ Electrometry Summary}{sum:spin1electro}
+	We may achieve vector electrometry using a triplet state if
+	\begin{enumerate}
+		\item We can identify three lines.
+	\end{enumerate}
+\end{summary}

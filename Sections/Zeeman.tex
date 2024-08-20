@@ -2,8 +2,8 @@
 When no magnetic field is applied to a system, the magnetic dipoles of the orbital electron and spin have no preferred direction. 
 The energy levels for all combinations of $L$ and $S$ (all $J$) are equivalent. 
 
-If a magnetic field is applied the magnetic moments interact with that field via the Zeeman interaction. 
-The Zeeman effect consists of atomic energy level splitting when an external magnetic field is imposed on a sample \cite{Nabokov2002}. 
+If a magnetic field is applied the magnetic moments interact with that field via the \index{Zeeman!Zeeman interaction}{Zeeman interaction}. 
+The \index{Zeeman!Zeeman effect}{Zeeman effect} consists of atomic energy level splitting when an external magnetic field is imposed on a sample \cite{Nabokov2002}. 
 
 The classical expression for the energy of a dipole in a magnetic field
 \begin{equation}
@@ -12,7 +12,7 @@ The classical expression for the energy of a dipole in a magnetic field
 \end{equation}
 may be replaced with the Hamiltonian for a quantum mechanical system 
 \begin{equation}
-    \hat{H}_{\text{Zeeman}} = - \hat{\vec{\mu}}\cdot \vec{B}. 
+    \hat{H}_{\ce{Zeeman}} = - \hat{\vec{\mu}}\cdot \vec{B}. 
     \label{eq:}
 \end{equation}
 
@@ -22,28 +22,42 @@ Thus distinct quantum systems with different $J$ and thus different projections 
 
 Considering a simple two-level system ($S=1/2$), the energy difference between the spin being aligned or anti-aligned with the field is called the Zeeman energy. 
 
-The Hamiltonian to describe the energy is, using the total angular momentum form of \ref{eq:orbital_magnetic_moment_operator_bohr_magneton_g_factor}, 
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.6\textwidth]{figures/Zeeman.pdf}
+        % \missingfigure{Figure showing the Zeeman energy for states separated by $m_s = \pm 1$}
+    \end{center}
+    \caption{Adapted from figure shown in the work by Gr\"{u}ne. \td{write caption}}\label{fig:}
+\end{figure}
+
+The Hamiltonian to describe the energy is, using the total angular momentum form of \eqref{eq:orbital_magnetic_moment_operator_bohr_magneton_g_factor}, 
 \begin{equation}
-    \hat{H}_{\text{Zeeman}} = g \mu_B \hat{\vec{S}}\cdot\vec{B}. 
-    \label{eq:}
+    \hat{H}_{\ce{Zeeman}} = g \mu_B \hat{\vec{S}}\cdot\vec{B}. 
+    \label{eq:Zeeman_Hamiltonian}
 \end{equation}
 
-Without loss of generality we may direct the magnetic field along the $z$ axis and reduce the scalar product to only the $z$ component. Now, using $S=1/2$ quantised along the $z-axis$, i.e. $m_S = \pm 1/2$ we find the Zeeman energy by solving the Shr\"odinger equation 
+Without loss of generality we may direct the magnetic field along the $z$ axis and reduce the scalar product to only the $z$ component. Now, using $S=1/2$ quantised along the $z$ axis, i.e. $m_S = \pm 1/2$ we find the Zeeman energy by solving the Shr\"odinger equation 
 \begin{equation}
-    \hat{H}_{\text{Zeeman}} \ket{S, m_S} = E_{\text{Zeeman}}\ket{S, m_S} 
+    \hat{H}_{\ce{Zeeman}} \ket{S, m_S} = E_{\ce{Zeeman}}\ket{S, m_S} 
     % \label{eq:}
 \end{equation}
-which, to a factor is equivalent to, by \ref{eq:zthcomponent}, to
+which, to a factor is equivalent to, by \eqref{eq:zthcomponent}, to
 \begin{equation}
-    \hat{S}_{Z} \ket{S, m_S} = M_S\ket{S, m_S}.
+    \hat{S}_{z} \ket{S, m_S} = m_S\ket{S, m_S}.
     % \label{eq:}
 \end{equation}
 
 Thus we find the two eigenvalues to be
-$$E_+ =\frac{1}{2}g\mu_BB, \qquad E_-=-\frac{1}{2}g\mu_BB$$
+\begin{equation}
+E_+ =\frac{1}{2}g\mu_BB, \qquad E_-=-\frac{1}{2}g\mu_BB
+    \label{eq:}
+\end{equation}
 and thus the Zeeman energy is given by $g\mu_B B$. 
 
-The $S=1/2$ system is thus doubly degenerate and the degeneracy is lifted by the application a magnetic field. The Zeeman energy is the difference between the two states and it grows linearly with $B$. 
+
+
+The $S=1/2$ system is thus doubly \index{degeneracy!degenerate}{degenerate} and the \index{degeneracy}{degeneracy} is lifted by the application a magnetic field. The Zeeman energy is the difference between the two states and it grows linearly with $B$. 
 
 This may be generalised to a more complex system by considering the total angular momentum $J$ where the energy difference between states is given by 
 \begin{equation}

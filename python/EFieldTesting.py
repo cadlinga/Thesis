@@ -1,12 +1,13 @@
 from defects.PL6 import SiliconVacancyPL6
+from mpl_toolkits.axisartist.axislines import SubplotZero
 from sympy import pprint
 from numpy import pi, linspace, array
 from matplotlib import pyplot
 
 from defects.V2 import SiliconVacancyV2
 
-# defect = SiliconVacancyPL6()
-defect = SiliconVacancyV2()
+defect = SiliconVacancyPL6()
+# defect = SiliconVacancyV2()
 
 B_dict = {"magnitude": 5000 * 10**-6, "theta": 0, "phi": 0}
 E_dict = {"magnitude": 0, "theta": 0, "phi": 0}
@@ -14,23 +15,24 @@ E_dict = {"magnitude": 0, "theta": 0, "phi": 0}
 steps = 50
 
 
-def makePlot(T, B_dict, E_dict, color, opacity):
+def makePlot(T, B_dict, E_dict, color, opacity, label=""):
     B_array = linspace(10**-12, B_dict["magnitude"], steps)
 
     F_array = []
     F_array.append([])
     F_array.append([])
-    label = (
-        "$|\\vec{E}| = "
-        + str(E_dict["magnitude"])
-        + "$, $\\theta = $"
-        + str(E_dict["theta"])
-        + ", $\\varphi = "
-        + str(E_dict["phi"])
-        + "$, $T="
-        + str(T)
-        + "$"
-    )
+    if label == "":
+        label = (
+            "$|\\vec{E}| = "
+            + str(E_dict["magnitude"])
+            + "$, $\\theta = $"
+            + str(E_dict["theta"])
+            + ", $\\varphi = "
+            + str(E_dict["phi"])
+            + "$, $T="
+            + str(T)
+            + "$"
+        )
 
     print("Plot for " + label)
     for B in B_array:
@@ -71,16 +73,30 @@ print(
     )
 )
 
+fig = pyplot.figure(figsize=(8, 4), dpi=300)
+ax = SubplotZero(fig, 111)
+fig.add_subplot(ax)
+#
+# for direction in ["yzero"]:
+#     # adds arrows at the ends of each axis
+#     ax.axis[direction].set_axisline_style("-|>")
+#     # adds X and Y-axis from the origin
+#     ax.axis[direction].set_visible(True)
+#
+for direction in ["right", "top"]:
+    # hides borders
+    ax.axis[direction].set_visible(False)
 
 # plotD(300)
 # Baseline
-makePlot(300, B_dict, E_dict, "blue", 0.5)
+
+makePlot(300, B_dict, E_dict, "black", 0.8, label="$E = 0$")
 # Warmer
 # makePlot(303, B_dict, E_dict, "green", 0.5)
 
 # Applied E field parallel to B field
-E_dict = {"magnitude": 5000000, "theta": 0, "phi": 0}
-makePlot(300, B_dict, E_dict, "red", 0.5)
+# E_dict = {"magnitude": 5000000, "theta": 0, "phi": 0}
+# makePlot(300, B_dict, E_dict, "red", 0.8)
 
 
 # Applied E field perp to B field
@@ -91,14 +107,16 @@ makePlot(300, B_dict, E_dict, "red", 0.5)
 # E_dict = {"magnitude": 0, "theta": 0, "phi": 0}
 # makePlot(300, B_dict, E_dict, "blue", 0.5)
 #
-E_dict = {"magnitude": 5000, "theta": pi / 2, "phi": 0}
-makePlot(300, B_dict, E_dict, "purple", 0.5)
+E_dict = {"magnitude": 50000000, "theta": 0, "phi": 0}
+makePlot(300, B_dict, E_dict, "blue", 0.8, "E > 0")
 #
 # # Applied E field perp to B field
 #
-#
-# pyplot.legend()
-# pyplot.show()
 
-pyplot.legend()
+# pyplot.arrow(0, 1100, 0.000006, 0)
+pyplot.xlabel("$B$ (mT)")
+pyplot.ylabel("EPR Frequency")
+pyplot.title(
+    "$S=1$ Energy Eigenvalues With Applied $\\vec{E}$, $\\theta = 0^\circ$")
+pyplot.legend(loc=7)
 pyplot.show()

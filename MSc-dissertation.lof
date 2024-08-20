@@ -1,14 +1,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces }}{18}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of electric monopole and magnetic dipole with associated field lines and relevant Maxwell equation.\relax }}{5}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of current loop and induced magnetic moment.\relax }}{6}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of electron in orbit generating a magnetic moment.\relax }}{7}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic of discrete spin levels.\relax }}{9}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Adapted from figure shown in the work by Gr\"{u}ne. \todo []{write caption}\relax }}{10}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Adapted from figure shown in the work by Gr\"{u}ne. \relax }}{14}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Illustration of the inhomogeneous line broadening caused by the hyperfine interactions. The individual resonances sum to a broader, brighter peak \cite {Rain2022}.\relax }}{17}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Eigenvalue plot showing... \todo []{better caption}\relax }}{19}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Eigenvalue plot showing... \todo []{better caption}\relax }}{20}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ZFS parameter $D$ temperature dependence for the PL5 and PL6 $S=1$ defect in SiC from 0-550 K (left) and 250-350 K (right). \relax }}{22}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Linear dependence of zero field parameter D to applied pressure as shown in the work by Liu et al.\relax }}{23}{figure.caption.42}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Magnetometry with $\theta = 0$. Left shows the lifting of degeneracy of the spin system energy levels with the applied $\vec {B}$ field. Right shows the corresponding ODMR spectra and two EPR frequencies \cite {dnvweb}. }}{23}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ODMR/Energy level plot showing the reduction of the effective parallel $\vec {B}$ field with increasing $\theta $.}}{24}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagram showing the four possible orientations of NV centers in diamond \cite {pham}.}}{25}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces }}{28}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces ZFS parameter $D$ temperature dependence for the PL5 and PL6 $S=1$ defect in SiC from 0-550 K (left) and 250-350 K (right). }}{30}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces }}{31}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces }}{35}{}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Representative PL6 ODMR spectra showing linear dependence of frequency difference on $B\cos \theta $ and the ZFS shifting of the spectra when $\theta > 0$. Dashed vertical line indicates $D$.\relax }}{25}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \todo []{write caption}\relax }}{31}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \relax }}{35}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Adapted from Wang et al.\relax }}{36}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Adapted from Wang et al.\relax }}{37}{figure.caption.65}%
