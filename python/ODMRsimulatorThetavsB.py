@@ -15,7 +15,7 @@ peak_depth = 0.1
 
 ensemble = Ensemble()
 ensemble.addDefect(SiliconVacancyPL6())
-ensemble.addDefect(SiliconVacancyV2())
+# ensemble.addDefect(SiliconVacancyV2())
 
 
 def addResonantFrequency(frequency, frequency_Array, pl_array):
@@ -58,7 +58,8 @@ def plotResonantFrequencies(resonantFrequencies, colour, label, offset):
     # pl_array.append(1)
 
     # bax.set_ylim(0, 1.3)
-    bax.plot(
+    # bax.plot(
+    pyplot.plot(
         array(frequency_Array) / 10**6,
         array(pl_array) + offset - 1,
         alpha=0.9,
@@ -73,23 +74,25 @@ fig = pyplot.figure(figsize=(20, 9))
 # pl6 = SiliconVacancyPL6()
 # v2 = SiliconVacancyV2()
 
-bax = brokenaxes(
-    xlims=((min / 10**6, 300), (1100, max / 10**6)),
-    # ylims=((0, 1.3), (0, 1.3)),
-    hspace=0.01,
-)
+# bax = brokenaxes(
+#     xlims=((min / 10**6, 1100), (1100, max / 10**6)),
+#     # ylims=((0, 1.3), (0, 1.3)),
+#     hspace=0.01,
+# )
 
 
 # B vs T ################################################
-theta_max = 3 / 2 * pi
+theta_max = 1 / 2 * pi
 steps = 30
 
-B_max = 2 * 10**-3
+B_max = 13.4 * 10**-3
+B_max = 20 * 10**-3
 
-theta_array = linspace(pi / 2, theta_max, steps)
-B_array = linspace(0, B_max, 3)
+theta_array = linspace(0, theta_max, steps)
+B_array = linspace(B_max / 2, B_max, 2)
 
 for B in B_array:  # Colour Drive
+    # B = B_max
     for t in theta_array:  # Axis Drive
         plotResonantFrequencies(
             ensemble.resonantAngleFrequencies(

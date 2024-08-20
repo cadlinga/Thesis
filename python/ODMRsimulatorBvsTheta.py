@@ -87,7 +87,7 @@ steps = 25
 T_max = pi / 9
 
 B_array = linspace(0, B_max, steps)
-T_array = linspace(0, T_max, 2)
+T_array = linspace(0, T_max, 1)
 
 for t in T_array:  # Colour Drive
     for B in B_array:  # Axis Drive

@@ -133,6 +133,6 @@ cbar.ax.yaxis.set_label_position("left")
 cbar.ax.set_yticklabels(["$0$", "$\\pi / 4$", "$\\pi /2$"])
 
 pyplot.tight_layout(pad=1.1, rect=(0.03, 0, 0.80, 1))
-pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
+# pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
 
 pyplot.show()

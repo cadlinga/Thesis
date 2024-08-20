@@ -5,145 +5,31 @@ twoside
 % fullpage 
 ]{report}
 
-\input{Sections/Colors.tex}
-
-\usepackage{graphics}
-\usepackage{epsf,graphicx}%, amstext,url} 
-\usepackage{pdfpages}
-\usepackage{amsmath}
-\usepackage{float}
-% \usepackage{todonotes}
-\usepackage[colorinlistoftodos]{todonotes}
-\usepackage{listings}
-\usepackage{cancel}
-\usepackage{url}
-\usepackage[version=4]{mhchem}
-\bibliographystyle{unsrt}
-\usepackage{lipsum}
-\setlipsum{%
-  % par-before = \begingroup\color{lightgray},
-  % par-after = \endgroup
-}
-
-
-% DO NOT SWITCH ORDER OF THESE PACKAGES 
-\input{Sections/TikzPreamble.tex}
-\usepackage{braket}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-% \usepackage[top=2cm,bottom=4cm,left=1.5cm,right=3cm,asymmetric]{geometry}
-\usepackage[a4paper,width=165mm,top=25mm,bottom=25mm]{geometry}
-\newcommand{\td}[1]{\todo[]{#1}}
-\newcommand{\tdr}[1]{\todo[color=red]{#1}}
-\newcommand{\tdg}[1]{\todo[color=green]{#1}}
-
-\usepackage{fancyhdr}
-
-\usepackage{setspace}
-% \doublespacing
-\onehalfspacing
-
-\usepackage{imakeidx}
-% \makeindex
-\makeindex[columns=2, title=Index, intoc]
-% \usepackage{hyperref}
-
-\RequirePackage[hidelinks]{hyperref} % 
-
-\hypersetup{
-    colorlinks=true,
-    % linkcolor=ediblue, 
-    % citecolor=edipurple,
-    linkcolor=edired, 
-    citecolor=ediblue,
-}
-
-\usepackage{letltxmacro}
-\LetLtxMacro{\originaleqref}{\eqref}
-\def\eqref#1{%
-\begingroup\hypersetup{
-    linkcolor=edipurple,
-    linkbordercolor=edipurple,
-    }\originaleqref{#1}\endgroup
-}
-
-\usepackage{sectsty}
-\usepackage[LGR, T1]{fontenc}
-\usepackage{CrimsonPro}
-\usepackage[default]{sourcesanspro}
-\allsectionsfont{\rmfamily}
-
-
-\usepackage{wrapfig}
-\usepackage[font={color=figcaption,md},figurename=Fig.,labelfont={it}]{caption}
-
+\input{Sections/Preamble.tex}
 
 \begin{document}
-
-
-\thispagestyle{empty}
-
-%
-%	This is a basic LaTeX Template for the TP/MP MSc Dissertation report
-
 \parindent=0pt          %  Switch off indent of paragraphs 
 \parskip=5pt            %  Put 5pt between each paragraph  
-
-% \input{title.tex}
-\includepdf[pages=-]{Title/title.pdf}
-
-\pagenumbering{roman}
-
-\input{abstract.tex}
-
-
-\input{declaration.tex}
-
-\input{personal_statement.tex}
-
-\input{acknowledgements.tex}
-
-
-\listoftodos
-\tableofcontents
-% \listoftables
-\listoffigures
-% \clearpage
-\cleardoublepage
-
-\pagestyle{fancy}
 \fancyhf{}
 \fancyhead[RE]{\rmfamily\nouppercase{\rightmark}}
 \fancyhead[LO]{\rmfamily\nouppercase{\leftmark}}
 \fancyhead[LE,RO]{\rmfamily\thepage}
+
+
+\input{Sections/Frontmatter.tex}
+
+% Make pages fancy now
+\pagestyle{fancy}
 \pagenumbering{arabic}
 
 \input{Chapters/intro.tex}
 \input{Chapters/background.tex}
-% \input{Chapters/task.tex}
 \input{Chapters/design.tex}
-\input{Chapters/results.tex}
-\input{Chapters/conclusions.tex}
 
-
-
-
-% the appendix command just changes heading styles for appendices.
-\appendix
-
-% \input{Annex/example1.tex}
-% \input{Annex/example2.tex}
-% \input{Annex/pythonCode.tex}
-\nocite{*}
-
-
-\cleardoublepage
-\printindex
-\cleardoublepage
-\bibliography{ref}
-
-% \input{Sections/Brag.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TODO LINE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{Chapters/results.tex}
+% \input{Chapters/conclusions.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Sections/Backmatter.tex}
 \end{document}
 

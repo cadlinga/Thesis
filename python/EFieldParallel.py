@@ -117,7 +117,7 @@ makePlot(300, B_dict, E_dict, "blue", 0.8, "E > 0")
 #
 
 # pyplot.arrow(0, 1100, 0.000006, 0)
-pyplot.xlabel("$B$ (mT)")
+pyplot.xlabel("$B$ (T)")
 pyplot.ylabel("EPR Frequency")
 pyplot.title(
     "$S=1$ Energy Eigenvalues With Applied $\\vec{E}$, $\\theta = 0^\circ$")

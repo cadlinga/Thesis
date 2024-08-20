@@ -42,10 +42,9 @@ def makePlot(T, B_dict, E_dict, color, opacity, label=""):
         evals = defect.angleEvals(
             T, {"magnitude": B, "theta": 0, "phi": 0}, E_dict)
 
-        print(evals)
         if defect.spin == 1:
-            F_array[0].append(sorted(evals)[1])
-            F_array[1].append(sorted(evals)[2])
+            F_array[0].append(evals[1] - evals[0])
+            F_array[1].append(evals[2] - evals[0])
 
         if defect.spin == 1.5:
             F_array[0].append(abs(evals[0] - evals[2]))
@@ -93,7 +92,8 @@ for direction in ["right", "top"]:
 # plotD(300)
 # Baseline
 
-makePlot(300, B_dict, E_dict, "black", 0.8, label="$E = 0$")
+# E_dict = {"magnitude": 40000000, "theta": 0, "phi": 0}
+makePlot(200, B_dict, E_dict, "black", 0.8, label="$E = 0$")
 # Warmer
 # makePlot(303, B_dict, E_dict, "green", 0.5)
 
@@ -117,7 +117,7 @@ makePlot(300, B_dict, E_dict, "blue", 0.8, "E > 0")
 #
 
 # pyplot.arrow(0, 1100, 0.000006, 0)
-pyplot.xlabel("$B$ (mT)")
+pyplot.xlabel("$B$ (T)")
 pyplot.ylabel("EPR Frequency")
 pyplot.title(
     "$S=1$ Energy Eigenvalues With Applied $\\vec{E}$, $\\theta = 90^\circ$")
