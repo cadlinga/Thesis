@@ -1,40 +1,153 @@
-\section{Multimodality}
-To develop our multimodal system we will start with a very simple model with the assumption that the applied $\vec{B}$ field is parallel to the defect axis. From there we will iterate our ensemble and work to reduce the number of assumptions.
+% \chapter{Multimodal Systems}
+
+% \section{Multimodality}
+% To develop our multimodal system we will start with a very simple model with the assumption that the applied $\vec{B}$ field is parallel to the defect axis. From there we will iterate our ensemble and work to reduce the number of assumptions.
+%
+
+\section{Proposed Systems}
+We have described schemas for measuring the $\vec{E}$ field, $\vec{B}$ field, temperature, pressure and strain. We will say that the measurement of $T$ and $P$ should be considered equivalent in a $S=1$ system and the measurement of strain is equivalent to $\vec{E}$ in all systems.
+
+Thus, we have $^4 C _2 = 6$ distinct pairwise combinations we may consider for multimodal application:
+($\vec{B}$, $T$), ($\vec{B}$, $P$), ($\vec{B}$, $\vec{E}$), ($\vec{E}$, $T$), ($\vec{E}$, $P$) and ($T$, $P$).
+
+We will discuss each combination and whether multi-modality is possible using the techniques described in this work.
+If not possible, we discuss why and if development of the literature could make such a sensor possible. Throughout the discussion, all external parameters not discussed are assumed to be absent.
+
+% \subsection{$\vec{B}$ Multimode}
+\subsection{$\vec{B}$ and Temperature}\label{sec:multimode_BT}
+\begin{proposal}{$\vec{B}$ and Temperature}
+	We exploit the temperature independence of the V2 Silicon vacancy to measure the $\vec{B}$ field. Temperature may then be measured by either the same defect using anti-Stokes technique or a divacancy where temperature may be inferred from the change in ZFS $D$.
+\end{proposal}
+The implementation is to capture the ODMR spectra of the defects. Figure \ref{fig:multimode_BT} shows a two simulated spectra for a V2 and PL6 ensemble at 250K and 350K (offset for clarity). Clearly the V2 spectra is unaffected by temperature allowing $\vec{B}$ to be measured from the three frequencies as described in summary \ref{sum:spin1.5magnet}. Providing the ZFS $D$ of the PL6 is under no other influence e.g. pressure or $\vec{E}_\parallel$, $D(T)$ may be read from the two frequencies of the PL6 defect as described in \ref{sum:spin1thermo}.
 
 
-\subsection{$|\vec{B}|$ and $T$}
-\cite{Degen2008}
-
-\subsection{Angle Resolved $|\vec{B}|$ and $T$}
-% We show that uniaxial color centers in silicon carbide with hexagonal lattice structure can be used to measure not only the strength but also the polar angle of the external magnetic field with respect to the defect axis with high precision. 
-\cite{PhysRevApplied.4.014009}
-
-\subsection{$\vec{B}$ and $T$}
-
-
-\subsection{$|\vec{B}|$, $|\vec{E}|$ and $T$}
-The influence of an $\vec{E}$ field parallel to the defect axis is indistinguishable from the influence of a change of temperature. Similarly, the influence of an $\vec{E}$ field perpendicular to the defect axis is indistinguishable from the influence of a $\vec{B}$ field parallel to the defect axis. The exception is when \td{When $B_0$ is smaller than ZFS E when the effects can be distinguished}...
-
-\begin{figure}[H]
+\begin{figure}[h]
 	\begin{center}
-		% \includegraphics[width=0.95\textwidth]{figures/}
-		\missingfigure{2 plots. Both of a basline energy graph and showing the similarity of T and parallel E, and B and perp E.}
+		\includegraphics[width=0.95\textwidth]{figures/ODMR-multimodal-s15magnet-s1T.png}
 	\end{center}
-	\caption{\td{write caption}}\label{fig:}
+	\caption{}\label{fig:multimode_BT}
 \end{figure}
 
 
-Thus, to extend the multi-modality to include the $\vec{E}$ field we must isolate the influence of the $\vec{E}$ field from the other environmental factors.
+\subsection{$\vec{B}$ and Pressure}
 
+\begin{proposal}{$\vec{B}$ and Pressure}
+	We exploit the linear dependence of $D$ of the V2 Silicon vacancy and pressure and the linear dependence on $\Delta f$ of the divacancy on the applied $\vec{B}$ field. We determine the pressure from the average of the two EPR frequencies for the divacancy and use the inferred pressure to perform magnetometry. 
 
+\end{proposal}
+Combining $\vec{B}$ with pressure is slightly less straight forward as the ZFS $D$ of the Silicon vacancy shows a linear dependence on $P$. Thus, we cannot cleanly separate the two parameters as above. However, since the dependence is linear, as is the dependence of an $S=1$ defect splitting on the $\vec{B}$ field, and the $B$ field does not influence $D$, we may still determine the parameters simultaneously.
 
-\subsection{$\vec{B}$, $\vec{E}$ and $T$}
+The implementation is to first measure $D(P)$ by taking the average of the two frequencies of the $S=1$ defect (\ref{sum:spin1.5thermo}). Now the pressure is known, calculate $D(P)$ for the Silicon vacancy and perform magnetometry with the V2 Silicon vacancy as detailed in \ref{sum:spin1.5magnet}.
 
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{figures/ODMR-multimodal-s15magnet-s1P.png}
+	\end{center}
+	\caption{}\label{fig:multimode_BP}
+\end{figure}
 
-% \begin{summary}{Multimodality Summary}{sum:multimodal}
-% 	From the construction of our multimodal systems we have learned
-% 	\begin{enumerate}
-% 		\item The Silicon vacancy is resistant to temperature fluctuations so can be used to measure $\vec{B}$ \textbf{or} $\vec{E}$ while a divacancy monitors temperature.
-% 	\end{enumerate}
-% \end{summary}
+\subsection{Temperature and Pressure}
+Simultaneously measuring temperature and pressure is not currently possible due to a lack of understanding of the interplay between $T$ and $P$ and the combined effect on $D$.
+
+However, since for the V2 Silicon vacancy $D$ is not dependent on $T$ but linearly dependent on $P$, the pressure may be isolated by studying the spectra of that defect.
+
+If future work mapped a function $D(P,T)$ for the divacancy, this could be reduced by substitution of the measured pressure in the V2 defect ($P_0$), and a fit to the divacancy spectra of $D(P_0, T)$, from which we would determine $T$.
+
+% \subsection{$\vec{E}$ Multimode}
+\subsection{$\vec{E}$ and Temperature or Pressure}\label{multi-E-pressure}
+The measurement of $\vec{E}$ in parallel to $T$ ($P$) is less clear, as the influence of $E_\parallel$ is indistinguishable from a change in temperature (pressure) - a net change in ZFS $D$. Ideally, we would exploit the temperature independence of the V2 defect $D$ but we have been unable to find a schema for $S=3/2$ electrometry. 
+Thus, within the context of this work we have been unable to find a scheme to simultaneously measure $\vec{E}$ and $T$ ($P$) in general.  
+
+An exception can be made however if careful alignment of the $\vec{E}$ is possible, then the magnitude may be measured. 
+
+\begin{proposal}{$|\vec{E}|$ and Temperature (Pressure)}
+    The $\vec{E}$ field is aligned perpendicular to the defect axis. Then by \eqref{eq:s1_elect_perp} we may determine the magnitude with no dependence on $D$. With knowledge of the $|\vec{E}|$, choose a defect on the same axis and calculate the influence of $\vec{E}$ on $D$ and $E$. Measure $D(\vec{E}, T)$ and fit the data to calculate the temperature (pressure) of the system. 
+\end{proposal}
+
+We infer from the electrometry Hamiltonian \eqref{eq:electometry_matrix_hamiltonian} that the corrections to $D$ and $E$ are 
+\begin{equation}
+    \Delta D = d_\parallel |\vec{E}| \cos\theta_E, \quad \Delta E = d_\perp |\vec{E}| \sin \theta_E.
+    \label{eq:}
+\end{equation}
+
+We exploit that when $\theta = 90^\circ$ the ZFS $D$ is not affected by the field and any variation must be due to temperature (pressure). 
+
+In the absence of an applied magnetic field (which would have to of known magnitude and applied parallel to the defect axis for this schema to work), $E$ is determined from the effective magnitude of ZFS $E$ by the difference in the frequencies as
+\begin{equation}
+    E_\perp d_\perp = E_0 - \sqrt{\frac{(f_1 - f_2)^2}{4} - (g \mu_B B)^2}, 
+    \label{eq:multi-E+T}
+\end{equation}
+where $E_0$ is the ZFS $E$ of the defect without influence of the electric field. 
+
+Temperature (pressure) sensing can also then be performed using the same two measured frequencies as $D(T)$ will be the average of them. 
+
+Figure \ref{fig:E_Field_perp_temp} which shows a strictly perpendicular electric field allows a visualisation of the described effects.  
+\begin{figure}[H]
+    \begin{center}
+        % \includegraphics[width=0.95\textwidth]{figures/EFieldParallel.png}
+        \includegraphics[width=0.95\textwidth]{figures/EFieldPerpTemp.png}
+        % \missingfigure{ODMR/Energy plot showing effect of parallel/perp E field}
+    \end{center}
+    \caption{Eigenvalue plot showing... \td{better caption}}\label{fig:E_Field_perp_temp}
+\end{figure}
+
+% \subsection{Scalar Sensing}
+
+\subsection{$\vec{B}$ and $\vec{E}$}
+Even more difficult is the separation of $\vec{B}$ and $\vec{E}$. Using the techniques in this work no general solution was found for simultaneously measuring both fields. 
 %
+% The only regime in which the magnitude of both fields may be simultaneously determined is identical to that described above in \ref{multi-E-pressure}. The discussion may be extended by measuring the magnitude of the magnetic field using \eqref{eq:s1_parallel_magnetometry} and substituting it into \eqref{eq:multi-E+T} to find 
+% \begin{equation}
+%     E_\perp d_\perp = E_0 - \sqrt{\frac{(f_1 - f_2)^2}{4} - (g \mu_B B)^2}, 
+%     \label{eq:multi-E+T2}
+% \end{equation}
+%
+%
+% \subsection{Tri-modality}\label{sec:trimodal}
+% The success of \ref{sec:multimode_BT} and possible encapsulation into a single defect type allowed for the consideration of a trimodal sensor.
+%
+% \begin{proposal}{$\vec{B}$, $\vec{E}$ and Temperature}
+% 	The PL6 defect acts solely as a electrometer. We consider the influence of $\vec{B}$ and $T$ to be well known and extracted from V2 Silicon vacancy.
+% \end{proposal}
+%
+
+
+
+
+
+% \subsection{$|\vec{B}|$ and $T$}
+% \cite{Degen2008}
+%
+% \subsection{Angle Resolved $|\vec{B}|$ and $T$}
+% % We show that uniaxial color centers in silicon carbide with hexagonal lattice structure can be used to measure not only the strength but also the polar angle of the external magnetic field with respect to the defect axis with high precision. 
+% \cite{PhysRevApplied.4.014009}
+%
+% \subsection{$\vec{B}$ and $T$}
+%
+%
+% \subsection{$|\vec{B}|$, $|\vec{E}|$ and $T$}
+% The influence of an $\vec{E}$ field parallel to the defect axis is indistinguishable from the influence of a change of temperature. Similarly, the influence of an $\vec{E}$ field perpendicular to the defect axis is indistinguishable from the influence of a $\vec{B}$ field parallel to the defect axis. The exception is when \td{When $B_0$ is smaller than ZFS E when the effects can be distinguished}...
+%
+% \begin{figure}[H]
+% 	\begin{center}
+% 		% \includegraphics[width=0.95\textwidth]{figures/}
+% 		\missingfigure{2 plots. Both of a basline energy graph and showing the similarity of T and parallel E, and B and perp E.}
+% 	\end{center}
+% 	\caption{\td{write caption}}\label{fig:}
+% \end{figure}
+%
+%
+% Thus, to extend the multi-modality to include the $\vec{E}$ field we must isolate the influence of the $\vec{E}$ field from the other environmental factors.
+%
+%
+%
+% \subsection{$\vec{B}$, $\vec{E}$ and $T$}
+%
+%
+% % \begin{summary}{Multimodality Summary}{sum:multimodal}
+% % 	From the construction of our multimodal systems we have learned
+% % 	\begin{enumerate}
+% % 		\item The Silicon vacancy is resistant to temperature fluctuations so can be used to measure $\vec{B}$ \textbf{or} $\vec{E}$ while a divacancy monitors temperature.
+% % 	\end{enumerate}
+% % \end{summary}
+% %

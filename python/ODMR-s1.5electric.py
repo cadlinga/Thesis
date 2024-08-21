@@ -7,14 +7,14 @@ import matplotlib as mpl
 
 from defects.PL6 import SiliconVacancyPL6
 
-# from defects.V2 import SiliconVacancyV2
+from defects.V2 import SiliconVacancyV2
 from ensemble import Ensemble
 
 pyplot.rcParams.update({"font.size": 12})
 
-width = 2 * 10**6
-min = 1290 * 10**6
-max = 1440 * 10**6
+width = 20 * 10**6
+min = 1300 * 10**6
+max = 1400 * 10**6
 peak_depth = 0.07
 
 ensemble = Ensemble()
@@ -122,19 +122,42 @@ T_array = linspace(0, T_max, 1)
 #         )
 #
 
-theta = pi / 6
-theta = 0
-B = 1 * 10**-3
+# theta = 0
+
+B = {"magnitude": 0.0015, "theta": pi / 2, "phi": 0}
+
 plotResonantFrequencies(
     ensemble.resonantAngleFrequencies(
         0,
-        {"magnitude": B, "theta": theta, "phi": 0},
+        B,
         {"magnitude": 0, "theta": 0, "phi": 0},
     ),
     # cm.jet(theta / T_max),
+    "black",
+    "$E=0$",
+    1,
+)
+plotResonantFrequencies(
+    ensemble.resonantAngleFrequencies(
+        0,
+        B,
+        {"magnitude": 500000, "theta": pi / 2, "phi": 0},
+    ),
+    # cm.jet(theta / T_max),
     "blue",
-    "$B =" + str(B * 10**3) + " $ mT, $\\theta = 0^\\circ$",
-    B * 10**3,
+    "$E_\\perp$",
+    1,
+)
+plotResonantFrequencies(
+    ensemble.resonantAngleFrequencies(
+        0,
+        B,
+        {"magnitude": 500000, "theta": pi / 4, "phi": 0},
+    ),
+    # cm.jet(theta / T_max),
+    "red",
+    "$E_\\parallel$",
+    1,
 )
 # Normalizer
 norm = mpl.colors.Normalize(vmin=0, vmax=T_max)
@@ -147,6 +170,9 @@ pyplot.title("Representative ODMR Spectra for PL6 ($S=1$)")
 pyplot.xlabel("Frequency (MHz)")
 pyplot.ylabel("Photoluminescence Intensity")
 pyplot.yticks([])
+# pyplot.ylim([13.2, 13.41])
+x = ensemble.defects[0].D(0) / 10**6
+# pyplot.axvline(x=x, color="b", alpha=0.5, linestyle="dashed", linewidth=0.8)
 # offset = ensemble.defects[0].D(300) / 10**6
 # pyplot.ticklabel_format(axis="x", useOffset=offset)
 # cax = fig.add_axes([0.92, 0.185, 0.005, 0.666])
@@ -164,7 +190,12 @@ pyplot.yticks([])
 
 # pyplot.tight_layout(pad=1.1, rect=(0.03, 0, 0.80, 1))
 # pyplot.tight_layout()
-pyplot.legend(loc=7, handlelength=0, handletextpad=0)
-pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
+pyplot.legend(
+    loc=7,
+    # handlelength=0,
+    # handletextpad=0
+)
+# pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
 
+pyplot.savefig("../figures/ODMR-s1magnet-2")
 pyplot.show()

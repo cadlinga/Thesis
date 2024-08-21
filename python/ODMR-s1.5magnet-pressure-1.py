@@ -7,19 +7,21 @@ import matplotlib as mpl
 
 from defects.PL6 import SiliconVacancyPL6
 
-# from defects.V2 import SiliconVacancyV2
+from defects.V2 import SiliconVacancyV2
 from ensemble import Ensemble
 
 pyplot.rcParams.update({"font.size": 12})
 
-width = 2 * 10**6
-min = 1290 * 10**6
-max = 1440 * 10**6
+width = 20 * 10**6
+min = 200 * 10**6
+max = 1600 * 10**6
+# min = 1290 * 10**6
+# max = 1440 * 10**6
 peak_depth = 0.07
 
 ensemble = Ensemble()
 ensemble.addDefect(SiliconVacancyPL6())
-# ensemble.addDefect(SiliconVacancyV2())
+ensemble.addDefect(SiliconVacancyV2())
 
 
 def addResonantFrequency(frequency, frequency_Array, pl_array):
@@ -62,18 +64,19 @@ def plotResonantFrequencies(resonantFrequencies, colour, label, offset):
     # pl_array.append(1)
 
     # bax.set_ylim(0, 1.3)
-    pyplot.plot(
+    bax.plot(
         array(frequency_Array) / 10**6,
         array(pl_array) + offset - 1,
-        alpha=0.7,
-        linewidth=0.9,
+        alpha=0.9,
+        linewidth=1.2,
         color=colour,
         label=label,
     )
+
     # bax.legend(loc=4)
 
 
-fig = pyplot.figure(figsize=(6, 4), dpi=300)
+fig = pyplot.figure(figsize=(9, 4), dpi=300)
 ax = SubplotZero(fig, 111)
 fig.add_subplot(ax)
 #
@@ -83,7 +86,7 @@ fig.add_subplot(ax)
 #     #     # adds X and Y-axis from the origin
 #     ax.axis[direction].set_visible(True)
 # #
-for direction in ["right", "top"]:
+for direction in ["right", "top", "bottom"]:
     # hides borders
     ax.axis[direction].set_visible(False)
 
@@ -92,11 +95,11 @@ for direction in ["right", "top"]:
 # pl6 = SiliconVacancyPL6()
 # v2 = SiliconVacancyV2()
 
-# bax = brokenaxes(
-#     xlims=((min / 10**6, 140), (1320, max / 10**6)),
-#     # ylims=((0, 1.3), (0, 1.3)),
-#     hspace=0.01,
-# )
+bax = brokenaxes(
+    xlims=((min / 10**6, 400), (1150, max / 10**6)),
+    # ylims=((5, 6), (5, 6)),
+    # hspace=0.01,
+)
 
 
 # B vs T ################################################
@@ -124,18 +127,61 @@ T_array = linspace(0, T_max, 1)
 
 theta = pi / 6
 theta = 0
-B = 1 * 10**-3
+B = 5.4 * 10**-3
 plotResonantFrequencies(
     ensemble.resonantAngleFrequencies(
         0,
         {"magnitude": B, "theta": theta, "phi": 0},
         {"magnitude": 0, "theta": 0, "phi": 0},
     ),
-    # cm.jet(theta / T_max),
-    "blue",
-    "$B =" + str(B * 10**3) + " $ mT, $\\theta = 0^\\circ$",
+    cm.cool(150 / 500),
+    # "blue",
+    "$B =" + str(B * 10**3) + " $ mT, $P=0$GPa",
     B * 10**3,
 )
+
+bax.axvline(
+    x=ensemble.defects[0].D(0) * 10**-6,
+    # color="b",
+    color=cm.cool(150 / 500),
+    alpha=0.5,
+    linestyle="dashed",
+    linewidth=0.8,
+)
+
+
+ensemble.defects[0].setPressure(30)
+ensemble.defects[1].setPressure(30)
+plotResonantFrequencies(
+    ensemble.resonantAngleFrequencies(
+        0,
+        {"magnitude": B, "theta": theta, "phi": 0},
+        {"magnitude": 0, "theta": 0, "phi": 0},
+    ),
+    cm.cool(350 / 500),
+    # "blue",
+    "$B =" + str(B * 10**3) + " $ mT, $P=20$GPa",
+    B * 10**3 + 0.003,
+)
+
+print(
+    # ensemble.resonantAngleFrequencies(
+    #     0,
+    #     {"magnitude": B, "theta": theta, "phi": 0},
+    #     {"magnitude": 0, "theta": 0, "phi": 0},
+    # )
+    ensemble.defects[0].D(0)
+)
+
+bax.axvline(
+    x=ensemble.defects[0].D(0) * 10**-6,
+    # color="b",
+    color=cm.cool(350 / 500),
+    alpha=0.5,
+    linestyle="dashed",
+    linewidth=0.8,
+)
+
 # Normalizer
 norm = mpl.colors.Normalize(vmin=0, vmax=T_max)
 # creating ScalarMappable
@@ -143,10 +189,14 @@ cmap = pyplot.get_cmap("jet")
 
 sm = pyplot.cm.ScalarMappable(cmap=cmap, norm=norm)
 sm.set_array([])
-pyplot.title("Representative ODMR Spectra for PL6 ($S=1$)")
-pyplot.xlabel("Frequency (MHz)")
+x = ensemble.defects[0].D(0) / 10**6
+# pyplot.axvline(x=x, color="b", alpha=0.5, linestyle="dashed", linewidth=0.8)
+pyplot.title("Representative ODMR Spectra for V2, PL6")
+pyplot.xlabel("Frequency (MHz)", labelpad=20)
 pyplot.ylabel("Photoluminescence Intensity")
-pyplot.yticks([])
+# pyplot.yticks([])
+ax.set_yticks([])
+bax.axs[0].set_yticks([])
 # offset = ensemble.defects[0].D(300) / 10**6
 # pyplot.ticklabel_format(axis="x", useOffset=offset)
 # cax = fig.add_axes([0.92, 0.185, 0.005, 0.666])
@@ -164,7 +214,12 @@ pyplot.yticks([])
 
 # pyplot.tight_layout(pad=1.1, rect=(0.03, 0, 0.80, 1))
 # pyplot.tight_layout()
-pyplot.legend(loc=7, handlelength=0, handletextpad=0)
-pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
+# bax.legend(loc=8)
+bax.legend(bbox_to_anchor=(0.845, 0.4))
+# pyplot.savefig("../figures/PL6ODMRSpectra_theta_0_to_90")
 
+# pyplot.tight_layout(pad=0.9)
+# pyplot.tight_layout(pad=1.1, rect=(0.00, 0.00, 0.98, 1.01))
+
+pyplot.savefig("../figures/ODMR-multimodal-s15magnet-s1P")
 pyplot.show()

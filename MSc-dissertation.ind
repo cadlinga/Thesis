@@ -1,6 +1,11 @@
 \begin{theindex}
 
   \item Bohr magneton, \hyperpage{8}
+  \item Boltzman statistics, \hyperpage{26}
+
+  \indexspace
+
+  \item colour centre, \hyperpage{24}
 
   \indexspace
 
@@ -9,10 +14,11 @@
   \item degeracy
     \subitem non-degenerate, \hyperpage{12}
   \item Dirac notation, \hyperpage{8}
+  \item DiVincenzo criteria, \hyperpage{24}
 
   \indexspace
 
-  \item electrometry, \hyperpage{24}
+  \item electrometry, \hyperpage{30}
 
   \indexspace
 
@@ -33,11 +39,16 @@
   \item magnetic dipole moment, \hyperpage{5}
   \item magnetic field, \hyperpage{6}
   \item magnetic monopole, \hyperpage{5}
-  \item magnetometry, \hyperpage{24}
+  \item magnetometry, \hyperpage{30}
+  \item multimodal, \hyperpage{29}
 
   \indexspace
 
   \item nuclear quadrupole, \hyperpage{16}
+
+  \indexspace
+
+  \item ODMR, \hyperpage{26}
 
   \indexspace
 
@@ -49,10 +60,15 @@
   \indexspace
 
   \item quantisation axis, \hyperpage{8}
+  \item quantum sensing, \hyperpage{23}
+  \item qubit, \hyperpage{24}, \hyperpage{27}
 
   \indexspace
 
+  \item sensitivity, \hyperpage{23}
   \item Shr\"odinger equation, \hyperpage{7}
+  \item SiC, \hyperpage{27}
+    \subitem Silicon Carbide, \hyperpage{27}
   \item spin, \hyperpage{8}
   \item spin operators
     \subitem $S=1$, \hyperpage{21}
@@ -69,7 +85,7 @@
 
   \indexspace
 
-  \item thermometry, \hyperpage{24}
+  \item thermometry, \hyperpage{30}
   \item total angular momentum, \hyperpage{9}
   \item trace, \hyperpage{14}
 

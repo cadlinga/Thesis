@@ -5,7 +5,6 @@ class SiliconVacancyV2(Defect):
 
     def __init__(self):
         super().__init__()
-        self.P = 0
 
     def name(self):
         return "Silicon Vacancy (V2)"
@@ -13,9 +12,8 @@ class SiliconVacancyV2(Defect):
     def spin(self):
         return 1.5
 
-    def D(self, T, P=0):
-        D = 35 * 10**6
-        D = D + 0.31 * 10**6 * self.P
+    def D(self, T):
+        D = 40 * 10**6
         return D
 
     def E(self):
@@ -25,6 +23,3 @@ class SiliconVacancyV2(Defect):
     def d(self):
         # https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.112.087601
         return {"parallel": 0.35 * self.h, "perp": 25 * self.h}
-
-    def setPressure(self, P):
-        self.P = P

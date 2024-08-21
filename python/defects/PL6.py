@@ -5,6 +5,7 @@ class SiliconVacancyPL6(Defect):
 
     def __init__(self):
         super().__init__()
+        self.P = 0
 
     def name(self):
         return "Silicon Vacancy (PL6)"
@@ -13,6 +14,8 @@ class SiliconVacancyPL6(Defect):
         return 1
 
     def D(self, T):
+        if self.P != 0:
+            return 1364.6 * 10**6 + (0.34 * 10**6 * self.P)
         # D = 1388 * 10**6
         # Diamond Polynomial Fit
         # Need to find the data / coefficients for the SiC fit
@@ -43,3 +46,6 @@ class SiliconVacancyPL6(Defect):
     def d(self):
         # https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.112.087601
         return {"parallel": 0.35 * self.h, "perp": 25 * self.h}
+
+    def setPressure(self, P):
+        self.P = P

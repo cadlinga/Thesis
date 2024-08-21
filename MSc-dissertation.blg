@@ -8,13 +8,13 @@ Warning--I'm ignoring Levine's extra "title" field
 Warning--I didn't find a database entry for ""
 Warning--empty journal in electron-g-factor
 Warning--empty school in SpinStates
-Warning--empty journal in 1505.06914
 Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Kin On Ho, Yang Shen, Yiu Yung Pang, Wai Kuen Leung, Nan Zhao and Sen Yang" for entry Kin2021
 while executing---line 944 of file unsrt.bst
-Warning--empty journal in arxiv.1503.07566
 Warning--empty author and editor in 2008
+Warning--empty journal in arxiv.1503.07566
+Warning--empty journal in 1505.06914
 Warning--empty journal in 2011.12019
 You've used 133 entries,
             1791 wiz_defined-function locations,

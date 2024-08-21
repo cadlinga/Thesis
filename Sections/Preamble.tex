@@ -2,6 +2,9 @@
 \usepackage[most]{tcolorbox}
 \newtcolorbox{summary}[2]{
 	colback=ediblue!5!white,colframe=ediblue!75!black,fonttitle=\bfseries\rmfamily, title={\subsection{#1}\label{#2}\vspace{-0.6em}}, breakable}
+\newtcolorbox{proposal}[1]{
+	colback=edired!5!white,colframe=edired!75!black,fonttitle=\bfseries\rmfamily, title={#1 Proposal}, breakable}
+
 \tcbset{
 	highlight math style={
 			enhanced,%<-- needed for the `remember' options
