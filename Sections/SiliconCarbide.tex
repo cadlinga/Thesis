@@ -1,155 +1,59 @@
 \section{\index{SiC!Silicon Carbide}{Silicon Carbide}}\label{SiC}
-\todo[color=red, inline]{Check wrapfigs}
 
-\index{SiC}{SiC} is considered an excellent semiconductor material for high-power, high-temperature, and high-frequency electronics \cite{Eddy2009,CASADY19961409}. Studies have demonstrated SiC's potential as a host material for qubits, which enables the development of quantum sensors. 
+\index{SiC}{SiC} is a semiconductor which can be used for high-power and high temperature electronics \cite{Eddy2009,CASADY19961409}. Many studies have demonstrated SiC's potential as a host material for qubits, which enables the application of SiC quantum sensors even in ambient conditions \cite{PhysRevApplied.6.034001}. Moreover, 
+the robustness of SiC allows for operation in extreme conditions
+\cite{Cochrane2016}
+.
 
+\subsection{Colour Defects in SiC}
+Point defects in wide-bandgap semiconductors can have both ground and excited states within the energy gap and, hence, are luminescent centres i.e. colour centres and the luminescence is often stable even at room temperature. 
+Many color centers also possess a non-zero electron spin and can be excellent candidates for optical spin qubits \cite{Son2021}.
 
+Recently, multiple colour centres have been observed in SiC, those which may be employed as spin qubits are the divacancy and the Silicon vacancy. 
+There are seven types of divacancies in 4H-SiC, the polytope of SiC for which this work will be based. 
+The defects can be categorised by their orientation within the lattice. 
+These are the c-axis, for which we have the Silicon vacancy V2 and divacancies PL1, PL2, and PL6. 
+On the basal axis, we have the divacancies PL3, PL4, PL5, and PL7 \cite{Qin-Yue}. 
 
-A qubit system is, in the simplest terms, as a two-level system. The power of a \index{qubit}{qubit} lies in quantum coherence and/or
-temporal superposition of quantum states which allow for computation or manipulation with no classical analogue before being collapsed back to a measurement basis. 
+Figure \ref{fig:SiC_defects} shows the position of the defects in the lattice. 
 
-
-
-\subsection{Defects}
-
-% \begin{figure}[!htb]
 \begin{figure}[H]
     \begin{center}
         \includegraphics[width=0.32\textwidth]{figures/SiC-non-equiv-sites.pdf}
         \hspace{1em}
         \includegraphics[width=0.32\textwidth]{figures/SiC-V2.pdf}
     \end{center}
-    \caption{}\label{fig:}
+    \caption{}\label{fig:SiC_defects}
+    \todo[inline, color=ediblue]{Write caption and list source in et al format}
 \end{figure}
-{\color{edired}
-The diamond thermometer
-has a range of temperature detection applications in biological science such as living
-cells and thermogenetic neurostimulation, nanoscale thermal conductivity imaging, and
-electronics including semiconductor devices and coplanar waveguide thermal imaging
-[2].
-However, both the excitation laser and the fluorescence of color centers in diamond
-are in the visible range, which will cause larger auto-fluorescence and optical absorption
-of living cells [5]. In addition, for temperature measurements in electronics, diamonds
-should be coated on the electronic devices, which is difficult in situ to detect the
-temperature of the electronics devices [2,6]. The diamond is expensive and hard to
-fabricate, which limits the wide applications of diamond thermometers [7-9]. As a
-beneficial complement, color centers in silicon carbide (SiC) have been used as
-thermometers, which have near-infrared fluorescence and long coherence time even at
-room temperature [10-12]. SiC is a semiconductor with extensive applications in high-
-power microelectronic devices, which makes it possible for the intrinsic color centers
-in-situ quantum sensing including the temperature detection [7-11]. It has mature inch-
-scale growth and fabrication technologies, which is convenient for the application of
-the SiC-based quantum sensing.
-In recent years, various color centers have been observed in SiC, which could be
-divided into two types, bright single photon emitters [13] and spin qubits [7-9,14,15].
-There are three types of spin qubits containing divacancy [7,8,10,11], silicon vacancy
-[9,12] and NV centers [14,15], whose spin states can be polarized and controlled by
-laser and microwave, respectively [7-9]. The spin qubits have been used in quantum
-photonics [16,17], quantum computation [18,19], and quantum sensing. It can be
-developed to sense electric field [20], magnetic field [21], strain [22],12] and high pressure [23,24]. 
+
+Application of both the Silicon vacancy and the divacancies in quantum sensing can be competitive with the Nitrogen vacancy in diamond \cite{10.1093/nsr/nwab122}.
 
 
-There are seven types of divacancies in 4H-SiC: PL1- PL7 [7,8], and they exhibit
-spin-1 ground spin state. They can be divided into two types with two directions: one
-is c-axis, including PL1, PL2, and PL6, and the other is basal, including PL3-PL5, and
-PL7 [7,8]. 
-\cite{Qin-Yue}
+\subsection{Production of SiC}
+Whilst the research for the Nitrogen vacancy in diamond is more mature, many equivalent techniques are being developed for 
+SiC to compete with those which exist in diamond. 
 
-}
+Diamond is expensive and not compatible with conventional electronic circuits. By comparison, SiC is a technology-friendly material with an existing large-scale production capacity complemented by mature doping techniques \cite{Jiang2023}. Wafer-scale SiC is able to be produced and efficiently manufactured into electronic devices down to the atomic scale \cite{arxiv.1503.07566}.
 
-\subsubsection{$S=1$ Defects}
+Divacancies and Silicon vacancies may reliably introduced into SiC. As an example, the Silicon vacancy can be incorporated into the lattice and the density of the vacancies may be controlled down to the single defect level without degradation of the electrical characteristics of the material
+\cite{Ohshima2018,PhysRevApplied.4.014009,Wang2019}
+.
 
-% \begin{wrapfigure}{r}{0.4\textwidth}%
-%     \centering%
-%     \includegraphics[width=0.38\textwidth]{figures/SiC-non-equiv-sites.pdf}%
-%   \caption{C-axis and non-equiv sites in 4H SiC \td{better caption}}%
-% \end{wrapfigure}%
+Further, approaches to manufacture solid-immersion lenses, which may aid the sensitivity or reduce the integration volume of a sensor have been demonstrated
+\cite{Sardi2020}
+.
 
-
-\subsubsection{$S=3/2$ Defects}
-
-
-% \begin{wrapfigure}{l}{0.36\textwidth}%
-%     \centering%
-%     \includegraphics[width=0.34\textwidth]{figures/SiC-V2.pdf}%
-%   \caption{ \td{better caption}}%
-% \td{ensure wrapfigs aligned before final submission - no white space onto subsequent page}
-% \end{wrapfigure}%
-
-
-
-
-% large-area, high-quality SiC substrates readily available for applications such as high-frequency transmitters and solid-state white lighting
-\cite{Eddy2009}
-
-
-% has emerged as the most mature of the wide-bandgap (2.0 eV ≲ Eg ≲ 7.0 eV) semiconductors
-\cite{CASADY19961409}
-
-
-% Here, we present the coherent manipulation of single divacancy spins in 4H-SiC with a high readout contrast (⁠⁠) and a high photon count rate (150 kilo counts per second) under ambient conditions, which are competitive with the nitrogen-vacancy centres in diamond. 
-\cite{10.1093/nsr/nwab122}
-
-
-% Point defects in wide-bandgap semiconductors can have both ground and excited states within the energy gap and, hence, are luminescent centers or often called color centers. With the ground state being deep in the bandgap, the luminescence is often stable even at room temperature. Many color centers also possess a non-zero electron spin and can be excellent candidates for optical spin quantum bits (qubits).
-\cite{Son2021}
-
-% silicon vacancy in an industry-friendly platform, SiC, has the potential for various magnetometry applications under ambient conditions.
-\cite{PhysRevApplied.6.034001}
-
-% Silicon carbide is an emerging platform for quantum technologies that provides wafer scale and low-cost industrial fabrication.
-\cite{Jiang2023}
-
-% Although NV centers in diamond have shown remarkable spin properties, diamond as a host material is not compatible with conventional electronic circuits (14). By comparison, silicon carbide (SiC) is a technology-friendly material with a large-scale production capacity and mature doping techniques
-\cite{Jiang2023}
-
-
-% SiC is a transparent material from the UV to the infrared, possess nonlinear optical properties from the visible to the mid-infrared and it is a meta-material in the mid-infrared range. SiC fluorescence due to color centers can be associated with single photon emitters and can be used as spin qubits for quantum computation and communication networks and quantum sensing. This unique combination of excellent electronic, photonic and spintronic properties has prompted research to develop novel devices and sensors in the quantum technology domain.
-\cite{Castelletto2022}
-
-
-% current applications in single-photon sources, quantum sensing of strain, magnetic and electric fields, spin-photon interface are also described. Finally, the efforts in the integration of these color centers in photonics devices and their fabrication challenges are described.
-\cite{Castelletto2020-ie}
-
-
-\subsection{Production of $\ce{SiC}$}
-%  electrical properties of SiC, which outstand
-% the host material of the NV centers, and the mature fab-
-% rication technology, which allows an eﬃcient fabrication
-% of electronic devices even at the atomic scale
-\cite{arxiv.1503.07566}
-
-% The on-demand engineering of optically active spins in technologically friendly materials is a crucial step toward implementation of both maser amplifiers, requiring high-density spin ensembles, and qubits based on single spins. 
-\cite{Fuchs2015}
-
+Overall, research into the applicability of SiC as a quantum sensor is exciting and shows a lot of potential for application in the near term. 
 
 % we discuss energetic particle irradiation, especially proton beam writing (PBW), in which proton microbeams with MeV range are used, as a method to create VSi in SiC since PBW can create VSi in certain locations with micrometer accuracy and this is very useful to introduce VSi in electronic devices without the degradation of their electrical characteristics.
-\cite{Ohshima2018}
 
-% Finally, we show the successful generation and characterization of single nitrogen vacancy (NV) center in SiC employing ion implantation. 
-\cite{Mu2020}
-
+% Interestingly, VSi can be incorpo-
+% rated into SiC nanocrystals [28], and their density can be
+% controlled over 8 orders of magnitude down to the single-
+% defect level [32].
 
  % we present the generation and characterization of shallow silicon vacancies in silicon carbide by using different implanted ions and annealing conditions. 
-\cite{Wang2019}
-
 
 % Here, we demonstrate a scalable approach of manufacturing solid-immersion lenses (SILs) on 4H–SiC.
-\cite{Sardi2020}
-
-\subsection{Colour Defects in $\ce{SiC}$}
-\begin{figure}[H]
-    \begin{center}
-        % \includegraphics[width=0.95\textwidth]{figures/}
-        \missingfigure{Diagram of possible SiC defects showing orientation/position within the lattice}
-    \end{center}
-    \caption{}\label{fig:}
-\end{figure}
-
-\subsubsection{Electronic Structure}
-\subsubsection{Charge State}
-\subsubsection{Spin System}
-
-
-
 

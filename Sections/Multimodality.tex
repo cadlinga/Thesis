@@ -10,53 +10,100 @@ We have described schemas for measuring the $\vec{E}$ field, $\vec{B}$ field, te
 Thus, we have $^4 C _2 = 6$ distinct pairwise combinations we may consider for multimodal application:
 ($\vec{B}$, $T$), ($\vec{B}$, $P$), ($\vec{B}$, $\vec{E}$), ($\vec{E}$, $T$), ($\vec{E}$, $P$) and ($T$, $P$).
 
-We will discuss each combination and whether multi-modality is possible using the techniques described in this work.
-If not possible, we discuss why and if development of the literature could make such a sensor possible. Throughout the discussion, all external parameters not discussed are assumed to be absent.
+We will discuss the combinations for which multi-modality is possible using the techniques described in this work.
+% If not possible, we discuss why and if development of the literature could make such a sensor possible. 
+Throughout the discussion, all external parameters not discussed are assumed to be absent.
 
 % \subsection{$\vec{B}$ Multimode}
 \subsection{$\vec{B}$ and Temperature}\label{sec:multimode_BT}
-\begin{proposal}{$\vec{B}$ and Temperature}
+In general, simultaneously measuring $\vec{B}$ and $T$ is not possible as when the magnetic field is at $\theta \neq 90$, ZFS $D$ may not be inferred from the ODMR spectra. However, aligning $\vec{B}$ perpendicular to the defect axis allows $D$ to be calculated from the spectra and the magnitude of the field to be measured. 
+
+\begin{proposal}{$|\vec{B}|$ and Temperature}
 	We exploit the temperature independence of the V2 Silicon vacancy to measure the $\vec{B}$ field. Temperature may then be measured by either the same defect using anti-Stokes technique or a divacancy where temperature may be inferred from the change in ZFS $D$.
 \end{proposal}
-The implementation is to capture the ODMR spectra of the defects. Figure \ref{fig:multimode_BT} shows a two simulated spectra for a V2 and PL6 ensemble at 250K and 350K (offset for clarity). Clearly the V2 spectra is unaffected by temperature allowing $\vec{B}$ to be measured from the three frequencies as described in summary \ref{sum:spin1.5magnet}. Providing the ZFS $D$ of the PL6 is under no other influence e.g. pressure or $\vec{E}_\parallel$, $D(T)$ may be read from the two frequencies of the PL6 defect as described in \ref{sum:spin1thermo}.
-
-
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{figures/ODMR-multimodal-s15magnet-s1T.png}
 	\end{center}
 	\caption{}\label{fig:multimode_BT}
+    \todo[inline, color=ediblue]{Write caption}
 \end{figure}
+The implementation is to capture the ODMR spectra of the defects. Figure \ref{fig:multimode_BT} shows a two simulated spectra for a V2 and PL6 ensemble at 250K and 350K (offset for clarity). Clearly the V2 spectra is unaffected by temperature allowing $\vec{B}$ to be measured from the three frequencies as described in summary \ref{sum:spin1.5magnet}. Providing the ZFS $D$ of the PL6 is under no other influence e.g. pressure or $\vec{E}_\parallel$, $D(T)$ may be read from the two frequencies of the PL6 defect as described in \ref{sum:spin1thermo}.
+
+
+
 
 
 \subsection{$\vec{B}$ and Pressure}
+As for \ref{sec:multimode_BT} this is not possible in general and required $\vec{B}$ to be perpendicular to the defect axis. 
 
-\begin{proposal}{$\vec{B}$ and Pressure}
-	We exploit the linear dependence of $D$ of the V2 Silicon vacancy and pressure and the linear dependence on $\Delta f$ of the divacancy on the applied $\vec{B}$ field. We determine the pressure from the average of the two EPR frequencies for the divacancy and use the inferred pressure to perform magnetometry. 
+\begin{proposal}{$|\vec{B}$| and Pressure}
+	We exploit the linear dependence of the V2 Silicon vacancy $D$ and pressure, and the linear dependence on $\Delta f$ of the divacancy on the applied $\vec{B}$ field. We determine the pressure from the average of the two EPR frequencies for the divacancy and use the inferred pressure to perform magnetometry. 
 
 \end{proposal}
-Combining $\vec{B}$ with pressure is slightly less straight forward as the ZFS $D$ of the Silicon vacancy shows a linear dependence on $P$. Thus, we cannot cleanly separate the two parameters as above. However, since the dependence is linear, as is the dependence of an $S=1$ defect splitting on the $\vec{B}$ field, and the $B$ field does not influence $D$, we may still determine the parameters simultaneously.
-
-The implementation is to first measure $D(P)$ by taking the average of the two frequencies of the $S=1$ defect (\ref{sum:spin1.5thermo}). Now the pressure is known, calculate $D(P)$ for the Silicon vacancy and perform magnetometry with the V2 Silicon vacancy as detailed in \ref{sum:spin1.5magnet}.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{figures/ODMR-multimodal-s15magnet-s1P.png}
 	\end{center}
 	\caption{}\label{fig:multimode_BP}
+    \todo[inline, color=ediblue]{Write caption}
 \end{figure}
 
-\subsection{Temperature and Pressure}
-Simultaneously measuring temperature and pressure is not currently possible due to a lack of understanding of the interplay between $T$ and $P$ and the combined effect on $D$.
+The approach is slightly less straight forward as the ZFS $D$ of the Silicon vacancy shows a linear dependence on $P$. Thus, we cannot cleanly separate the two parameters as above. However, since the dependence is linear, as is the dependence of an $S=1$ defect splitting on the $\vec{B}$ field, and the $B$ field does not influence $D$, we may still determine the parameters simultaneously.
 
-However, since for the V2 Silicon vacancy $D$ is not dependent on $T$ but linearly dependent on $P$, the pressure may be isolated by studying the spectra of that defect.
+The implementation is to first measure $D(P)$ by taking the average of the two frequencies of the $S=1$ defect (\ref{sum:spin1.5thermo}). Now the pressure is known, calculate $D(P)$ for the Silicon vacancy and perform magnetometry with the V2 Silicon vacancy as detailed in \ref{sum:spin1.5magnet}.
 
-If future work mapped a function $D(P,T)$ for the divacancy, this could be reduced by substitution of the measured pressure in the V2 defect ($P_0$), and a fit to the divacancy spectra of $D(P_0, T)$, from which we would determine $T$.
+
+\subsection{Temperature and Pressure}\label{multi_TP}
+Simultaneously measuring temperature and pressure
+% is not currently possible due to a lack of understanding of the interplay between $T$ and $P$ and the combined effect on $D$.
+may be achieved using only the V2 Silicon vacancy. Illustrative ODMR plots are shown with $\vec{B}$ applied parallel to the defect axis. 
+
+\begin{proposal}{Temperature and Pressure}
+    The temperature independence of the V2 Silicon vacancy allows the CW-ODMR spectra to be inspected to evaluate $P$ from $D(P)$. 
+    With knowledge of the effective $D$, tune two lasers to a Stokes and anti-Stokes frequency and perform $S=3/2$ temperature measurements. 
+\end{proposal}
+
+
+The ODMR spectra of the V2 Silicon vacancy in zero field (magnetic or electric) will show a single peak at the effective $D$. 
+This may be used to determine the position of the zero phonon line from which temperature measurement can be performed as described in \ref{sum:spin1.5thermo}. 
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{figures/ODMR-multimodal-s15magnet-s1PT.png}
+    \end{center}
+    \caption{}\label{fig:multi-TP}
+    \todo[inline, color=ediblue]{Write caption}
+\end{figure}
+
+
+% Theoretically, the measurement may be simultaneously completed using only the V2 Silicon vacancy, but temperature sensing using the 
+
+% However, since for the V2 Silicon vacancy $D$ is not dependent on $T$ but linearly dependent on $P$, the pressure may be isolated by studying the spectra of that defect.
+
+In practice, readily tuning lasers to respond to the effective $D$ may be impractical. If future work mapped a function $D(P,T)$ for the divacancy, it could be used to perform temperature measurement using only CW-ODMR techniques. 
+
+To demonstrate, we (naively) assume the effects of temperature and pressure on the ZFS $D$ of the divacancy linearly combine, we visualise this in figure \ref{fig:multi-TP}. 
+
+If all three frequencies are visible ($f_1 < f_2 < f_3$) in the $S=3/2$ spectra we see using \eqref{eq:spin1.5_magnet_Bparallel_eigenvalues} that we may determine $D$ using 
+\begin{equation}
+    D(P) = \frac{f_1 -f_3 }{4},
+    \label{eq:}
+\end{equation}
+from which we infer the pressure $P_0$ as no dependence on $T$ is shown.     
+
+We now fit the data to compute $T$ in the using the divacancy frequencies ($\nu_1, \nu_2$) as 
+\begin{equation}
+    D(T, P_0) = \frac{\nu_2 + \nu_1}{2}.
+    \label{eq:}
+\end{equation}
+% this could be reduced by substitution of the measured pressure in the V2 defect ($P_0$), and a fit to the divacancy spectra of $D(P_0, T)$, from which we would determine $T$.
 
 % \subsection{$\vec{E}$ Multimode}
 \subsection{$\vec{E}$ and Temperature or Pressure}\label{multi-E-pressure}
-The measurement of $\vec{E}$ in parallel to $T$ ($P$) is less clear, as the influence of $E_\parallel$ is indistinguishable from a change in temperature (pressure) - a net change in ZFS $D$. Ideally, we would exploit the temperature independence of the V2 defect $D$ but we have been unable to find a schema for $S=3/2$ electrometry. 
-Thus, within the context of this work we have been unable to find a scheme to simultaneously measure $\vec{E}$ and $T$ ($P$) in general.  
+The measurement of $\vec{E}$ in parallel to temperature (pressure) is less clear, as the influence of $E_\parallel$ is indistinguishable from a change in temperature (pressure) - a net change in ZFS $D$. Ideally, we would exploit the temperature independence of the V2 defect $D$ but we have been unable to find a schema for $S=3/2$ electrometry. 
+Thus, within the context of this work we have been unable to find a scheme to simultaneously measure $\vec{E}$ and temperature (pressure) in general.  
 
 An exception can be made however if careful alignment of the $\vec{E}$ is possible, then the magnitude may be measured. 
 
@@ -88,14 +135,27 @@ Figure \ref{fig:E_Field_perp_temp} which shows a strictly perpendicular electric
         \includegraphics[width=0.95\textwidth]{figures/EFieldPerpTemp.png}
         % \missingfigure{ODMR/Energy plot showing effect of parallel/perp E field}
     \end{center}
-    \caption{Eigenvalue plot showing... \td{better caption}}\label{fig:E_Field_perp_temp}
+    \caption{Eigenvalue plot showing... }\label{fig:E_Field_perp_temp}
+    \todo[inline, color=ediblue]{Write caption}
 \end{figure}
 
 % \subsection{Scalar Sensing}
 
-\subsection{$\vec{B}$ and $\vec{E}$}
-Even more difficult is the separation of $\vec{B}$ and $\vec{E}$. Using the techniques in this work no general solution was found for simultaneously measuring both fields. 
-%
+% Using a similar scheme to that described above...
+
+\subsection{Trimodal $\vec{B}$, Temperature and Pressure}
+% If we assume the interplay and dependence of temperature and pressure on the ZFS $D$ are well understood for the Silicon vacancy and the divacancy, then a trimodal schema is possible. 
+
+\begin{proposal}{$\vec{B}$, Temperature and Pressure}
+    We exploit the temperature independence of the V2 Silicon vacancy to perform a pressure measurement. Then, having fixed $P_0$, we infer $T$. Now, since $T$ and $P$ are well known, we may perform scalar magnetometry using either the $S=1$ or $S=3/2$ defects provided the magnetic field is aligned parallel to the defect axis. 
+\end{proposal}
+
+This method simply extends the method described in \ref{multi_TP}. By fixing the orientation of the field, the magnitude of the field may be computed from either the $S=1$ or $S=3/2$ spectra respectively as 
+\begin{equation}
+    B = \frac{\nu_2 - \nu_1}{2 g\mu_B }, \quad B = \frac{f_3 + f_1}{2 g \mu_B } = \frac{f_2}{g \mu_B}.  
+    \label{eq:}
+\end{equation}
+
 % The only regime in which the magnitude of both fields may be simultaneously determined is identical to that described above in \ref{multi-E-pressure}. The discussion may be extended by measuring the magnitude of the magnetic field using \eqref{eq:s1_parallel_magnetometry} and substituting it into \eqref{eq:multi-E+T} to find 
 % \begin{equation}
 %     E_\perp d_\perp = E_0 - \sqrt{\frac{(f_1 - f_2)^2}{4} - (g \mu_B B)^2}, 
@@ -151,3 +211,9 @@ Even more difficult is the separation of $\vec{B}$ and $\vec{E}$. Using the tech
 % % 	\end{enumerate}
 % % \end{summary}
 % %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+
+% \subsection{$\vec{B}$ and $\vec{E}$}
+% Even more difficult is the separation of $\vec{B}$ and $\vec{E}$. 
+% Using the techniques in this work no general solution was found for simultaneously measuring both fields.
+

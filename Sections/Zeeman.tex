@@ -2,13 +2,16 @@
 When no magnetic field is applied to a system, the magnetic dipoles of the orbital electron and spin have no preferred direction. 
 The energy levels for all combinations of $L$ and $S$ (all $J$) are equivalent. 
 
-If a magnetic field is applied the magnetic moments interact with that field via the \index{Zeeman!Zeeman interaction}{Zeeman interaction}. 
+% If a magnetic field is applied the magnetic moments interact
+The application of a magnetic field causes an interaction between the spin-system magnetic moment and 
+% with 
+that field via the \index{Zeeman!Zeeman interaction}{Zeeman interaction}. 
 The \index{Zeeman!Zeeman effect}{Zeeman effect} consists of atomic energy level splitting when an external magnetic field is imposed on a sample \cite{Nabokov2002}. 
 
-The classical expression for the energy of a dipole in a magnetic field
+Classically, we calculate the energy of a dipole in a magnetic field as
 \begin{equation}
     E = -\vec{\mu}\cdot\vec{B}
-    \label{eq:}
+    \label{eq:dipole_energy_scalar_prod}
 \end{equation}
 may be replaced with the Hamiltonian for a quantum mechanical system 
 \begin{equation}
@@ -16,11 +19,11 @@ may be replaced with the Hamiltonian for a quantum mechanical system
     \label{eq:}
 \end{equation}
 
-The negative sign indicates that when the magnetic moment is parallel to the magnetic field the lowest energy is achieved. 
+The negative sign is convention used to illustrate that the state of minimum energy is the state which the moment aligns to the magnetic field.
 
-Thus distinct quantum systems with different $J$ and thus different projections of angular momentum ($m_J$) have different energies due to their interaction with a magnetic field. 
+Thus distinct quantum systems with different $J$ and thus different projections of angular momentum ($m_J$). This difference in projected angular momentum accounts for the difference in energies between states with differing angular momentum.  
 
-Considering a simple two-level system ($S=1/2$), the energy difference between the spin being aligned or anti-aligned with the field is called the Zeeman energy. 
+Considering $S=1/2$ system, which has twofold degeneracy, the Zeeman energy is the delta between the spin-system energy with the magnetic moment parallel and anti-parallel to the applied field. 
 
 
 \begin{figure}[H]
@@ -28,7 +31,8 @@ Considering a simple two-level system ($S=1/2$), the energy difference between t
         \includegraphics[width=0.6\textwidth]{figures/Zeeman.pdf}
         % \missingfigure{Figure showing the Zeeman energy for states separated by $m_s = \pm 1$}
     \end{center}
-    \caption{Adapted from figure shown in the work by Gr\"{u}ne. \td{write caption}}\label{fig:}
+    \caption{Adapted from figure shown in the work by Gr\"{u}ne.}\label{fig:}
+    \todo[inline, color=ediblue]{Write caption}
 \end{figure}
 
 The Hamiltonian to describe the energy is, using the total angular momentum form of \eqref{eq:orbital_magnetic_moment_operator_bohr_magneton_g_factor}, 
@@ -37,7 +41,7 @@ The Hamiltonian to describe the energy is, using the total angular momentum form
     \label{eq:Zeeman_Hamiltonian}
 \end{equation}
 
-Without loss of generality we may direct the magnetic field along the $z$ axis and reduce the scalar product to only the $z$ component. Now, using $S=1/2$ quantised along the $z$ axis, i.e. $m_S = \pm 1/2$ we find the Zeeman energy by solving the Shr\"odinger equation 
+We simplify by aligning the field along the $z$ axis and reduce the scalar product to only the $z$ component. Now for a $S=1/2$ system i.e. $m_S = \pm 1/2$ we find the Zeeman energy by solving the Shr\"odinger equation 
 \begin{equation}
     \hat{H}_{\ce{Zeeman}} \ket{S, m_S} = E_{\ce{Zeeman}}\ket{S, m_S} 
     % \label{eq:}
@@ -51,19 +55,19 @@ which, to a factor is equivalent to, by \eqref{eq:zthcomponent}, to
 Thus we find the two eigenvalues to be
 \begin{equation}
 E_+ =\frac{1}{2}g\mu_BB, \qquad E_-=-\frac{1}{2}g\mu_BB
-    \label{eq:}
+    \label{eq:zeeman_energy}
 \end{equation}
 and thus the Zeeman energy is given by $g\mu_B B$. 
 
 
 
-The $S=1/2$ system is thus doubly \index{degeneracy!degenerate}{degenerate} and the \index{degeneracy}{degeneracy} is lifted by the application a magnetic field. The Zeeman energy is the difference between the two states and it grows linearly with $B$. 
-
-This may be generalised to a more complex system by considering the total angular momentum $J$ where the energy difference between states is given by 
-\begin{equation}
-   \Delta E = g_J \mu_B B. 
-    \label{eq:zeeman_energy}
-\end{equation}
+The $S=1/2$ system is thus doubly \index{degeneracy!degenerate}{degenerate} and the \index{degeneracy}{degeneracy} is lifted by the application a magnetic field. 
+%
+% These arguments may be generalised to a more complex system by considering the total angular momentum $J$ where the energy difference between states is given by 
+% \begin{equation}
+%    \Delta E = g_J \mu_B B. 
+%     \label{eq:zeeman_energy}
+% \end{equation}
 
 
 

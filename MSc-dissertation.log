@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  21 AUG 2024 08:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.4)  21 AUG 2024 19:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1426,39 +1426,6 @@ LaTeX Warning: Label `eq:' multiply defined.
 LaTeX Warning: Label `eq:' multiply defined.
 
 
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
-
-
 LaTeX Warning: Label `fig:' multiply defined.
 
 
@@ -1468,13 +1435,25 @@ LaTeX Warning: Label `eq:' multiply defined.
 LaTeX Warning: Label `fig:' multiply defined.
 
 
-LaTeX Warning: Label `fig:' multiply defined.
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
+
+
+LaTeX Warning: Label `eq:' multiply defined.
 
 
 LaTeX Warning: Label `eq:reduced_H_NV_eigenvalues' multiply defined.
-
-
-LaTeX Warning: Label `eq:' multiply defined.
 
 
 LaTeX Warning: Label `eq:' multiply defined.
@@ -1664,7 +1643,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: `float' package detected.
  (./Sections/Frontmatter.tex
-<Title/title.pdf, id=318, 614.295pt x 794.97pt>
+<Title/title.pdf, id=294, 614.295pt x 794.97pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
 Package pdftex.def Info: Title/title.pdf  used on input line 3.
@@ -1673,7 +1652,7 @@ File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf>
 Package pdftex.def Info: Title/title.pdf  used on input line 3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Title/title.pdf, id=321, page=1, 614.295pt x 794.97pt>
+<Title/title.pdf, id=297, page=1, 614.295pt x 794.97pt>
 File: Title/title.pdf Graphic file (type pdf)
 <use Title/title.pdf, page 1>
 Package pdftex.def Info: Title/title.pdf , page1 used on input line 3.
@@ -1702,4 +1681,1477 @@ LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/b/n' in size <12> not availabl
 LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 4.
 LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/b/n' in size <24.88> not available
-(Fo
+(Font)              Font shape `T1/CrimsonPro-OsF/bold/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/bold/n' will be
+(Font)              scaled to size 24.88pt on input line 4.
+) (./declaration.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 10.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [1]) (./personal_statement.tex [2]) (./acknowledgements.tex
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 13.
+) [3]
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 24.88pt on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 24.88pt on input line 13.
+ (./MSc-dissertation.tdo)
+\tf@tdo=\write6
+\openout6 = `MSc-dissertation.tdo'.
+
+ [4
+
+] (./MSc-dissertation.toc
+Underfull \vbox (badness 2310) has occurred while \output is active []
+
+ [5
+
+] [6])
+\tf@toc=\write7
+\openout7 = `MSc-dissertation.toc'.
+
+ [7] (./MSc-dissertation.lof [8
+
+])
+\tf@lof=\write8
+\openout8 = `MSc-dissertation.lof'.
+
+ [9] [10
+
+]) (./Chapters/intro.tex
+Chapter 1.
+
+Overfull \hbox (2.16095pt too wide) in paragraph at lines 67--68
+[]\T1/SourceSansPro-TLF/regular/n/12 which stud-ies the in-ter-ac-tion with elec-tron spin sys-
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 E
+      PR is thus a tool to manipulate electron spins in solid state material... [1
+
+]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 88.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]) (./Chapters/background.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Chapter 2.
+(./Sections/Magnetism.tex
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 1.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 1.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
+LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/b/n' in size <17.28> not available
+(Font)              Font shape `T1/CrimsonPro-OsF/bold/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/bold/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
+ (./Tikz/ElectricFieldMonopole.tex) (./Tikz/MagneticFieldDivZero.tex)
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 13.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 13.
+ (./Sections/MagneticDipoles.tex
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 1.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 1.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 1.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 1.
+LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/b/n' in size <14.4> not available
+(Font)              Font shape `T1/CrimsonPro-OsF/bold/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/CrimsonPro-OsF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 1.
+ (./Tikz/MagneticDipole.tex) [4
+
+]) (./Sections/GyromagneticRatio.tex
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]) (./Sections/BohrMagneton.tex (./Tikz/OrbitalMagneticMoment.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6])) (./Sections/Spin.tex (./Tikz/ElectronMagneticMomentSpin.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 17.
+
+(./Tikz/Spin.tex)
+Underfull \hbox (badness 1412) in paragraph at lines 22--22
+[][]\T1/SourceSansPro-TLF/regular/it/12 Fig. 2.4: |\T1/SourceSansPro-TLF/regular/n/12 Schematic of dis-
+ []
+
+) (./Sections/Zeeman.tex
+Underfull \vbox (badness 7796) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+pdfTeX warning: pdflatex (file ./figures/Zeeman.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Zeeman.pdf, id=673, 241.84843pt x 156.49016pt>
+File: figures/Zeeman.pdf Graphic file (type pdf)
+<use figures/Zeeman.pdf>
+Package pdftex.def Info: figures/Zeeman.pdf  used on input line 31.
+(pdftex.def)             Requested size: 281.68513pt x 182.26892pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9 <./figures/Zeeman.pdf>]) (./Sections/SpinOrbit.tex) (./Sections/PerturbationTheory.tex
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30    \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+Overfull \hbox (21.76329pt too wide) in paragraph at lines 34--35
+[]\T1/SourceSansPro-TLF/regular/n/12 Here we used the fact that $[] \OT1/cmr/m/n/12 = 0$ \T1/SourceSansPro-TLF/regular/n/12 since, for ex-am-ple in the aleg-braic ba-sis $[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 i []$
+ []
+
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 40.
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59    \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./Sections/ZFS.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+pdfTeX warning: pdflatex (file ./figures/ZFS.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/ZFS.pdf, id=732, 199.1693pt x 170.71654pt>
+File: figures/ZFS.pdf Graphic file (type pdf)
+<use figures/ZFS.pdf>
+Package pdftex.def Info: figures/ZFS.pdf  used on input line 7.
+(pdftex.def)             Requested size: 281.68513pt x 241.45795pt.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 35.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 35.
+
+Underfull \vbox (badness 1371) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./figures/ZFS.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]) (./Sections/NuclearHamiltonians.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+pdfTeX warning: pdflatex (file ./figures/inhom-broadening.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/inhom-broadening.pdf, id=780, 142.26378pt x 142.26378pt>
+File: figures/inhom-broadening.pdf Graphic file (type pdf)
+<use figures/inhom-broadening.pdf>
+Package pdftex.def Info: figures/inhom-broadening.pdf  used on input line 44.
+(pdftex.def)             Requested size: 234.73523pt x 234.7555pt.
+) (./Sections/StarkEffect.tex
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7     \end{align}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./figures/inhom-broadening.pdf>]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100     \end{align}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<figures/EFieldParallel.png, id=821, 578.16pt x 289.08pt>
+File: figures/EFieldParallel.png Graphic file (type png)
+<use figures/EFieldParallel.png>
+Package pdftex.def Info: figures/EFieldParallel.png  used on input line 110.
+(pdftex.def)             Requested size: 375.57779pt x 187.78949pt.
+<figures/EFieldPerp.png, id=827, 578.16pt x 289.08pt>
+File: figures/EFieldPerp.png Graphic file (type png)
+<use figures/EFieldPerp.png>
+Package pdftex.def Info: figures/EFieldPerp.png  used on input line 123.
+(pdftex.def)             Requested size: 375.57779pt x 187.78949pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18 <./figures/EFieldParallel.png>]) (./Sections/TotalHamiltonian.tex
+! Misplaced alignment tab character &.
+l.9     H_{\ce{Zeeman}} &
+                         = g \mu_B \hat{\vec{S}}\cdot \vec{B}, \tag{\ref{eq:...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.12     H_{\ce{ZFS}} &
+                       =  D\left(\hat{S}_z^2 - \frac{1}{3}S(S+1)\right)  + E...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.17     H_{\ce{Stark}} &
+                         =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+) (./Sections/SpinHamiltonian.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9.62}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.22 \end{equation}
+                   pdfTeX warning (ext4): destination with the same identifier (name{equation.2.9.62}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.22 \end{equation}
+                    <./figures/EFieldPerp.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 24.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 24.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     \end{align}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (3.93268pt too wide) detected at line 50
+[][][][]
+ []
+
+) (./Sections/StrainPressure.tex
+<figures/SiC-PL5PL6-D(T)-close.png, id=854, 433.62pt x 289.08pt>
+File: figures/SiC-PL5PL6-D(T)-close.png Graphic file (type png)
+<use figures/SiC-PL5PL6-D(T)-close.png>
+Package pdftex.def Info: figures/SiC-PL5PL6-D(T)-close.png  used on input line 15.
+(pdftex.def)             Requested size: 328.62788pt x 219.09436pt.
+
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+<figures/PressureDependence.png, id=868, 872.25874pt x 694.595pt>
+File: figures/PressureDependence.png Graphic file (type png)
+<use figures/PressureDependence.png>
+Package pdftex.def Info: figures/PressureDependence.png  used on input line 65.
+(pdftex.def)             Requested size: 281.68513pt x 224.30988pt.
+
+Underfull \vbox (badness 1975) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21 <./figures/SiC-PL5PL6-D(T)-close.png>]) (./Sections/SiliconCarbide.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./figures/PressureDependence.png>]
+
+pdfTeX warning: pdflatex (file ./figures/SiC-non-equiv-sites.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/SiC-non-equiv-sites.pdf, id=895, 113.81102pt x 170.71654pt>
+File: figures/SiC-non-equiv-sites.pdf Graphic file (type pdf)
+<use figures/SiC-non-equiv-sites.pdf>
+Package pdftex.def Info: figures/SiC-non-equiv-sites.pdf  used on input line 22.
+(pdftex.def)             Requested size: 150.23398pt x 225.37776pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/SiC-V2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/SiC-V2.pdf, id=896, 113.81102pt x 170.71654pt>
+File: figures/SiC-V2.pdf Graphic file (type pdf)
+<use figures/SiC-V2.pdf>
+Package pdftex.def Info: figures/SiC-V2.pdf  used on input line 24.
+(pdftex.def)             Requested size: 150.23398pt x 225.37776pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./figures/SiC-non-equiv-sites.pdf> <./figures/SiC-V2.pdf
+
+pdfTeX warning: pdflatex (file ./figures/SiC-V2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]) (./Sections/QuantumSensing.tex
+
+LaTeX Warning: Reference `ODMR' on page 24 undefined on input line 9.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]) (./Sections/SpinPopulation.tex) (./Sections/ODMR.tex)) (./Chapters/design.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+Chapter 3.
+(./Sections/S1_Magnetometry_2.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 	\end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26
+
+]
+<figures/ODMR-s1magnet-2.png, id=1010, 433.62pt x 289.08pt>
+File: figures/ODMR-s1magnet-2.png Graphic file (type png)
+<use figures/ODMR-s1magnet-2.png>
+Package pdftex.def Info: figures/ODMR-s1magnet-2.png  used on input line 62.
+(pdftex.def)             Requested size: 230.04309pt x 153.36163pt.
+<figures/ODMR-s1magnet-3.png, id=1011, 433.62pt x 289.08pt>
+File: figures/ODMR-s1magnet-3.png Graphic file (type png)
+<use figures/ODMR-s1magnet-3.png>
+Package pdftex.def Info: figures/ODMR-s1magnet-3.png  used on input line 63.
+(pdftex.def)             Requested size: 230.04309pt x 153.36163pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./figures/ODMR-s1magnet-2.png> <./figures/ODMR-s1magnet-3.png>]
+Overfull \hbox (2.90143pt too wide) detected at line 86
+[][]\OT1/cmr/m/n/12 0 = \OML/cmm/m/it/12 ^^U[] \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ^^U[]D \OT1/cmr/m/n/12 + [] + \OML/cmm/m/it/12 ^^U\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 D[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 E[] \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g^^V[]B\OT1/cmr/m/n/12 )[]) \OMS/cmsy/m/n/12 ^^@ []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 g^^V[]B\OT1/cmr/m/n/12 )[] []
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 112.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.137 \end{summary}
+                   ]) (./Sections/S1.5_Magnetometry.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 	\end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.52 	\end{align}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.52 	\end{align}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (10.6737pt too wide) detected at line 54
+[][][][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.54 \end{equation}
+                   ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 57.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 	\end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 	\end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 	\end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 	\end{align}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.12296pt too wide) detected at line 181
+[][][][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 298.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 298.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 			      }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./Sections/S1_Electometry.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 	\end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2.32}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.13 \end{equation}
+                   ]
+Overfull \hbox (13.4264pt too wide) detected at line 24
+[][]\OML/cmm/m/it/12 H \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 :
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.32}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.56 \end{equation}
+                   ]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]) (./Sections/S1_Thermometry.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 	\end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36pdfTeX warning (ext4): destination with the same identifier (name{equation.3.3.41}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.42 \end{equation}
+                   pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.41}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.42 \end{equation}
+                   ]
+<figures/ODMR-s1-temp-dependence.png, id=1167, 578.16pt x 289.08pt>
+File: figures/ODMR-s1-temp-dependence.png Graphic file (type png)
+<use figures/ODMR-s1-temp-dependence.png>
+Package pdftex.def Info: figures/ODMR-s1-temp-dependence.png  used on input line 50.
+(pdftex.def)             Requested size: 445.9955pt x 222.9981pt.
+
+
+LaTeX Warning: Citation `' on page 37 undefined on input line 66.
+
+
+LaTeX Warning: Citation `' on page 37 undefined on input line 66.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 	\end{align}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 72.
+
+LaTeX Font Info:    Trying to load font information for TS1+SourceSansPro-TLF on input line 72.
+(/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
+File: TS1SourceSansPro-TLF.fd 2020/01/19 (autoinst) Font definitions for TS1/SourceSansPro-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `TS1/SourceSansPro-TLF/regular/n' on input line 72.
+LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 72.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 72.
+
+Missing character: There is no Ö in font cmr12!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 			      }
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 120.
+
+
+LaTeX Warning: Command \texttimes invalid in math mode on input line 120.
+
+Missing character: There is no Ö in font cmr12!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37 <./figures/ODMR-s1-temp-dependence.png>]) (./Sections/S1.5_Thermometry.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/actual-stokes.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/actual-stokes.pdf, id=1191, 113.81102pt x 113.81102pt>
+File: figures/actual-stokes.pdf Graphic file (type pdf)
+<use figures/actual-stokes.pdf>
+Package pdftex.def Info: figures/actual-stokes.pdf  used on input line 27.
+(pdftex.def)             Requested size: 173.70177pt x 173.72217pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38pdfTeX warning (ext4): destination with the same identifier (name{equation.3.4.46}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.34 T
+      he anti-Stokes excitation process depends on a contribution from phono...]
+
+pdfTeX warning: pdflatex (file ./figures/stokes.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/stokes.pdf, id=1206, 113.81102pt x 85.35826pt>
+File: figures/stokes.pdf Graphic file (type pdf)
+<use figures/stokes.pdf>
+Package pdftex.def Info: figures/stokes.pdf  used on input line 45.
+(pdftex.def)             Requested size: 187.78531pt x 140.85588pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./figures/actual-stokes.pdf> <./figures/stokes.pdf
+
+pdfTeX warning: pdflatex (file ./figures/stokes.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./figures/anti-stokes-ODMR.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/anti-stokes-ODMR.pdf, id=1251, 270.3012pt x 142.26378pt>
+File: figures/anti-stokes-ODMR.pdf Graphic file (type pdf)
+<use figures/anti-stokes-ODMR.pdf>
+Package pdftex.def Info: figures/anti-stokes-ODMR.pdf  used on input line 80.
+(pdftex.def)             Requested size: 375.57779pt x 197.68529pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 99.
+
+)) (./Chapters/results.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40pdfTeX warning (ext4): destination with the same identifier (name{equation.3.5.50}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1 \chapter
+            {Results and Analysis}\label{ch:results} <./figures/anti-stokes-ODMR.pdf>]
+Chapter 4.
+(./Sections/Multimodality.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 18.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 18.
+
+<figures/ODMR-multimodal-s15magnet-s1T.png, id=1272, 650.43pt x 289.08pt>
+File: figures/ODMR-multimodal-s15magnet-s1T.png Graphic file (type png)
+<use figures/ODMR-multimodal-s15magnet-s1T.png>
+Package pdftex.def Info: figures/ODMR-multimodal-s15magnet-s1T.png  used on input line 26.
+(pdftex.def)             Requested size: 445.9955pt x 198.2259pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 37.
+
+<figures/ODMR-multimodal-s15magnet-s1P.png, id=1281, 650.43pt x 289.08pt>
+File: figures/ODMR-multimodal-s15magnet-s1P.png Graphic file (type png)
+<use figures/ODMR-multimodal-s15magnet-s1P.png>
+Package pdftex.def Info: figures/ODMR-multimodal-s15magnet-s1P.png  used on input line 47.
+(pdftex.def)             Requested size: 445.9955pt x 198.2259pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 6708) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42 <./figures/ODMR-multimodal-s15magnet-s1T.png>]
+<figures/ODMR-multimodal-s15magnet-s1PT.png, id=1290, 650.43pt x 289.08pt>
+File: figures/ODMR-multimodal-s15magnet-s1PT.png Graphic file (type png)
+<use figures/ODMR-multimodal-s15magnet-s1PT.png>
+Package pdftex.def Info: figures/ODMR-multimodal-s15magnet-s1PT.png  used on input line 74.
+(pdftex.def)             Requested size: 445.9955pt x 198.2259pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5607) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43 <./figures/ODMR-multimodal-s15magnet-s1P.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 104.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 104.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44 <./figures/ODMR-multimodal-s15magnet-s1PT.png>]
+<figures/EFieldPerpTemp.png, id=1310, 578.16pt x 289.08pt>
+File: figures/EFieldPerpTemp.png Graphic file (type png)
+<use figures/EFieldPerpTemp.png>
+Package pdftex.def Info: figures/EFieldPerpTemp.png  used on input line 135.
+(pdftex.def)             Requested size: 445.9955pt x 222.9981pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 146.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 146.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./figures/EFieldPerpTemp.png>])) (./Chapters/conclusions.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+Chapter 5.
+[47
+
+]) (./Sections/Backmatter.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48] (./MSc-dissertation.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49
+
+]
+Underfull \hbox (badness 1057) in paragraph at lines 43--50
+\T1/SourceSansPro-TLF/regular/n/12 D. J. Twitchen, D. Elk-ouss, S. Wehner, T. H. Taminiau, and R. Han-son.  Loophole-
+ []
+
+[50
+
+]
+
+! LaTeX Error: Unicode character ï¿½ (U+FFFD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \newblock {\em Zeitschrift fï¿½
+                                     r Physik}, 9(1):353â€“355, December 1922.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52]
+Underfull \hbox (badness 3260) in paragraph at lines 275--282
+[]\T1/SourceSansPro-TLF/regular/n/12 Stefania Castel-letto, Ab-dul Salam Al Atem, Faraz Ahmed Inam, Hans Jür-gen von
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+Underfull \hbox (badness 1603) in paragraph at lines 411--416
+[]\T1/SourceSansPro-TLF/regular/n/12 F. Sardi, T. Ko-rn-her, M. Wid-mann, R. Kolesov, F. Schiller, T. Reindl, M. Hagel, and
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57]
+Underfull \hbox (badness 1112) in paragraph at lines 595--602
+[]\T1/SourceSansPro-TLF/regular/n/12 Christopher P An-der-son, Elena O Glen, Cyrus Zele-don, Alexan-dre Bourassa, Yu Jin,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
+
+! LaTeX Error: Unicode character âˆ’ (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.668   âˆ’
+            a review.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 707--711
+\T1/SourceSansPro-TLF/regular/n/12 Feng Wang.  High-sensitivity sil-i-con car-bide divacancy-based tem-per-a-ture sens-ing.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 749--755
+[]\T1/SourceSansPro-TLF/regular/n/12 Gopalakrishnan Bal-a-sub-ra-ma-nian, Philipp Neu-mann, Daniel Twitchen, Matthew
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 749--755
+\T1/SourceSansPro-TLF/regular/n/12 Markham, Ro-man Kolesov, Norikazu Mizuochi, Ju-nichi Isoya, Jo-ce-lyn Achard, Jo-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60]
+Underfull \hbox (badness 5696) in paragraph at lines 839--844
+[]\T1/SourceSansPro-TLF/regular/n/12 Pavel Bara-nov Bara-nov, Hans Ju-r-gen Von Bardeleben, Fe-dor Jelezko, and Jorg
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61]))
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63
+
+] (./MSc-dissertation.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `MSc-dissertation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MSc-dissertation.out':
+(rerunfilecheck)             Before: 6A545DCE7C3367D4C1F46A029F27EE16;9193
+(rerunfilecheck)             After:  F198A2303164A5AAC5C761E8C107698E;9193.
+ ) 
+Here is how much of TeX's memory you used:
+ 49891 strings out of 480171
+ 1177611 string characters out of 5894490
+ 1620359 words of memory out of 10000000
+ 66379 multiletter control sequences out of 15000+600000
+ 674328 words of font info for 107 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 104i,21n,120p,824b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.33} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.15.2} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.15.1} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/crimsonpro/crp_q22ex3.enc} </home/conner/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/crimsonpro/CrimsonPro-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/crimsonpro/CrimsonPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on MSc-dissertation.pdf (74 pages, 2318357 bytes).
+PDF statistics:
+ 1681 PDF objects out of 1728 (max. 8388607)
+ 1418 compressed objects within 15 object streams
+ 480 named destinations out of 1000 (max. 500000)
+ 792 words of extra memory for PDF output out of 10000 (max. 10000000)
+

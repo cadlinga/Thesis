@@ -1,103 +1,98 @@
 \begin{theindex}
 
-  \item Bohr magneton, \hyperpage{8}
-  \item Boltzman statistics, \hyperpage{26}
+  \item Bohr magneton, \hyperpage{7}
+  \item Boltzman statistics, \hyperpage{24}
 
   \indexspace
 
-  \item colour centre, \hyperpage{24}
-
-  \indexspace
-
-  \item degeneracy, \hyperpage{11}
-    \subitem degenerate, \hyperpage{11}
+  \item degeneracy, \hyperpage{10}
+    \subitem degenerate, \hyperpage{10}
   \item degeracy
-    \subitem non-degenerate, \hyperpage{12}
-  \item Dirac notation, \hyperpage{8}
-  \item DiVincenzo criteria, \hyperpage{24}
+    \subitem non-degenerate, \hyperpage{11}
+  \item Dirac notation, \hyperpage{7}
+  \item DiVincenzo criteria, \hyperpage{23}
 
   \indexspace
 
-  \item electrometry, \hyperpage{30}
+  \item electrometry, \hyperpage{26}
 
   \indexspace
 
-  \item fine-structure, \hyperpage{13}
+  \item fine-structure, \hyperpage{12}
 
   \indexspace
 
-  \item g-factor, \hyperpage{8}
-  \item gyromagnetic ratio, \hyperpage{6}
+  \item g-factor, \hyperpage{7}
+  \item gyromagnetic ratio, \hyperpage{5}
 
   \indexspace
 
-  \item hyperfine interaction, \hyperpage{17}
+  \item hyperfine interaction, \hyperpage{16}
 
   \indexspace
 
-  \item magnetic dipole, \hyperpage{5, 6}
-  \item magnetic dipole moment, \hyperpage{5}
-  \item magnetic field, \hyperpage{6}
-  \item magnetic monopole, \hyperpage{5}
-  \item magnetometry, \hyperpage{30}
-  \item multimodal, \hyperpage{29}
+  \item magnetic dipole, \hyperpage{4, 5}
+  \item magnetic dipole moment, \hyperpage{4}
+  \item magnetic field, \hyperpage{5}
+  \item magnetic monopole, \hyperpage{4}
+  \item magnetometry, \hyperpage{26}
 
   \indexspace
 
-  \item nuclear quadrupole, \hyperpage{16}
+  \item nuclear quadrupole, \hyperpage{15}
 
   \indexspace
 
-  \item ODMR, \hyperpage{26}
+  \item ODMR, \hyperpage{24}
 
   \indexspace
 
   \item paramagnetically shielded, \hyperpage{17}
-  \item perturbation, \hyperpage{11}
+  \item perturbation, \hyperpage{10}
   \item point group symmetry, \hyperpage{18}
-  \item pressure, \hyperpage{22}
+  \item pressure, \hyperpage{21}
 
   \indexspace
 
-  \item quantisation axis, \hyperpage{8}
-  \item quantum sensing, \hyperpage{23}
-  \item qubit, \hyperpage{24}, \hyperpage{27}
+  \item quantisation axis, \hyperpage{6}
+  \item quantum sensing, \hyperpage{22}
+  \item qubit, \hyperpage{23}
 
   \indexspace
 
-  \item sensitivity, \hyperpage{23}
-  \item Shr\"odinger equation, \hyperpage{7}
-  \item SiC, \hyperpage{27}
-    \subitem Silicon Carbide, \hyperpage{27}
-  \item spin, \hyperpage{8}
+  \item sensitivity, \hyperpage{22}
+  \item Shr\"odinger equation, \hyperpage{6}
+  \item SiC, \hyperpage{24}
+    \subitem Silicon Carbide, \hyperpage{24}
+  \item spin, \hyperpage{7}
   \item spin operators
-    \subitem $S=1$, \hyperpage{21}
-    \subitem $S=3/2$, \hyperpage{21}
-  \item spin-orbit interaction, \hyperpage{11}
+    \subitem $S=1$, \hyperpage{20}
+    \subitem $S=3/2$, \hyperpage{20}
+  \item spin-orbit interaction, \hyperpage{10}
   \item Stark
-    \subitem $R_D$, \hyperpage{18}
-    \subitem $R_E$, \hyperpage{18}
-    \subitem $d_\parallel$, \hyperpage{19}
-    \subitem $d_\perp$, \hyperpage{19}
-    \subitem Stark Effect, \hyperpage{17}
-    \subitem Stark Hamiltonian, \hyperpage{19}
-  \item strain, \hyperpage{22}
+    \subitem $R_D$, \hyperpage{17}
+    \subitem $R_E$, \hyperpage{17}
+    \subitem $d_\parallel$, \hyperpage{18}
+    \subitem $d_\perp$, \hyperpage{18}
+    \subitem Stark Effect, \hyperpage{16}
+    \subitem Stark Hamiltonian, \hyperpage{18}
+  \item strain, \hyperpage{21}
 
   \indexspace
 
-  \item thermometry, \hyperpage{30}
-  \item total angular momentum, \hyperpage{9}
+  \item thermometry, \hyperpage{26}
+  \item total angular momentum, \hyperpage{8}
   \item trace, \hyperpage{14}
 
   \indexspace
 
   \item Zeeman
-    \subitem nuclear zeeman, \hyperpage{16}
-    \subitem Zeeman effect, \hyperpage{9}
-    \subitem Zeeman interaction, \hyperpage{9}
-  \item ZFS, \hyperpage{13}
-    \subitem $D$, \hyperpage{16}
-    \subitem $E$, \hyperpage{16}
-    \subitem zero field splitting, \hyperpage{11}
+    \subitem nuclear zeeman, \hyperpage{15}
+    \subitem Zeeman effect, \hyperpage{8}
+    \subitem Zeeman interaction, \hyperpage{8}
+  \item ZFS, \hyperpage{12}
+    \subitem $D$, \hyperpage{15}
+    \subitem $E$, \hyperpage{15}
+    \subitem zero field splitting, \hyperpage{10}
 
 \end{theindex}

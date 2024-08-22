@@ -7,8 +7,9 @@ For our Spin Hamiltonian given by
     \end{align}
     % \label{eq:}
 \end{equation}
-In the most general sense, an applied electrical field could change any of the parameters. We will not consider the effect of an applied electrical field on the nuclear Zeeman term as the nuclear is \index{paramagnetically shielded}{paramagnetically shielded} \cite{mims}. 
-Thus, in a general sense we may add the contributions of an applied electrical field $\vec{E}$ as $H + H_{\ce{Stark}}$ where 
+In the most general sense, an applied electrical field could change any of the parameters. 
+We will disregard the effect of the electrical field on the nuclear Zeeman term as the nucleus is \index{paramagnetically shielded}{paramagnetically shielded} \cite{mims}. 
+Therefore, we add the contributions of an applied electrical field $\vec{E}$ as $H + H_{\ce{Stark}}$ where 
 \begin{equation}
     H_{\ce{Stark}} = \vec{E}\cdot\left(\hat{\vec{S}}\cdot R \cdot \hat{\vec{S}} + T \mu_B \hat{\vec{S}}\cdot \vec{B} + \hat{\vec{S}}\cdot F \cdot \hat{\vec{I}} + \hat{\vec{I}} \cdot q \cdot \hat{\vec{I}} \right). 
     \label{eq:}
@@ -27,7 +28,7 @@ We may immediately simplify $T$ as for this work we assume isotropic and constan
 
 Further, as discussed in section \ref{nuclear} we will not include the contributions of the nuclear Hamiltonians. 
 
-This allows us to then consider only the energy change due to the shift in the $D$ parameter, that is $R$, which is a square matrix for each component of the applied $\vec{E}$. 
+This allows us to then consider only the energy change due to the shift in the $D$ parameter ($R$), which is a square matrix for each component of the applied $\vec{E}$. 
 Exactly as we did for ZFS in section \ref{zfs}, we may reduce each of these symmetric matrices to a traceless form. 
 % Here we define $D$ and $E$ in exactly the same way as \ref{}\td{link D E def}. 
 
@@ -104,23 +105,26 @@ where we have labelled the axial contribution as \index{Stark!$d_\parallel$}{$d_
 
 By direct comparison to \eqref{eq:ZFS_hamiltonian} it is easy to see the first two terms of $\eqref{eq:stark_hamiltonian}$ will contribute to the effective ZFS.  
 
-In general longitudinal fields along the defect’s symmetry axis result in equal shifts of all levels, whereas transverse fields split the orbitals into two branches whose energy difference grows with increasing field \cite{Acosta2012, Bassett2011}. This allows the parameters $d_\perp$ and $d_\parallel$ to be measured experimentally. 
-
-\begin{figure}[H]
+\begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.95\textwidth]{figures/EFieldParallel.png}
+        \includegraphics[width=0.8\textwidth]{figures/EFieldParallel.png}
         % \includegraphics[width=0.95\textwidth]{figures/EFieldPerp.png}
         % \missingfigure{ODMR/Energy plot showing effect of parallel/perp E field}
     \end{center}
-    \caption{Eigenvalue plot showing... \td{better caption}}\label{fig:}
+    \caption{Eigenvalue plot showing...} \label{fig:E_Field_par}
+    \todo[inline, color=ediblue]{Write caption}
 \end{figure}
-\begin{figure}[H]
+
+In general an electric fields applied along the defect axis has the effect of changing ZFS $D$ which manifests as a shift of all EPR frequencies, shown in figure \ref{fig:E_Field_par}. Fields applied perpendicular to the defect axis change $E$, which either splits (for systems with intrinsic $E=0$) or amplifies the split (for systems with $E>0$) of the EPR frequency into two frequencies. The splitting is proportional to the applied field \cite{Acosta2012, Bassett2011}, shown in figure \ref{fig:E_Field_perp}. This allows the parameters $d_\perp$ and $d_\parallel$ to be measured experimentally. 
+
+\begin{figure}[h]
     \begin{center}
         % \includegraphics[width=0.95\textwidth]{figures/EFieldParallel.png}
-        \includegraphics[width=0.95\textwidth]{figures/EFieldPerp.png}
+        \includegraphics[width=0.8\textwidth]{figures/EFieldPerp.png}
         % \missingfigure{ODMR/Energy plot showing effect of parallel/perp E field}
     \end{center}
-    \caption{Eigenvalue plot showing... \td{better caption}}\label{fig:E_Field_perp}
+    \caption{Eigenvalue plot showing...}\label{fig:E_Field_perp}
+    \todo[inline, color=ediblue]{Write caption}
 \end{figure}
 
 

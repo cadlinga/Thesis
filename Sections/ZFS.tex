@@ -7,6 +7,7 @@ For simplicity in this work we will consider the combined effect of both the fin
         \includegraphics[width=0.6\textwidth]{figures/ZFS.pdf}
     \end{center}
     \caption{Adapted from figure shown in the work by Gr\"{u}ne. }\label{fig:ZFS}
+    \todo[inline, color=ediblue]{Write caption}
 \end{figure}
 
 
@@ -52,15 +53,15 @@ Substituting \eqref{fs_D} and \eqref{fs_E} into \eqref{eq:fine_structure} and ex
 \end{equation}
 
 \subsection{Dipole-Dipole Interaction}
-We will now show that the interaction between the magnetic dipoles of two electrons has the same form as \eqref{eq:fine_structure} by considering two electrons ($S=1/2$). 
+We will now show that the interaction of the spin of two electrons has the same form as \eqref{eq:fine_structure} by considering two electrons ($S=1/2$). 
 
-We begin with the classical expression for the energy between two magnetic dipoles, $\mu_1, \mu_2$
+Classically, the energy between two magnetic dipoles, $\mu_1, \mu_2$ is calculated as
 \begin{equation}
     E = \frac{1}{r^3} \left(\mu_1 \cdot \mu_2 -\frac{3(\mu_1 \cdot \vec{r})(\mu_2 \cdot \vec{r})}{r^2}\right).
     % \label{eq:}
 \end{equation}
 
-Substituting the quantum mechanical operators for the two electron magnetic dipoles we find 
+To uplift the classical expression to quantum mechanics, we substitute the operator representations for the spin induced dipoles 
 \begin{equation}
     H_{\ce{DD}} = g_S^2 \mu_B^2 \frac{1}{r^3} \left(\hat{\vec{S}}_1 \cdot \hat{\vec{S}}_2 -\frac{3(\hat{\vec{S}}_1 \cdot \vec{r})(\hat{\vec{S}}_2 \cdot \vec{r})}{r^2}\right).
     % \label{eq:}
@@ -91,7 +92,7 @@ We therefore decompose the traceless matrix $D$ into the axial and non-axial par
 
 
 \subsection{Zero Field Splitting Hamiltonian}
-When measuring the values of $D$ and $E$ experimentally, the combined effect will be contained within those measurements so we may therefore describe the zero field splitting interaction as a whole using 
+Determining $D$ and $E$ by experiment will yield the combined effect will be contained within those measurements so we may therefore describe the zero field splitting interaction as a whole using 
 \begin{equation}
     H_{\ce{ZFS}} =D \left(\hat{S}_z^2 - \frac{1}{3}S(S+1)\right) + E\left(\hat{S}_x^2 - \hat{S}_y^2\right).
     \label{eq:ZFS_hamiltonian}

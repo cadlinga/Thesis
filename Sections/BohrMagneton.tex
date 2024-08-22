@@ -9,15 +9,15 @@
 \end{wrapfigure}%
 Since the gyromagnetic ratio was calculated considering the motion of dipole in a loop, we may extend this to an electron in an orbit.
 The fundamental change required to extend the model to quantum mechanics is the treatment of angular momentum which should now be quantised.
-Thus, we replace our classical approximation of $\vec{G} = \vec{r} \times \vec{p}$ with the equation for the eigenvalues of the quantum mechanical representation of orbital angular momentum,
+Thus, we replace our classical approximation of $\vec{G} = \vec{r} \times \vec{p}$ with the equivalent quantum mechanical operator,
 \begin{equation}
 	\hat{G} = \hbar \hat{L}
 	\label{eq:orbital_angular_momentum}
 \end{equation}
-where $\hat{L}$ is the operator of the orbital angular momentum (quantum number of orbital momentum).
-The angular momentum and total energy are conserved in general in a closed system.
+here $\hat{L}$ is the operator representation of the angular momentum.
 
-We consider the time independent \index{Shr\"odinger equation}{Shr\"odinger equation}
+Noether currents tell us that the angular momentum and total energy are conserved in general in a closed system.
+We thus consider the time independent \index{Shr\"odinger equation}{Shr\"odinger equation}
 \begin{equation}
 	\hat{H} \Psi_n = E_n \Psi_n
 	\label{eq:TISE}
@@ -49,17 +49,15 @@ Using this we may write \eqref{eq:orbital_magnetic_moment_operator} as
 	\hat{\vec{\mu}}_L = -\mu_B\hat{\vec{L}},
 	\label{eq:orbital_magnetic_moment_operator_bohr_magneton}
 \end{equation}
-{\color{edired}
 and we may relate the Bohr magneton and the gyromagnetic ratio for the electron as 
 \begin{equation}
     \gamma = g\mu_B.
     \label{eq:}
 \end{equation}
-}
 
 
 \subsection{g-factor}
-The above expression is valid for the orbital electron but may be extended to a more general system by introducing a \index{g-factor}{g-factor}. The g-factor is equivalent to a dimensionless gyromagnetic ratio \cite{giancoli2008physics}, so \eqref{eq:orbital_magnetic_moment_operator_bohr_magneton} may be written with $g=1$ as
+The above expression is valid for the orbital electron but may be extended to a more general system by introducing a \index{g-factor}{g-factor}. The g-factor is therefore equivalent to a dimensionless gyromagnetic ratio \cite{giancoli2008physics}, so \eqref{eq:orbital_magnetic_moment_operator_bohr_magneton} may be written with $g=1$ as
 \begin{equation}
 	\hat{\vec{\mu}}_L = -g\mu_B\hat{ \vec{L}}.
 	\label{eq:orbital_magnetic_moment_operator_bohr_magneton_g_factor}

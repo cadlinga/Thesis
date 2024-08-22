@@ -15,7 +15,7 @@ class SiliconVacancyV2(Defect):
 
     def D(self, T, P=0):
         D = 35 * 10**6
-        D = D + 0.31 * 10**6 * self.P
+        D = D + (25.1 * 10**6 * self.P)
         return D
 
     def E(self):

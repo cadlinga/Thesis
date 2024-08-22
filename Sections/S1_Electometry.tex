@@ -1,5 +1,5 @@
 \section{$S = 1$ Electrometry}
-\todo[inline]{Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega$ and dicuss the diminishing returns when $B\neq0$ or if $B \not\perp z$}
+% \todo[inline]{Add matrix Hamiltonian as well as eigenval solutions. Include the formula for $\Delta \omega$ and dicuss the diminishing returns when $B\neq0$ or if $B \not\perp z$}
 
 We consider a SiC divacancy and again begin with the total Hamiltonian \eqref{eq:total_hamiltonian}. In this case we need all elements of the equation
 \begin{equation}
@@ -24,35 +24,35 @@ Without loss of generality we may switch the $x, y$ which will help in the simpl
 \end{equation}
 
 It is easy to see that to maximally reduce the contribution of the magnetic field on the diagonal elements, we should orient the magnetic field perpendicular to the defect ($\theta_B = 90^\circ$). Defining $\mathcal{E}_\perp = \sqrt{\mathcal{E}_x^2 + \mathcal{E}_y^2}$ and $B_\perp$ similarly, we find if the $\vec{B}$ field was parallel to the defect axis $\theta = 0$ the Hamiltonian reduces to \begin{equation}
-H = \begin{pmatrix}
-	D + d_\parallel \mathcal{E}\cos\theta_E + g\mu_b B & 0                                                                        & E - d_\perp \mathcal{E} e^{-i \varphi_E}\sin\theta_E                  \\
-	0                                                  & 0                                                                        & 0    \\
-	E - d_\perp\mathcal{E}e^{i \varphi_E}\sin\theta_E  & 0 & D+ d_\parallel \mathcal{E}\cos\theta_E - g\mu_b B 
-\end{pmatrix}.
-\label{eq:}
+	H = \begin{pmatrix}
+		D + d_\parallel \mathcal{E}\cos\theta_E + g\mu_b B & 0 & E - d_\perp \mathcal{E} e^{-i \varphi_E}\sin\theta_E \\
+		0                                                  & 0 & 0                                                    \\
+		E - d_\perp\mathcal{E}e^{i \varphi_E}\sin\theta_E  & 0 & D+ d_\parallel \mathcal{E}\cos\theta_E - g\mu_b B
+	\end{pmatrix}.
+	\label{eq:}
 \end{equation}
-The eigenvalues may be found as for section \ref{s1_magnetometry} for the $m_s = 0$ to $m_s = \pm 1$ transitions and are  
+The eigenvalues may be found as for section \ref{s1_magnetometry} for the $m_s = 0$ to $m_s = \pm 1$ transitions and are
 \begin{equation}
-    f_{\pm} \simeq D + d_\parallel \mathcal{E}_\parallel\pm \sqrt{(g \mu_B B)^2 + (d_\perp\mathcal{E}_\perp)^2  }. 
-    \label{eq:}
-\end{equation}
-
-Since the parallel component of the field is equivalent to a correction to ZFS $D$ and raises the whole spectra, we find 
-\begin{equation}
-    \mathcal{E}_\parallel d_\parallel = \frac{f_1 + f_2}{2} - D. 
-    \label{eq:}
+	f_{\pm} \simeq D + d_\parallel \mathcal{E}_\parallel\pm \sqrt{(g \mu_B B)^2 + (d_\perp\mathcal{E}_\perp)^2  }.
+	\label{eq:}
 \end{equation}
 
-We find a similar expression for the perpendicular component as 
+Since the parallel component of the field is equivalent to a correction to ZFS $D$ and raises the whole spectra, we find
 \begin{equation}
-    \mathcal{E}_\perp d_\perp = \sqrt{\frac{1}{4}(f_1 - f_2)^2 -(g \mu_B B)^2}.
-    \label{eq:s1_elect_perp}
+	\mathcal{E}_\parallel d_\parallel = \frac{f_1 + f_2}{2} - D.
+	\label{eq:}
+\end{equation}
+
+We find a similar expression for the perpendicular component as
+\begin{equation}
+	\mathcal{E}_\perp d_\perp = \sqrt{\frac{1}{4}(f_1 - f_2)^2 -(g \mu_B B)^2}.
+	\label{eq:s1_elect_perp}
 \end{equation}
 
 Clearly this allows us to deduce the azimuthal angle and magnitude as
 \begin{equation}
-    \theta = \tan^{-1} \left(\frac{\mathcal{E}_\parallel}{\mathcal{E}_\perp}\right), \quad E = \sqrt{\mathcal{E}_\perp^2 + \mathcal{E}_\parallel}
-    \label{eq:}
+    \theta = \tan^{-1} \left(\frac{\mathcal{E}_\parallel}{\mathcal{E}_\perp}\right), \quad \mathcal{E} = \sqrt{\mathcal{E}_\perp^2 + \mathcal{E}_\parallel}.
+	\label{eq:angle_magnitude_s1_electro}
 \end{equation}
 
 
@@ -60,7 +60,7 @@ This method is mathematically sound, but the energy difference is suppressed by 
 A general expression for the difference in EPR frequencies for the $m_s = 0$ to $m_s = \pm1$, $\Delta f_\pm$ is \cite{Dolde2011}
 \begin{equation}
 	\Delta f _\pm = d_\parallel E_z \pm \left(F(\vec{B},\vec{E},\vec{\sigma}) - F(\vec{B},0,\vec{\sigma})\right)
-	\label{eq:}
+	\label{eq:s1_electro_freq_diff}
 \end{equation}
 
 where
@@ -74,14 +74,12 @@ and
 	\label{eq:}
 \end{equation}
 
-{\color{edired}
-    A major benefit of the maturity of SiC manufacturing is that we can produce chips with very little strain, so we may assume that $\vec{\mathcal{E}} = \vec{E}$. 
-    This also allows us to reduce the $F(\vec{B}, 0, \vec{\sigma})$ and make $\Delta f_{\pm}$ a function only of applied $\vec{B}$ and $\vec{E}$. 
-
-    If $\vec{B}$ is well known, this reduces to a function of $E, \theta$ and $\phi$ which may be approximated using a best fit algorithm. 
-    This means if $\vec{B}$ is well known, then possibilities for $\vec{E}$ can be calculated. This would leave ambiguity in $\vec{E}$ which could be resolved by  
-    \todo[color=red, inline]{Discuss resolving ambiguity}
-}
+% A major benefit of the maturity of SiC manufacturing is that we can produce chips with very little strain, so we may assume that $\vec{\mathcal{E}} = \vec{E}$. 
+% This also allows us to reduce the $F(\vec{B}, 0, \vec{\sigma})$ and make $\Delta f_{\pm}$ a function only of applied $\vec{B}$ and $\vec{E}$. 
+%
+If $\vec{B}$ is well known, this reduces to a function of $E, \theta$ and $\phi$ which may be approximated using a best fit algorithm up to a four-fold symmetry.
+This means if $\vec{B}$ is well known, then possibilities for $\vec{E}$ can be calculated. This would leave ambiguity in $\vec{E}$ which could be resolved by the application of known reference fields just as in \ref{sec:1.5magnet}.
+% \todo[color=edired, inline]{Discuss resolving ambiguity using applied reference fields (Cast review paper)}
 
 
 
@@ -105,8 +103,29 @@ and
 
 
 \begin{summary}{$S=1$ Electrometry Summary}{sum:spin1electro}
-	We may achieve vector electrometry using a triplet state if
+	We may achieve angle resolved electrometry using a $S=1$ system provided:
 	\begin{enumerate}
-		\item We can identify three lines.
+		\item The direction and magnitude of $\vec{B}$ and the ZFS parameters $D$ and $E$ are well known.
+		\item We can resolve \textbf{two frequencies} corresponding to the defect in the CW-ODMR spectra.
+		\item In general, the shift of EPR frequencies due to the applied electric field is given by
+		      \begin{equation}
+			      \tcbhighmath{
+				      \Delta f _\pm = d_\parallel E_z \pm \left(F(\vec{B},\vec{E},\vec{\sigma}) - F(\vec{B},0,\vec{\sigma})\right)
+			      }
+			      \tag{\ref{eq:s1_electro_freq_diff}}
+			      % \tcbhighmath{g\mu_b B = \frac{f_1 - f_2}{2 \gamma}}
+			      % \tag{\ref{eq:s1_parallel_magnetometry}}
+		      \end{equation}
+		      Sensitivity is maximised when $\vec{B}$ is applied perpendicular to the defect axis.
+		
+              We can determine the vector by fitting $\theta$ and $\varphi$ to $\Delta f$ eliminating the ambiguity by applying reference fields and repeating measurements.
+		\item Despite the reduction in sensitivity, applying $\vec{B}$ parallel to the defect axis we may reduce the Hamiltonian to find the magnitude and azimuthal angle as
+		      \begin{equation}
+			      \tcbhighmath{
+                      \theta = \tan^{-1} \left(\frac{\mathcal{E}_\parallel}{\mathcal{E}_\perp}\right), \quad \mathcal{E} = \sqrt{\mathcal{E}_\perp^2 + \mathcal{E}_\parallel}.
+			      }
+			      \tag{\ref{eq:angle_magnitude_s1_electro}}
+		      \end{equation}
 	\end{enumerate}
+
 \end{summary}

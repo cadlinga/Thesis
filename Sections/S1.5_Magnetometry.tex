@@ -1,5 +1,6 @@
-\section{$S = 3/2$ Magnetometry}
-Now we will consider the use of a SiC Silicon vacancy, specifically V2.
+\section{$S = 3/2$ Magnetometry}\label{sec:1.5magnet}
+Now we will consider the use of a SiC Silicon vacancy, specifically V2 based on the work by Lee et al
+\cite{PhysRevB.92.115201}.
 For a general $S=3/2$ system we begin with \eqref{eq:total_hamiltonian}.
 % The V2 defect has ZFS parameter $E=0$ \cite{Nagy2019} thus we may remove that term. 
 Again we will only consider the influence of the $\vec{B}$ field leaving
@@ -9,17 +10,12 @@ Again we will only consider the influence of the $\vec{B}$ field leaving
 \end{equation}
 
 % V2 
-\cite{PhysRevApplied.4.014009}
-\cite{PhysRevB.92.115201}
-\cite{1505.06914}
-\todo[inline]{Distribute refs}
-
 If the ZFS interaction of the $S=3/2$ defect is sufficiently strong, the eigenvalues of the
 spin Hamiltonian show a strong dependence on the orientation of the applied magnetic field.
 
 This induces a non-linear shift of resonance transitions in EPR frequencies, which is seen in the ODMR spectra. Like $S=1$, this allows information about the applied external magnetic field to be extracted from EPR spectra provided the ZFS parameters are known.
 
-In zero magnetic field the $V_{\ce{Si}}$ V2 vacancy has an ODMR line maximum ($D$) around 70 MHz with very weak dependence on temperature.
+In zero magnetic field the $V_{\ce{Si}}$ V2 vacancy has an ODMR line maximum ($2D$) around 70 MHz with very weak dependence on temperature.
 % That is, the ZFS parameter is known and resistant to the environmental influence of temperature. 
 
 % In a $S=3/2$ spin system the orientation related terms are, like for $S=1$ systems, in the eigenvalue equation. 
@@ -101,10 +97,9 @@ which is diagonal so we may immediately read off
 		\lambda_3 & = - & 1/2  g \mu_B B  & -D    \\
 		\lambda_4 & = - & 3/2  g \mu_B B  & +  D.
 	\end{align}
-	\label{eq:}
+	\label{eq:spin1.5_magnet_Bparallel_eigenvalues}
 \end{equation}
 
-\todo[inline]{a sentence to wrap this up}
 
 
 \subsection{Vector Magnetometry}
@@ -226,83 +221,85 @@ To do so we explicitly compute $\eta$ using equation \eqref{eq:eta_resonant} the
 %
 In a general $S = 3/2$ system, ambiguity is found when computing $\theta$ using equation \eqref{eq:vector_theta} as the EPR frequencies can not be mapped to specific transitions.
 
-\todo[inline]{Finish spin 3/2 magnetometry section, reference using ref B fields and discuss method in paper}.
+These ambiguities may be resolved by the application of reference magnetic fields in three orthogonal directions and repeated measurements as described by Niethammer et al \cite{Niethammer2019}. Alternatively, it may be resolved using a technique which exploits a so called magic angle as detailed by Lee et al \cite{PhysRevB.92.115201} or by calculating the polar angle based on the ODMR spectra dependent on whether $\theta$ is more or less than the magic angle as detailed by Simin et al 
+\cite{PhysRevApplied.4.014009}
+. 
 
-{\color{edired}
-The following approach exploits the fact that a crossing of resonant frequencies occurs at a given angle (see figure \ref{fig:resonant_crossing_V2}). The method should be considered for $g\mu_B B_0 \gg 2\sqrt{D^2 + 3E^2}$ explicitly as interactions such as level anti-crossing produce a complex spectra \cite{Degen2008} when $g\mu_B B_0 \approx 2\sqrt{D^2 + 3E^2}$ and the invariance of a particular EPR frequency when $g \mu_B B_0 \ll 2 \sqrt{D^2 + 3E^2}$ makes determination of the polar angle $\theta$ impossible.
-
-\begin{figure}[H]
-	\begin{center}
-		% \includegraphics[width=0.95\textwidth]{figures/}
-		\missingfigure{Plot showing the crossing of EPR frequencies at high field and low field in Spin 3/2 system as theta varies}
-	\end{center}
-	\caption{\td{write caption}}\label{fig:resonant_crossing_V2}
-\end{figure}
-
-% \begin{group}
-% 	\color{gray}
-% 	At a high B0 field (gμB B0  ZFS),
-% 	B0 can be obtained from the observed ESR spectra but
-% 	the polar angle cannot be determined due to the ambigu-
-% 	ity of differentiating two outer transitions. In contrast,
-% 	at low gμB B0 ( ZFS), as long as one can explicitly
-% 	identify at least three transitions including the allowed
-% 	lowest energy transition, the external magnetic field vec-
-% 	tor can be reconstructed. In the field strength compara-
-% 	ble to the ZFS, it is hard to find a useful scheme because
-% 	very complex patterns appear due to mixing of some of
-% 	the eigenstates. In the case of the NV centers in dia-
-% 	mond (ZFS/h=2.87 GHz), this missing range is around
-% 	∼ 100 mT . The VSi in SiC can fill out this gap since its
-% 	ZFS is quite small (ZFS/h ∼ 100 MHz) thus this mag-
-% 	netic field range can be considered as a high field range
-% 	in which the three necessary transitions are well observ-
-% 	able25,29, and at least the field strength can be experi-
-% 	mentally determined. When the VSi in SiC is used to
-% 	realize such schemes at sub-mT, if the lowest transition
-% 	energy is observable by ELDOR, one can determine both
-% 	B0 and θ without ambiguity.
-% 	% Even if ELDOR is not avail-
-% 	% able, thanks to the additional transitions that appear at
-% 	% low fields, the field strength can be determined.
-% 	% The magic angle terms in the eigenvalue equation al-
-% 	% low for an alternative method to use S=3/2 systems as
-% 	% a DC vector magnetometer. If the S=3/2 spins fixed
-% 	% in a crystal can be rotated around the rotational axis,
-% 	% the unambiguous determination of the applied magnetic
-% 	% field vector is feasible by monitoring the linewidth of the
-% 	% observed ESR spectra while the symmetry axis of the
-% 	% crystal is oriented at θm relative to the rotational axis
-% 	% and the rotational axis is moving. This configuration
-% 	% also can be realized by producing an array of the crystals
-% 	% such that the symmetry axes of each crystal form a cone
-% 	% whose opening angle is twice the magic angle.
-% 	% These findings provide a better understanding of the
-% 	% S=3/2 electronic spin Hamiltonian, especially at low
-% 	% fields. They also provide an outlook for the application of
-% 	% VSi in SiC to quantum magnetometry which is promising
-% 	% thanks to the electrical properties of SiC, which outstand
-% 	% the host material of the NV centers, and the mature fab-
-% 	% rication technology, which allows an efficient fabrication
-% 	% of electronic devices even at the atomic scale48
-% \end{group}
-
-
-% In addition, it is demonstrated that the observation of the central line of the TV2a center of S = 3/2 has been achieved by pulsed-ELDOR
-\cite{Isoya2008}
-
-
-% \cite{Kraus2014}
-
-
-}
+% {\color{edired}
+% The following approach exploits the fact that a crossing of resonant frequencies occurs at a given angle (see figure \ref{fig:resonant_crossing_V2}). The method should be considered for $g\mu_B B_0 \gg 2\sqrt{D^2 + 3E^2}$ explicitly as interactions such as level anti-crossing produce a complex spectra \cite{Degen2008} when $g\mu_B B_0 \approx 2\sqrt{D^2 + 3E^2}$ and the invariance of a particular EPR frequency when $g \mu_B B_0 \ll 2 \sqrt{D^2 + 3E^2}$ makes determination of the polar angle $\theta$ impossible.
+%
+% \begin{figure}[H]
+% 	\begin{center}
+% 		% \includegraphics[width=0.95\textwidth]{figures/}
+% 		\missingfigure{Plot showing the crossing of EPR frequencies at high field and low field in Spin 3/2 system as theta varies}
+% 	\end{center}
+% 	\caption{}\label{fig:resonant_crossing_V2}
+%     \todo[inline, color=ediblue]{Write caption}
+% \end{figure}
+%
+% % \begin{group}
+% % 	\color{gray}
+% % 	At a high B0 field (gμB B0  ZFS),
+% % 	B0 can be obtained from the observed ESR spectra but
+% % 	the polar angle cannot be determined due to the ambigu-
+% % 	ity of differentiating two outer transitions. In contrast,
+% % 	at low gμB B0 ( ZFS), as long as one can explicitly
+% % 	identify at least three transitions including the allowed
+% % 	lowest energy transition, the external magnetic field vec-
+% % 	tor can be reconstructed. In the field strength compara-
+% % 	ble to the ZFS, it is hard to find a useful scheme because
+% % 	very complex patterns appear due to mixing of some of
+% % 	the eigenstates. In the case of the NV centers in dia-
+% % 	mond (ZFS/h=2.87 GHz), this missing range is around
+% % 	∼ 100 mT . The VSi in SiC can fill out this gap since its
+% % 	ZFS is quite small (ZFS/h ∼ 100 MHz) thus this mag-
+% % 	netic field range can be considered as a high field range
+% % 	in which the three necessary transitions are well observ-
+% % 	able25,29, and at least the field strength can be experi-
+% % 	mentally determined. When the VSi in SiC is used to
+% % 	realize such schemes at sub-mT, if the lowest transition
+% % 	energy is observable by ELDOR, one can determine both
+% % 	B0 and θ without ambiguity.
+% % 	% Even if ELDOR is not avail-
+% % 	% able, thanks to the additional transitions that appear at
+% % 	% low fields, the field strength can be determined.
+% % 	% The magic angle terms in the eigenvalue equation al-
+% % 	% low for an alternative method to use S=3/2 systems as
+% % 	% a DC vector magnetometer. If the S=3/2 spins fixed
+% % 	% in a crystal can be rotated around the rotational axis,
+% % 	% the unambiguous determination of the applied magnetic
+% % 	% field vector is feasible by monitoring the linewidth of the
+% % 	% observed ESR spectra while the symmetry axis of the
+% % 	% crystal is oriented at θm relative to the rotational axis
+% % 	% and the rotational axis is moving. This configuration
+% % 	% also can be realized by producing an array of the crystals
+% % 	% such that the symmetry axes of each crystal form a cone
+% % 	% whose opening angle is twice the magic angle.
+% % 	% These findings provide a better understanding of the
+% % 	% S=3/2 electronic spin Hamiltonian, especially at low
+% % 	% fields. They also provide an outlook for the application of
+% % 	% VSi in SiC to quantum magnetometry which is promising
+% % 	% thanks to the electrical properties of SiC, which outstand
+% % 	% the host material of the NV centers, and the mature fab-
+% % 	% rication technology, which allows an efficient fabrication
+% % 	% of electronic devices even at the atomic scale48
+% % \end{group}
+%
+%
+% % In addition, it is demonstrated that the observation of the central line of the TV2a center of S = 3/2 has been achieved by pulsed-ELDOR
+% \cite{Isoya2008}
+%
+%
+% % \cite{Kraus2014}
+%
+%
+% }
 
 \begin{summary}{$S=3/2$ Magnetometry Summary}{sum:spin1.5magnet}
 	We may achieve angle resolved magnetometry using a $S=3/2$ system provided:
 	\begin{enumerate}
 		\item We can resolve \textbf{three frequencies} corresponding to the defect in the CW-ODMR spectra.
-              \todo[inline]{add the specific freq we need.}
-		\item We know the ZFS parameters $D$ and $E$.
+		\item The ZFS parameters $D$ and $E$ are well known.
 		\item We can determine the magnitude using
 		      \begin{equation}
 			      \tcbhighmath{
@@ -315,7 +312,6 @@ The following approach exploits the fact that a crossing of resonant frequencies
 			      % \tcbhighmath{g\mu_b B = \frac{f_1 - f_2}{2 \gamma}}
 			      % \tag{\ref{eq:s1_parallel_magnetometry}}
 		      \end{equation}
-              including the 
 		\item We can determine the azimuthal angle using
 		      \begin{equation}
 			      \tcbhighmath{
@@ -323,7 +319,7 @@ The following approach exploits the fact that a crossing of resonant frequencies
 			      }
 			      \tag{\ref{eq:vector_theta}}
 		      \end{equation}
-              \todo[inline]{State ambiguity terms}
+		      % \todo[inline]{State ambiguity terms}
 
 
 	\end{enumerate}

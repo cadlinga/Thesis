@@ -130,18 +130,18 @@ theta = 0
 B = 5.4 * 10**-3
 plotResonantFrequencies(
     ensemble.resonantAngleFrequencies(
-        0,
+        000,
         {"magnitude": B, "theta": theta, "phi": 0},
         {"magnitude": 0, "theta": 0, "phi": 0},
     ),
     cm.cool(150 / 500),
     # "blue",
-    "$B =" + str(B * 10**3) + " $ mT, $P=0$GPa",
+    "$B =" + str(B * 10**3) + " $ mT, $P=0$ GPa, T=0 K",
     B * 10**3,
 )
 
 bax.axvline(
-    x=ensemble.defects[0].D(0) * 10**-6,
+    x=ensemble.defects[0].D(200) * 10**-6,
     # color="b",
     color=cm.cool(150 / 500),
     alpha=0.5,
@@ -149,6 +149,25 @@ bax.axvline(
     linewidth=0.8,
 )
 
+d15 = (ensemble.defects[1].D(200) * 10**-6,)
+print(d15)
+
+bax.axvline(
+    x=ensemble.defects[1].D(200) * 10**-6,
+    # color="b",
+    color=cm.cool(150 / 500),
+    alpha=0.5,
+    linestyle="dashed",
+    linewidth=0.8,
+)
+
+print(
+    ensemble.resonantAngleFrequencies(
+        0,
+        {"magnitude": B, "theta": theta, "phi": 0},
+        {"magnitude": 0, "theta": 0, "phi": 0},
+    )
+)
 
 ensemble.defects[0].setPressure(1)
 ensemble.defects[1].setPressure(1)
@@ -160,10 +179,9 @@ plotResonantFrequencies(
     ),
     cm.cool(350 / 500),
     # "blue",
-    "$B =" + str(B * 10**3) + " $ mT, $P=1$GPa",
+    "$B =" + str(B * 10**3) + " $ mT, $P=1$ GPa, T=300 K",
     B * 10**3 + 0.003,
 )
-
 print(
     ensemble.resonantAngleFrequencies(
         0,
@@ -171,6 +189,7 @@ print(
         {"magnitude": 0, "theta": 0, "phi": 0},
     )
 )
+
 
 bax.axvline(
     x=ensemble.defects[0].D(0) * 10**-6,
@@ -220,5 +239,5 @@ bax.legend(bbox_to_anchor=(0.845, 0.4))
 # pyplot.tight_layout(pad=0.9)
 # pyplot.tight_layout(pad=1.1, rect=(0.00, 0.00, 0.98, 1.01))
 
-pyplot.savefig("../figures/ODMR-multimodal-s15magnet-s1P")
+pyplot.savefig("../figures/ODMR-multimodal-s15magnet-s1PT")
 pyplot.show()

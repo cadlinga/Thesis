@@ -11,6 +11,11 @@ pl5 = SiliconVacancyPL5()
 pl6 = SiliconVacancyPL6()
 
 
+pyplot.rcParams.update({"font.size": 12})
+
+fig = pyplot.figure(figsize=(6, 4), dpi=300)
+
+
 def makeGraph(T_Array, name):
 
     PL5_Array = []
@@ -22,20 +27,21 @@ def makeGraph(T_Array, name):
     PL5_Array = array(PL5_Array) / 10**6
     PL6_Array = array(PL6_Array) / 10**6
 
-    pyplot.plot(T_Array, PL5_Array, label="PL5")
+    # pyplot.plot(T_Array, PL5_Array, label="PL5")
     pyplot.plot(T_Array, PL6_Array, label="PL6")
 
     pyplot.xlabel("Temperature (K)")
     pyplot.ylabel("$D$ (MHz)")
-    pyplot.legend()
+    # pyplot.legend()
 
-    pyplot.title("Temperature Dependence of $D$ for SiC PL5 and PL6 Defect")
+    pyplot.title("Temperature Dependence of $D$ for PL6")
     # pyplot.show()
+    pyplot.tight_layout()
     pyplot.savefig("../figures/" + name)
 
 
 # T_Array = linspace(0, 550, 100)
 # makeGraph(T_Array, "SiC-PL5PL6-D(T)")
 
-T_Array = linspace(250, 350, 100)
+T_Array = linspace(280, 320, 100)
 makeGraph(T_Array, "SiC-PL5PL6-D(T)-close")
