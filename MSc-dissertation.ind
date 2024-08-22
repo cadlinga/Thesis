@@ -1,20 +1,18 @@
 \begin{theindex}
 
   \item Bohr magneton, \hyperpage{7}
-  \item Boltzman statistics, \hyperpage{24}
+  \item Boltzman statistics, \hyperpage{25}
 
   \indexspace
 
-  \item degeneracy, \hyperpage{10}
-    \subitem degenerate, \hyperpage{10}
   \item degeracy
     \subitem non-degenerate, \hyperpage{11}
   \item Dirac notation, \hyperpage{7}
-  \item DiVincenzo criteria, \hyperpage{23}
+  \item DiVincenzo criteria, \hyperpage{24}
 
   \indexspace
 
-  \item electrometry, \hyperpage{26}
+  \item electrometry, \hyperpage{28}
 
   \indexspace
 
@@ -35,7 +33,7 @@
   \item magnetic dipole moment, \hyperpage{4}
   \item magnetic field, \hyperpage{5}
   \item magnetic monopole, \hyperpage{4}
-  \item magnetometry, \hyperpage{26}
+  \item magnetometry, \hyperpage{28}
 
   \indexspace
 
@@ -43,27 +41,27 @@
 
   \indexspace
 
-  \item ODMR, \hyperpage{24}
+  \item ODMR, \hyperpage{27}
 
   \indexspace
 
-  \item paramagnetically shielded, \hyperpage{17}
+  \item paramagnetically shielded, \hyperpage{16}
   \item perturbation, \hyperpage{10}
-  \item point group symmetry, \hyperpage{18}
+  \item point group symmetry, \hyperpage{17}
   \item pressure, \hyperpage{21}
 
   \indexspace
 
   \item quantisation axis, \hyperpage{6}
-  \item quantum sensing, \hyperpage{22}
-  \item qubit, \hyperpage{23}
+  \item quantum sensing, \hyperpage{24}
+  \item qubit, \hyperpage{24}
 
   \indexspace
 
-  \item sensitivity, \hyperpage{22}
+  \item sensitivity, \hyperpage{24}
   \item Shr\"odinger equation, \hyperpage{6}
-  \item SiC, \hyperpage{24}
-    \subitem Silicon Carbide, \hyperpage{24}
+  \item SiC, \hyperpage{22}
+    \subitem Silicon Carbide, \hyperpage{22}
   \item spin, \hyperpage{7}
   \item spin operators
     \subitem $S=1$, \hyperpage{20}
@@ -80,9 +78,9 @@
 
   \indexspace
 
-  \item thermometry, \hyperpage{26}
+  \item thermometry, \hyperpage{28}
   \item total angular momentum, \hyperpage{8}
-  \item trace, \hyperpage{14}
+  \item trace, \hyperpage{13}
 
   \indexspace
 
@@ -91,7 +89,7 @@
     \subitem Zeeman effect, \hyperpage{8}
     \subitem Zeeman interaction, \hyperpage{8}
   \item ZFS, \hyperpage{12}
-    \subitem $D$, \hyperpage{15}
+    \subitem $D$, \hyperpage{14}
     \subitem $E$, \hyperpage{15}
     \subitem zero field splitting, \hyperpage{10}
 

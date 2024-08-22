@@ -1,0 +1,159 @@
+\documentclass[10pt,xcolor={table,dvipsnames},c]{beamer}
+\usepackage{todonotes}
+\usepackage[normalem]{ulem}
+\newcommand{\soutthick}[1]{%
+    \renewcommand{\ULthickness}{2pt}%
+       \sout{#1}%
+    \renewcommand{\ULthickness}{.4pt}% Resetting to ulem default
+}
+\newcommand\hl{\bgroup\markoverwith
+  {\textcolor{yellow}{\rule[-.5ex]{1pt}{2.5ex}}}\ULon}
+\usetheme{UoE}
+
+\usepackage{xcolor}
+
+% \definecolor{ediblue}{RGB}{22,39,74} 
+\definecolor{ediblue}{RGB}{0,79, 113} 
+% \definecolor{edired}{RGB}{172,0,64} 
+\definecolor{edired}{RGB}{214,30,56} 
+\definecolor{edipurple}{RGB}{208,0,111} 
+
+
+\definecolor{figcaption}{RGB}{58, 59, 60} 
+
+
+\usepackage[most]{tcolorbox}
+\newtcolorbox{summary}[2]{
+	colback=ediblue!5!white,colframe=ediblue!75!black,fonttitle=\bfseries\rmfamily, title={#1}, breakable}
+\newtcolorbox{proposal}[1]{
+	colback=edired!5!white,colframe=edired!75!black,fonttitle=\bfseries\rmfamily, title={#1 Proposal}, breakable}
+
+\tcbset{
+	highlight math style={
+			enhanced,%<-- needed for the `remember' options
+			colframe=edired,
+			colback=edired!10!white,
+			boxsep=0pt},
+	%
+	every box on layer 2/.style={ % <---- applied to the nested boxes on layer 2
+			highlight math style={
+					enhanced,%<-- needed for the `remember' options
+					colframe=edired,
+					colback=edired!10!white,
+					boxsep=0pt}}}
+
+\usepackage{sectsty}
+\usepackage[LGR, T1]{fontenc}
+\usepackage{CrimsonPro}
+\usepackage[default]{sourcesanspro}
+\allsectionsfont{\rmfamily}
+
+\input{diagrams/tikz_preamble.tex}
+\usepackage{tabularx}
+\setbeamercolor{text}{fg=uoedarkblue}
+\setbeamercolor{normal text}{fg=uoedarkblue}
+\setbeamercolor{frametitle}{fg=uoedarkblue}
+\usebeamercolor[fg]{normal text}
+\title[]{Quantum Spintronics}
+\subtitle{Multimodal Spin Based Sensors}
+\author{Conner Adlington}
+\institute{School of Physics and Astronomy \\ University of Edinburgh}
+\date{}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%NOTES
+%\setbeameroption{hide notes} % Only slides
+% \setbeameroption{show only notes} % Only notes
+% \setbeameroption{show notes on second screen=right} % Both
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+	\note[item]{Introduce yourself, and your programme.}
+	\note[item]{Introduce the project topic}
+\end{frame}
+% \begin{frame}{Remaining ToDos}
+%     \small
+%     \listoftodos
+% \end{frame}
+
+
+\input{frames/intro.tex}
+\input{frames/spintronic.tex}
+
+
+\section{Background}
+\begin{frame}{Background}
+\end{frame}
+
+
+\section{Sensing Regimes}
+\subsection{Magnetometry}
+\begin{frame}{$S=1$ Magnetometry}
+	\begin{summary}{$S=1$ Magnetometry Summary}{}
+		\small
+		\begin{enumerate}
+			\item We can resolve \textbf{two frequencies} corresponding to the defect in the CW-ODMR spectra.
+			      % \item We know the ZFS parameters $D$ and $E$.
+			\item The ZFS parameters $D$ and $E$ are well known.
+			\item We can determine the magnitude using
+			      \begin{equation*}
+				      \tcbhighmath{B = \frac{\sqrt{\frac{1}{3} \left(f_1^2 - f_1 f_2 + f_2^2 -D^2 -3E^2\right)}}{g \mu_B}.}
+				      % \tcbhighmath{g\mu_b B = \frac{f_1 - f_2}{2 \gamma}}
+				      % \tag{\ref{eq:s1_parallel_magnetometry}}
+			      \end{equation*}
+			\item We can determine the azimuthal angle using
+			      \begin{equation*}
+				      \tcbhighmath{
+					      \theta = \frac{\cos^{-1} (\eta/D)}{2}.
+				      }
+			      \end{equation*}
+		\end{enumerate}
+	\end{summary}
+\end{frame}
+\subsection{Electrometry}
+\begin{frame}{$S=1$ Electrometry}
+	\begin{summary}{$S=1$ Electrometry Summary}{sum:spin1electro}
+		\small
+		\begin{enumerate}
+			\item We can resolve \textbf{two frequencies} corresponding to the defect in the CW-ODMR spectra.
+			\item The direction and magnitude of $\vec{B}$ and the ZFS parameters $D$ and $E$ are well known.
+			\item In general 
+                % the shift of EPR frequencies due to the applied electric field is given by
+			      \begin{equation*}
+				      \tcbhighmath{
+					      \Delta f _\pm = d_\parallel E_z \pm \left(F(\vec{B},\vec{E},\vec{\sigma}) - F(\vec{B},0,\vec{\sigma})\right)
+				      }
+				      % \tcbhighmath{g\mu_b B = \frac{f_1 - f_2}{2 \gamma}}
+				      % \tag{\ref{eq:s1_parallel_magnetometry}}
+			      \end{equation*}
+			      % Sensitivity is maximised when $\vec{B}$ is applied perpendicular to the defect axis.
+
+			      % We can determine the vector by fitting $\theta$ and $\varphi$ to $\Delta f$ eliminating the ambiguity by applying reference fields and repeating measurements.
+			% \item Despite the reduction in sensitivity, applying $\vec{B}$ parallel to the defect axis we may reduce the Hamiltonian to find the magnitude and azimuthal angle as
+              \item With $\vec{B}$ parallel to the defect axis we have
+			      \begin{equation*}
+				      \tcbhighmath{
+					      \theta = \tan^{-1} \left(\frac{\mathcal{E}_\parallel}{\mathcal{E}_\perp}\right), \quad \mathcal{E} = \sqrt{\mathcal{E}_\perp^2 + \mathcal{E}_\parallel}.
+				      }
+			      \end{equation*}
+		\end{enumerate}
+
+	\end{summary}
+\end{frame}
+
+
+
+\section{Multimodality}
+\begin{frame}{Multimodality}
+\end{frame}
+\subsection{$\vec{B}$ and $T$} 
+\begin{frame}{$\vec{B}$ and $T$}
+\end{frame}
+\input{frames/summary.tex}
+\input{frames/conclusion.tex}
+
+
+\end{document}

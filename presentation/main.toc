@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Spintronics}{4}{0}{2}
+\beamer@sectionintoc {3}{Background}{6}{0}{3}
+\beamer@sectionintoc {4}{Sensing Regimes}{7}{0}{4}
+\beamer@subsectionintoc {4}{1}{Magnetometry}{7}{0}{4}
+\beamer@subsectionintoc {4}{2}{Electrometry}{8}{0}{4}
+\beamer@sectionintoc {5}{Multimodality}{9}{0}{5}
+\beamer@subsectionintoc {5}{1}{$\vec {B}$ and $T$}{10}{0}{5}
+\beamer@sectionintoc {6}{Summary}{11}{0}{6}
+\beamer@sectionintoc {7}{Conclusion}{12}{0}{7}

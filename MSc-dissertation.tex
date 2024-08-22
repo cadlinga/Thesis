@@ -10,6 +10,7 @@ twoside
 \begin{document}
 \parindent=0pt          %  Switch off indent of paragraphs 
 \parskip=5pt            %  Put 5pt between each paragraph  
+% \setlength\itemsep{0em}
 \fancyhf{}
 \fancyhead[RE]{\rmfamily\nouppercase{\rightmark}}
 \fancyhead[LO]{\rmfamily\nouppercase{\leftmark}}
@@ -23,14 +24,12 @@ twoside
 \pagenumbering{arabic}
 
 \input{Chapters/intro.tex}
-\todo[inline, color=edired]{Find and replace all electometry with electrometry}
 \input{Chapters/background.tex}
 \input{Chapters/design.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TODO LINE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{Chapters/results.tex}
 \input{Chapters/conclusions.tex}
-\todo[inline, color=edired]{Check page count!!}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{Sections/Backmatter.tex}
 \end{document}

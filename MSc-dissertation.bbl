@@ -1,13 +1,5 @@
 \begin{thebibliography}{100}
 
-\bibitem{Rain2022}
-Gabriele Rainò, Nuri Yazdani, Simon~C. Boehme, Manuel Kober-Czerny, Chenglian
-  Zhu, Franziska Krieg, Marta~D. Rossell, Rolf Erni, Vanessa Wood, Ivan
-  Infante, and Maksym~V. Kovalenko.
-\newblock Ultra-narrow room-temperature emission from single cspbbr3 perovskite
-  quantum dots.
-\newblock {\em Nature Communications}, 13(1), May 2022.
-
 \bibitem{Son2020}
 Nguyen~T. Son, Christopher~P. Anderson, Alexandre Bourassa, Kevin~C. Miao,
   Charles Babin, Matthias Widmann, Matthias Niethammer, Jawad Ul~Hassan, Naoya
@@ -96,6 +88,12 @@ Edlyn~V. Levine, Matthew~J. Turner, Pauli Kehayias, Connor~A. Hart, Nicholas
   Walsworth.
 \newblock Principles and techniques of the quantum diamond microscope.
 \newblock {\em Nanophotonics}, 8(11):1945--1973, 2019.
+
+\bibitem{Kimoto2014}
+Tsunenobu Kimoto and James~A. Cooper.
+\newblock {\em Fundamentals of Silicon Carbide Technology: Growth,
+  Characterization, Devices, and Applications}.
+\newblock Wiley, September 2014.
 
 \bibitem{Jackson1998-er}
 John~David Jackson.
@@ -219,114 +217,14 @@ Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
 \newblock {\em Nano Letters}, 22(24):9943--9950, 2022.
 \newblock PMID: 36507869.
 
-\bibitem{Castelletto_2024}
-S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
-\newblock Quantum systems in silicon carbide for sensing applications.
-\newblock {\em Reports on Progress in Physics}, 87(1):014501, dec 2023.
-
-\bibitem{Kin2021}
-Yiu Yung Pang Wai Kuen Leung Nan~Zhao Kin On~Ho, Yang~Shen and Sen Yang.
-\newblock Diamond quantum sensors: from physics to applications on condensed
-  matter research.
-\newblock {\em Functional Diamond}, 1(1):160--173, 2021.
-
-\bibitem{Wolfowicz2021}
-Gary Wolfowicz, F.~Joseph Heremans, Christopher~P. Anderson, Shun Kanai, Hosung
-  Seo, Adam Gali, Giulia Galli, and David~D. Awschalom.
-\newblock Quantum guidelines for solid-state spin defects.
-\newblock {\em Nature Reviews Materials}, 6(10):906–925, April 2021.
-
-\bibitem{Crawford2021}
-Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
-  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
-\newblock Quantum sensing for energy applications: Review and perspective.
-\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
-
-\bibitem{RevModPhys.89.035002}
-C.~L. Degen, F.~Reinhard, and P.~Cappellaro.
-\newblock Quantum sensing.
-\newblock {\em Rev. Mod. Phys.}, 89:035002, Jul 2017.
-
-\bibitem{DiVincenzo1995}
-David~P. DiVincenzo.
-\newblock Quantum computation.
-\newblock {\em Science}, 270(5234):255–261, October 1995.
-
-\bibitem{PhysRevLett.112.087601}
-P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
-\newblock Electrically driven spin resonance in silicon carbide color centers.
-\newblock {\em Phys. Rev. Lett.}, 112:087601, Feb 2014.
-
-\bibitem{PhysRevApplied.15.064022}
-John B.~S. Abraham, Cameron Gutgsell, Dalibor Todorovski, Scott Sperling,
-  Jacob~E. Epstein, Brian~S. Tien-Street, Timothy~M. Sweeney, Jeremiah~J.
-  Wathen, Elizabeth~A. Pogue, Peter~G. Brereton, Tyrel~M. McQueen, Wesley Frey,
-  B.~D. Clader, and Robert Osiander.
-\newblock Nanotesla magnetometry with the silicon vacancy in silicon carbide.
-\newblock {\em Phys. Rev. Appl.}, 15:064022, Jun 2021.
-
-\bibitem{PhysRevResearch.2.023394}
-Ilja Fescenko, Andrey Jarmola, Igor Savukov, Pauli Kehayias, Janis Smits,
-  Joshua Damron, Nathaniel Ristoff, Nazanin Mosavian, and Victor~M. Acosta.
-\newblock Diamond magnetometer enhanced by ferrite flux concentrators.
-\newblock {\em Phys. Rev. Res.}, 2:023394, Jun 2020.
-
-\bibitem{Castelletto2019}
-Stefania Castelletto, Abdul~Salam Al~Atem, Faraz~Ahmed Inam, Hans
-  J\"{u}rgen~von Bardeleben, Sophie Hameau, Ahmed~Fahad Almutairi, Gérard
-  Guillot, Shin-ichiro Sato, Alberto Boretti, and Jean~Marie Bluet.
-\newblock Deterministic placement of ultra-bright near-infrared color centers
-  in arrays of silicon carbide micropillars.
-\newblock {\em Beilstein Journal of Nanotechnology}, 10:2383–2395, December
-  2019.
-
-\bibitem{Zhou2023}
-Ji-Yang Zhou, Qiang Li, Zhi-He Hao, Wu-Xi Lin, Zhen-Xuan He, Rui-Jian Liang,
-  Liping Guo, Hao Li, Lixing You, Jian-Shun Tang, Jin-Shi Xu, Chuan-Feng Li,
-  and Guang-Can Guo.
-\newblock Plasmonic-enhanced bright single spin defects in silicon carbide
-  membranes.
-\newblock {\em Nano Letters}, 23(10):4334–4343, May 2023.
-
-\bibitem{2008}
-{\em Electron Paramagnetic Resonance: A Practitioner’s Toolkit}.
-\newblock Wiley, July 2008.
-
-\bibitem{Weil2006}
-John~A. Weil and James~R. Bolton.
-\newblock {\em Electron Paramagnetic Resonance: Elementary Theory and Practical
-  Applications}.
-\newblock Wiley, May 2006.
-
-\bibitem{Goldfarb2018-he}
-Daniella Goldfarb and Stefan Stoll, editors.
-\newblock {\em {EPR} spectroscopy}.
-\newblock eMagRes Books. Standards Information Network, March 2018.
-
-\bibitem{Richert2017}
-Sabine Richert, Claudia~E. Tait, and Christiane~R. Timmel.
-\newblock Delocalisation of photoexcited triplet states probed by transient epr
-  and hyperfine spectroscopy.
-\newblock {\em Journal of Magnetic Resonance}, 280:103–116, July 2017.
-
-\bibitem{PhysRevB.105.165108}
-A.~Cs\'or\'e, I.~G. Ivanov, N.~T. Son, and A.~Gali.
-\newblock Fluorescence spectrum and charge state control of divacancy qubits
-  via illumination at elevated temperatures in $4h$ silicon carbide.
-\newblock {\em Phys. Rev. B}, 105:165108, Apr 2022.
-
-\bibitem{PhysRevB.101.064102}
-Jun-Feng Wang, Jin-Ming Cui, Fei-Fei Yan, Qiang Li, Ze-Di Cheng, Zheng-Hao Liu,
-  Zhi-Hai Lin, Jin-Shi Xu, Chuan-Feng Li, and Guang-Can Guo.
-\newblock Optimization of power broadening in optically detected magnetic
-  resonance of defect spins in silicon carbide.
-\newblock {\em Phys. Rev. B}, 101:064102, Feb 2020.
-
-\bibitem{Wolfowicz2017}
-Gary Wolfowicz, Christopher~P. Anderson, Andrew~L. Yeats, Samuel~J. Whiteley,
-  Jens Niklas, Oleg~G. Poluektov, F.~Joseph Heremans, and David~D. Awschalom.
-\newblock Optical charge state control of spin defects in 4h-sic.
-\newblock {\em Nature Communications}, 8(1), November 2017.
+\bibitem{Wang2023}
+Jun-Feng Wang, Lin Liu, Xiao-Di Liu, Qiang Li, Jin-Ming Cui, Di-Fan Zhou,
+  Ji-Yang Zhou, Yu~Wei, Hai-An Xu, Wan Xu, Wu-Xi Lin, Jin-Wei Yan, Zhen-Xuan
+  He, Zheng-Hao Liu, Zhi-He Hao, Hai-Ou Li, Wen Liu, Jin-Shi Xu, Eugene
+  Gregoryanz, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Magnetic detection under high pressures using designed silicon
+  vacancy centres in silicon carbide.
+\newblock {\em Nature Materials}, 22(4):489–494, March 2023.
 
 \bibitem{Eddy2009}
 C.~R. Eddy and D.~K. Gaskill.
@@ -413,6 +311,55 @@ F.~Sardi, T.~Kornher, M.~Widmann, R.~Kolesov, F.~Schiller, T.~Reindl, M.~Hagel,
 \newblock Scalable production of solid-immersion lenses for quantum emitters in
   silicon carbide.
 \newblock {\em Applied Physics Letters}, 117(2), July 2020.
+
+\bibitem{Castelletto_2024}
+S~Castelletto, C~T-K Lew, Wu-Xi Lin, and Jin-Shi Xu.
+\newblock Quantum systems in silicon carbide for sensing applications.
+\newblock {\em Reports on Progress in Physics}, 87(1):014501, dec 2023.
+
+\bibitem{Kin2021}
+Yiu Yung Pang Wai Kuen Leung Nan~Zhao Kin On~Ho, Yang~Shen and Sen Yang.
+\newblock Diamond quantum sensors: from physics to applications on condensed
+  matter research.
+\newblock {\em Functional Diamond}, 1(1):160--173, 2021.
+
+\bibitem{Wolfowicz2021}
+Gary Wolfowicz, F.~Joseph Heremans, Christopher~P. Anderson, Shun Kanai, Hosung
+  Seo, Adam Gali, Giulia Galli, and David~D. Awschalom.
+\newblock Quantum guidelines for solid-state spin defects.
+\newblock {\em Nature Reviews Materials}, 6(10):906–925, April 2021.
+
+\bibitem{Crawford2021}
+Scott~E. Crawford, Roman~A. Shugayev, Hari~P. Paudel, Ping Lu, Madhava Syamlal,
+  Paul~R. Ohodnicki, Benjamin Chorpening, Randall Gentry, and Yuhua Duan.
+\newblock Quantum sensing for energy applications: Review and perspective.
+\newblock {\em Advanced Quantum Technologies}, 4(8), June 2021.
+
+\bibitem{RevModPhys.89.035002}
+C.~L. Degen, F.~Reinhard, and P.~Cappellaro.
+\newblock Quantum sensing.
+\newblock {\em Rev. Mod. Phys.}, 89:035002, Jul 2017.
+
+\bibitem{DiVincenzo1995}
+David~P. DiVincenzo.
+\newblock Quantum computation.
+\newblock {\em Science}, 270(5234):255–261, October 1995.
+
+\bibitem{Bonato}
+Cristian Bonato.
+\newblock Quantum spintronic devices, 2022.
+
+\bibitem{PhysRevB.105.165108}
+A.~Cs\'or\'e, I.~G. Ivanov, N.~T. Son, and A.~Gali.
+\newblock Fluorescence spectrum and charge state control of divacancy qubits
+  via illumination at elevated temperatures in $4h$ silicon carbide.
+\newblock {\em Phys. Rev. B}, 105:165108, Apr 2022.
+
+\bibitem{polarisation}
+Abram~L. Falk, Paul~V. Klimov, Viktor Ivády, Krisztián Szász, David~J.
+  Christle, William~F. Koehl, Ádám Gali, and David~D. Awschalom.
+\newblock Optical polarization of nuclear spins in silicon carbide.
+\newblock 2015.
 
 \bibitem{PhysRevB.92.115201}
 Sang-Yun Lee, Matthias Niethammer, and J\"org Wrachtrup.
@@ -527,13 +474,6 @@ Jun-Feng Wang, Fei-Fei Yan, Qiang Li, Zheng-Hao Liu, Jin-Ming Cui, Zhao-Di Liu,
   excitation.
 \newblock {\em Nature Communications}, 12(1), May 2021.
 
-\bibitem{Kraus2013}
-H.~Kraus, V.~A. Soltamov, D.~Riedel, S.~V\"{a}th, F.~Fuchs, A.~Sperlich, P.~G.
-  Baranov, V.~Dyakonov, and G.~V. Astakhov.
-\newblock Room-temperature quantum microwave emitters based on spin defects in
-  silicon carbide.
-\newblock {\em Nature Physics}, 10(2):157–162, December 2013.
-
 \bibitem{RevModPhys.92.015004}
 John~F. Barry, Jennifer~M. Schloss, Erik Bauch, Matthew~J. Turner, Connor~A.
   Hart, Linh~M. Pham, and Ronald~L. Walsworth.
@@ -579,6 +519,13 @@ Yuzhou Wu, Fedor Jelezko, Martin~B Plenio, and Tanja Weil.
 \newblock {\em Angewandte Chemie International Edition}, 55(23):6586–6598,
   April 2016.
 
+\bibitem{PhysRevB.101.064102}
+Jun-Feng Wang, Jin-Ming Cui, Fei-Fei Yan, Qiang Li, Ze-Di Cheng, Zheng-Hao Liu,
+  Zhi-Hai Lin, Jin-Shi Xu, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Optimization of power broadening in optically detected magnetic
+  resonance of defect spins in silicon carbide.
+\newblock {\em Phys. Rev. B}, 101:064102, Feb 2020.
+
 \bibitem{PhysRevB.100.094104}
 A.~V. Poshakinskiy and G.~V. Astakhov.
 \newblock Optically detected spin-mechanical resonance in silicon carbide
@@ -590,6 +537,12 @@ A.~N. Anisimov, D.~Simin, V.~A. Soltamov, S.~P. Lebedev, P.~G. Baranov, G.~V.
   Astakhov, and V.~Dyakonov.
 \newblock Optical thermometry based on level anticrossing in silicon carbide.
 \newblock {\em Scientific Reports}, 6(1), September 2016.
+
+\bibitem{Wolfowicz2017}
+Gary Wolfowicz, Christopher~P. Anderson, Andrew~L. Yeats, Samuel~J. Whiteley,
+  Jens Niklas, Oleg~G. Poluektov, F.~Joseph Heremans, and David~D. Awschalom.
+\newblock Optical charge state control of spin defects in 4h-sic.
+\newblock {\em Nature Communications}, 8(1), November 2017.
 
 \bibitem{Anderson2022-sf}
 Christopher~P Anderson, Elena~O Glen, Cyrus Zeledon, Alexandre Bourassa,
@@ -606,6 +559,14 @@ H.~Kraus, V.~A. Soltamov, F.~Fuchs, D.~Simin, A.~Sperlich, P.~G. Baranov, G.~V.
 \newblock Magnetic field and temperature sensing with atomic-scale spin defects
   in silicon carbide.
 \newblock {\em Scientific Reports}, 4(1), July 2014.
+
+\bibitem{PhysRevApplied.15.064022}
+John B.~S. Abraham, Cameron Gutgsell, Dalibor Todorovski, Scott Sperling,
+  Jacob~E. Epstein, Brian~S. Tien-Street, Timothy~M. Sweeney, Jeremiah~J.
+  Wathen, Elizabeth~A. Pogue, Peter~G. Brereton, Tyrel~M. McQueen, Wesley Frey,
+  B.~D. Clader, and Robert Osiander.
+\newblock Nanotesla magnetometry with the silicon vacancy in silicon carbide.
+\newblock {\em Phys. Rev. Appl.}, 15:064022, Jun 2021.
 
 \bibitem{Liu2022}
 Lin Liu, Jun-Feng Wang, Xiao-Di Liu, Hai-An Xu, Jin-Ming Cui, Qiang Li, Ji-Yang
@@ -643,6 +604,12 @@ Shun Kanai, F.~Joseph Heremans, Hosung Seo, Gary Wolfowicz, Christopher~P.
 \newblock {\em Proceedings of the National Academy of Sciences}, 119(15), April
   2022.
 
+\bibitem{PhysRevResearch.2.023394}
+Ilja Fescenko, Andrey Jarmola, Igor Savukov, Pauli Kehayias, Janis Smits,
+  Joshua Damron, Nathaniel Ristoff, Nazanin Mosavian, and Victor~M. Acosta.
+\newblock Diamond magnetometer enhanced by ferrite flux concentrators.
+\newblock {\em Phys. Rev. Res.}, 2:023394, Jun 2020.
+
 \bibitem{Xie2021}
 Tianyu Xie, Zhiyuan Zhao, Xi~Kong, Wenchao Ma, Mengqi Wang, Xiangyu Ye, Pei Yu,
   Zhiping Yang, Shaoyi Xu, Pengfei Wang, Ya~Wang, Fazhan Shi, and Jiangfeng Du.
@@ -674,6 +641,13 @@ Fei-Fei Yan, Ai-Lun Yi, Jun-Feng Wang, Qiang Li, Pei Yu, Jia-Xiang Zhang, Adam
 \newblock Room-temperature coherent control of implanted defect spins in
   silicon carbide.
 \newblock {\em npj Quantum Information}, 6(1), May 2020.
+
+\bibitem{Kraus2013}
+H.~Kraus, V.~A. Soltamov, D.~Riedel, S.~V\"{a}th, F.~Fuchs, A.~Sperlich, P.~G.
+  Baranov, V.~Dyakonov, and G.~V. Astakhov.
+\newblock Room-temperature quantum microwave emitters based on spin defects in
+  silicon carbide.
+\newblock {\em Nature Physics}, 10(2):157–162, December 2013.
 
 \bibitem{Mu2020}
 Zhao Mu, Soroush~Abbasi Zargaleh, Hans J\"~{u}rgen von Bardeleben, Johannes~E.
@@ -739,11 +713,33 @@ Wei-Ke Quan, Lin Liu, Qin-Yue Luo, Xiao-Di Liu, and Jun-Feng Wang.
 \newblock Fiber-coupled silicon carbide divacancy magnetometer and thermometer.
 \newblock {\em Opt. Express}, 31(10):15592--15598, May 2023.
 
+\bibitem{PhysRevLett.112.087601}
+P.~V. Klimov, A.~L. Falk, B.~B. Buckley, and D.~D. Awschalom.
+\newblock Electrically driven spin resonance in silicon carbide color centers.
+\newblock {\em Phys. Rev. Lett.}, 112:087601, Feb 2014.
+
+\bibitem{Castelletto2019}
+Stefania Castelletto, Abdul~Salam Al~Atem, Faraz~Ahmed Inam, Hans
+  J\"{u}rgen~von Bardeleben, Sophie Hameau, Ahmed~Fahad Almutairi, Gérard
+  Guillot, Shin-ichiro Sato, Alberto Boretti, and Jean~Marie Bluet.
+\newblock Deterministic placement of ultra-bright near-infrared color centers
+  in arrays of silicon carbide micropillars.
+\newblock {\em Beilstein Journal of Nanotechnology}, 10:2383–2395, December
+  2019.
+
 \bibitem{Eisenach2021}
 Erik~R. Eisenach, John~F. Barry, Michael~F. O’Keeffe, Jennifer~M. Schloss,
   Matthew~H. Steinecker, Dirk~R. Englund, and Danielle~A. Braje.
 \newblock Cavity-enhanced microwave readout of a solid-state spin sensor.
 \newblock {\em Nature Communications}, 12(1), March 2021.
+
+\bibitem{Zhou2023}
+Ji-Yang Zhou, Qiang Li, Zhi-He Hao, Wu-Xi Lin, Zhen-Xuan He, Rui-Jian Liang,
+  Liping Guo, Hao Li, Lixing You, Jian-Shun Tang, Jin-Shi Xu, Chuan-Feng Li,
+  and Guang-Can Guo.
+\newblock Plasmonic-enhanced bright single spin defects in silicon carbide
+  membranes.
+\newblock {\em Nano Letters}, 23(10):4334–4343, May 2023.
 
 \bibitem{Balasubramanian2009}
 Gopalakrishnan Balasubramanian, Philipp Neumann, Daniel Twitchen, Matthew
@@ -763,6 +759,12 @@ Johann-Martin Spaeth and Harald Overhof.
 \newblock {\em Point Defects in Semiconductors and Insulators: Determination of
   Atomic and Electronic Structure from Paramagnetic Hyperfine Interactions}.
 \newblock Springer Berlin Heidelberg, 2003.
+
+\bibitem{Weil2006}
+John~A. Weil and James~R. Bolton.
+\newblock {\em Electron Paramagnetic Resonance: Elementary Theory and Practical
+  Applications}.
+\newblock Wiley, May 2006.
 
 \bibitem{Wrachtrup1993}
 J.~Wrachtrup, C.~von Borczyskowski, J.~Bernard, M.~Orrit, and R.~Brown.
@@ -861,10 +863,48 @@ Felix~M. St\"{u}rner, Andreas Brenneis, Thomas Buck, Julian Kassel, Robert
   ensembles in diamond.
 \newblock {\em Advanced Quantum Technologies}, 4(4), February 2021.
 
+\bibitem{2008}
+{\em Electron Paramagnetic Resonance: A Practitioner’s Toolkit}.
+\newblock Wiley, July 2008.
+
+\bibitem{Goldfarb2018-he}
+Daniella Goldfarb and Stefan Stoll, editors.
+\newblock {\em {EPR} spectroscopy}.
+\newblock eMagRes Books. Standards Information Network, March 2018.
+
+\bibitem{Richert2017}
+Sabine Richert, Claudia~E. Tait, and Christiane~R. Timmel.
+\newblock Delocalisation of photoexcited triplet states probed by transient epr
+  and hyperfine spectroscopy.
+\newblock {\em Journal of Magnetic Resonance}, 280:103–116, July 2017.
+
+\bibitem{Rain2022}
+Gabriele Rainò, Nuri Yazdani, Simon~C. Boehme, Manuel Kober-Czerny, Chenglian
+  Zhu, Franziska Krieg, Marta~D. Rossell, Rolf Erni, Vanessa Wood, Ivan
+  Infante, and Maksym~V. Kovalenko.
+\newblock Ultra-narrow room-temperature emission from single cspbbr3 perovskite
+  quantum dots.
+\newblock {\em Nature Communications}, 13(1), May 2022.
+
 \bibitem{2011.12019}
 M.~S.~J Barson, L.~M. Oberg, L.~P. McGuinness, A.~Denisenko, N.~B. Manson,
   J.~Wrachtrup, and M.~W. Doherty.
 \newblock Nanoscale vector electric field imaging using a single electron spin.
 \newblock 2020.
+
+\bibitem{Li2021}
+Qiang Li, Jun-Feng Wang, Fei-Fei Yan, Ji-Yang Zhou, Han-Feng Wang, He~Liu,
+  Li-Ping Guo, Xiong Zhou, Adam Gali, Zheng-Hao Liu, Zu-Qing Wang, Kai Sun,
+  Guo-Ping Guo, Jian-Shun Tang, Hao Li, Li-Xing You, Jin-Shi Xu, Chuan-Feng Li,
+  and Guang-Can Guo.
+\newblock Room-temperature coherent manipulation of single-spin qubits in
+  silicon carbide with a high readout contrast.
+\newblock {\em National Science Review}, 9(5), July 2021.
+
+\bibitem{Luo2023}
+Qin-Yue Luo, Qiang Li, Jun-Feng Wang, Pei-Jie Guo, Wu-Xi Lin, Shuang Zhao,
+  Qi-Cheng Hu, Zi-Qi Zhu, Jin-Shi Xu, Chuan-Feng Li, and Guang-Can Guo.
+\newblock Fabrication and quantum sensing of spin defects in silicon carbide.
+\newblock {\em Frontiers in Physics}, 11, September 2023.
 
 \end{thebibliography}

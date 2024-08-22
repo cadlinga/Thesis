@@ -138,6 +138,15 @@ plotResonantFrequencies(
     "$B =" + str(B * 10**3) + " $ mT, $T=250$K",
     B * 10**3,
 )
+bax.axvline(
+    x=ensemble.defects[0].D(150) * 10**-6,
+    # color="b",
+    color=cm.cool(150 / 500),
+    alpha=0.5,
+    linestyle="dashed",
+    linewidth=0.8,
+)
+
 plotResonantFrequencies(
     ensemble.resonantAngleFrequencies(
         350,
@@ -149,6 +158,15 @@ plotResonantFrequencies(
     "$B =" + str(B * 10**3) + " $ mT, $T=350$K",
     B * 10**3 + 0.003,
 )
+bax.axvline(
+    x=ensemble.defects[0].D(350) * 10**-6,
+    # color="b",
+    color=cm.cool(350 / 500),
+    alpha=0.5,
+    linestyle="dashed",
+    linewidth=0.8,
+)
+
 
 print(
     ensemble.resonantAngleFrequencies(

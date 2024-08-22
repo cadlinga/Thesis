@@ -1,26 +1,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of electric monopole and magnetic dipole with associated field lines and relevant Maxwell equation.\relax }}{4}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of current loop and induced magnetic moment.\relax }}{5}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of electron in orbit generating a magnetic moment.\relax }}{6}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic of discrete spin levels.\relax }}{8}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Adapted from figure shown in the work by Gr\"{u}ne.\relax }}{9}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Adapted from figure shown in the work by Gr\"{u}ne. \relax }}{13}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Illustration of the inhomogeneous line broadening caused by the hyperfine interactions. The individual resonances sum to a broader, brighter peak \cite {Rain2022}.\relax }}{16}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Eigenvalue plot showing...\relax }}{18}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Eigenvalue plot showing...\relax }}{19}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces ZFS parameter $D$ temperature dependence for thePL6 $S=1$ defect in SiC from 280-320K showing a near linear dependence. \relax }}{21}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Linear dependence of zero field parameter D to applied pressure as shown in the work by Liu et al.\relax }}{22}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces \relax }}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of electric monopole and magnetic dipole with associated field lines and relevant Maxwell equation.\relax }}{4}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of current loop and induced magnetic moment.\relax }}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of electron in orbit generating a magnetic moment.\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic of discrete spin levels.\relax }}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Energy level diagram showing the splitting of the $m_s = 1$ state with applied $\vec {B}$ field. Adapted from figure shown in the work by Gr\"{u}ne.\relax }}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Energy level diagram showing the effect of the zero field splitting parameters $D$ and $E$ in zero magnetic field. Adapted from figure shown in the work by Gr\"{u}ne. \relax }}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Illustration of the inhomogeneous line broadening caused by the hyperfine interactions. The individual resonances sum to a broader, brighter peak reproduced from Rainò et al.\relax }}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Eigenvalue plot showing the shift of all energy levels when $\vec {E}$ is applied parallel to the defect axis.\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Eigenvalue plot showing the splitting of energy levels when $\vec {E}$ is applied perpendicular to the defect axis.\relax }}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ZFS parameter $D$ temperature dependence for the PL6 $S=1$ defect from 280K to 320K showing a near linear dependence. \relax }}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Linear dependence of zero field parameter D to applied pressure for the PL6 divacancy (left) as shown in the work by Liu et al and the Silicon vacancy (right) as shown in the work by Wang et al.\relax }}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces (a) Schematic of the 4H-SiC lattice. (b) Possible non-equivalent divacancies sites within the lattice. (c) Schematic of Silicon vacancies within the lattice. Reproduced from Luo et al.\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Energy level diagram for a $S=3/2$ system showing Stokes excitation (red), spin-preseving radiative decay (orange), dark decay routes (green) where the solid arrow is a stronger transition and phonon related decay (blue). Adapted from Wang et al.\relax }}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces CW-ODMR spectra for a PL6 defect with $\vec {B} = 0$. Blue dots show data from experiment, the orange line is a Lorentzian fit. Adapted from Li et al.\relax }}{27}{figure.caption.25}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Representative PL6 ODMR spectra showing linear dependence of frequency difference on $B\cos \theta $ and the ZFS shifting of the spectra when $\theta > 0$. Dashed vertical line indicates $D$.\relax }}{27}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \relax }}{37}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Adapted from Wang et al.\relax }}{39}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Adapted from Wang et al.\relax }}{39}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Adapted from Wang et al\relax }}{40}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Representative PL6 ODMR spectra showing linear dependence of frequency difference on $B\cos \theta $ and the ZFS shifting of the spectra when $\theta > 0$. Dashed vertical line indicates $D$.\relax }}{29}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representative ODMR plot for the PL6 defect at 0K, 150K and 300K showing the dependence of ZFS $D$ on temperature.\relax }}{39}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Energy level diagram showing Stokes excitation. Colours as described in figure \ref {fig:big_stokes}. Adapted from Wang et al.\relax }}{41}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Energy level diagram showing anti-Stokes excitation. Colours as described in figure \ref {fig:big_stokes}. Adapted from Wang et al.\relax }}{41}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ODMR spectra for V2 Silicon vacancy using Stokes (blue) and anti-Stokes (red) excitation. This shows the Rabi frequencies are the same under either excitation scheme. Adapted from Wang et al\relax }}{42}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \relax }}{42}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \relax }}{43}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \relax }}{44}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Eigenvalue plot showing... \relax }}{45}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Representative ODMR spectra for an ensemble of PL6 and V2 defects showing the shift in ZFS $D$ due to temperature in the PL6 and lack of shift in the V2. Dashed lines indicate the position of $D$ for the PL6 defect. \relax }}{45}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Representative ODMR spectra for an ensemble of PL6 and V2 defects showing the shift in ZFS $D$ of both the PL6 and V2 defect due to applied pressure. Dashed lines indicate the position of $D$ for the PL6 defect.\relax }}{46}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Representative ODMR spectra for an ensemble of PL6 and V2 defects showing the inequivalent shifting of ZFS $D$ due to pressure and temperature assuming the effects compound additively. Dashed lines indicate the position of $D$ for the PL6 defect.\relax }}{47}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Eigenvalue plot showing that ZFS $D$ (dashed line) is the average of the two measured frequencies at a given temperature, parallel $\vec {B}$ field and perpendicular $\vec {E}$ field.\relax }}{48}{figure.caption.47}%
 \addvspace {10\p@ }

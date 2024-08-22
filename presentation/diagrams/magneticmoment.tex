@@ -1,0 +1,13 @@
+\begin{tikzpicture}[scale=.7,rotate=0]
+  \def\re{0.3}
+  \def\ang{80}
+  \draw[dashed] (\ang-180:2.5*\re) -- (\ang:3.5*\re);
+  \draw[mu vector] (0,0) -- (\ang+180:3*\re) node[right] {$\vb*{\mu}_\mathrm{e}$};
+  \draw[spin] (0,0) -- (\ang:2.8*\re) node[right] {$\vb{S}$};
+  \draw[charge-]
+    (0,0) circle (\re) node[scale=1.4] {$-$}
+    node[right=10] {$\mathrm{e}^-$};
+  \draw[->,rotate=\ang-90]
+    (0,-0.2*\re)++(-175:{1.6*\re} and {1.3*\re}) arc (-175:-35:{1.6*\re} and {1.3*\re})
+    --++ (50:0.3*\re);
+\end{tikzpicture}
